@@ -10,6 +10,6 @@ This is a test post for my blog written in Markdown.
 
 ## Using Mathjax in Markdown  
 Here is a render of some math formular using Mathjax:   
- [[$x^2$]]
+ [[$x^2 + y^2 = z^2$]]
 
 Cheers! 
