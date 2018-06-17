@@ -12,7 +12,7 @@ Sampling operation precludes the backpropagation in a computation graph because 
 
 $$L(\pmb{\theta}) = \mathbb{E}_{p_{\pmb{\theta}}(\pmb{z})} \left[ f(\pmb{z}) \right]$$
 
-![alt text](./figs/comp_graph_with_sampling.png)    
+![alt text](/blogs/figs/comp_graph_with_sampling.png)    
 Figure 1. Examples of a deterministic and stochastic computation graph (Figure from [1]).
 
 ### 1.1. Score function-based gradient estimators 
