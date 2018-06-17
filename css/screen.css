@@ -1,6 +1,13 @@
 /* primary elements */
 
-body { font: 0.99em/1.5 Times; width: 90%; max-width: 90em; margin: 0 auto; text-align: justify ;}
+body { font: 1em/1.5 Times; 
+  width: 50%; 
+  max-width: 90em; 
+  margin: 20px auto; 
+  text-align: justify ;
+  border: 1.5px solid black;
+  padding: 20px; 
+}
 #header { margin-top: 0.5em; height: 2em; }
 #content { text-align: justify; }
 #footer { margin: 1.5em 0; }
@@ -32,7 +39,7 @@ blockquote { border-left: thick solid #ccc; padding: 0 1em; }
 
 /* tables */
 table {
-  border-top: double black;
+  border-top: single black; /* double black */
   border-bottom: thin solid black;
   border-spacing: 0;
   margin: 0 auto;
@@ -57,10 +64,10 @@ a.noteref { font-size: 0.7333em; vertical-align: super; }
 
 /* images */
 p img { float: right; padding-left: 1em; }
-div.image { text-align: center; margin: 2em; }
+div.image { text-align: center; margin: 2em; max-width: 30%; width: 100%; }
 div.image img{ border: thin solid #ccc; padding: 2px; }
 div.image p { margin:0 }
-div.image p strong{ display: block }
+div.image p strong{ display: table }
 
 /* math */
 merror { display: inline; font-size: 1em; }
