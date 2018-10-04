@@ -1,14 +1,14 @@
 /* primary elements */
 
-body { font: 0.95em/1.5 Times; 
+body { font: 0.85em/1.5 'Times New Roman', Times, serif; 
   width: 50%; 
   max-width: 90em; 
   margin: 20px auto; 
   text-align: justify ;
-  border: 1.5px solid #030000;
+  border: 0.05px solid #000000;
   padding: 20px; 
 }
-#header { margin-top: 0.5em; height: 2em; }
+#header { margin-top: 0.2em; height: 1em; }
 #content { text-align: justify; }
 #footer { margin: 1.5em 0; }
 
@@ -16,10 +16,10 @@ body { font: 0.95em/1.5 Times;
 
 /* headers */
 h1, h2, h3{
-  font-family: Arial;
-  line-height: 1.4em;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 0.3em;
   text-align: left;
-  color: #008;
+  color: #000000;
 }
 
 h4, h5, h6 {
