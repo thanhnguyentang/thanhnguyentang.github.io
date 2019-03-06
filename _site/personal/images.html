@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/screen.css">
+        
+        <SCRIPT TYPE="text/javascript"> 
+        function popup(mylink, windowname)
+        {
+            if (! window.focus)
+                return true;
+            var href;
+            if (typeof(mylink) == 'string')
+                href=mylink;
+            else
+                href=mylink.href;
+            window.open(href, windowname, 'width=750,height=300,scrollbars=yes');
+                return false;
+        }
+            //-->
+        </SCRIPT> 
+
+
+        <script type="text/javascript">
+        function showhide(id) {
+            var e = document.getElementById(id);
+            e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+        }
+        </script>
+        <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            processEscapes: true
+            }
+        });
+        </script>
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+        <title>thanhnguyentang</title>
+    </head>
+    
+    <style type="text/css">
+    .journal { color: #117711; }
+    </style>
+    
+    <body>
+        <div>
+        <article class="post">
+  <h1>Images</h1>
+
+  <div class="entry">
+    <p><a href="/">[Back home]</a></p>
+
+<table class="image">
+<caption align="bottom" text-align="left">Fig.1 - It was a great honor for me as the representative of the Master graduates in School of Computer Science and Engineering to meet Mr. Moon Jae-in, the president of South Korea.</caption>
+<tr><td><img src="unist_msc_grad.jpg" alt="Fig.1 - It was a great honor for me as the representative of the Master graduates in School of Computer Science and Engineering to meet Mr. Moon Jae-in, the president of South Korea." /></td></tr>
+</table>
+
+
+  </div>
+
+</article>
+
+<!--<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    var disqus_shortname = '';
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//nguyentt.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+-->
+        </div>    
+    </body>
+</html>

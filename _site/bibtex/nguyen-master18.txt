@@ -1,0 +1,6 @@
+@article{tang2018parametric,
+  title={PARAMETRIC INFORMATION BOTTLENECK TO OPTIMIZE STOCHASTIC NEURAL NETWORKS},
+  author={Tang, Thanh Nguyen},
+  year={2018},
+  publisher={Graduate School of UNIST}
+}
