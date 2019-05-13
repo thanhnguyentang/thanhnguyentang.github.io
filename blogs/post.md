@@ -7,6 +7,7 @@ title: Notes
 A collection of my notes drafted for various topics that I have investigated.   
 
 # Machine Learning and Artificial Intelligence  
+* [Who to follow?](/blogs/who_to_follow) (2019/05/13)
 * [A property of functionals on probability space.](/blogs/functional_prob_space) (2019/03/21)
 * [Basics of Reproducing Kernel Hilbert Space (RKHS).](/blogs/rkhs.pdf) (2019/03/20)
 * [How Information theory possibly helps AI?](http://mlsidenotes.blogspot.com/2018/08/from-information-theory-to-machine.html) (2018/08/08).
