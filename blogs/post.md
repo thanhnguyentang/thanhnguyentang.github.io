@@ -7,6 +7,7 @@ title: Notes
 A collection of my notes drafted for various topics that I have investigated.   
 
 # Machine Learning and Artificial Intelligence  
+* [A naive introduction to Optimal Transport.](/blogs/ot_intro) (2019/06/19)
 * [Who to follow?](/blogs/who_to_follow) (2019/05/13)
 * [A property of functionals on probability space.](/blogs/functional_prob_space) (2019/03/21)
 * [Basics of Reproducing Kernel Hilbert Space (RKHS).](/blogs/rkhs.pdf) (2019/03/20)
