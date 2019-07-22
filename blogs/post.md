@@ -4,9 +4,11 @@ title: Notes
 ---  
 [[Back Home]](/)   
 
-A collection of my notes drafted for various topics that I have investigated.   
+A collection of my notes drafted for various topics that I have investigated. I try the best to be self-contained when possible. A new blog post every week with probability of $1/3$. Most posts are in RL, Variational Inference and Information Theory with the goal in mind that they must be both *empirically* and *theoretically* insightful. 
+
 
 # Machine Learning and Artificial Intelligence  
+* [Actor-Critic: Using relative returns to properly scale policy gradients.](/blogs/actor_critic) (2019/07/22)
 * [From stochastic games to robustness in reinforcement learning.](/blogs/sgrl.pdf) (2019/07/19)
 * [A naive introduction to Optimal Transport.](/blogs/ot_intro) (2019/06/19)
 * [Who to follow?](/blogs/who_to_follow) (2019/05/13)
@@ -20,3 +22,9 @@ A collection of my notes drafted for various topics that I have investigated.
 
 # Research per se 
 * [How to write a first-class paper?](/blogs/how_to_write_papers) (2019/04/18).
+
+
+# Topics I plan to write on  
+* <strike>Actor-critic algorithms in RL: done</strike> 
+* Invariant risk minimization  
+* No free lunch theorem  
