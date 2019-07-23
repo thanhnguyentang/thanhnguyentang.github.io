@@ -40,7 +40,7 @@ $$
 \Delta(x,u,v) := f(x) - g(u,v) \geq f(x) - f^* \geq 0 
 $$
 
-where $f^*$ is the primal optimal value of problem $(\ref{eq:primal})$. 
+where $f^{* }$ is the primal optimal value of problem $(\ref{eq:primal})$. The non-negativity of the dualty gap also implies **weak duality**, i.e., $f^{* } \geq g^*$ where $g^{ * }$ is the dual optimal value of the dual problem $(\ref{eq:dual})$. 
 
 *Proof*: 
 
@@ -48,21 +48,23 @@ $$
 g(u, v) = \min_{x' \in \mathcal{X}} L(x', u, v) \leq L(x^*, u, v) \leq f(x^*) \leq f(x). 
 $$
 
-where $x^*$ is a primal optimal solution of $(\ref{eq:primal})$.
 
-* (Theorem) Slater's condition (for **strong duality** ):  
+* (Definition) **Strong duality**: It is said that the strong duality holds if $f^* = g^*$. 
+
+* (Theorem) Slater's condition (a sufficient condition for strong duality):  
 
 $$ \label{eq:Slater}
-(f \text{ is convex}) \land (\exists x : h(x) < 0, l(x) = 0) \implies f^* = g^*
+(f \text{ is convex}) \land (h_i \text{ is convex } \forall 1 \leq i \leq m) \land (l_j \text{ is affine } \forall 1 \leq j \leq k) \land (\exists x : h(x) < 0, l(x) = 0) \implies f^* = g^*
 $$
 
-where $g^*$ is the dual optimal value of problem $(\ref{eq:dual})$. 
+*Side note #1*: Slater's condition is a sufficient condition for strong duality. There might be many other conditions for strong duality (e.g., $f$ is quadratic convex, $h_i$ and $l_j$ are affine). 
 
 * (Theorem) Zero duality gap implies strong duality: 
 
 $$
 \Delta(x,u,v) = 0 \implies f^* = g^*. 
 $$
+
 
 * (Definition) The Karush-Kuhn-Tucker conditions or **KKT conditions** for the primal problem $(\ref{eq:primal})$: 
     * *Stationality*: 
@@ -79,15 +81,20 @@ $$
 
     * *Dual feasibility*: 
     
-        $$u_i(x) \geq 0, \forall i$$  
+        $$u_i(x) \geq 0, \forall i$$ 
 
-* (Theorem) Nessesary conditions: if $x^{* }$ and $u^{* }, v^{* }$ are primal and dual solutions, and if the strong duality holds, then $x^{* }, u^{* }, v^{*}$ satisfies the KKT conditions.  
+* (Theorem) The relationship between the KKT conditions and the primal and dual problems: 
 
-* (Theorem) Sufficient conditions: if $x^{* }, u^{* }, v^{* }$ satisfies the KKT conditions, then $ x^{* }$ and $u^{* }, v^{* }$ are primal and dual solutions. 
+    * Nessesary conditions: if $x^{* }$ and $u^{* }, v^{* }$ are primal and dual solutions, and if the strong duality holds, then $x^{* }, u^{* }, v^{*}$ satisfies the KKT conditions.  
 
-* Important implication: If the Slater's condition in $(\ref{eq:Slater})$ is met, instead of directly solving the primal problem in $(\ref{eq:primal})$, we only need to solve the KKT conditions. For example, Tishby uses this technique to derive for a solution of the [Information Bottleneck method](https://arxiv.org/abs/physics/0004057). 
+    * Sufficient conditions: if $x^{* }, u^{* }, v^{* }$ satisfies the KKT conditions, then $ x^{* }$ and $u^{* }, v^{* }$ are primal and dual solutions. 
+
+
+
+* Important implication: If the strong duality holds (e.g., the Slater's condition in $(\ref{eq:Slater})$ is met), instead of directly solving the primal problem in $(\ref{eq:primal})$, we only need to solve the KKT conditions. For example, Tishby uses this technique to derive for a solution of the [Information Bottleneck method](https://arxiv.org/abs/physics/0004057). 
 
 # Reference  
-[1] https://www.cs.cmu.edu/~ggordon/10725-F12/slides/16-kkt.pdf
+[1] https://www.cs.cmu.edu/~ggordon/10725-F12/slides/16-kkt.pdf   
+[2] https://people.seas.harvard.edu/~yaron/AM221-S16/lecture_notes/AM221_lecture12.pdf  
 
 
