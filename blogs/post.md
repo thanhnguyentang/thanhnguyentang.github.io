@@ -7,6 +7,7 @@ title: Notes
 A collection of my notes drafted for various topics that I have investigated. I try the best to be self-contained when possible. A new blog post every week with probability of $1/3$. Most posts are in RL, Variational Inference and Information Theory with the goal in mind that they must be both *empirically* and *theoretically* insightful. 
 
 
+* 28/07/19: [Garner hype circle of your Ph.D.](/blogs/hype_circle)
 * 22/07/19: [Lagrangian.](/blogs/lagrangian)
 * 22/07/19: [Actor-Critic: Using relative returns to properly scale policy gradients.](/blogs/actor_critic) 
 * 19/07/19: [From stochastic games to robustness in reinforcement learning.](/blogs/sgrl.pdf) 
