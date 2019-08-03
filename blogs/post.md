@@ -4,9 +4,10 @@ title: Notes
 ---  
 [[Back Home]](/)   
 
-A collection of my notes drafted for various topics that I have investigated. I try the best to be self-contained when possible. A new blog post every week with probability of $1/3$. Most posts are in RL, Variational Inference and Information Theory with the goal in mind that they must be both *empirically* and *theoretically* insightful. 
+A collection of my notes drafted for various topics that I have investigated. I try the best to be self-contained when possible. A new blog post every week with probability of $1/3$. Most posts are in RL, Variational Inference and Information Theory with the goal in mind that they must be both *empirically* and *theoretically* insightful. Some are perspectives and insights about research per se. 
 
 
+* 03/08/19: [Wisdom in MLAI.](/blogs/wisdom)
 * 28/07/19: [Garner hype circle of your Ph.D.](/blogs/hype_circle)
 * 22/07/19: [Lagrangian.](/blogs/lagrangian)
 * 22/07/19: [Actor-Critic: Using relative returns to properly scale policy gradients.](/blogs/actor_critic) 
@@ -26,6 +27,11 @@ A collection of my notes drafted for various topics that I have investigated. I 
 
 ## Topics I plan to write on  
 * <strike>Actor-critic algorithms in RL: done</strike> 
+* Stablizing and variance-reduction in Actor-Critic:
+    * [Catastrophic forgetting and continual learning](https://arxiv.org/abs/1807.04015) 
+    * [TD-regularized Actor-Critic methods](https://arxiv.org/abs/1812.08288) 
+* Variational Inference in RL:
+    * [Deep Variantional RL for POMDPs](https://arxiv.org/abs/1806.02426)
+
 * Invariant risk minimization  
 * No free lunch theorem  
-* ... 
