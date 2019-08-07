@@ -25,20 +25,22 @@ The marginal state distribution $p(s)$ satisfies:
 
 $$p(s') = \int p(s'|s) p(s) ds.$$
 
-Thus, the marginal state distribution is the stationary distribution of the induced Markov chain; hence is commonly denoted by $d^{\pi}(s)$. We exchangeably use $d^{\pi}(s)$ and $p(s)$ for the marginal state distribution. 
+Thus, the marginal state distribution is the stationary distribution of the induced Markov chain; hence is commonly denoted by $d_{\pi}(s)$. We exchangeably use $d_{\pi}(s)$ and $p(s)$ for the marginal state distribution. 
 
 # Policy Gradient (PG) 
-We parameterize the policy $\pi_{\theta}(a|s)$ by $\theta$, and directly learn this policy by maximizing the expected discounted rewards. For simplicity, we omit $\theta$ in $\pi_{\theta}$ in the following derivations. 
+We parameterize the policy $\pi(a|s; \theta)$ by $\theta$, and directly learn this policy by maximizing the expected discounted rewards. For simplicity, we omit $\theta$ in when the context is clear. 
 
 The expected discounted reward under policy $\pi$ is:
 
-$$J(\theta) = \int d^{\pi}(s) V^{\pi}(s) ds = \mathbb{E} \left[ \sum_{t=0}^T \gamma^t r_t \right]$$ 
+$$\label{eq:edr}
+J(\pi) = J(\theta) = \int d_{\pi}(s) V_{\pi}(s) ds = \mathbb{E}_{\tau \sim \pi } \left[ \sum_{t=0}^T \gamma^t r_t \right]
+$$ 
 
-where the expectation is due to the stochasticity of trajectories and to the state marginal distribution. 
+where the expectation is due to the stochasticity of trajectories and to the state marginal distribution. Note that we abuse notation a bit in Eq. $(\ref{eq:edr})$ by writing expectation $\mathbb{E}_{\tau \sim \pi }$ without explicitly writing out the transition kernel of the MDP (because a trajectory $\tau$ does not depend on $\pi$ but of course also on the MDP). However, since we cares about different policies given a MDP, we can ignore the MDP in trajectory sample to reduce the burden of notations.  
 
-Since the expectation involves $\pi$ via $d^{\pi}(s)$, $\nabla_{\theta} J(\theta)$ involves taking the gradient of $d^{\pi}(s)$ wrt $\theta$ as well. Fortunately, the **policy gradient theorem** (read more in [2]) tells us that we can ignore the derivative of the state distribution $d^{\pi}(s)$:
+Since the expectation involves $\pi$ via $d_{\pi}(s)$, $\nabla_{\theta} J(\theta)$ involves taking the gradient of $d_{\pi}(s)$ wrt $\theta$ as well. Fortunately, the **policy gradient theorem** (read more in [2]) tells us that we can ignore the derivative of the state distribution $d_{\pi}(s)$:
 
-$$\boxed{\nabla_{\theta} J(\theta) \propto \int d^{\pi}(s) \nabla_{\theta} V^{\pi}(s) ds }$$
+$$\boxed{\nabla_{\theta} J(\theta) \propto \int d_{\pi}(s) \nabla_{\theta} V_{\pi}(s) ds }$$
 
 
 Consequently, the gradient can be conveniently derived as:
@@ -79,10 +81,10 @@ $$
 $$
 
 *Side note #1*: the relative return I use in this post can be more commonly referred to as Advantage function. 
-# Advantage Actor Critic: 
+# Advantage Actor Critic 
 We use the following identity to restructure Eq. $(\ref{eq:grad_pg})$ into a more beneficial form: 
 
-$$\mathbb{E}_{\pi_{\theta}(a|s)} \left[ \nabla_{\theta} \log \pi_{\theta}(a|s) \right] = 0.$$
+$$\mathbb{E}_{\pi(a|s; \theta)} \left[ \nabla_{\theta} \log \pi(a|s; \theta) \right] = 0.$$
 
 We have, 
 
@@ -131,7 +133,7 @@ $$
 
 The A2C can reach the maximum reward very early while PG cannot reach the maximum reward. It takes more episodes for PG to reach the solved level (around at epoch $300$) while A2C already reaches the solved level at around $< 100$ episode. 
 
-*Side note #3*: RL algorithms are sensitive to hyperparameter settings. Especially in this case, PG is more sensitive than A2C. 
+*Side note #4*: RL algorithms are sensitive to hyperparameter settings. Especially in this case, PG is more sensitive than A2C. 
 
 # References: 
 [1] http://www.tuananhle.co.uk/notes/dqn-pg-a2c.html  

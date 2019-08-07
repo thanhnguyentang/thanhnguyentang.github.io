@@ -7,7 +7,7 @@ title: Notes
 A collection of my notes drafted for various topics that I have investigated. I try the best to be self-contained when possible. A new blog post every week with probability of $1/3$. Most posts are in RL, Variational Inference and Information Theory with the goal in mind that they must be both *empirically* and *theoretically* insightful. Some are perspectives and insights about research per se. 
 
 * 06/08/19: [Concentration Inequalities.](/blogs/concentration_ineq)
-* 05/08/19: [Actor-Critic Variants and Recursion-Preserving Principle for Incremental Update.](/blogs/ac_variants)
+* 05/08/19: [Actor-Critic Variants and Recursion-Preserving Principle for Incremental Learning.](/blogs/ac_variants)
 * 03/08/19: [Wisdom in MLAI.](/blogs/wisdom)
 * 28/07/19: [Garner hype circle of your Ph.D.](/blogs/hype_circle)
 * 22/07/19: [Lagrangian.](/blogs/lagrangian)
