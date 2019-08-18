@@ -6,6 +6,7 @@ title: Notes
 
 A collection of my notes drafted for various topics that I have investigated. I try the best to be self-contained when possible. A new blog post every week with probability of $1/3$. Most posts are in RL, Variational Inference and Information Theory with the goal in mind that they must be both *empirically* and *theoretically* insightful. Some are perspectives and insights about research per se. 
 
+* 18/08/19: [On some practical structures of papers in empirical AIML.](/blogs/paper_structures)
 * 08/08/19: [MDP basics.](/blogs/mdp)
 * 06/08/19: [Concentration Inequalities.](/blogs/concentration_ineq)
 * 05/08/19: [Actor-Critic Variants and Recursion-Preserving Principle for Incremental Learning.](/blogs/ac_variants)

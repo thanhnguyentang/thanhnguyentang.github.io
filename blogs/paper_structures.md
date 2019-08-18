@@ -1,0 +1,44 @@
+---
+layout: post 
+title: On some practical structures of papers in empirical AIML 
+date: 2019-05-13
+---  
+[[Back Home]](/)  [[Back to Blog]](/blogs/post) 
+
+
+
+# 1. Modification to an existing class of algorithms    
+
+* Leverage some techniques into an existing class of algorithms (e.g., [1] applies Stein's operator as control variates to reduce variance in policy gradient class, [2] applies Stein's variational inference to the maximum entropy policy optimization. Also take a look at [Qiang Liu's publication page](https://www.cs.utexas.edu/~lqiang/publication.html) for many interesting applications of Stein's operator in variational inference and RL which are by the way the topics of my most interest.)  
+
+* In leveraging some techniques to another, usually need to demonstrate the following things:
+    * A good **rationale** (e.g., motivation) for why this leveraging would make sense and have potential advantage. If possible, provide some **simple analytical example** where the existing methods fail but leveraging the techniques would overcome it is very convincing and powerful. 
+
+    * Identify any **unique non-trival problem** (even if it is not too hard) in leveraging the techniques to the existing algorithms. At this stage, seeing a unique problem arise along the way of the idea (i.e., of leveraging the techniques to the existing algorithms) should be a good news. Why? Because this means that the idea is not trivial; the unique and non-trivial problem might weight the contribution of the idea more and helps in convincing reviewers. Then try to solve that unique problem. At this point, some **theorem** or **preposition** is very interesting and convinving.
+
+    * Design a good **algorithmic solution** and **experimental prototype** to demonstrate that the idea actually works and meaningful. I would like to express more at this point that while proposing an idea and solving its unique arising problem are important steps in this direction, **this does not make the step of desigining good experimental prototype any less important**. Because after all, what matters is something that actually works and works better. If there is no good experimental result to support the idea (except theoretical papers that do not really need experiment, but I am focusing on empirical AIML here), the ideas proposed seem like a **wheelchair science**. Plus, this is also a good motivation on the idea because it is always fun to see the idea actually works in practice. Thus, never underestimate this step.  
+
+
+# 2. Reformulation of the existing problems 
+
+* Reformulating the existing problems usually gives novel perspectives. By reframing a problem into another class of problem, one can leverage the techniques from the new problem class to solve the existing problem. For example, [3] reframes actor-critic into a minimax framework and solve the resuling problem by leveraging techniques from the resulting problem. [4] reframes RL as variational inferences and gives some interesting insights resulted from the reformulation.  
+
+* Like the "modification" approach, "reformulation" approach also generally requires clarifying **rationale**, identifying and solving the **unique non-trivial problem**, and desinging **algorithmic solution** and **experimental protype**.  
+
+# 3. Proposing new problems   
+
+* Proposing new important problems and solving it by probably leveraging existing techniques.   
+* Provide a rationale for the new problems, e.g., why are they important and worth solving? 
+* Sometimes, the solution to the new problem might be not difficult but as long as the problem itself is novel, this idea is also important. 
+* Sometimes, there are also the unique non-trival problems emerged along the way of solving the original problem. This would be interesting. 
+* And again, algorithmic and experimental design for the proposed solutions for the problem are always important for empirical research. 
+
+
+# References 
+
+[1] [Action-dependent control variates for policy gradient via Stein's Identity](https://arxiv.org/abs/1710.11198)  
+[2] [Stein Variational Policy Gradient](https://arxiv.org/abs/1704.02399)  
+[3] [Boosting the actor with dual critic](https://arxiv.org/abs/1712.10282)  
+[4] [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/abs/1805.00909)  
+
+*(Work in progress)*

@@ -118,11 +118,14 @@ Thus, the key conceptial contribution of TRPO is the idea of KL constraint on th
 * **Comment**: This idea of KL constraint (e.g., the quadratic approximation of the KL) in policy change is actually similar to using EWC (elastic weight consolidation) for overcoming catastrophic forgetting [6-7]. The idea is that for parameters that are important for an old task (here a task is about the actor doing a good job aganst the criticism from the critic), one should not change these parameters too much for the new task because we do not want the actor to catastrophically forget about handling the previous criticism as a result of handling the current criticism). 
 
 
-<!-- # Proximal Policy Optimization (PPO) 
+# Proximal Policy Optimization (PPO) 
 
-* Policy gradient methods have low convergence rate. This can be improved with natural policy gradient. 
-* Natural policy gradient however involves an expensive second-order derivative matrix. 
-* PPO comes to rescue by relaxing a hard constraint and approximating second-order method.  -->
+The idea of PPO comes quite natural by relaxing the hard constraint in TRPO: 
+
+$$
+J_{ppo}(\theta) = \mathbb{E}_{\pi_{old}} \left[ \frac{\pi_{\theta}(a|s)}{\pi_{old}(a|s)} Q^{\pi}(s,a) - \lambda D_{KL} \left[ \pi_{old}(.|s) | \pi_{\theta}(.|s) \right] \right]
+$$
+
 
 # References  
 [1] [Deep Reinforcement Learning and Control Fall 2018, CMU 10703](http://www.andrew.cmu.edu/course/10-703/)   
