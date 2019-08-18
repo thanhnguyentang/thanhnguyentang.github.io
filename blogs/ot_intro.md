@@ -31,11 +31,15 @@ Which rationale that allows an entropic regularization to make a more tractable 
 # 3. Discussion  
 It strikes me that Lagrangian method is really helpful to regularize hard optimization and by softening it, the resulting optimization becomes more tractable. I have encountered its usage at least in Information Botllteneck [3], Distributional Robustness [4] and now regularized OT. It would be interesting to be able to apply OT into sequential decision making problems, especially Bayesian optimization and Reinforcement Learning. How likely and fruitly it would be? 
 
+# 4. Some additions on the topic  
+
+* When Wasserstein divergence is better than KL divergence?  
+    * Wasserstein distance works even for two dimensions that do not have common support. KL divergence fails in such scenario.  
+    * Wasserstein distance is a valid distance and is weakly continuous. 
+
+
 # References: 
 [1] Grabriel Peyre, [Optimal Transport for Machine Learning](https://portal.klewel.com/watch/webcast/optimal-transport-for-machine-learning/talk/1/).   
-
-[2] Marco Cuturi, [Sinkhorn Distances: Lightspeed Computation of Optimal Transport](https://arxiv.org/abs/1306.0895).
-
-[3] Naftali Tishby, Fernando C. Pereira, and William Bialek, [Information Bottleneck Method](https://arxiv.org/abs/physics/0004057). 
-
+[2] Marco Cuturi, [Sinkhorn Distances: Lightspeed Computation of Optimal Transport](https://arxiv.org/abs/1306.0895).  
+[3] Naftali Tishby, Fernando C. Pereira, and William Bialek, [Information Bottleneck Method](https://arxiv.org/abs/physics/0004057).   
 [4] John Duchi, and Hongseok Namkoong, [Variance-based regularization with convex objectives](https://arxiv.org/abs/1610.02581).

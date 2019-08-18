@@ -9,7 +9,8 @@ date: 2019-05-13
 > 
 * An overview of actor-critic variants: REINFORCE, REINFORCE with baseline, Advantage Actor-Critic, TRPO. 
 * The recursion-preserving principle for incremental learning. 
-* TRPO can be considered as elastic weight consolidation (EWC) for preventing catastrophic forgetting within actor-critic framework. 
+* The main goal in TRPO and PPO is to penalize the aggressive change in policy which works very well in practice. TRPO does so via KL constraint while PPO does so via policy density clipping with multiple epochs of updates on the sampled data. 
+* Penalizing of the aggressive change in policy has link to  elastic weight consolidation (EWC) for preventing catastrophic forgetting within actor-critic framework. 
 
 You might feel overwhelmed by many incremental updates (e.g., TD learning, Q-learning, Monte Carlo gradien policy) in RL and might wonder if these incremental updates are arbitrary. As always,  it is a good idea to seek for something invariant when facing complex systems or ideas with many variants (on this point, check out [3Blue1Brown's video](https://www.youtube.com/watch?v=M64HUIJFTZM&feature=youtu.be) as another example of how the mindset of **"seeking invariance under variance"** is useful). What's invariant here is an implicit principle that I would like to dub as recursion-preserving principle for incremental update: 
 
@@ -93,8 +94,10 @@ Really, the main objective $L_{\pi_{old}}(\pi)$ is actually similar to the objec
 * TRPO problem 
 
 $$
-\max_{\pi}  L_{\pi_{old}}(\pi) \\
+\boxed{
+\max_{\pi}   \mathbb{E}_{\pi_{old}} \left[ \frac{\pi_{\theta}(a|s)}{\pi_{old}(a|s)} \hat{A}_{old}(s,a) \right] \\
 \text{ subject to } \bar{D}_{KL}(\theta_{old} \| \theta) := \mathbb{E}_{s \sim \rho_{\pi_{old}}} \left[ D_{KL}\left[ \pi_{old}(.|s) \| \pi(.|s) \right]\right] \leq \delta. 
+}
 $$
 
 Thus, the key conceptial contribution of TRPO is the idea of KL constraint on the policy to prevent it from making aggressive change far away from the previous policy. 
@@ -120,12 +123,41 @@ Thus, the key conceptial contribution of TRPO is the idea of KL constraint on th
 
 # Proximal Policy Optimization (PPO) 
 
-The idea of PPO comes quite natural by relaxing the hard constraint in TRPO: 
+PPO [8] introduces further some technical ideas to improve TRPO:  
+
+* Computing second-order optimization in TRPO is expensive, PPO uses only first-order optimization. 
+
+* Explicitly penalizing aggressive change in policy via clipping: 
 
 $$
-J_{ppo}(\theta) = \mathbb{E}_{\pi_{old}} \left[ \frac{\pi_{\theta}(a|s)}{\pi_{old}(a|s)} Q^{\pi}(s,a) - \lambda D_{KL} \left[ \pi_{old}(.|s) | \pi_{\theta}(.|s) \right] \right]
+L^{\texttt{CLIP}}(\theta) := \mathbb{E}_{\pi_{old}} \left[ \min \{ \frac{\pi_{\theta}(a|s)}{\pi_{old}(a|s)} \hat{A}_{old}(s,a), 
+\texttt{CLIP} \left(\frac{\pi_{\theta}(a|s)}{\pi_{old}(a|s)}, 1-\epsilon, 1+\epsilon  \right) \hat{A}_{old}(s,a)  \} \right]
 $$
 
+* Sample the policy for some period, and perform several epochs of updates, instead of just one update in the sampled data. 
+
+
+* Additionally relaxing the hard constraint in TRPO with adaptive $\beta$ (because clipping the policy already works quite well so might not need this contraint in practice with PPO)
+
+$$
+J_{ppo}(\theta) = \mathbb{E}_{\pi_{old}} \left[ \frac{\pi_{\theta}(a|s)}{\pi_{old}(a|s)} Q^{\pi}(s,a) - \beta D_{KL} \left[ \pi_{old}(.|s) | \pi_{\theta}(.|s) \right] \right]
+$$
+
+where we decrease $\beta$ if the KL distance is smaller than some threshold and increase it otherwise. 
+
+* Practical PPO algorithm:  
+    * Run the policy to collect samples for $T$ timesteps where $T < $ episode length. 
+    * Compute a truncated generalized advantage estimation: 
+    $$
+        \hat{A}_t = \delta_t + (\gamma \lambda) \delta_{t+1} + ... + (\gamma \lambda)^{T-t+1} \delta_{T-1}
+    $$
+
+    where $\delta_t = r_t + \gamma V(s_{t+1}) - V(s_t)$ is the TD error. 
+
+    * Update the first-order surrogate loss for $K$ epochs with minibatch size of $M$ on the sampled data.  
+
+    ![](.\figs\ac_variants/ppo.PNG)  
+    Figure credit: [8]
 
 # References  
 [1] [Deep Reinforcement Learning and Control Fall 2018, CMU 10703](http://www.andrew.cmu.edu/course/10-703/)   
@@ -134,6 +166,7 @@ $$
 [4] [https://thanhnguyentang.github.io/blogs/actor_critic](https://thanhnguyentang.github.io/blogs/actor_critic)   
 [5] [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf)   
 [6] [Overcoming catastrophic forgetting in neural networks](https://arxiv.org/pdf/1612.00796.pdf)   
-[7] [On Catastrophic Forgetting in Generative Adversarial Networks](https://arxiv.org/abs/1807.04015)
+[7] [On Catastrophic Forgetting in Generative Adversarial Networks](https://arxiv.org/abs/1807.04015)  
+[8] [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf)
 
 (work in progress)
