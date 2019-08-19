@@ -38,14 +38,14 @@ By [Richard Sutton in DLRLSS](https://twitter.com/azin_asg/status/11574181704386
 
 # Wisdom from [Sam Altman](http://blog.samaltman.com/how-to-be-successful)   
 * Trust the potential instead of the linear growth, be patient and be pleasantly surprised (like momentum compounds, it gains acceleration along the way you build it)
-* Self-belief (balanced with self-awareness)  
+* *Self-belief* (balanced with self-awareness)  
 * Think from first principles, try to generate new ideas. You fail many times to be right once 
 * Grit comes from getting back up after getting knocked down. 
 * Be able to convince people of what you believe: First, you genuinely believe in it with clear thinking - Second, use plain and concise language to communicate. 
 * Reward is good but sometimes it is also good to take risks. 
 * Once find a right thing to do, get unstoppable focus on accomplishing it quickly. 
 * Work hard. Grit. Without burn out.
-* Don't be afraid to work on what you really want to work on. Be bold.
+* *Don't be afraid to work on what you really want to work on. Be bold*.
 * Optimistic and persistent: self-doubt, giving up too soon and not pushing hard enough are enemy of success. 
 * Build up leverage, something that is hard to be done by someone else but you. 
 * Build network. The best way is to help people as much as you can. 
