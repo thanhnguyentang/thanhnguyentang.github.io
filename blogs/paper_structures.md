@@ -25,7 +25,12 @@ date: 2019-05-13
 
 * Like the "modification" approach, "reformulation" approach also generally requires clarifying **rationale**, identifying and solving the **unique non-trivial problem**, and desinging **algorithmic solution** and **experimental protype**.  
 
-# 3. Proposing new problems   
+# 3. Connecting different seemingly unrelated problem domains  
+* Connecting different domains has a great benefit of novelty as it brings what's understood in one domain into solving problems in the other ones. A good exemplar for this "connection" approach is connecting smoothed game optimization with GAN and RL [6]. 
+
+* This "connection" approach can be generalization of "reformulation" and "modification" approach. The "connection" approach is more fundamental while the "reformulation" and "modification" are two specific ways for realizing the "connection" approach. 
+
+# 4. Proposing new problems   
 
 * Proposing new important problems and solving it by probably leveraging existing techniques.   
 * Provide a rationale for the new problems, e.g., why are they important and worth solving? 
@@ -33,6 +38,13 @@ date: 2019-05-13
 * Sometimes, there are also the unique non-trival problems emerged along the way of solving the original problem. This would be interesting. 
 * And again, algorithmic and experimental design for the proposed solutions for the problem are always important for empirical research. 
 
+*(not completed yet)*
+
+# 5. Some other practical observations  
+* Intuition (or **mental experiment** <sup>1</sup>) $\rightarrow$ simple analytical example $\rightarrow$ Scale the idea in practice 
+* Figure 1 is the one that tells everything about the main intuition (aka the mental experiment) of a paper. Quick check: A good figure 1 is the one that if you read only the Figure 1 and its caption, you still have an idea of the main thing in this paper.  A really nice exemplar for this is [5]. While the main contribution of [5] is a technical method for preventing catastrophic forgetting, Figure 1 of this paper presents only the mental experiment that requires not much expertise to understand. 
+
+<sup>1</sup> *I first hear the term **mental experiment** from [a friend of mine]((https://arxiv.org/abs/1807.04015)). This is a nice term that I wish to adopt it though my intended use might not exactly have the same meaning as its originality.* 
 
 # References 
 
@@ -40,5 +52,7 @@ date: 2019-05-13
 [2] [Stein Variational Policy Gradient](https://arxiv.org/abs/1704.02399)  
 [3] [Boosting the actor with dual critic](https://arxiv.org/abs/1712.10282)  
 [4] [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/abs/1805.00909)  
+[5] [Continual Learning Through Synaptic Intelligence](https://arxiv.org/abs/1703.04200)  
+[6] [Smooth games optimization and machine learning workshop](https://sgo-workshop.github.io/index_2018.html)
 
 *(Work in progress)*
