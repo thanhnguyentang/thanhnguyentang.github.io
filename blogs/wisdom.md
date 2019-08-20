@@ -2,7 +2,7 @@
 layout: post
 title: Wisdom in MLAI 
 ---  
-[[Back Home]](/)   
+[[Back Home]](/)  [[Back to Blog]](/blogs/post)   
 
 A collection of wisdom about MLAI and research I find extremely interesting and powerful:   
 
