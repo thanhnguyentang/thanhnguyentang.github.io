@@ -50,4 +50,10 @@ By [Richard Sutton in DLRLSS](https://twitter.com/azin_asg/status/11574181704386
 * Build up leverage, something that is hard to be done by someone else but you. 
 * Build network. The best way is to help people as much as you can. 
 * Equity. 
-* Internally driven. Work to impress yourself, not others. Work in areas that are important to you. 
+* Internally driven. Work to impress yourself, not others. Work in areas that are important to you.   
+
+# Some other wisdom   
+* Know and focus on what you want to do, e.g., [this pipeline](https://thanhnguyentang.github.io/blogs/paper_structures) : 
+> Vague idea $\rightarrow$ Intuition (or mental experiment) $\rightarrow$ Simple analytical example $\rightarrow$ Theorem and scale it in practice.  
+* Minimize the time on what is NOT in the main components of the pipeline, e.g., do not re-invent the wheel. 
+* Before delving into details, take some good time to ask: Is this one really neccessary for working out my idea? Can I minimize the time more and focus more on the actual components in the pipeline?
