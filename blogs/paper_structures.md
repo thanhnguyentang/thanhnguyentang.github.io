@@ -47,7 +47,9 @@ date: 2019-05-13
     * (1) **Pre-backup**: The mental experiment motivation, simple analytical example and mathematical backup that lead to the final derivation,   
     * (2) **Post-backup**: Some good experimental prototype (synthetic or scaled one) to prove why the final derivation works.   
 
-    Without the pre-backup, the idea would look like very much arbitrary and heuristic. Without the post-backup, the idea becomes useless.
+    Without the pre-backup, the idea would look like very much arbitrary and heuristic. Without the post-backup, the idea becomes useless.  
+
+* Don't be fool by your small progress results. Chances are they are not siginificant and reportable; thus keep improving on it and making it more significant. 
 
 <sup>1</sup> *I first hear the term **mental experiment** from [a friend of mine]((https://arxiv.org/abs/1807.04015)). This is a nice term that I wish to adopt it though my intended use might not exactly have the same meaning as its originality.* 
 
@@ -62,4 +64,4 @@ date: 2019-05-13
 [7] [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf)
 
 
-*(Work in progress)*
+*Last update: 29/08/19*
