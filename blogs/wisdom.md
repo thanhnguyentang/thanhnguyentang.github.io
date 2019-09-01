@@ -94,4 +94,13 @@ By Issac Newton:
 * Before delving into details, take some good time to ask: Is this one really neccessary for working out my idea? Can I minimize the time more and focus more on the actual components in the pipeline?  
 * Don't be fool by your small progress results. Chances are they are not siginificant and reportable; thus keep improving on it and making it more significant.   
 * It is not just about having an good idea, it is also about implementing the idea fast: quick synthetic experimental prototyping and scale the experiment when the idea is promising. Play more on the idea scale rather than on the experimental scale even though experiment quite takes time. 
-* Working on multiple ideas at the same time. 
+* Working on multiple ideas at the same time.  
+* Good at spotting **dillusion area** and stay clear of it, and direct the energy into **innovative area**. Some examples of **dillusion area**: 
+    * Having some progress but think it is a good contribution and stay too long in celebrating the finding. This would make you only on the surface of the problem and hard to go more insightful. 
+    * Misbelieve that your work is theoretical and do not spend time on thinking what is the empirical application. Most of the time you believe your work is theoretical, it is really just a **surface** observation and you have not even touched on the inside of the problem yet. 
+
+* Some practical tips on directing the energy into the innovative areas so that you do not get stuck in the dillusion area:   
+
+    * Always think that you have just touched on the surface of the problem, must go more insightful.  
+    * Experimental results are important to confirm your idea. Hard to buy an idea with all mathemetical notations only, or at least you are not yet reached that level of rigor.  
+    * Always go with this order: First, aim for empirical and experimental finding, second, confirmed further by theoretical anallysis (if possible).
