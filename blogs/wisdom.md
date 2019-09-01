@@ -91,4 +91,7 @@ By Issac Newton:
 * Know and focus on what you want to do, e.g., [this pipeline](https://thanhnguyentang.github.io/blogs/paper_structures) : 
 > Vague idea $\rightarrow$ Intuition (or mental experiment) $\rightarrow$ Simple analytical example $\rightarrow$ Theorem and scale it in practice.  
 * Minimize the time on what is NOT in the main components of the pipeline, e.g., do not re-invent the wheel. 
-* Before delving into details, take some good time to ask: Is this one really neccessary for working out my idea? Can I minimize the time more and focus more on the actual components in the pipeline? 
+* Before delving into details, take some good time to ask: Is this one really neccessary for working out my idea? Can I minimize the time more and focus more on the actual components in the pipeline?  
+* Don't be fool by your small progress results. Chances are they are not siginificant and reportable; thus keep improving on it and making it more significant.   
+* It is not just about having an good idea, it is also about implementing the idea fast: quick synthetic experimental prototyping and scale the experiment when the idea is promising. Play more on the idea scale rather than on the experimental scale even though experiment quite takes time. 
+* Working on multiple ideas at the same time. 

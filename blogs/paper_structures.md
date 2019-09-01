@@ -49,8 +49,6 @@ date: 2019-05-13
 
     Without the pre-backup, the idea would look like very much arbitrary and heuristic. Without the post-backup, the idea becomes useless.  
 
-* Don't be fool by your small progress results. Chances are they are not siginificant and reportable; thus keep improving on it and making it more significant. 
-
 <sup>1</sup> *I first hear the term **mental experiment** from [a friend of mine]((https://arxiv.org/abs/1807.04015)). This is a nice term that I wish to adopt it though my intended use might not exactly have the same meaning as its originality.* 
 
 # References 
