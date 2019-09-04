@@ -28,7 +28,7 @@ A collection of my notes drafted for various topics that I have investigated. I 
 
 
 
-## Topics I plan to write on  
+<!-- ## Topics I plan to write on  
 * <strike>Actor-critic algorithms in RL: done</strike> 
 * Stabilizing and variance-reduction in Actor-Critic:
     * [Catastrophic forgetting and continual learning](https://arxiv.org/abs/1807.04015) 
@@ -37,4 +37,4 @@ A collection of my notes drafted for various topics that I have investigated. I 
     * [Deep Variational RL for POMDPs](https://arxiv.org/abs/1806.02426)
 
 * Invariant risk minimization  
-* No free lunch theorem  
+* No free lunch theorem   -->
