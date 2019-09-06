@@ -97,10 +97,16 @@ By Issac Newton:
 * Working on multiple ideas at the same time.  
 * Good at spotting **dillusion area** and stay clear of it, and direct the energy into **innovative area**. Some examples of **dillusion area**: 
     * Having some progress but think it is a good contribution and stay too long in celebrating the finding. This would make you only on the surface of the problem and hard to go more insightful. 
-    * Misbelieve that your work is theoretical and do not spend time on thinking what is the empirical application. Most of the time you believe your work is theoretical, it is really just a **surface** observation and you have not even touched on the inside of the problem yet. 
-
-* Some practical tips on directing the energy into the innovative areas so that you do not get stuck in the dillusion area:   
-
+    * Misbelieve that your work is theoretical and do not spend time on thinking what is the empirical application. Most of the time you believe your work is theoretical, it is really just a **surface** observation and you have not even touched on the inside of the problem yet.  
+* Some practical tips on **directing the energy into the innovative areas** so that you do not get stuck in the dillusion area:   
     * Always think that you have just touched on the surface of the problem, must go more insightful.  
     * Experimental results are important to confirm your idea. Hard to buy an idea with all mathemetical notations only, or at least you are not yet reached that level of rigor.  
-    * Always go with this order: First, aim for empirical and experimental finding, second, confirmed further by theoretical anallysis (if possible).
+    * Always go with this order: First, aim for empirical and experimental finding, second, confirmed further by theoretical anallysis (if possible).  
+    * Put your wholehearted effort into demonstrating your idea empirically: tune every possible hyperparameters if you can, analyze and try to explain the effects of these hyperparameters (via creative figures and tables), and try any other methods you can think of to clear out any doubts you have about whether your idea works. If you have a doubt, so do reviewers.  
+    * Remember: having a good idea is important [but also remember it takes a lots of rubbish ideas to have a good one and there is no shame to have a silly idea, especially in early career], but demonstrating an idea (even a silly one) to understand the idea more is much more important in early career. You should not under-weight the demonstration of an idea any lower than having an idea itself (when you master the skill set of demonstrating an idea properly, you can put more weight on having ideas later). 
+
+
+
+-------------------------------
+    Update:
+    * 06/09/19: Add more heuristics to the search for the innovative areas
