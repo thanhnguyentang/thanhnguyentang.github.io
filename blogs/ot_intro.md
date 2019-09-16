@@ -43,15 +43,24 @@ W(p,q) = \max_{\alpha, \beta} \{ \sum_{x} \alpha(x) p(x) + \sum_{x'} \beta(x') q
 \text{ subject to } \alpha(x) + \beta(x') \leq d(x,x')
 $$
 
+**$p$-Wasserstein metric as the $L^p$ metric on the inverse CDF:**
+
+$$
+W_p^p(U,V) = \int_{0}^1 | F^{-1}_U(\omega) - F^{-1}_V(\omega) |^p d \omega 
+$$
+
+
 # 3. Many divergences, why optimal transport? 
 
-Different from KL divergence, Wasserstein distance is a legimate distance. Also, Wasserstein distance works even for two dimensions that do not have common support while KL divergence fails in such scenario. And unlike $L_1$-norm, OT has a continuity property: as probability measures is that as one probability measure weakly converges to another probability measure, their  Wasserstein distance also converges to zero (Slide 9/47 in [1]). More formally, this "continuity" property can be stated as follows. 
+* Different from KL divergence, Wasserstein distance is a legimate distance. Also, Wasserstein distance works even for two dimensions that do not have common support while KL divergence fails in such scenario. And unlike $L_1$-norm, OT has a continuity property: as probability measures is that as one probability measure weakly converges to another probability measure, their  Wasserstein distance also converges to zero (Slide 9/47 in [1]). More formally, this "continuity" property can be stated as follows. 
 
 $$
 p \rightharpoonup q \iff W(p,q) \rightarrow 0
 $$
 
 where $p \rightharpoonup q$ denotes weak convergence, i.e., $\forall f \in \mathcal{C}(\mathcal{X}), \int_{\mathcal{X}} f d p \rightarrow \int_{\mathcal{X}} f d q$.
+
+* Applicable in domains where the underlying similarity in the outcome space is more important than exact matching likelihoods. 
 
 <!-- Consider the OT distance denoted by: 
 

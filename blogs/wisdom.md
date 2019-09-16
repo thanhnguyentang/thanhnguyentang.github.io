@@ -105,6 +105,9 @@ By Issac Newton:
     * Put your wholehearted effort into demonstrating your idea empirically: tune every possible hyperparameters if you can, analyze and try to explain the effects of these hyperparameters (via creative figures and tables), and try any other methods you can think of to clear out any doubts you have about whether your idea works. If you have a doubt, so do reviewers.  
     * Remember: having a good idea is important [but also remember it takes a lots of rubbish ideas to have a good one and there is no shame to have a silly idea, especially in early career], but demonstrating an idea (even a silly one) to understand the idea more is much more important in early career. You should not under-weight the demonstration of an idea any lower than having an idea itself (when you master the skill set of demonstrating an idea properly, you can put more weight on having ideas later). 
 
+* In many papers, e.g. [this one](https://arxiv.org/abs/1710.10044), the whole new "mental" idea might be simple and can be well summarized into one "concept" figure, but the paper of this type is still interesting and important because:
+    * It stays closely in the domains of interesting and important problems 
+    * It provides a rigorous analysis and experiments to support the mental idea.  
 
 
 -------------------------------
