@@ -36,7 +36,11 @@ By [Richard Sutton in DLRLSS](https://twitter.com/azin_asg/status/11574181704386
 > The best way (to think carefully and productively) is to write for yourself and discuss with others.
 
 By Issac Newton:  
-> If others would think as hard as I did, then they would get similar results. 
+> If others would think as hard as I did, then they would get similar results.  
+
+By anonymous: 
+> If you use the same approach to a problem as others did, do not expect an outcome different from others'.
+If you want to get a different outcome to the same problem, try different approaches. 
 
 # On being genuinely practical 
 
