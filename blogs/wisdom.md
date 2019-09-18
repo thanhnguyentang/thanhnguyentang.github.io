@@ -38,6 +38,11 @@ By [Richard Sutton in DLRLSS](https://twitter.com/azin_asg/status/11574181704386
 By Issac Newton:  
 > If others would think as hard as I did, then they would get similar results. 
 
+# On being genuinely practical 
+
+By Mark Twain:
+> The secret of getting ahead is getting started. The secret of getting started is breaking your complex, overwhelming tasks into small manageable tasks, and then starting on the first one.
+
 # Modified wisdom from [Sam Altman](http://blog.samaltman.com/how-to-be-successful)   
 * Trust the potential instead of the linear growth, be patient and be pleasantly surprised (like momentum compounds, it gains acceleration along the way you build it).
 * **Self-belief** (balanced with self-awareness)  
