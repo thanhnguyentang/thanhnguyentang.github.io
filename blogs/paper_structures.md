@@ -41,7 +41,7 @@ date: 2019-05-13
 *(not completed yet)*
 
 # 5. Some other practical observations  
-* Intuition (or **mental experiment** <sup>1</sup>) $\rightarrow$ simple analytical example $\rightarrow$ Scale the idea in practice 
+* Intuition (or **thought experiment**) $\rightarrow$ simple analytical example $\rightarrow$ Scale the idea in practice 
 * Figure 1 is the one that tells everything about the main intuition (aka the mental experiment) of a paper. Quick check: A good figure 1 is the one that if you read only the Figure 1 and its caption, you still have an idea of the main thing in this paper.  A really nice exemplar for this is [5]. While the main contribution of [5] is a technical method for preventing catastrophic forgetting, Figure 1 of this paper presents only the mental experiment that requires not much expertise to understand.  
 * Some papers have very simple final derivation which is very intuitive (and looks as if a heuristic), e.g. [5,7]. Despite this, there should be good backup for this final derivation: 
     * (1) **Pre-backup**: The mental experiment motivation, simple analytical example and mathematical backup that lead to the final derivation,   
@@ -49,7 +49,8 @@ date: 2019-05-13
 
     Without the pre-backup, the idea would look like very much arbitrary and heuristic. Without the post-backup, the idea becomes useless.  
 
-<sup>1</sup> *I first hear the term **mental experiment** from [a friend of mine]((https://arxiv.org/abs/1807.04015)). This is a nice term that I wish to adopt it though my intended use might not exactly have the same meaning as its originality.* 
+* There are several aspects of contributions: algorithmic, theoretical and empirical. A good contribution needs not be significant equally in all these aspects. Some looks like a natural, incremental modification (simple in algorithmic approach) but can demonstrate it theoretical and/or empirical significance (e.g., [this one](https://arxiv.org/abs/1710.10044)). Some start with empirical comparitive study to figure out some emprical questions (e.g., [this one](https://arxiv.org/abs/1901.11084)). 
+
 
 # References 
 
