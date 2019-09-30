@@ -9,7 +9,7 @@ A collection of my notes drafted for various topics that I have investigated. I 
 * 20/09/19: [On patterned ways of thinking.](/blogs/rand_great)
 * 18/08/19: [On some practical structures of papers in empirical AIML.](/blogs/paper_structures)
 * 08/08/19: [MDP basics.](/blogs/mdp)
-* 06/08/19: [Concentration Inequalities.](/blogs/concentration_ineq)
+<!-- * 06/08/19: [Concentration Inequalities.](/blogs/concentration_ineq) -->
 * 05/08/19: [Actor-Critic Variants and Recursion-Preserving Principle for Incremental Learning.](/blogs/ac_variants)
 * 03/08/19: [Wisdom in MLAI.](/blogs/wisdom)
 * 28/07/19: [Garner hype circle of your Ph.D.](/blogs/hype_circle)
@@ -21,7 +21,7 @@ A collection of my notes drafted for various topics that I have investigated. I 
 * 18/04/19: [How to write a first-class paper?](/blogs/how_to_write_papers) 
 * 21/03/19: [A basic result of kernel embedding on probability space](/blogs/functional_prob_space)
 * 20/03/19: [Basics of Reproducing Kernel Hilbert Space (RKHS).](/blogs/rkhs.pdf) 
-* 08/08/18: [How Information theory possibly helps AI?](http://mlsidenotes.blogspot.com/2018/08/from-information-theory-to-machine.html)
+<!-- * 08/08/18: [How Information theory possibly helps AI?](http://mlsidenotes.blogspot.com/2018/08/from-information-theory-to-machine.html) -->
 * 17/06/18: [Gumbel-Softmax to Approximate Samples for a Categorical Distribution.](/blogs/gumbel_softmax) 
 * 03/06/18: [Fundamental Elements of Gaussian Process.](/blogs/gp_fr.pdf) 
 * 31/05/18: [Learning to Explain a Model via Variational Mutual Information, Jianbo Chen et al.](/blogs/l2x.pdf) (presented at SAIL@UNIST)   
