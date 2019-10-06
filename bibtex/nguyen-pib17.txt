@@ -1,15 +1,12 @@
-@article{nguyen-pib17,
-  author    = {Thanh T. Nguyen and
+@article{NguyenMIB19,
+  author    = {Thanh Tang Nguyen and
                Jaesik Choi},
-  title     = {Layer-wise Learning of Stochastic Neural Networks with Information
-               Bottleneck},
-  journal   = {CoRR},
-  volume    = {abs/1712.01272},
-  year      = {2017},
-  url       = {http://arxiv.org/abs/1712.01272},
-  archivePrefix = {arXiv},
-  eprint    = {1712.01272},
-  timestamp = {Mon, 13 Aug 2018 16:47:40 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1712-01272},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  title     = {Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks},
+  journal   = {Entropy},
+  volume    = {21},
+  number    = {10},
+  pages     = {976},
+  year      = {2019},
+  url       = {https://www.mdpi.com/1099-4300/21/10/976#}
+  doi       = {10.3390/e21100976}
 }
