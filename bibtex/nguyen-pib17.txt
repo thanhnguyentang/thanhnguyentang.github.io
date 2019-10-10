@@ -1,12 +1,10 @@
-@article{NguyenMIB19,
-  author    = {Thanh Tang Nguyen and
-               Jaesik Choi},
-  title     = {Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks},
-  journal   = {Entropy},
-  volume    = {21},
-  number    = {10},
-  pages     = {976},
-  year      = {2019},
-  url       = {https://www.mdpi.com/1099-4300/21/10/976#}
-  doi       = {10.3390/e21100976}
+@article{nguyen2019markov,
+  title={Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks},
+  author={Nguyen, Thanh Tang and Choi, Jaesik},
+  journal={Entropy},
+  volume={21},
+  number={10},
+  pages={976},
+  year={2019},
+  publisher={Multidisciplinary Digital Publishing Institute}
 }
