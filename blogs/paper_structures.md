@@ -51,6 +51,8 @@ date: 2019-05-13
 
 * There are several aspects of contributions: algorithmic, theoretical and empirical. A good contribution needs not be significant equally in all these aspects. Some looks like a natural, incremental modification (simple in algorithmic approach) but can demonstrate it theoretical and/or empirical significance (e.g., [this one](https://arxiv.org/abs/1710.10044)). Some start with empirical comparitive study to figure out some emprical questions (e.g., [this one](https://arxiv.org/abs/1901.11084)). 
 
+* Three pillars for a good contribution: **theoretical, algorithmic, and empirical** perspectives. Yes, I feel RL gives a good playground for all these pillars; it also connects classic problems (e.g., bandit) to modern ones (e.g., deep reinforcement learning). RL is also a good representive problem for general AI in which we aim at learning to solve many general intelligence tasks using little domain knowledge. That said, if there is AGI (Artificial General Intelligence), or at least if we want to make existing learning algorithms sufficiently more general that they are today, RL is a good testbed for such gold. Just a little remark on it: causality and reasoning are two of the important ingredients (or subgoals) in this path. 
+
 
 # References 
 
