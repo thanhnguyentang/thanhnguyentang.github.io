@@ -42,6 +42,11 @@ By anonymous:
 > If you use the same approach to a problem as others did, do not expect an outcome different from others'.
 If you want to get a different outcome to the same problem, try different approaches. 
 
+By anonymous: 
+> The quality and originality of your work is rougly proportional to:
+* How well you understand the question, understand your data, select good notation (inspired by Terence Tao) 
+* Developing new techniques is cool and important, but remember the goal is to answer questions, and developed techniques should be treated as a mean to an answer, not an initial target. Thus, keep asking bunch of silly questions, keep trying to answer these questions (even though you might oftenly fail to answer, but that's OK, asking questions and trying to answer them will cummulate into something interestingly and insightfully new). 
+
 # On being genuinely practical 
 
 By Mark Twain:
