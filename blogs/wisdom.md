@@ -47,6 +47,13 @@ By anonymous:
 * How well you understand the question, understand your data, select good notation (inspired by Terence Tao) 
 * Developing new techniques is cool and important, but remember the goal is to answer questions, and developed techniques should be treated as a mean to an answer, not an initial target. Thus, keep asking bunch of silly questions, keep trying to answer these questions (even though you might oftenly fail to answer, but that's OK, asking questions and trying to answer them will cummulate into something interestingly and insightfully new). 
 
+# On writing and solving  
+> 
+* Select good notations
+* Understand your questions, understand your problems 
+* Thinking hard is the only way to make an actual progress 
+* If you dont put your ideas into a gluing story, you cannot convince yourself enough, and reviewers and readers won't bother to buy it. 
+
 # On being genuinely practical 
 
 By Mark Twain:
@@ -117,7 +124,7 @@ By Mark Twain:
     * Experimental results are important to confirm your idea. Hard to buy an idea with all mathemetical notations only, or at least you are not yet reached that level of rigor.  
     * Always go with this order: First, aim for empirical and experimental finding, second, confirmed further by theoretical anallysis (if possible).  
     * Put your wholehearted effort into demonstrating your idea empirically: tune every possible hyperparameters if you can, analyze and try to explain the effects of these hyperparameters (via creative figures and tables), and try any other methods you can think of to clear out any doubts you have about whether your idea works. If you have a doubt, so do reviewers.  
-    * Remember: having a good idea is important [but also remember it takes a lots of rubbish ideas to have a good one and there is no shame to have a silly idea, especially in early career], but demonstrating an idea (even a silly one) to understand the idea more is much more important in early career. You should not under-weight the demonstration of an idea any lower than having an idea itself (when you master the skill set of demonstrating an idea properly, you can put more weight on having ideas later). 
+    * Remember: having a good idea is important [but also remember it takes a lots of rubbish ideas to have a good one and there is no shame to have a silly idea, especially in early career], but demonstrating an idea (even a silly one) to understand the idea more is much more important in early career. You should not under-weight the demonstration of an idea any lower than having an idea itself (when you master the skill set of demonstrating an idea properly, you can put more weight on having ideas later).  
 
 * In many papers, e.g. [this one](https://arxiv.org/abs/1710.10044), the whole new "mental" idea might be simple and can be well summarized into one "concept" figure, but the paper of this type is still interesting and important because:
     * It stays closely in the domains of interesting and important problems 
