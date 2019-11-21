@@ -107,7 +107,6 @@ By Mark Twain:
 * **Drive + commitment > talent**
 
 
-
 # Some other wisdom   
 * Know and focus on what you want to do, e.g., [this pipeline](https://thanhnguyentang.github.io/blogs/paper_structures) : 
 > Vague idea $\rightarrow$ Intuition (or mental experiment) $\rightarrow$ Simple analytical example $\rightarrow$ Theorem and scale it in practice.  
@@ -130,7 +129,13 @@ By Mark Twain:
     * It stays closely in the domains of interesting and important problems 
     * It provides a rigorous analysis and experiments to support the mental idea.  
 
+# 5 rules to make an actual progress 
+* Think hard   
+* Realistic by proposing doable algorithms 
+* Avoid self-delusion  
+* Have a quick first silly draft  
+* Be careful with unjustified claims; don't trust it easily, use evidence! 
 
--------------------------------
+<!-- -------------------------------
     Update:
-    * 06/09/19: Add more heuristics to the search for the innovative areas
+    * 06/09/19: Add more heuristics to the search for the innovative areas -->
