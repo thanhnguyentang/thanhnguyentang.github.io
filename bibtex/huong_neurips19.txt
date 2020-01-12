@@ -1,0 +1,10 @@
+@incollection{NIPS2019_9350,
+title = {Bayesian Optimization with Unknown Search Space},
+author = {Ha, Huong and Rana, Santu and Gupta, Sunil and Nguyen, Thanh and Tran-The, Hung and Venkatesh, Svetha},
+booktitle = {Advances in Neural Information Processing Systems 32},
+editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+pages = {11772--11781},
+year = {2019},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space.pdf}
+}
