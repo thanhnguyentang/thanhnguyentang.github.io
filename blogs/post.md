@@ -4,8 +4,11 @@ title: Notes
 ---  
 [[Back Home]](/)   
 
-A collection of my notes drafted for various topics that I have investigated. I try the best to be self-contained when possible. A new blog post every week with probability of $1/3$. Most posts are in RL, Variational Inference and Information Theory with the goal in mind that they must be both *empirically* and *theoretically* insightful. Some are perspectives and insights about research per se. 
+Mostly informal notes for random topics and wisdoms I've come accross. 
 
+<!-- A collection of my notes drafted for various topics that I have investigated. I try the best to be self-contained when possible. A new blog post every week with probability of $1/3$. Most posts are in RL, Variational Inference and Information Theory with the goal in mind that they must be both *empirically* and *theoretically* insightful. Some are perspectives and insights about research per se.  -->
+
+* 18/01/20: [My favourite quotes.](/blogs/quotes)
 * 30/10/19: [Q-learning is provably efficient.](/blogs/q_learning_provable)
 * 11/10/19: [A running note on measure theory.](/blogs/measure_theory)
 * 20/09/19: [On patterned ways of thinking.](/blogs/rand_great)
@@ -19,7 +22,7 @@ A collection of my notes drafted for various topics that I have investigated. I 
 * 22/07/19: [Actor-Critic: Using relative returns to properly scale policy gradients.](/blogs/actor_critic) 
 * 19/07/19: [From stochastic games to robustness in reinforcement learning.](/blogs/sgrl.pdf) (presented at A2I2@Deakin)
 * 19/06/19: [A naive introduction to Optimal Transport.](/blogs/ot_intro) 
-* 13/05/19: [Who to follow?](/blogs/who_to_follow) 
+<!-- * 13/05/19: [Who to follow?](/blogs/who_to_follow)  -->
 * 18/04/19: [How to write a first-class paper?](/blogs/how_to_write_papers) 
 * 21/03/19: [A basic result of kernel embedding on probability space](/blogs/functional_prob_space)
 * 20/03/19: [Basics of Reproducing Kernel Hilbert Space (RKHS).](/blogs/rkhs.pdf) 

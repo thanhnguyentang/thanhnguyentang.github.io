@@ -129,12 +129,12 @@ By Mark Twain:
     * It stays closely in the domains of interesting and important problems 
     * It provides a rigorous analysis and experiments to support the mental idea.  
 
-# 5 rules to make an actual progress 
+<!-- # 5 rules to make an actual progress 
 * Think hard   
 * Realistic by proposing doable algorithms 
 * Avoid self-delusion  
 * Have a quick first silly draft  
-* Be careful with unjustified claims; don't trust it easily, use evidence! 
+* Be careful with unjustified claims; don't trust it easily, use evidence!  -->
 
 <!-- -------------------------------
     Update:
