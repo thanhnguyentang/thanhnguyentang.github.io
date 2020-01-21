@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Paradiam shift
+title: Paradigm shift
 ---  
 [[Back Home]](/)  [[Back to Blog]](/blogs/post)   
 
-A summary on "The Structure of Scientific Revolutions" by
+A summary on "[The Structure of Scientific Revolutions](https://www.uky.edu/~eushe2/Pajares/kuhnsyn.html)" by Thomas S. Kuhn: 
 
-* Science cannot operate with some paradigm.
+* Science cannot operate without some paradigm.
 
 * A paradigm can be thought of as a set of beliefs and assumptions based on which research questions are created and new knowledge is established.  
 
 * Normal science exploits a paradiagm.  
 
-* When a paradigm encounters anomaly (in the form of novelties of fact or theory), paradigm shift takes place. 
+* When a paradigm encounters anomaly (in the form of novelties of fact or theory), paradigm shift can (gradually) takes place. 
 
 * As a scientist, how to deal with anomaly when practicing some paradigm?
 

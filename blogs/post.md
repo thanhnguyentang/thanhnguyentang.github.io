@@ -4,10 +4,11 @@ title: Notes
 ---  
 [[Back Home]](/)   
 
-Mostly informal notes for random topics and wisdoms I've come accross. 
+Random notes on random topics for random thoughts. 
 
 <!-- A collection of my notes drafted for various topics that I have investigated. I try the best to be self-contained when possible. A new blog post every week with probability of $1/3$. Most posts are in RL, Variational Inference and Information Theory with the goal in mind that they must be both *empirically* and *theoretically* insightful. Some are perspectives and insights about research per se.  -->
 
+* 21/01/20: [Paradigm shift.](/blogs/paradigm_shift)
 * 18/01/20: [My favourite quotes.](/blogs/quotes)
 * 30/10/19: [Q-learning is provably efficient.](/blogs/q_learning_provable)
 * 11/10/19: [A running note on measure theory.](/blogs/measure_theory)
