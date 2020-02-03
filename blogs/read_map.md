@@ -4,29 +4,17 @@ title: Road map
 ---  
 [[Back Home]](/)  [[Back to Blog]](/blogs/post)     
 
-# Research Roadmap  
-My research road map: 
+# Research Roadmap   
+Roadmap for Theory of DL (Goal: a unifying theory for representation and generalization in DL that connects many related disciplines and ideas. This unifying theory, if exists, shoud require a graceful interplay among Information Theory, Probability Theory, Optimal Transport and Optimization): 
+* Some (important) AI paradigms to play with: RL, GAN, neural density estimation.  
 * Understand RL via OT;  
 * Understand GAN dynamics via OT or Information Theory;  
-* Understand generalization in DNNs via Information Theory perspective or OT;  
+* Understand generalization in DNNs via Information Theory perspective or OT (e.g., [Stronger generalization bounds for deep nets via a compression approach](https://arxiv.org/pdf/1802.05296.pdf));   
+* A Unifying framework for OT, IT, DL, Statistics and Optimization (hint: Variational inference is an optimization-based inference)
 * Use these new insights to improve practical algorithms and find impactful, empirical applications. 
 
-## 1. Understanding learning dynamics of Reinforcement Learning via Optimal Transport      
-
-* Statistics and Samples in Distributional Reinforcement Learning. 
-
-## 2. Generalization in deep neural networks (especially the connection with compression) 
-
-* [Stronger generalization bounds for deep nets via a compression approach](https://arxiv.org/pdf/1802.05296.pdf) 
-
-
-## 3. On Unifying Statistics and Optimization 
-
-Hint: Variation inference is an optimization-based inference. 
-
-
 # Scientist Roadmap   
-An incomplete list of researchers that I like to learn from their research styles. In my perspective, they, in a novel but insightful manner, bring Probability Theory, Statistics, Optimal Transport, Information Theory, and Optimization into Machine Learning and Artificial Intelligence. Their research gives novel perspectives, has sufficient impact on our community (based on 4 metrics: (i) potential applications, (ii) number of citations, (iii) generalization of technical knowledge, and (iv) giving new understanding of MLAI problems)  
+An incomplete list of researchers that I like to learn from their research styles this time. In my perspective, they, in a novel but insightful manner, bring Probability Theory, Statistics, Optimal Transport, Information Theory, and Optimization into Machine Learning and Artificial Intelligence. Their research gives novel perspectives, has sufficient impact on our community (based on 4 metrics: (i) potential applications, (ii) number of citations, (iii) generalization of technical knowledge, and (iv) giving new understanding of MLAI problems)  
 
 * [Martin Arjovsky](https://scholar.google.com/citations?user=A6qfFPkAAAAJ&hl=en)
 
