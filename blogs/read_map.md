@@ -31,5 +31,5 @@ An incomplete list of researchers that I like to learn from their research style
 
 * [The Structure of Scientific Revolutions](https://www.uky.edu/~eushe2/Pajares/kuhnsyn.html) by Thomas S. Kuhn: After some time of being exploited, research paradigm shifts when anomaly is encountered. 
 * [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html) by Richard Hamming. 
-* [Principles of Effective Research](http://michaelnielsen.org/blog/principles-of-effective-research/) by Michael Nielsen. 
+* [Principles of Effective Research](http://michaelnielsen.org/blog/principles-of-effective-research/) by Michael Nielsen: the foundation of effective research is a strong motivation or desire to do research. 
 * [An Opinionated Guide to ML Research](http://joschu.net/blog/opinionated-guide-ml-research.html) by John Schulman: Work on the **right problems**, make **continual progress** on them, and achieve **continual personal growth**.  
