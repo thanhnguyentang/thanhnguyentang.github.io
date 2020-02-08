@@ -13,19 +13,22 @@ Roadmap for Theory of DL (Goal: a unifying theory for representation and general
 * A Unifying framework for OT, IT, DL, Statistics and Optimization (hint: Variational inference is an optimization-based inference)
 * Use these new insights to improve practical algorithms and find impactful, empirical applications. 
 
-# Scientist Roadmap   
-An incomplete list of researchers that I like to learn from their research styles this time. In my perspective, they, in a novel but insightful manner, bring Probability Theory, Statistics, Optimal Transport, Information Theory, and Optimization into Machine Learning and Artificial Intelligence. Their research gives novel perspectives, has sufficient impact on our community (based on 4 metrics: (i) potential applications, (ii) number of citations, (iii) generalization of technical knowledge, and (iv) giving new understanding of MLAI problems)  
+# Scientist Roadmap 
+
+There are many researchers I wish to learn from their work and research styles for my research career. Basicially, in my perspective, they, in a novel but insightful manner, bring Probability Theory, Statistics, Optimal Transport, Information Theory, and Optimization into Machine Learning and Artificial Intelligence. Their research gives novel perspectives, has sufficient impact on our community (based on 4 metrics: (i) potential applications, (ii) number of citations, (iii) generalization of technical knowledge, and (iv) giving new understanding of MLAI problems). This generic style is exactly the one I am pursuing. But to make this task more manageable and doable, I try to make a project-based roadmap; that is, a small (varying) list based on my <b>current</b> projects (so once a project is done, the list might change):
 
 * [Martin Arjovsky](https://scholar.google.com/citations?user=A6qfFPkAAAAJ&hl=en)
-
 * [Mark Rowland](https://sites.google.com/view/markrowland) 
-
 * [Ian Murray](https://homepages.inf.ed.ac.uk/imurray2/)  
-
 * [Martin Wainwright](https://scholar.google.com/citations?user=J5Rvh6gAAAAJ&hl=en)  
+* [Gabor Lugosi](https://scholar.google.com/citations?user=WgPhMfwAAAAJ&hl=en)  
 
-* [Gabor Lugosi](https://scholar.google.com/citations?user=WgPhMfwAAAAJ&hl=en)
-
+# Good environment vibes 
+I can feel the vibes.
+* [Empirical Inference at Max Planc Institute for Intelligence Systems](https://ei.is.tuebingen.mpg.de/publications)  
+* [Machine Learning Group at Cambridge](http://mlg.eng.cam.ac.uk/pub/)  
+* [Deepmind](https://deepmind.com/)
+* [Tensorlab at Caltech](http://tensorlab.cms.caltech.edu/users/anima/publications.html)
 
 # Research advice roadmap  
 
