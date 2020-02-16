@@ -24,14 +24,15 @@ There are many researchers I wish to learn from their work and research styles f
 * [Gabor Lugosi](https://scholar.google.com/citations?user=WgPhMfwAAAAJ&hl=en)  
 
 # Good environment vibes 
-I can feel the vibes.
+<!-- I can feel the vibes. -->
 * [Empirical Inference at Max Planc Institute for Intelligence Systems](https://ei.is.tuebingen.mpg.de/publications)  
 * [Machine Learning Group at Cambridge](http://mlg.eng.cam.ac.uk/pub/)  
 * [Deepmind](https://deepmind.com/)
 * [Tensorlab at Caltech](http://tensorlab.cms.caltech.edu/users/anima/publications.html)
+* [Probabilistic Machine Learning Group at Aalto](https://research.cs.aalto.fi/pml/publications.shtml) 
+* [Approximate Bayesian Inference Group at RIKEN](https://aip.riken.jp/labs/generic_tech/approx_bayes_infer/?lang=en)
 
 # Research advice roadmap  
-
 * [The Structure of Scientific Revolutions](https://www.uky.edu/~eushe2/Pajares/kuhnsyn.html) by Thomas S. Kuhn: After some time of being exploited, research paradigm shifts when anomaly is encountered. 
 * [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html) by Richard Hamming. 
 * [Principles of Effective Research](http://michaelnielsen.org/blog/principles-of-effective-research/) by Michael Nielsen: the foundation of effective research is a strong motivation or desire to do research. 
