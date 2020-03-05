@@ -32,7 +32,8 @@ There are many researchers I wish to learn from their work and research styles f
 * [Probabilistic Machine Learning Group at Aalto](https://research.cs.aalto.fi/pml/publications.shtml) 
 * [Approximate Bayesian Inference Group at RIKEN](https://aip.riken.jp/labs/generic_tech/approx_bayes_infer/?lang=en)
 
-# Research advice roadmap  
+# Research advice roadmap   
+* [Unfashionable Pursuits](https://moscow.sci-hub.tw/1254/a812ddf37f1ed6d0df5467996e1a4cf4/dyson1983.pdf) by Freeman J. Dyson.
 * [The Structure of Scientific Revolutions](https://www.uky.edu/~eushe2/Pajares/kuhnsyn.html) by Thomas S. Kuhn: After some time of being exploited, research paradigm shifts when anomaly is encountered. 
 * [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html) by Richard Hamming. 
 * [Principles of Effective Research](http://michaelnielsen.org/blog/principles-of-effective-research/) by Michael Nielsen: the foundation of effective research is a strong motivation or desire to do research. 
