@@ -9,7 +9,7 @@ title: Road map
 A proposed road to greatness 
 
 * To become a good scientist, you must become a healthy, humble and happy human being first. 
-* Start with important questions that you believe many of our community (including both scientific and general community) would appreciate and benefit from if you can give some answer to the questions.   
+* Start with important questions that you believe many of our community (including both scientific and general community) would appreciate and benefit from if you can give some answer to the questions (if possible, try to avoid something too niche at this stage).   
 * Maintain a good friendship and collaboration because important problems for our community need collaborative efforts to address. In addition, diverse perspectives from collaborations help you learn faster and better. 
 * Original thinker and perseverant doer.   
 
