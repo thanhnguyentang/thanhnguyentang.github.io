@@ -59,3 +59,12 @@ A random batch of samples with good environment vibes to do world-class research
 * [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html) by Richard Hamming (read more summary [here](https://thanhnguyentang.github.io/blogs/wisdom)). 
 * [Principles of Effective Research](http://michaelnielsen.org/blog/principles-of-effective-research/) by Michael Nielsen: the foundation of effective research is a strong motivation or desire to do research, but you should not trade your research with your family and happiness. 
 * [An Opinionated Guide to ML Research](http://joschu.net/blog/opinionated-guide-ml-research.html) by John Schulman: Work on the right problems, make continual progress on them, and achieve continual personal growth.  
+
+
+# Good books  
+
+Some great books that I have been reading. 
+
+* Shun-ichi Amari. [Information Geometry and its Applications](https://www.springer.com/gp/book/9784431559771). (ongoing) 
+* Villani Cédric. [Optimal Transport: Old and New](https://www.springer.com/gp/book/9783540710493). (ongoing)
+* Thomas M. Cover and Joy A. Thomas. [Elements of Information Theory](http://staff.ustc.edu.cn/~cgong821/Wiley.Interscience.Elements.of.Information.Theory.Jul.2006.eBook-DDU.pdf). (finished in general)
