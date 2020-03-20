@@ -8,10 +8,11 @@ title: Road map
 
 A proposed road to greatness 
 
-* To become a good scientist, you must become a healthy, humble and happy human being first. 
+* To become a <strike>good</strike> great scientist, you must first become a healthy, humble and happy human being. 
 * Start with important questions that you believe many of our community (including both scientific and general community) would appreciate and benefit from if you can give some answer to the questions (if possible, try to avoid something too niche at this stage).   
-* Maintain a good friendship and collaboration because important problems for our community need collaborative efforts to address. In addition, diverse perspectives from collaborations help you learn faster and better. 
+* Maintain good friendships and collaborations because important problems for our community need collaborative efforts to address. In addition, diverse perspectives from collaborations help you learn faster and more robust. 
 * Original thinker and perseverant doer.   
+* Put your whole heart on whatever you do; your readers will know it. 
 
 
 <!-- Roadmap for Theory of DL (Goal: a unifying theory for representation and generalization in DL that connects many related disciplines and ideas. This unifying theory, if exists, shoud require a graceful interplay among Information Theory, Probability Theory, Optimal Transport and Optimization): 
@@ -44,7 +45,7 @@ To learn from this route is one of my goals; but this task is apparently not eas
 
 # Good environment vibes   
 
-A random batch of samples with good environment vibes to do world-class research. 
+A batch of random samples of good environment vibes to do world-class research. 
 <!-- I can feel the vibes. -->
 * [Empirical Inference at Max Planc Institute for Intelligence Systems](https://ei.is.tuebingen.mpg.de/publications)  
 * [Machine Learning Group at Cambridge](http://mlg.eng.cam.ac.uk/pub/)  
