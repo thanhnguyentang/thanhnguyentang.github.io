@@ -10,6 +10,7 @@ High-entropy sampler: Random notes on random topics for random thoughts.
 
 <!-- * 16/02/20: [A distributional perspective on learning.](/blogs/distributional) -->
 
+* 12/04/20: [A Note on  Amortila et al. "A Distributional Analysis of Sampling-based RL Algorithms".](/blogs/distributional_analysis)
 * 02/02/20: [Roadmap.](/blogs/read_map)
 * 21/01/20: [Paradigm shift.](/blogs/paradigm_shift)
 * 18/01/20: [My favourite quotes.](/blogs/quotes)
