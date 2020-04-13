@@ -129,6 +129,8 @@ By Mark Twain:
     * It stays closely in the domains of interesting and important problems 
     * It provides a rigorous analysis and experiments to support the mental idea.  
 
+* Doing great science pretty much requires building a personal brand. To do so, you need to establish a few things: do good science, smart, have a point of view and vision for the field, and people should read your work and listen to you.  
+
 <!-- # 5 rules to make an actual progress 
 * Think hard   
 * Realistic by proposing doable algorithms 
@@ -136,6 +138,7 @@ By Mark Twain:
 * Have a quick first silly draft  
 * Be careful with unjustified claims; don't trust it easily, use evidence!  -->
 
-<!-- -------------------------------
+-------------------------------
     Update:
-    * 06/09/19: Add more heuristics to the search for the innovative areas -->
+    * 13/04/20: Add "building a brand" for doing great science. 
+    * 06/09/19: Add more heuristics to the search for the innovative areas

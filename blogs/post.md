@@ -17,11 +17,11 @@ High-entropy sampler: Random notes on random topics for random thoughts.
 * 30/10/19: [Q-learning is provably efficient.](/blogs/q_learning_provable)
 * 11/10/19: [A running note on measure theory.](/blogs/measure_theory)
 * 20/09/19: [On patterned ways of thinking.](/blogs/rand_great)
-* 18/08/19: [On some practical structures of papers in empirical AIML.](/blogs/paper_structures)
+* 18/08/19: [Some observations on the structure of idea flows in ML research.](/blogs/paper_structures) (*LAST UPDATED: 13/04/20*)
 * 08/08/19: [MDP basics.](/blogs/mdp)
 <!-- * 06/08/19: [Concentration Inequalities.](/blogs/concentration_ineq) -->
 * 05/08/19: [Actor-Critic Variants and Recursion-Preserving Principle for Incremental Learning.](/blogs/ac_variants)
-* 03/08/19: [Wisdom in MLAI.](/blogs/wisdom)
+* 03/08/19: [Wisdom in MLAI.](/blogs/wisdom) (*LAST UPDATED: 13/04/20*)
 * 28/07/19: [Garner hype circle of your Ph.D.](/blogs/hype_circle)
 * 22/07/19: [Lagrangian.](/blogs/lagrangian)
 * 22/07/19: [Actor-Critic: Using relative returns to properly scale policy gradients.](/blogs/actor_critic) 
