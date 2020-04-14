@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  Some observations on the structure of idea flows in ML research 
+title:  On some structures in the evolution of research idea in ML 
 date: 2019-05-13
 ---  
 [[Back Home]](/)  [[Back to Blog]](/blogs/post) 
@@ -67,6 +67,13 @@ Connecting different domains through a unifying framewokr has a great benefit of
 
 * Three pillars for a good contribution: *theoretical, algorithmic, and empirical*. Yes, I feel RL gives a good playground for all these pillars; it also connects classic problems (e.g., bandit) to modern ones (e.g., deep reinforcement learning).  A good contribution needs not be significant equally in all these aspects. Some looks like a natural, incremental modification (simple in algorithmic approach) but can demonstrate it theoretical and/or empirical significance (e.g., [this one](https://arxiv.org/abs/1710.10044)). Some start with empirical comparitive study to figure out some emprical questions (e.g., [this one](https://arxiv.org/abs/1901.11084)). RL is also a good representive problem for general AI in which we aim at learning to solve many general intelligence tasks using little domain knowledge. That said, if there is AGI (Artificial General Intelligence), or at least if we want to make existing learning algorithms sufficiently more general that they are today, RL is a good testbed for such gold. Just a little remark on it: causality and reasoning are two of the important ingredients (or subgoals) in this path. 
 
+## 6. Claim structure  
+
+I here provide some example expressions used to make a claim for research idea in ML. These expressions are interesting because they can reflect how an idea is evolved from the perspective of authors. 
+* We leverage this perspective/viewpoint/inisight to shed a light on [some theoretical aspects of an algorithm such as the convergence properties and the asymtotic convergence]. 
+* The insight/analysis leads us to [some design choices for an algorithm].
+* We address the problem of [the problem of interest].  
+* We demonstrate the effectiveness of our proposed methods in various experimental settings. 
 
 # References 
 
@@ -83,5 +90,6 @@ Connecting different domains through a unifying framewokr has a great benefit of
 
 -------------------------
     Update: 
-    * 13/04/20: revise the post by making it clearer and more coherent and chaning the title
+    * 14/04/20: Add 'claim structure' discussion
+    * 13/04/20: revise the post by making it clearer and more coherent and changing the title
     * 29/08/19: original post
