@@ -132,7 +132,7 @@ By Mark Twain:
 * Doing great science pretty much requires building a personal brand. To do so, you need to establish a few things: do good science, smart, have a point of view and vision for the field, and people should read your work and listen to you.  
 * Be wise in the following aspects:
     * Knowing that several wise life decisions can change your fate; similarly several unwise decisions might slow you down significantly. Thus, be considerate and wise in making important decisions. 
-    * To practice making wise decisions, start with the following practice: practice to start with a goal/vision/point of view for your field. This will make you stand out of the herd and guide you to valuable resources that you would otherwise not recognize. 
+    * To practice making wise decisions, start with the following practice: (i) Baby excercise: Start with a goal, a vision or a point of view when doing a research project, (ii) Big excercise: start with a goal, a vision, or a point of view for the field. This will make you stand out of the herd and guide you to valuable resources that you would otherwise not recognize. 
     * Being calm and allowing enough time for important decisions also work.
     * Be humble and charming but don't be afraid of authority. 
 
