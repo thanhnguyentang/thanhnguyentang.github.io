@@ -135,6 +135,7 @@ By Mark Twain:
     * To practice making wise decisions, start with the following practice: (i) Baby excercise: Start with a goal, a vision or a point of view when doing a research project, (ii) Big excercise: start with a goal, a vision, or a point of view for the field. This will make you stand out of the herd and guide you to valuable resources that you would otherwise not recognize. 
     * Being calm and allowing enough time for important decisions also work.
     * Be humble and charming but don't be afraid of authority. 
+    * Knowing that's important and what's not to allocate resources accordingly is an important wisdom skill. That said, don't be afraid to say no. 
 
 <!-- # 5 rules to make an actual progress 
 * Think hard   
