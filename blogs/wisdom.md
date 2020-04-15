@@ -130,6 +130,11 @@ By Mark Twain:
     * It provides a rigorous analysis and experiments to support the mental idea.  
 
 * Doing great science pretty much requires building a personal brand. To do so, you need to establish a few things: do good science, smart, have a point of view and vision for the field, and people should read your work and listen to you.  
+* Be wise in the following aspects:
+    * Knowing that several wise life decisions can change your fate; similarly several unwise decisions might slow you down significantly. Thus, be considerate and wise in making important decisions. 
+    * To practice making wise decisions, start with the following practice: practice to start with a goal/vision/point of view for your field. This will make you stand out of the herd and guide you to valuable resources that you would otherwise not recognize. 
+    * Being calm and allowing enough time for important decisions also work.
+    * Be humble and charming but don't be afraid of authority. 
 
 <!-- # 5 rules to make an actual progress 
 * Think hard   
@@ -140,5 +145,6 @@ By Mark Twain:
 
 -------------------------------
     Update:
+    * 15/04/20: Discussion about "being wise"
     * 13/04/20: Add "building a brand" for doing great science. 
     * 06/09/19: Add more heuristics to the search for the innovative areas

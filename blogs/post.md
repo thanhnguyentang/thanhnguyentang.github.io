@@ -21,7 +21,7 @@ Maximum entropy sampler: Random notes on random topics (the topic mode is at app
 * 08/08/19: [MDP basics.](/blogs/mdp)
 <!-- * 06/08/19: [Concentration Inequalities.](/blogs/concentration_ineq) -->
 * 05/08/19: [Actor-Critic Variants and Recursion-Preserving Principle for Incremental Learning.](/blogs/ac_variants)
-* 03/08/19: [Wisdom in MLAI.](/blogs/wisdom) (*LAST UPDATED: 13/04/20*)
+* 03/08/19: [Wisdom in MLAI.](/blogs/wisdom) (*LAST UPDATED: 15/04/20*)
 * 28/07/19: [Garner hype circle of your Ph.D.](/blogs/hype_circle)
 * 22/07/19: [Lagrangian.](/blogs/lagrangian)
 * 22/07/19: [Actor-Critic: Using relative returns to properly scale policy gradients.](/blogs/actor_critic) 
