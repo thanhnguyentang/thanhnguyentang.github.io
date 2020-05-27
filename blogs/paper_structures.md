@@ -75,6 +75,42 @@ I here provide some example expressions used to make a claim for research idea i
 * We address the problem of [the problem of interest].  
 * We demonstrate the effectiveness of our proposed methods in various experimental settings. 
 
+
+## 7. Troubling trends in machine learning scholarship 
+**Disclaimer: This section is summarized (many times using the same wording) from [11]. This section is on progress.
+
+* Determining which knowledge warrants inquiry is subjective 
+* Most valueable papers to community: act in service of the readers by creating foundational knowledge and communicating as clearly as possible  
+* Desirable characteristics of most valuable papers:
+    * Provide intuition to aid the reader's understanding 
+    * But distinguish between intuition and stronger conclusions supported by evidence 
+    * Describe empirical investigations that consider and rule out alternative hypothesis 
+    * Make clear the relationship beween theoretical analysis and intuitive or empirical claims 
+    * Use language to empower the reader, choosing terminology to avoid misleading or unproven connotations, collisions with other definitions, or conflaction with other related but distinct concepts 
+
+* Some troubling trends that departs from the desirable characteristics described above:
+    * Fail to distinguish between explanation and speculation 
+    * Fail to identify the source of empirical gains 
+    * Mathiness: Use mathematics to obsfuscate or impress rather than clarify 
+    * Misuse of language: e.g., overloading established technical terms. 
+
+* Possible causes:
+    * the often-misaligned incentives between scholarship and short-term measures of success (e.g., bibliometrics, attention, and entrepreneurial opportunity) 
+
+
+* How to combat these troubling trends: 
+    * Communicate more precise information with greater clarity -> accelerate research, reducing the on-boarding time for new researchers, and play a more constructive role in the public discourse. 
+    * Science is self-discipline: we need to criticize ourselves 
+    * Promoting clear scientific thinking and communication can sustain the trust and investment we currently have. 
+
+
+* Explanation vs speculation:
+    * New research areas often require intuitions for exploration before they have formal representations 
+    * Speculation: to communicate intuitions that might not yet be scientifically scrutinized 
+    * Avoid speculation disguised as explanations
+    * Separate speculation from explanation by e.g. putting it in "Motivation" section where we can freely express informal ideas 
+    * Carefully convey uncertainty by saying e.g. something can be challenged and is not formally validated. 
+
 # References 
 
 [1] [Action-dependent control variates for policy gradient via Stein's Identity](https://arxiv.org/abs/1710.11198)  
@@ -86,10 +122,12 @@ I here provide some example expressions used to make a claim for research idea i
 [7] [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf) 
 [8] [Riemann Stein Variational Gradient Descent](https://arxiv.org/abs/1711.11216)  
 [9] [The equivalence between Stein variational gradient descent and black-box variational inference](https://arxiv.org/abs/2004.01822)  
-[10] [Probability Functional Descent: A Unifying Perspective on GANs, Variational Inference, and Reinforcement Learning](https://arxiv.org/abs/1901.10691)
+[10] [Probability Functional Descent: A Unifying Perspective on GANs, Variational Inference, and Reinforcement Learning](https://arxiv.org/abs/1901.10691)   
+[11] [Troubling Trends in Machine Learning Scholarship](https://arxiv.org/abs/1807.03341)
 
 -------------------------
     Update: 
+    * 27/05/20: Add 'troubling trends in ML scholarship' discussion
     * 14/04/20: Add 'claim structure' discussion
     * 13/04/20: revise the post by making it clearer and more coherent and changing the title
     * 29/08/19: original post

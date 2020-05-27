@@ -17,7 +17,7 @@ Maximum entropy sampler: Random notes on random topics (the topic mode is at app
 * 30/10/19: [Q-learning is provably efficient.](/blogs/q_learning_provable)
 * 11/10/19: [A running note on measure theory.](/blogs/measure_theory)
 * 20/09/19: [On patterned ways of thinking.](/blogs/rand_great)
-* 18/08/19: [On some structures in the evolution of research idea in ML.](/blogs/paper_structures) (*LAST UPDATED: 14/04/20*)
+* 18/08/19: [On some structures in the evolution of research idea in ML.](/blogs/paper_structures) (*LAST UPDATED: 27/05/20*)
 * 08/08/19: [MDP basics.](/blogs/mdp)
 <!-- * 06/08/19: [Concentration Inequalities.](/blogs/concentration_ineq) -->
 * 05/08/19: [Actor-Critic Variants and Recursion-Preserving Principle for Incremental Learning.](/blogs/ac_variants)
