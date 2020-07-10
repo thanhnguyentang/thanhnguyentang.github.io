@@ -8,8 +8,10 @@ Maximum entropy sampler: Random notes on random topics (the topic mode is at app
 
 <!-- A collection of my notes drafted for various topics that I have investigated. I try the best to be self-contained when possible. A new blog post every week with probability of $1/3$. Most posts are in RL, Variational Inference and Information Theory with the goal in mind that they must be both *empirically* and *theoretically* insightful. Some are perspectives and insights about research per se.  -->
 
-<!-- * 16/02/20: [A distributional perspective on learning.](/blogs/distributional) -->
+<!-- * 16/02/20: [A distributional perspective on learning.](/blogs/distributional) --> 
 
+
+* 11/07/20: [MLSS 2020 Note.](/blogs/mlss20.pdf)  
 * 12/04/20: [A Note on  Amortila et al. "A Distributional Analysis of Sampling-based RL Algorithms".](/blogs/distributional_analysis)
 * 02/02/20: [Roadmap.](/blogs/read_map)
 * 21/01/20: [Paradigm shift.](/blogs/paradigm_shift)
