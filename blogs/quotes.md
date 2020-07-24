@@ -11,5 +11,6 @@ title: Favourite quotes
 * Understand the problem, understand the data, understand the objective, select good notation, and write down everything you know. (Terence Tao) 
 * We are what we repeatedly do. Excellence, then, is not an act but a habit. (Aristotle)  
 * What is unseen is not necessarily unknown. (Wendelessen)  
-* What really matters [in terms of the mearning of life] is trying to understand right questions to ask. (Elon Musk)
+* What really matters [in terms of the mearning of life] is trying to understand right questions to ask. (Elon Musk)  
+* Take pride in your decisions and hard work, not in you gifts [Celebrate your gifts]. (Jeff Bezos)
 
