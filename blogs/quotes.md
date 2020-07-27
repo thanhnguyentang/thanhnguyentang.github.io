@@ -12,5 +12,6 @@ title: Favourite quotes
 * We are what we repeatedly do. Excellence, then, is not an act but a habit. (Aristotle)  
 * What is unseen is not necessarily unknown. (Wendelessen)  
 * What really matters [in terms of the mearning of life] is trying to understand right questions to ask. (Elon Musk)  
-* Take pride in your decisions and hard work, not in you gifts [Celebrate your gifts]. (Jeff Bezos)
+* Take pride in your decisions and hard work, not in you gifts [Celebrate your gifts]. (Jeff Bezos)  
+* Study whatever you think interesting and do not worry about whether it is serious enough, don't care about what other people think about you. (modified from John Conway)
 
