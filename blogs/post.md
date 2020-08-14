@@ -18,7 +18,6 @@ Maximum entropy sampler: Random notes on random topics (the topic mode is at app
 * 21/01/20: [Paradigm shift.](/blogs/paradigm_shift)
 * 18/01/20: [My favourite quotes.](/blogs/quotes)
 * 30/10/19: [Q-learning is provably efficient.](/blogs/q_learning_provable)
-* 11/10/19: [A running note on measure theory.](/blogs/measure_theory)
 * 20/09/19: [On patterned ways of thinking.](/blogs/rand_great)
 * 18/08/19: [On some structures in the evolution of research idea in ML.](/blogs/paper_structures) (*LAST UPDATED: 27/05/20*)
 * 08/08/19: [MDP basics.](/blogs/mdp)

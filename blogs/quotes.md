@@ -14,5 +14,6 @@ title: Favourite quotes
 * What really matters [in terms of the mearning of life] is trying to understand right questions to ask. (Elon Musk)  
 * Take pride in your decisions and hard work, not in you gifts [Celebrate your gifts]. (Jeff Bezos)  
 * Study whatever you think interesting and do not worry about whether it is serious enough, don't care about what other people think about you. (modified from John Conway)  
-* Sustainable success = genuine passion + several wise decisions + extradionary persistence. (My own formula)
+* Sustainable success = genuine passion + several wise decisions + extradionary persistence. (My own formula)  
+* When the motivation and determination are strong enough, you will work harder, make wiser choices, and ultimately achieve what other people have achieved. 
 
