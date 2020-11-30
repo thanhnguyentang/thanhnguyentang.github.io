@@ -27,6 +27,12 @@
             //-->
         </SCRIPT> 
         <title>thanhnguyentang</title>
+
+        <style>
+            p {
+              text-align: left;
+            }
+            </style>
     </head>
     
     <style type="text/css">
@@ -55,6 +61,85 @@
                             <b>Dec. 01, 2020:</b> 
                             <a href="https://www.socml.org/schedule.html">SOCML 2020</a>
                         </li> -->
+
+                        <li>  
+                            <p id="demo">
+                            
+                            <script>
+                            // Set the date we're counting down to
+
+                            var countDownDate = new Date("Aug 18, 2021 00:00:00").getTime();
+                            
+                            // Update the count down every 1 second
+                            var x = setInterval(function() {
+                            
+                              // Get today's date and time
+                              var now = new Date().getTime();
+                            
+                              // Find the distance between now and the count down date
+                              var distance = countDownDate - now;
+                            
+                              // Time calculations for days, hours, minutes and seconds
+                              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                            
+                              // Display the result in the element with id="demo"
+                              document.getElementById("demo").innerHTML = "<b>Aug. 18 – Dec. 17, 2021</b> (" + days + "d " + hours + "h "
+                              + minutes + "m " + seconds + "s): " 
+                              + "Geometric Methods in Optimization and Sampling <a href='https://simons.berkeley.edu/programs/gmos2021'>Program</a> by Simons Institute, UC Berkeley.";
+                            
+                              // If the count down is finished, write some text
+                              if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("demo").innerHTML = "EXPIRED";
+                              }
+                            }, 1000);
+                            </script>
+                            </p>
+
+                        </li>
+                        <li>  
+                            <p id="si">
+                            
+                            <script>
+                            // Set the date we're counting down to
+
+                            var countDownDate = new Date("Aug 18, 2021 00:00:00").getTime();
+                            
+                            // Update the count down every 1 second
+                            var x = setInterval(function() {
+                            
+                              // Get today's date and time
+                              var now = new Date().getTime();
+                            
+                              // Find the distance between now and the count down date
+                              var distance = countDownDate - now;
+                            
+                              // Time calculations for days, hours, minutes and seconds
+                              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                            
+                              // Display the result in the element with id="demo"
+                              document.getElementById("si").innerHTML = "<b>Aug. 18 – Dec. 17, 2021</b> (" + days + "d " + hours + "h "
+                              + minutes + "m " + seconds + "s): " 
+                              + "Computational Complexity of Statistical Inference <a href='https://simons.berkeley.edu/programs/si2021'>Program</a> by Simons Institute, UC Berkeley.";
+                            
+                              // If the count down is finished, write some text
+                              if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("si").innerHTML = "HAPPENING";
+                              }
+                            }, 1000);
+                            </script>
+                            </p>
+
+                        </li>
+
+  
                         
                         <li>
                             <b>Nov. 30-Dec. 4, 2020:</b> 
