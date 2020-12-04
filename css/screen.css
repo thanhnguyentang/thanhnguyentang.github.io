@@ -1,7 +1,7 @@
 /* primary elements */
 body {background-color:#CCCCCC}
-body > div  {font-family:'Helvetica',sans-serif; 
-	font-size:95%; 
+body > div  {font-family:'Times New Roman', Times, serif; 
+	font-size:90%; 
 	padding:10px; 
 	max-width: 1000px; 
 	margin-left: auto; 
@@ -67,9 +67,9 @@ a.noteref { font-size: 0.7333em; vertical-align: super; }
 #notes > li > p { display: inline; }
 
 /* images */
-p img { float: right; padding-left: 1em; }
+p img { float: right; padding-left: 1em; max-width: 100%; max-height: 100%}
 div.image { text-align: center; margin: 2em; max-width: 30%; width: 100%; }
-div.image img{ border: thin solid #ccc; padding: 2px; }
+div.image img{ border: thin solid #ccc; padding: 2px;  max-width: 100%; max-height: 100%}
 div.image p { margin:0 }
 div.image p strong{ display: table }
 
