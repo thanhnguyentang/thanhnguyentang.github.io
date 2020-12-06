@@ -234,7 +234,44 @@
 
                         </li>
 
-  
+                        
+                        <li>
+                            <p id="highdim">
+                            
+                                <script>
+                                // Set the date we're counting down to
+    
+                                var countDownDate_highdim = new Date("Dec 14, 2020 00:00:00").getTime();
+                                
+                                // Update the count down every 1 second
+                                var x = setInterval(function() {
+                                
+                                  // Get today's date and time
+                                  var now = new Date().getTime();
+                                
+                                  // Find the distance between now and the count down date
+                                  var distance = countDownDate_highdim - now;
+                                
+                                  // Time calculations for days, hours, minutes and seconds
+                                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                                
+                                  // Display the result in the element with id="demo"
+                                  document.getElementById("highdim").innerHTML = "<b>Feb. 14 – 18, 2020</b> (" + days + "d " + hours + "h "
+                                  + minutes + "m " + seconds + "s): " 
+                                  + "Learning and Testing in High Dimensions <a href='https://simons.berkeley.edu/workshops/hd-2020-3'>workshop</a> by Simons Institute, UC Berkeley.";
+                                
+                                  // If the count down is finished, write some text
+                                  if (distance < 0) {
+                                    clearInterval(x);
+                                    document.getElementById("highdim").innerHTML = "HAPPENING";
+                                  }
+                                }, 1000);
+                                </script>
+                                </p>
+                        </li>
                         
                         <li>
                             <b>Nov. 30-Dec. 4, 2020:</b> 
@@ -252,10 +289,6 @@
                     <div class='event' style='background-color:#F0DEDA'>
                         <ul style="padding-left: 14px;">
 
-                            <li>
-                                <b>Nov. 16-20, 2020:</b> 
-                                Learning and Testing in High Dimensions <a href="https://simons.berkeley.edu/workshops/hd-2020-3">workshop</a> by Simons Institute, UC Berkeley.
-                            </li>
 
                             <li>
                                 <b>Oct. 19-23, 2020:</b>
