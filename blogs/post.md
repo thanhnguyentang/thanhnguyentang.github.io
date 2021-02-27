@@ -10,7 +10,7 @@ Maximum entropy sampler: Random notes on random topics (the topic mode is at app
 
 <!-- * 16/02/20: [A distributional perspective on learning.](/blogs/distributional) --> 
 
-
+* 27/02/21: [A Minimal Note on Statistical Foundations of Modern Machine Learning.](/blogs/slt.pdf)  
 * 07/08/20: [Convergences of random variables.](/blogs/convergences_of_rvs)  
 * 11/07/20: [MLSS 2020 Note.](/blogs/mlss20.pdf)  
 * 12/04/20: [A Note on  Amortila et al. "A Distributional Analysis of Sampling-based RL Algorithms".](/blogs/distributional_analysis)
