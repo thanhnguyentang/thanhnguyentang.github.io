@@ -1,0 +1,11 @@
+I"•<p><a href="/">[Back Home]</a>  <a href="/blogs/post">[Back to Blog]</a></p>
+
+<p>Reframing (part of) a learning problem as learning and optimization over the space of probability distributions. 
+Here are some important papers to start with:</p>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/1701.07875">Wasserstein GAN</a> (minimax)</li>
+  <li><a href="https://arxiv.org/abs/1707.06887">Distributional reinforcement learning</a> (still, minimax)</li>
+  <li><a href="https://arxiv.org/pdf/2002.04766v1.pdf">Distribution-Agnostic Model-Agnostic Meta-Learning</a> (minimax on the space of probability distributions or distributionally robust optimization)</li>
+</ul>
+:ET

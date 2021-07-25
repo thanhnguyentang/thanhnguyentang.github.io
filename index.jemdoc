@@ -1,0 +1,87 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+= Thanh Nguyen-Tang
+Postdoctoral Researcher \n
+[https://a2i2.deakin.edu.au/ Applied AI Institute (A$^2$I$^2$)] \n 
+Deakin University, Australia \n 
+Email: /nguyent2792/ \[AT\] gmail \[DOC\] com 
+
+I am currently a postdoctoral researcher of the Applied AI Institute at Deakin University. 
+Prior to that, I was a PhD student at Deakin University from Jan 2019 to Jul 2021, 
+was a researcher at Ulsan National University of Science and Technology (UNIST) from Mar 2018 to Dec 2019, 
+and obtained my Master at UNIST in 2018. \n
+
+
+~~~
+I work on machine learing with the goal of 
+developing advanced data-driven machine learning and statistical methods for 
+learning and reasoning in complex, structured models over large, structured datasets. 
+In particular, I am interested in improving statistical efficiency and generalization 
+beyond i.i.d. setting of machine and reinforcement learning systems via imposing\/exploiting 
+minimal structural inductive biases. 
+Currently, I focus on: (i) (offline) RL theory (with neural function approximation), and (ii) robust generalization beyond i.i.d. setting,
+(iii) ML applications.  
+~~~
+
+
+I publish under Thanh Tang Nguyen (old name arrangement) and Thanh Nguyen-Tang (new one). 
+Here are my latest [thanhnguyentang.github.io CV], 
+[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar], 
+[https://www.semanticscholar.org/author/Thanh-Nguyen-Tang/1490490191?sort=pub-date Semantic Scholar], 
+[https://github.com/thanhnguyentang Github],
+[https://twitter.com/thanhnguyentang Twitter] . 
+
+
+== Latest News 
+- \[Jul 8, 2021\] A short version of our work have been accepted to the ICML Workshop on Reinforcement Learning Theory 2021.
+- \[Jul 1, 2021\] I start my postdoc at A$^2$I$^2$, Deakin University after submitting my Ph.D. thesis in 24 Jun. 
+- \[May 20, 2021\] I have been accepted to the Deep Learning Theory Summer School at Princeton, acceptance rate: 180/500 = 36%.
+
+== Publications 
+- [https://arxiv.org/abs/2103.06671 Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks] \n
+*Thanh Nguyen-Tang*, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n
+/ICML Workshop on Reinforcement Learning Theory/, 2021 \n
+\[[https://thanhnguyentang.github.io/assets/offrelu.pdf Slides]] \[[https://www.youtube.com/watch?v=xLM5pondWY4 Talk]]
+- [https://ojs.aaai.org/index.php/AAAI/article/view/17104 Distributional Reinforcement Learning via Moment Matching]\n 
+*Thanh Nguyen-Tang*, Sunil Gupta, Svetha Venkatesh \n 
+/AAAI/, 2021 \n
+\[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl Code]]
+\[[https://cutt.ly/fkkiAGm Slides]] 
+\[[https://cutt.ly/4kkiJZt Poster]] \[[https://youtu.be/1fMqZZjy84E Talk]]
+- [http://proceedings.mlr.press/v108/nguyen20a.html Distributionally Robust Bayesian Quadrature Optimization]\n 
+*Thanh Tang Nguyen*, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh\n 
+/AISTATS/, 2020 \n 
+\[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo Code]]
+\[[https://thanhnguyentang.github.io/assets/aistats20_drbqo.pdf Slides]] 
+\[[https://slideslive.com/38930124/ Talk]]
+- [https://doi.org/10.3390/e21100976 Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks]\n
+*Thanh Tang Nguyen*, Jaesik Choi\n
+/Entropy/, 21(10), 976, 2019 \n 
+\[[https://github.com/thanhnguyentang/pib Code]]
+- [https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space Bayesian Optimization with Unknown Search Space]\n
+Huong Ha, Santu Rana, Sunil Gupta, *Thanh Tang Nguyen*, Hung Tran-The, Svetha Venkatesh \n
+/NeurIPS/, 2019 \n
+\[[https://github.com/HuongHa12/BO_unknown_searchspace Code]]
+\[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ Poster]]
+
+=== Preprints 
+- [https://thanhnguyentang.github.io/ Neural Offline Contextual Bandits: Pessimistic Exploitation and Generalization] \n 
+*Thanh Nguyen-Tang*\n 
+/In preparation/, 2021
+
+- [https://thanhnguyentang.github.io/ Combining Online Learning and Offline Learning for Contextual Bandits with Deficient Support]\n
+Hung Tran-The, Sunil Gupta, *Thanh Nguyen-Tang*, Santu Rana, Svetha Venkatesh \n 
+/Under review/, 2021
+
+=== Dissertations 
+- [https://thanhnguyentang.github.io/ On Practical Considerations of Reinforcement Learning: Provable Robustness, Scalability and Statistical Efficiency]\n 
+/Ph.D. dissertation/, Deakin University, Australia, July 2021
+
+- [http://scholarworks.unist.ac.kr/handle/201301/23561 Parametric Information Bottleneck to Optimize Stochastic Neural Networks]\n
+/Master Thesis/, Ulsan National University of Science and Technology, South Korea, 2018\n
+\[[https://thanhnguyentang.github.io/assets/PIB_thesis_slide.pdf Slides]] \[[https://www.youtube.com/watch?v=md9qV4Hrgbo&t=378s Talk]]
+
+
+== Services 
+- Invited reviewer: /ICML/ (2021), /NeurIPS/ (2020, 2021), 
+/ICLR/ (2021 - *outstanding reviewer award*, 2022), /AAAI/ (2021 - PC), 
+/AISTATS/ (2021).

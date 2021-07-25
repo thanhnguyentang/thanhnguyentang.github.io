@@ -1,0 +1,106 @@
+I"i<p><a href="/">[Back Home]</a>  <a href="/blogs/post">[Back to Blog]</a></p>
+
+<h1 id="constrained-minimization">Constrained minimization</h1>
+<p>Consider the constrained minimization:</p>
+
+\[\label{eq:primal}
+\min_{x \in \mathcal{X} \subset \mathbb{R}^n } f(x) \\
+\text{s.t. } h_i(x) \leq 0, \forall 1 \leq i \leq m, \\
+l_j(x) = 0, \forall 1 \leq j \leq k.\]
+
+<ul>
+  <li>(Definition) The <strong>Lagrangian</strong>:</li>
+</ul>
+
+\[L(x,u,v) = f(x) + \sum_{i=1}^m u_i h_i(x) + \sum_{j=1}^k v_j l_j(x).\]
+
+<ul>
+  <li>(Definition) The <strong>Lagrangian dual function</strong>:</li>
+</ul>
+
+\[g(u,v) := \min_{x \in \mathcal{X}} L(x,u,v).\]
+
+<ul>
+  <li>(Definition) The <strong>dual problem</strong>:</li>
+</ul>
+
+\[\label{eq:dual}
+\max_{u \in \mathbb{R}_{+}^n, v \in \mathbb{R}^m} g(u,v).\]
+
+<ul>
+  <li>(Definition &amp; Theorem) The <strong>duality gap</strong>:  Given primal feasible $x$ and dual feasible $u,v$, the duality gap $\Delta(x,u,v)$ (defined below) between $x$ and $u,v$ satisfies:</li>
+</ul>
+
+\[\Delta(x,u,v) := f(x) - g(u,v) \geq f(x) - f^* \geq 0\]
+
+<p>where $f^{* }$ is the primal optimal value of problem $(\ref{eq:primal})$. The non-negativity of the dualty gap also implies <strong>weak duality</strong>, i.e., $f^{* } \geq g^*$ where $g^{ * }$ is the dual optimal value of the dual problem $(\ref{eq:dual})$.</p>
+
+<p><em>Proof</em>:</p>
+
+\[g(u, v) = \min_{x' \in \mathcal{X}} L(x', u, v) \leq L(x^*, u, v) \leq f(x^*) \leq f(x).\]
+
+<ul>
+  <li>
+    <p>(Definition) <strong>Strong duality</strong>: It is said that the strong duality holds if $f^* = g^*$.</p>
+  </li>
+  <li>
+    <p>(Theorem) Slater’s condition (a sufficient condition for strong duality):</p>
+  </li>
+</ul>
+
+\[\label{eq:Slater}
+(f \text{ is convex}) \land (h_i \text{ is convex } \forall 1 \leq i \leq m) \land (l_j \text{ is affine } \forall 1 \leq j \leq k) \land (\exists x : h(x) &lt; 0, l(x) = 0) \implies f^* = g^*\]
+
+<p><em>Side note #1</em>: Slater’s condition is a sufficient condition for strong duality. There might be many other conditions for strong duality (e.g., $f$ is quadratic convex, $h_i$ and $l_j$ are affine).</p>
+
+<ul>
+  <li>(Theorem) Zero duality gap implies strong duality:</li>
+</ul>
+
+\[\Delta(x,u,v) = 0 \implies f^* = g^*.\]
+
+<ul>
+  <li>(Definition) The Karush-Kuhn-Tucker conditions or <strong>KKT conditions</strong> for the primal problem $(\ref{eq:primal})$:
+    <ul>
+      <li>
+        <p><em>Stationality</em>:</p>
+
+\[0 \in \partial_{x} L(x,u,v)\]
+      </li>
+      <li>
+        <p><em>Complementary slackness</em>:</p>
+
+\[u_i h_i(x) = 0, \forall i\]
+      </li>
+      <li>
+        <p><em>Primial feasibility</em>:</p>
+
+\[h_i(x) \leq 0, l_j(x) = 0, \forall i,j\]
+      </li>
+      <li>
+        <p><em>Dual feasibility</em>:</p>
+
+\[u_i(x) \geq 0, \forall i\]
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>(Theorem) The relationship between the KKT conditions and the primal and dual problems:</p>
+
+    <ul>
+      <li>
+        <p>Nessesary conditions: if $x^{* }$ and $u^{* }, v^{* }$ are primal and dual solutions, and if the strong duality holds, then $x^{* }, u^{* }, v^{*}$ satisfies the KKT conditions.</p>
+      </li>
+      <li>
+        <p>Sufficient conditions: if $x^{* }, u^{* }, v^{* }$ satisfies the KKT conditions, then $ x^{* }$ and $u^{* }, v^{* }$ are primal and dual solutions.</p>
+      </li>
+    </ul>
+  </li>
+  <li>Important implication: If the strong duality holds (e.g., the Slater’s condition in $(\ref{eq:Slater})$ is met), instead of directly solving the primal problem in $(\ref{eq:primal})$, we only need to solve the KKT conditions. For example, Tishby uses this technique to derive for a solution of the <a href="https://arxiv.org/abs/physics/0004057">Information Bottleneck method</a>.</li>
+</ul>
+
+<h1 id="reference">Reference</h1>
+<p>[1] https://www.cs.cmu.edu/~ggordon/10725-F12/slides/16-kkt.pdf <br />
+[2] https://people.seas.harvard.edu/~yaron/AM221-S16/lecture_notes/AM221_lecture12.pdf</p>
+
+:ET

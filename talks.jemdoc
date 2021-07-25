@@ -1,0 +1,10 @@
+# jemdoc: menu{MENU}{talks.html}, nofooter
+==Talks/Poster Presentations
+
+- \[Jul 25, 2021\] Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks at ICML Workshop on Reinforcement Learning Theory.
+- \[Jul 7-15, 2021\] Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks at EEML'21, Budapest, Hungary.
+- \[Apr 25, 2021\] On Finite-Sample Analysis of Batch Reinforcement Learning with Deep ReLU Networks at Viet.Operator.Theorists.
+- \[Feb 5, 2021\] Distributional Reinforcement Learning via Moment Matching at AAAI 2021, Vancouver, Canada.
+- \[Aug 26-28, 2020\] Distributionally Robust Bayesian Quadrature Optimization at AISTATS 2020, Palermo, Italy
+- \[Jun 28-Jul. 10, 2020\] Moment Matching Reinforcement Learning at MLSS 2020, Max Planck Institute for Intelligent Systems, Tübingen, Germany
+- \[Nov 2-7, 2017\] Parametric Information Bottleneck to Optimize Stochastic Neural Networks at PACS 2017, SNU, Seoul, Korea (Best Poster Award)

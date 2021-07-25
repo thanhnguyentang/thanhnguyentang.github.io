@@ -1,0 +1,211 @@
+I"G.<p><a href="/">[Back Home]</a>  <a href="/blogs/post">[Back to Blog]</a></p>
+
+<h1 id="summary">Summary</h1>
+<blockquote>
+
+  <ul>
+    <li>An overview of actor-critic variants: REINFORCE, REINFORCE with baseline, Advantage Actor-Critic, TRPO.</li>
+    <li>The recursion-preserving principle for incremental learning.</li>
+    <li>The main goal in TRPO and PPO is to penalize the aggressive change in policy which works very well in practice. TRPO does so via KL constraint while PPO does so via policy density clipping with multiple epochs of updates on the sampled data.</li>
+    <li>Penalizing of the aggressive change in policy has link to  elastic weight consolidation (EWC) for preventing catastrophic forgetting within actor-critic framework.</li>
+  </ul>
+</blockquote>
+
+<p>You might feel overwhelmed by many incremental updates (e.g., TD learning, Q-learning, Monte Carlo gradien policy) in RL and might wonder if these incremental updates are arbitrary. As always,  it is a good idea to seek for something invariant when facing complex systems or ideas with many variants (on this point, check out <a href="https://www.youtube.com/watch?v=M64HUIJFTZM&amp;feature=youtu.be">3Blue1Brown’s video</a> as another example of how the mindset of <strong>“seeking invariance under variance”</strong> is useful). What’s invariant here is an implicit principle that I would like to dub as recursion-preserving principle for incremental update:</p>
+
+<h1 id="recursion-preserving-principle-for-incremental-learning-rpil">Recursion-preserving principle for incremental learning (RPIL)</h1>
+<blockquote>
+  <p>No matter which incremental update (e.g., TD learning, Q-learning, Monte Carlo gradien policy) you use (or wish to design), the principle is to make sure that the incremental update preserves the recursive relationship derived from Bellman equation. This is to make sure the resulting estimate is unbiased; thus, it would likely converge to the Bellman optimality.</p>
+</blockquote>
+
+<h1 id="monte-carlo-policy-gradient-reinforce">Monte Carlo Policy Gradient (REINFORCE):</h1>
+
+<ul>
+  <li>For each episode
+    <ul>
+      <li>Sample $\tau = (s_0, a_0, r_0, …, s_T, a_T, r_T)$ from $p(a|s, \theta)$</li>
+      <li>For $t = 0:T$ do
+        <ul>
+          <li>$G_t \leftarrow \sum_{i=0}^{T-t} \lambda^i r_{t+i} $</li>
+          <li>$ \theta \leftarrow \theta + \alpha \gamma^t G_t \nabla_{\theta} \log \pi(a_t | s_t, \theta) $</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="problems-with-pg">Problems with PG:</h3>
+<p>The underlying principle of PG is to update the policy towards the direction of the steepest ascent of the expected return. There are four potential (and indeed current) problems with that:</p>
+<ul>
+  <li>
+    <p>PG uses first-order derivative which is not good for a region with high curvature (the reason is that first-order derivative locally approximates a true region to be flat). Consequently, a region with locally flat area next to a high curvature can easily fool PG into making an aggressive update which falls off of the flat area into a significant drop in the expected return. This makes the training unstable. Second-order derivative is more informative about the curvature that the first-order derivative.</p>
+  </li>
+  <li>
+    <p>PG makes update only after a whole trajectory is observed. Using only return functions $G_t$ without value functions or Q-value functions, it does not make sense for PG to make an update when a whole trajectory is not fully observed yet (refer to the RPIL principle in the beginning of this post).</p>
+  </li>
+</ul>
+
+<h1 id="monte-carlo-policy-gradient-with-baseline">Monte Carlo Policy Gradient with baseline:</h1>
+
+<ul>
+  <li>For each episode
+    <ul>
+      <li>Sample $\tau = (s_0, a_0, r_0, …, s_T, a_T, r_T)$ from $p(a|s, \theta)$</li>
+      <li>For $t = 0:T$ do
+        <ul>
+          <li>$G_t \leftarrow \sum_{i=0}^{T-t} \lambda^i r_{t+i} $</li>
+          <li>$\delta_t = G_t - \hat{V}(s_t, w)$</li>
+          <li>$w \leftarrow w + \beta \delta_t \nabla \hat{V}_{w}(s_t, w)$</li>
+          <li>$ \theta \leftarrow \theta + \alpha \gamma^t \delta_t \nabla_{\theta} \log \pi(a_t | s_t, \theta) $</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="actor-critic-1-step">Actor-Critic (1-step):</h1>
+
+<ul>
+  <li>For each episode
+    <ul>
+      <li>For $t = 0:T$ do
+        <ul>
+          <li>Sample $a_t \sim p(a | s_t), r_t = R(s_t, a_t), s_{t+1} \sim p(s |s_t, a_t)$</li>
+          <li>$\delta = r_t + \gamma \hat{V}(s_{t+1}, w) - \hat{V}(s_t, w)$</li>
+          <li>$w \leftarrow w + \beta \delta \nabla \hat{V}_{w}(s_t, w)$</li>
+          <li>$ \theta \leftarrow \theta + \alpha \gamma^t \delta \nabla_{\theta} \log \pi(a_t | s_t, \theta) $</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="trust-region-policy-optimization-trpo">Trust-Region Policy Optimization (TRPO)</h1>
+
+<p><strong>Preliminaries</strong>: Please refer to  [4] for notations and MDP setting.</p>
+
+<ul>
+  <li>Advantage function:</li>
+</ul>
+
+\[A_{\pi}(s,a) = Q_{\pi}(s,a) - V_{\pi}(s).\]
+
+<ul>
+  <li>The expected discounted reward under policy $\pi$ is:</li>
+</ul>
+
+\[\label{eq:edr}
+J(\pi) = J(\theta) = \int d_{\pi}(s) V_{\pi}(s) ds = \mathbb{E}_{\tau \sim \pi } \left[ \sum_{t=0}^T \gamma^t r_t \right]\]
+
+<ul>
+  <li>Relating expected discounted reward of different policies</li>
+</ul>
+
+\[J(\pi) = J(\pi_{old}) + \mathbb{E}_{\tau \sim \pi} \left[ \sum_{t=0}^{\infty} \gamma^t A_{\pi_{old}}(s_t, a_t) \right] \\ 
+= J(\pi_{old}) + \sum_{s} \rho_{\pi}(s) \sum_{a} \pi(a|s) A_{\pi_{old}}(s,a) \\ 
+= J(\pi_{old}) + \mathbb{E}_{s \sim \rho_{\pi}, a \sim \pi} \left[ A_{\pi_{old}}(s,a) \right]\]
+
+<p>where $\rho_{\pi}(s)$ is the unormalized discounted visitation frequencies:</p>
+
+\[\rho_{\pi}(s) = \sum_{t=0}^{\infty} \gamma^t d_{\pi}(s_t = s).\]
+
+<ul>
+  <li>Local approximation to $J(\pi’)$</li>
+</ul>
+
+\[L_{\pi_{old}}(\pi) = J(\pi_{old}) + \mathbb{E}_{ \underset{\text{sample from } \pi_{old} \text{ instead of } \pi}{\boxed{s \sim \rho_{\pi_{old}}}}, a \sim \pi} \left[ A_{\pi_{old}}(s,a) \right]  \\ 
+= J(\pi_{old}) + \mathbb{E}_{s \sim \pi_{old}, a \sim q} \left[  \frac{\pi(a|s)}{q(a|s)} A_{\pi_{old}}(s,a) \right]\]
+
+<p>Really, the main objective $L_{\pi_{old}}(\pi)$ is actually similar to the objective in the advantage actor critic [4] (with some minor variants such as importance sampling and whether to use the advantage function, Q-function and the expected return $G_t$ in the place of $A_{\pi_{old}}(s,a)$).</p>
+
+<ul>
+  <li>TRPO problem</li>
+</ul>
+
+\[\boxed{
+\max_{\pi}   \mathbb{E}_{\pi_{old}} \left[ \frac{\pi_{\theta}(a|s)}{\pi_{old}(a|s)} \hat{A}_{old}(s,a) \right] \\
+\text{ subject to } \bar{D}_{KL}(\theta_{old} \| \theta) := \mathbb{E}_{s \sim \rho_{\pi_{old}}} \left[ D_{KL}\left[ \pi_{old}(.|s) \| \pi(.|s) \right]\right] \leq \delta. 
+}\]
+
+<p>Thus, the key conceptial contribution of TRPO is the idea of KL constraint on the policy to prevent it from making aggressive change far away from the previous policy.</p>
+
+<ul>
+  <li>Technically, more care is needed to handle the KL constraint in TRPO. The tecniques the original TRPO [5] uses are:
+    <ul>
+      <li>Idea: use linear approximation to the objective $L_{\pi_{old}}(\pi)$ and quadratic approximation to the KL constraint:</li>
+    </ul>
+
+\[\bar{D}_{KL}(\theta_{old} \| \theta) \approx \frac{1}{2} (\theta - \theta_{old})^T A (\theta - \theta_{old})\]
+
+    <p>where 
+  \(A_{ij} = \frac{\partial^2}{\partial \theta_i \partial \theta_j} \bar{D}_{KL}(\theta_{old} \| \theta)\)</p>
+
+    <ul>
+      <li>Compute the search direction $s \sim A^{-1} g$ (using conjugate gradient) where $g$ is the gradient of $J$.</li>
+      <li>Compute the maximal step length $\beta$ such that $\theta_{old} + \beta s$ still satisfies the KL constraint. Plugging this into the quadratic approximation of the KL, we can derive: $\beta_{max} = \sqrt{ 2 \delta / s^T A s}$. Then perform a line search in direction $\theta_{new} \leftarrow \theta_{old} + \beta s$ where $0 \leq \beta \leq \beta_{max}$ exponentially decays until the objective $L_{\theta_{old}}(\theta_{new})$ improves and $\theta_{new}$ satisfies the KL constraint.
+<!-- COMMENT: Why use conjugate gradient + line search while we can simply inporate the KL constraint as a regularizer? --></li>
+    </ul>
+  </li>
+  <li><strong>Comment</strong>: This idea of KL constraint (e.g., the quadratic approximation of the KL) in policy change is actually similar to using EWC (elastic weight consolidation) for overcoming catastrophic forgetting [6-7]. The idea is that for parameters that are important for an old task (here a task is about the actor doing a good job aganst the criticism from the critic), one should not change these parameters too much for the new task because we do not want the actor to catastrophically forget about handling the previous criticism as a result of handling the current criticism).</li>
+</ul>
+
+<h1 id="proximal-policy-optimization-ppo">Proximal Policy Optimization (PPO)</h1>
+
+<p>PPO [8] introduces further some technical ideas to improve TRPO:</p>
+
+<ul>
+  <li>
+    <p>Computing second-order optimization in TRPO is expensive, PPO uses only first-order optimization.</p>
+  </li>
+  <li>
+    <p>Explicitly penalizing aggressive change in policy via clipping:</p>
+  </li>
+</ul>
+
+\[L^{\texttt{CLIP}}(\theta) := \mathbb{E}_{\pi_{old}} \left[ \min \{ \frac{\pi_{\theta}(a|s)}{\pi_{old}(a|s)} \hat{A}_{old}(s,a), 
+\texttt{CLIP} \left(\frac{\pi_{\theta}(a|s)}{\pi_{old}(a|s)}, 1-\epsilon, 1+\epsilon  \right) \hat{A}_{old}(s,a)  \} \right]\]
+
+<ul>
+  <li>
+    <p>Sample the policy for some period, and perform several epochs of updates, instead of just one update in the sampled data.</p>
+  </li>
+  <li>
+    <p>Additionally relaxing the hard constraint in TRPO with adaptive $\beta$ (because clipping the policy already works quite well so might not need this contraint in practice with PPO)</p>
+  </li>
+</ul>
+
+\[J_{ppo}(\theta) = \mathbb{E}_{\pi_{old}} \left[ \frac{\pi_{\theta}(a|s)}{\pi_{old}(a|s)} Q^{\pi}(s,a) - \beta D_{KL} \left[ \pi_{old}(.|s) | \pi_{\theta}(.|s) \right] \right]\]
+
+<p>where we decrease $\beta$ if the KL distance is smaller than some threshold and increase it otherwise.</p>
+
+<ul>
+  <li>Practical PPO algorithm:
+    <ul>
+      <li>Run the policy to collect samples for $T$ timesteps where $T &lt; $ episode length.</li>
+      <li>Compute a truncated generalized advantage estimation: 
+  \(\hat{A}_t = \delta_t + (\gamma \lambda) \delta_{t+1} + ... + (\gamma \lambda)^{T-t+1} \delta_{T-1}\)</li>
+    </ul>
+
+    <p>where $\delta_t = r_t + \gamma V(s_{t+1}) - V(s_t)$ is the TD error.</p>
+
+    <ul>
+      <li>Update the first-order surrogate loss for $K$ epochs with minibatch size of $M$ on the sampled data.</li>
+    </ul>
+
+    <p><img src=".\figs\ac_variants/ppo.PNG" alt="" /><br />
+  Figure credit: [8]</p>
+  </li>
+</ul>
+
+<h1 id="references">References</h1>
+<p>[1] <a href="http://www.andrew.cmu.edu/course/10-703/">Deep Reinforcement Learning and Control Fall 2018, CMU 10703</a> <br />
+[2] https://medium.com/@jonathan_hui/rl-trust-region-policy-optimization-trpo-explained-a6ee04eeeee9 <br />
+[3] https://medium.com/@jonathan_hui/rl-proximal-policy-optimization-ppo-explained-77f014ec3f12 <br />
+[4] <a href="https://thanhnguyentang.github.io/blogs/actor_critic">https://thanhnguyentang.github.io/blogs/actor_critic</a> <br />
+[5] <a href="https://arxiv.org/pdf/1502.05477.pdf">Trust Region Policy Optimization</a> <br />
+[6] <a href="https://arxiv.org/pdf/1612.00796.pdf">Overcoming catastrophic forgetting in neural networks</a> <br />
+[7] <a href="https://arxiv.org/abs/1807.04015">On Catastrophic Forgetting in Generative Adversarial Networks</a><br />
+[8] <a href="https://arxiv.org/pdf/1707.06347.pdf">Proximal Policy Optimization Algorithms</a></p>
+
+<p>(work in progress)</p>
+:ET

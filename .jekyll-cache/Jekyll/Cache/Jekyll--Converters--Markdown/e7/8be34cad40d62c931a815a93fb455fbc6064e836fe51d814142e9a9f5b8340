@@ -1,0 +1,54 @@
+I"a	<p><a href="/">[Back Home]</a>  <a href="/blogs/post">[Back to Blog]</a></p>
+
+<p>This is not mine but just my summary of [1]. <strong>Caveat</strong>: Some points might not perfectly reflect the original ideas of the authors.</p>
+
+<ul>
+  <li>Keep the main message clear
+    <ul>
+      <li>Think about what message you want to tell your readers.</li>
+      <li>The paper tends to be rejected if the discussion is so weak.</li>
+      <li>Put the results in a global context to demonstrate their originality and significance.</li>
+    </ul>
+  </li>
+  <li>In the discussion
+    <ul>
+      <li>Speculation, e.g., future research needs to be explored, is ok, but not too much.</li>
+      <li>Explain why the findings are interesting and affect an understanding of the topic.</li>
+      <li>Convince the readers that your findings are robust and you have considered alternative explanations.</li>
+    </ul>
+  </li>
+  <li>Follow logical structure
+    <ul>
+      <li>In paragraph level, the first sentence for the context, the body for the new ideas, the final sentence for the conclusion.</li>
+      <li>In paper level, the introduction for the context, the results for the new content, and the discussion for the conclusion.</li>
+      <li>Focus the paper on one single key message.</li>
+      <li>Detail the problem: Why shoud I care about your experiments and results until you tell me why.</li>
+    </ul>
+  </li>
+  <li>State your case with confidence
+    <ul>
+      <li>State clearly “what’s new and compelling” and every section should support that one single key finding.</li>
+      <li>Don’t be turgid in statements.</li>
+      <li>Don’t muddy the science.</li>
+      <li>Don’t make the readers work hard to understand the conveyed idea.</li>
+    </ul>
+  </li>
+  <li>Aim for a wide audience
+    <ul>
+      <li>Make a clear, succint, declarative title.</li>
+      <li>Get to the point in the title.</li>
+    </ul>
+  </li>
+  <li>Other points
+    <ul>
+      <li>Recall that editors and peer reviewers are looking for results that are interesting and useful to the field.</li>
+      <li>The purpose of a scientific paper is to convey the findings.</li>
+      <li>Scientific writing is factual, concise and evidence-based.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Reference<br />
+[1] <a href="https://www.nature.com/articles/d41586-018-02404-4">How to write a first-class paper</a>. Nature . 2018.</p>
+
+:ET

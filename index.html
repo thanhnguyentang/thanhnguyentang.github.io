@@ -1,716 +1,169 @@
-
-<html>
-
-    <head>
-		 <script type="text/x-mathjax-config">
-			   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-		 </script>
-		 <script type="text/javascript"
-	     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-		 </script>
-        <meta charset="UTF-8"> 
-        <link rel="stylesheet" href='css/style3.css'>
-        
-        <SCRIPT TYPE="text/javascript"> 
-        function popup(mylink, windowname)
-        {
-            if (! window.focus)
-                return true;
-            var href;
-            if (typeof(mylink) == 'string')
-                href=mylink;
-            else
-                href=mylink.href;
-            window.open(href, windowname, 'width=750,height=300,scrollbars=yes');
-                return false;
-        }
-            //-->
-        </SCRIPT> 
-        <title>thanhnguyentang</title>
-
-        <style>
-            p {
-              text-align: left;
-            }
-            </style>
-    </head>
-    
-    <style type="text/css">
-    .journal { color: #117711; }
-    </style>
-    
-    <body>
-            <div>
-            <!--
-            <center>
-            <img src="images/banner.jpg" width=100%>
-            </center>
-            -->
-            
-            <div style='float:right; font-size:13px; width:254; padding:5px; margin:10px; margin-right:-5px; border-left:0px solid #000000'>
-
-                <center>
-                    <b>News</b>
-                </center>
-                
-                <div class='event'> 
-    
-                    <ul style="padding-left: 14px;">
-                    
-                    <li><b><font color="#000000">Jul 8, 2021: </font></b>
-                        A short version of our work have been accepted to the <a href="https://lyang36.github.io/icml2021_rltheory/">ICML Workshop on Reinforcement Learning Theory 2021</a>. 
-                    </li>
-
-                    <li><b><font color="#000000">May 20, 2021: </font></b>
-                        I have been accepted to the <a href="https://deep-learning-summer-school.princeton.edu/">Deep Learning Theory summer school</a> at Princeton, acceptance rate: 180/500 = 36%. 
-                    </li>
-
-                    <li><b><font color="#000000">May 15, 2021: </font></b>
-                        I have been accepted to <a href="https://www.eeml.eu/home">EEML'21</a> and selected to present a poster. 
-
-                    </li>
-                        <li>
-                            <b><font color="#000000">Mar 20, 2021: </font></b>
-                            I am awarded an outstanding reviewer for ICLR'21 with a free registration ticket. 
-                        </li>
-
-                        <li>
-                            <b><font color="#000000">Dec. 01, 2020: </font></b>
-                            One paper has been accepted to AAAI 2021 (with score: 8,7,7; acceptance rate: 21%). 
-
-                        </li>
-                        <li>
-                            <b><font color="#000000">Apr. 20, 2020: </font></b>
-                            I have been accepted to <a href="http://mlss.tuebingen.mpg.de/2020/index.html">MLSS 2020</a> at the Max Planck Institute for Intelligent Systems, Tübingen, Germany (acceptance rate: 13.84%). 
-                            Check out a list of amazing speakers <a href="http://mlss.tuebingen.mpg.de/2020/speakers.html">here</a>. 
-                            Check out my note of MLSS20 <a href="https://thanhnguyentang.github.io/blogs/mlss20.pdf">here</a>.
-                        </li>
-    
-                        <li>
-                            <b><font color="#000000">Jan. 07, 2020:</font></b>
-                            One paper 
-                            has been accepted to  <a href="https://www.aistats.org/"><b>AISTATS</b> 2020</a>.
-                        </li>
-    
-                        <li>
-                            <b><font color="#000000">Sep. 30, 2019:</font></b> 
-                            One manuscript on has been accepted to 
-                            <a href="https://www.mdpi.com/journal/entropy">Entropy journal</a>. 
-                            Special thanks to <a href="https://scholar.google.com/citations?user=LzQ2jAwAAAAJ&hl=en">Bernhard C. Geiger</a>
-                            for inviting us to contribute to Entropy.
-                        </li>
-    
-                        <li>
-                            <b><font color="#000000">Sep. 04, 2019:</font></b> 
-                            Our paper has been accepted to 
-                            
-                            <a href="https://neurips.cc/Conferences/2019/AcceptedPapersInitial"><b>NeurIPS</b> 2019</a>, congrats
-                            <a href="https://scholar.google.com.au/citations?user=Uf3o7_UAAAAJ&hl=en">Huong Ha</a>!
-                        </li>
-    
-                        <li>
-                            <b><font color="#000000">Jan. 16, 2019:</font></b> I started Ph.D. with <a href="https://a2i2.deakin.edu.au/">A2I2@Deakin</a> (Australia).
-                        </li>
-    
-                        <li>
-                            <b><font color="#000000">Nov. 20, 2017:</font></b> I defended my Master with A/Prof. J. Choi, A/Prof. <a href="http://bmipl.unist.ac.kr/">S. Y. Chun</a> and 
-                            Assistant Prof. <a href="https://junmoony.github.io/">J. Moon</a> (now at University of Seoul) at UNIST.
-                        </li>
-    
-                    </ul>
-                     
-                </div>
-
-            
-                <center>
-                <b>Upcoming Events</b>
-                </center>
-            
-                <div class='event' style='background-color:#EECCAA'>   
-                    <ul style="padding-left: 14px;">
-  
-
-                        <!-- <li>
-                            <b>Dec. 01, 2020:</b> 
-                            <a href="https://www.socml.org/schedule.html">SOCML 2020</a>
-                        </li> -->
-
-                        <li>  
-                            <p id="demo">
-                            
-                            <script>
-                            // Set the date we're counting down to
-
-                            var countDownDate = new Date("Aug 18, 2021 00:00:00").getTime();
-                            
-                            // Update the count down every 1 second
-                            var x = setInterval(function() {
-                            
-                              // Get today's date and time
-                              var now = new Date().getTime();
-                            
-                              // Find the distance between now and the count down date
-                              var distance = countDownDate - now;
-                            
-                              // Time calculations for days, hours, minutes and seconds
-                              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                            
-                              // Display the result in the element with id="demo"
-                              document.getElementById("demo").innerHTML = "<b>Aug. 18 – Dec. 17, 2021</b> (" + days + "d " + hours + "h "
-                              + minutes + "m " + seconds + "s): " 
-                              + "Geometric Methods in Optimization and Sampling <a href='https://simons.berkeley.edu/programs/gmos2021'>Program</a> by Simons Institute, UC Berkeley.";
-                            
-                              // If the count down is finished, write some text
-                              if (distance < 0) {
-                                clearInterval(x);
-                                document.getElementById("demo").innerHTML = "EXPIRED";
-                              }
-                            }, 1000);
-                            </script>
-                            </p>
-
-                        </li>
-
-                        <li>  
-                            <p id="si"></p>
-                            <script>
-                            // Set the date we're counting down to
-
-                            var countDownDate1 = new Date("Aug 18, 2021 00:00:00").getTime();
-                            
-                            // Update the count down every 1 second
-                            var x = setInterval(function() {
-                            
-                              // Get today's date and time
-                              var now = new Date().getTime();
-                            
-                              // Find the distance between now and the count down date
-                              var distance = countDownDate1 - now;
-                            
-                              // Time calculations for days, hours, minutes and seconds
-                              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                            
-                              // Display the result in the element with id="demo"
-                              document.getElementById("si").innerHTML = "<b>Aug. 18 – Dec. 17, 2021</b> (" + days + "d " + hours + "h "
-                              + minutes + "m " + seconds + "s): " 
-                              + "Computational Complexity of Statistical Inference <a href='https://simons.berkeley.edu/programs/si2021'>Program</a> by Simons Institute, UC Berkeley.";
-                            
-                              // If the count down is finished, write some text
-                              if (distance < 0) {
-                                clearInterval(x);
-                                document.getElementById("si").innerHTML = "HAPPENING";
-                              }
-                            }, 1000);
-                            </script>
-
-                        </li>
-                       
-                        <li>
-                            <b>Jul 27- Aug 4, 2021:</b> <a href="https://deep-learning-summer-school.princeton.edu/">Deep Learning Theory Summer School at Princeton</a>. 
-                        </li>
-
-                        <li>
-                            <b>July 7-15, 2021:</b> Eastern European Machine Learning Summer School (EEML). 
-                        </li>
-
-
-
-               
-    
-                    </ul>                            
-    
-                    
-                </div>
-                
-                <center>
-                    <b>Past Events</b>
-                    </center>
-
-                
-                    <div class='event' style='background-color:#F0DEDA'>
-                        <ul style="padding-left: 14px;">
-
-                            <li> 
-                                May 3-7: ICLR'21
-                            </li>  
-                                    
-                            <li>
-                                    Mar. 25 – Apr 9, 2021: <a href='https://rlvs.aniti.fr/'>ANITI's first Reinforcement Learning Virtual School</a>
-                            </li>
-            
-                           
-            
-
-                            <li>
-                                <b>Feb. 2 – 9, 2021: </b> 
-                              <a href='https://aaai.org/Conferences/AAAI-21/aaai21call/'>AAAI 21</a> in Vancouver, Canada.
-                            </li>
-
-                            <li>
-                                <b>Feb. 14 – 18, 2020: </b> 
-                                Learning and Testing in High Dimensions <a href='https://simons.berkeley.edu/workshops/hd-2020-3'>workshop</a> by Simons Institute, UC Berkeley.
-                                
-                            </li>
-
-                                                
-                            <li>
-                                <b>Nov. 30-Dec. 4, 2020:</b> 
-                                RL from Batch Data and Simulations <a href="https://simons.berkeley.edu/workshops/rl-2020-3">workshop</a> by Simons Institute, UC Berkeley.
-                            </li>
-
-
-                            <li>
-                                <b>Oct. 19-23, 2020:</b>
-                                Concentration of Measure Phenomena <a href="https://simons.berkeley.edu/workshops/hd-2020-2">workshop</a> by Simons Institute, UC Berkeley.
-                            </li>
-    
-                            <li>
-                                <b>Oct. 26-30, 2020:</b>
-                                Mathematics of Online Decision Making <a href="https://simons.berkeley.edu/workshops/rl-2020-2">workshop</a> by Simons Institute, UC Berkeley.
-                            </li>
-
-                            <li>
-                                <b>Sep. 28-Oct. 2, 2020:</b>
-                                Deep RL <a href="https://simons.berkeley.edu/workshops/rl-2020-1">Workshop</a> by Simons Institute, UC Berkeley. 
-                            </li>
-
-                            <li>
-                                <b>Aug. 31-Sep. 4, 2020:</b>
-                                Theory of RL <a href="https://simons.berkeley.edu/workshops/rl-2020-bc">BootCamp</a> by Simons Institute, UC Berkeley. 
-                            </li>
-                            
-                            <li>
-                                <b><strike>03-05/06/20</strike> Aug. 26-28, 2020:</b> 
-                                <a href="https://www.aistats.org/"><b>AISTATS</b> 2020</a> in Palermo, Sicily, Italy (postponed due to COVID-19).
-                            </li>
-                            
-                            <li>
-                                <b><font color="#000000">Jun. 28-Jul. 10, 2020:</font></b> 
-                                <a href="http://mlss.tuebingen.mpg.de/2020/index.html">MLSS 2020</a> at MPI-IS, Tübingen, Germany (virtually due to COVID-19). 
-                            </li>
-
-                            <li>
-                                <b><font color="#000000">Apr. 26-30, 2020:</font></b>
-                                What an (virtual) experience with the first-ever fully-virtual conference <a href="https://iclr.cc/">ICLR 2020</a> (formerly Addis Ababa, Ethiopia). 
-                            </li>
-                        </ul>
-                                      
-
-     
-                    </div>
-            
-            </div>
-                    <!--
-                    
-                    <div style="width:10%;float:left">
-                    <img alt="Thanh T. NGUYEN, T.T. Nguyen, Thanh Nguyen" src="Profile.jpg" style="display:inline;margin:5px 10px 0px 0px;float:left" width="150">
-                    <a href="/personal/images" target="_blank"><font size="1">more images</font></a>
-                    </div>
-
-                -->
-                <br> 
-                <br>
-                <img alt="Thanh T. NGUYEN, T.T. Nguyen, Thanh Nguyen" src="images/profile_pic.jpg" 
-                style="display:inline;margin:5px 10px 0px 0px;float:left" width="120">
-                <b>Thanh Nguyen-Tang</b> <br>
-                <a href="https://a2i2.deakin.edu.au/" target="_blank">Applied AI Institute (A2I2)</a><br> 
-                <a href="http://www.deakin.edu.au/" target="_blank">Deakin University</a><br> 
-                75 Pigdons Rd, Highton VIC 3216, Australia<br> 
-                Email: thanhnt [AT] deakin.edu.au / nguyent2792 [AT] gmail.com <br>
-                <!--<img src="images/Email.png" alt="Email" height="42"><br>-->
-                <br>
-                [ <a href="/assets/TNT_CV_22_June_21.pdf" target="_blank">CV</a> | 
-                    <a href="https://github.com/thanhnguyentang" target="_blank">Github</a> | 
-                    <a href="/blogs/post">Notes</a> | 
-                    <a href="https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a> | 
-                    <a href="https://www.semanticscholar.org/author/Thanh-Nguyen-Tang/1490490191?sort=pub-date" target="_blank">Semantic Scholar</a> |  
-                    <a href="https://twitter.com/thanhnguyentang" target="_blank">Twitter</a> |
-                    <a href="/photos/main">Photos</a> ]
-                    
-
-            <p>
-            I am currently a PhD candidate at the Applied AI Institute of Deakin University 
-            with A/Prof. <a href="https://scholar.google.com.au/citations?user=bXeL2t8AAAAJ&hl=en">Sunil Gupta</a>, and 
-                                <!-- A/Prof. <a href="https://scholar.google.com.au/citations?user=S9PwnMYAAAAJ&hl=en">Santu Rana</a>,  -->
-                                <!-- A/Prof. <a href="https://scholar.google.com.au/citations?user=zvspVLwAAAAJ&hl=en">Truyen Tran</a>, and  -->
-                                Alfred Deakin Prof. <a href="https://scholar.google.com.au/citations?user=AEkRUQcAAAAJ&hl=en">Svetha Venkatesh</a>. 
-            Prior to that, I was working as a researcher with A/Prof. <a href="http://sail.unist.ac.kr/members/jaesik/">Jaesik Choi</a> 
-            (now at <a href="https://sites.google.com/a/kaist.edu/song-chong/kaist-graduate-school-of-ai">KAIST</a>) at <a href="http://sail.unist.ac.kr/" target="_blank">SAIL@UNIST</a> 
-            where I also obtained a master degree in 2018. Before that, I got my B.Eng. in the Center of Excellence, Danang University of Science and Technology in 2015.  
-            <!-- <br>
-            My ha-index is 70.  -->
-            <br><br>
-            <!-- My research interest is in the ideas that involve distribution discrepancy and their application specifically in reinforcement learning.  
-            I am also strongly motivated by empirical AI problems of designing a lifelong, continual-learning, and self-improving agent that becomes more general and smarter under minimal supervision 
-            (sufficiently general AI).  -->
-
-            
-            <!-- One day, such a agent can become general enough that it can help us free our labor in many repeated tasks and gives us more freedom to do more great things. 
-            I am still skeptical of a truly general AI, but I believe that we can make it a lots more general than it is today, and 
-            <i>sufficiently general </i> AI is the future of AI that I believe.  -->
-
-            <!-- My underlying mission is to make Machine Learning and Artificial Intelligence (MLAI) more fun, more accessible, and more powerful.
-            My broad interests are in the ideas that involve playing with distributions in an online manner and are strongly inspired by important emprical problems.   -->
-            <!-- My broad interests are in the ideas that involve sequential decision making under uncertainty, probability, information theory and neural networks  -->
-            <!-- with empirical motivations.  -->
-
-            <!-- My research goal is to develop more theoretically principled algorithms with deeper understanding and stronger empirical performance for important AI problems. 
-            My research interests lie in the algorithmic, foundational and empirical dimensions at the intersection of machine learning, optimization, statistics and information theory; particularly: -->
-            <!-- Currently, I mainly focus on optimization and exploration perspective in reinforcement learning, and a bit on uncertainty and generalization in deep neural networks.   -->
-            <!-- I study the mathematical foundations of machine intelligence via information geometry, statistical inference and optimization (possibly on a manifold structure) 
-            with an emphasis on designing geometrically effective, statistically efficient and robust, and scalable inference algorithms. 
-            Currently, I focus on particle-based variational inference (rooted in optimal transport and information bottleneck) to study generalization and robustness in reinforcement learning and neural networks.  -->
-            <!-- Some keywords for my interest span:  -->
-            <!-- My research interests lie at the intersection of machine learning with statistics, optimization, and information theory.  -->
-            
-            
-            
-            I work on machine learing with the goal of developing advanced data-driven machine learning and statistical methods for <i>learning</i> and <i>reasoning</i> in complex, structured models over large, structured datasets. 
-            In particular, I am interested in improving <i>statistical efficiency</i> and <i>generalization beyond i.i.d. setting</i> of machine and reinforcement learning systems via imposing/exploiting minimal structural inductive biases of solutions/problems at hand. 
-            Currently, I focus on: (i) RL theory, and (ii) robust generalization beyond i.i.d. setting. 
-            For more details, see <a href="/blogs/research_proposal">my research proposals</a>.
-            
-            <!-- I work on <u>practical</u> problem settings for <u>modern</u> machine learning 
-            with the goal of developing advanced machine learning and statistical methods for learning and reasoning in complex, structured models over large, structured datasets.   -->
-            
-            <!-- the two main goals: 
-            (i) understanding their <u>theoretical</u> insights, and
-            (ii) <u>designing/engineering</u> new efficient and robust algorithms.   -->
-            <!-- In particular, my focus and interest are in the 2 pillars: 
-            (i) RL (offline RL, algorithimic design and analysis in RL theory, representation learning and generalization for RL); (ii) DL generalization via inductive biases;
-            More details in <a href="/blogs/research_proposal">my research proposals</a>.  -->
-            
-            <!-- ; (iii) approximate inference; and  -->
-            <!-- (iv) <i>computational</i> information geometry and its application. I like to take the path from rigorous math to practical problem settings -->
-            <!-- via the intuition of high-dimensional geometry.  -->
-            
-            <!-- statistical inference in (offline) RL , 
-            and <i>computational</i> information geometry (Riemannian manifolds) of deep neural networks and approximate inference.  -->
-            <!-- information bottleneck, and generalization in neural networks. More broadly, my favorite problem domains are: 
-            reinforcement learning (algorithmic design and analysis); deep learning theory (mean field theory, evolving particle systems); and information geometry (Riemannian manifolds). -->
-             
-            <br> <br>
-
-            * I publish under Thanh Tang Nguyen (old name arrangement) and Thanh Nguyen-Tang (new one).
-
-            <!-- In general, I am interested in topics in inference, learning, and dynamics for <i>modern</i> machine learning, 
-            with the goal of understanding mathematical foundations and designing new efficient algorithms of important problems arising from modern practical settings.  -->
-
-            <!-- Currently, I focus on reinforcement learning and deep neural networks in both standard and distributional shift (or other causal interventions) settings; -->
-            <!-- specifically in the aspects of representation learning (e.g., via self-supervised learning or information-theoretic perspectives) and information-geometric algorithms (e.g., via probability divergences and distributional optimization) in this domain.   -->
-            
-            <!-- I focus on representation learning and information-geometric algorithms for reinforcement learning and deep neural networks: 
-            (i) representation learning: under distributional shift or other causal interventions (via self-supervised learning or information-theoretic perspectives), 
-            (ii) information-geometric algorithms: to best leverage the geometry of parameterization (e.g., via probability divergences and distributional optimization).  -->
-          
-            <!-- I study representation learning ;  -->
-            <!-- information-geometric algorithms  -->
-
-            <!-- Specifically I am interested in reinforcement learning, computational statistics, distributional optimization and representation learning -->
-            <!-- I'm interested in the intersection of machine learning with statistics, information theory and optimization;  -->
-            <!-- with an emphasis on designing (i) novel learning algorithms that are geometrically effective, statistically efficient and robust, and scalable; -->
-            <!-- (ii) robust neural representations .  -->
-            
-            <!-- In particular, I study variational inference and geometric insights of reinforcement learning and neural networks with the goal of improving and understanding their generalization and robustness. 
-            In addition, I'm also interested in robust representation learning via self-supervised learning and information-theoretic perspectives.  -->
-            
-            <!-- ; in particular, reformulating a learning problem as statistical inference and optimization (possibly on a manifold) 
-            for  geometrically effective, statistically efficient, and scalable learning algorithms.  
-            Currently, I focus on statistical efficiency and robustness in reinforcement learning via geometry (and geometry itself).  -->
-            
-            <!-- My research goal is to understand machine intelligence from a computational perspective; to this end, I study inference, optimization and statistics.  -->
-            <!-- Currently I focus on statistical inference and optimization on the probability distribution space (endowed with e.g. Wasserstein metric) -->
-            <!-- and its application to robustness and stability in reinforcement learning. Keywords for my research interests:  -->
-            <!-- <ul>
-                <li>Reinforcement learning;</li> 
-                <li>Approximate inference; </li>
-                <li>Optimal transport and manifold structures;</li>
-                <li>Optimization;</li>
-                <li>Information bottleneck.</li>
-                <!-- <li>Probabilistic modelling and inference; </li>  -->
-                <!-- <li>GANs.</li> -->
-                <!-- <li>Information Theory; </li>   -->
-                <!-- <li>Uncertainty and generalization in deep (stochastic) neural networks. </li> -->
-                <!-- <li>Applications: Neural Reading Comprehension and Medical Imaging.</li> -->
-
-            <!-- </ul>  -->
-    
-
-
-            <!-- <br><br> -->
-            
-            <!-- <b>Keywords</b>: Reinforcement Learning; Distributional Learning; Variational Bayes; Uncertainty; Information Theory; Generalization in DNNs.  -->
-            
-            <!-- I identify my works to ICML, NeurIPS, AISTATS, AAAI, ICLR and Transactions on Information Theory.  -->
-
-
-
-            <!-- I am interested in leveraging and developing principled approaches rooted in optimization, statistics and information theory to attack empirical AI problems. My current research interests: -->
-		<!-- <ul>
-            <li>Reinforcement Learning</li> 
-            <li>Optimal Transport</li> 
-            <li>Bayesian Statistics</li>
-			<li>Variational Inference</li> posterior collapse problem
-            <li>Information Theory</li> information bottleneck
-
-        </ul>  -->
-            <!--
-            My long-term research effort is to seek for general computational principles underlying so-called <i>intelligence</i>. I believe that at the core of intelligence is the ability to <i>learn</i> under various <i>learning paradigms</i>. By learning, I mean the ability to generalize from past experience without exhaustedly experiencing all the intractable search space. By learning paradigms, I refer to <i>incremental</i> learning, i.e., to learn incrementally on a sample or episode or sequential basis (which is beneficial for scalability), either from interactions (as in reinforcement learning), or from external supervision (as in supervised learning), or for reconstruction (as in unsupervised learning). Currently, I am focusing on reinforcement learning, information-theoretic deep learning, and Bayesian statistics with vast applications in NLP, computer vision and healthcare. In particular, I am specially interested in the trade-off aspect of <i>learning</i> such as exploration-exploitation trade-offs in reinforcement learning, compression-relevance trade-offs in information bottleneck, and explainability-performance in explainable artificial intelligence. <br> <br>
-
-            I avocate the "think-globally-act-locally" philosophy, promoting doing research in important Machine Learning and Artificial Intelligence problems by the means of <i>incrementality</i>, <i>simplicity</i> and <i>transparency</i>. 
-
-            </p>
-
-            <h2> Education</h2>
-            <ul>
-                <li> 2016/03-2018/02: M.Sc. in Computer Science and Engineering <br> <a href="http://unist.ac.kr/" target="_blank">
-                Ulsan National Institute of Science and Technology (UNIST)</a>, Korea (GPA: 4.3 / 4.0)<br>
-                </li>
-                <li> 2010/09-2015/07: B.Sc. in Electronic and Communication Engineering <br> <a href="http://dut.udn.vn/EN" 
-                target="_blank">Danang University of Science and Technology</a>, Vietnam (Valedictorian)<br>
-                </li>
-            </ul>
-
-            <h2>Experience</h2>
-
-            </li>
-
-            <li>2016/03-2018/03: Research Assistant and Teaching Assistant at <a href="http://sail.unist.ac.kr/" target="_blank">Statistical Artificial Intelligence Lab</a>, UNIST
-
-            </li>
-            </ul>
-
-            -->
-            <h2>Publications</h2>
-                <ul>
-                    <li> 
-                        <font color="blue">Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks </font> 
-                        [ <a href="https://arxiv.org/abs/2103.06671">arXiv</a> | <a href="assets/offrelu.pdf">slides</a> | <a href="https://www.youtube.com/watch?v=xLM5pondWY4">talk</a>].
-                        <i>ICML Workshop on Reinforcement Learning Theory, 2021.</i> <br>
-                        <b>Thanh Nguyen-Tang</b>, Sunil Gupta, Hung Tran-The, Svetha Venkatesh.
-                    </li>    
-
-                    <li>
-                        <font color="blue">Distributional Reinforcement Learning via Moment Matching</font> [ <a href="http://arxiv.org/abs/2007.12354">arXiv</a> 
-                        | <a href="https://cutt.ly/fkkiAGm">slides</a> 
-                        | <a href="https://cutt.ly/4kkiJZt">poster</a>
-                        | <a href="https://youtu.be/1fMqZZjy84E">talk</a> | <a href="https://github.com/thanhnguyentang/mmdrl">code</a>]. <i>AAAI, 2021</i>.  
-                        <br>
-                        <b>Thanh Nguyen-Tang</b>, Sunil Gupta, Svetha Venkatesh. <br>
-                 
-                        
-                    </li> 
-                <li>
-                    <font color="blue">Distributionally Robust Bayesian Quadrature Optimization</font> 
-                    [ <a href="https://arxiv.org/abs/2001.06814">arXiv</a> | <a href="http://proceedings.mlr.press/v108/nguyen20a.html">link</a> | <a href="https://github.com/thanhnguyentang/drbqo">code</a> | <a href="assets/aistats20_drbqo.pdf">slides</a> | <a href="https://slideslive.com/38930124/">talk</a>]. 
-                    <i>AISTATS, 2020.</i> 
-                    <br> 
-                    <b>Thanh Tang Nguyen</b>, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh 
-                    
-                    </span>
-                
-                </li>
-
-                    <li>
-                    <font color="blue">Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks</font>
-                    [ <a href ="https://doi.org/10.3390/e21100976">DOI</a> | <a href="https://github.com/thanhnguyentang/pib">code</a> | <a href="bibtex/nguyen-pib17.txt" onclick="return popup(this, 'bibtex')">bibtex</a>]. 
-                    <i>Entropy, 21(10), 976, 2019.</i> <br>
-                    <b>Thanh Tang Nguyen</b>, Jaesik Choi<br>    
-            
-
-                    <li>
-                        <font color="blue">Bayesian Optimization with Unknown Search Space</font> [ <a href="https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space">link</a> | <a href="https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/">poster</a> | <a href="https://github.com/HuongHa12/BO_unknown_searchspace">code</a> | <a href="bibtex/huong_neurips19.txt" onclick="return popup(this, 'bibtex')">bibtex</a>].
-                        <i>NeurIPS, 2019.</i> <br>
-                        Huong Ha, Santu Rana, Sunil Gupta, <b>Thanh Tang Nguyen</b>, Hung Tran-The, Svetha Venkatesh
-                    </li>
-                    <li>
-                        <font color="blue">Parametric Information Bottleneck to Optimize Stochastic Neural Networks</font> 
-                        [ <a href="http://scholarworks.unist.ac.kr/handle/201301/23561">link</a> | <a href="/assets/PIB_thesis_slide.pdf">slides</a> | <a href="https://www.youtube.com/watch?v=md9qV4Hrgbo&t=378s">talk</a> | <a href="bibtex/nguyen-master18.txt" onclick="return popup(this, 'bibtex')">bibtex</a>]. 
-                        <i>Master Thesis, 2018</i><br>
-                        <b>Thanh Tang Nguyen</b> 
-                    </li>
-                    <li>
-                        <font color="blue">Parametric Information Bottleneck to Optimize Stochastic Neural Networks</font> 
-                        [<a href="http://www.kiise.or.kr/data/pdf/PACS2017_Proceedings.pdf">link</a> | <a href="/assets/pib_slide_v4.pdf">slides</a>]. 
-                        <i>PACS, 2017 (Best Poster Award)</i><br>
-                        <b>Thanh Tang Nguyen</b>, Jaesik Choi <br>
-                        
-                        <!-- [<a href="http://www.kiise.or.kr/conference/PACS/2017/" target="_blank">Best Poster Award</a>] -->
-                    </li>
-    
-                </ul>
-            <h4>Preprints</h4>
-            <ul>
-                <li>
-                    <font color="blue"> Combining Online Learning and Offline Learning for Contextual Bandits with Deficient Support. </font>
-                    <i>Under review, 2021.</i> <br>
-                    Hung Tran-The,  Sunil Gupta, <b>Thanh Nguyen-Tang</b>, Santu Rana, Svetha Venkatesh.
-                </li>
-                
-             </ul>
-
-             <h2>Poster presentations/Talks</h2> 
-             <ul>
-                <li><b>Jul. 7-15, 2021:</b> <i>Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks</i> at <a href="https://www.eeml.eu/home">EEML'21</a>, Budapest, Hungary
-                    [ <a href="assets/eeml_offrelu_slides.pdf">slides</a> | <a href="https://www.youtube.com/watch?v=AthbKFzhZM4&t=1s">talk</a>]. 
-                </li> 
-
-                <li><b>Apr. 25, 2021:</b> <i>On Finite-Sample Analysis of Batch Reinforcement Learning with Deep ReLU Networks</i> at Viet.Operator.Theorists. 
-                </li> 
-                 
-                <li><b>Feb. 5, 2021:</b> <i>Distributional Reinforcement Learning via Moment Matching</i> at <a href="https://aaai.org/Conferences/AAAI/aaai.php">AAAI 2021</a>, Vancouver, Canada. 
-                 </li> 
-                <li><b>Aug. 26-28, 2020: </b>  <i>Distributionally Robust Bayesian Quadrature Optimization</i> at <a href="https://www.aistats.org/">AISTATS 2020</a>, Palermo, Italy</li>
-                <li><b>Jun. 28-Jul. 10, 2020:</b> <i>Moment Matching Reinforcement Learning</i> at <a href="http://mlss.tuebingen.mpg.de/2020/index.html">MLSS 2020</a>, Max Planck Institute for Intelligent Systems, Tübingen, Germany</li> 
-                <li><b>Nov. 2-7, 2017:</b> <i>Parametric Information Bottleneck to Optimize Stochastic Neural Networks</i> at <a href="http://www.kiise.or.kr/conference/PACS/2017/">PACS 2017</a>, SNU, Seoul, Korea (Best Poster Award)</li>
-             </ul>
-
-            <h2>Others</h2>
-                <b>Professional service</b> 
-                <ul>
-                
-                    <li> 
-                        Invited reviewer:  ICML (2021), NeurIPS (2020, 2021), ICLR (2021 - outstanding reviewer, 2022), AAAI (2021 - PC), AISTATS (2021), IJCNN (2020). 
-                    </li>
-
-                    <!-- <li>
-                        External mentor for <a href="https://ai.fpt-software.com/ai-residency/">FPT AI Residency</a>
-                    </li> -->
-
-                    <li>
-                        Mentoring and Consulting: University of Toronto, 
-                        Ho Chi Minh University of Technology, Sharif University of Technology, <a href="https://emandai.net/">EM&AI</a>
-
-                        <!-- I devote about 1 hour/week to pay it forward with my current expertise and experience 
-                        in ML/stats/AI research to other goodwill people, 
-                        especially newbies and those from underrepresented communities, and ML/AI companies/startups. 
-			
-			If you need some reviews, advice, discussion, and/or consulting, simply drop me an email. 			 -->
-			    
-			<!-- Affiliations of my mentees and the companies I have been consulting:   -->
-
-			    
-                        
-			
-			    <!-- <ul>
-				    <li> 
-				    </li>
-				    
-				    <li> Ho Chi Minh University of Technology
-				    </li>
-				    
-				    
-				    <li> Sharif University of Technology </li> 
-				    <li>  <a href="https://emandai.net/">EM&AI</a> </li> -->
-				     
-			    <!-- </ul> -->
-			    
-                <li>
-                    Youtube Vlog: <a href="https://www.youtube.com/channel/UCjfv04g2CHNDDccNjvrKEGw"> MLAI disentangled</a>
-                </li>                
-
-                    <!-- ; support reviewer: ICLR (2020), AISTATS (2018) -->
-
-                </ul>
-                <b>Teaching</b> 
-                <ul>
-                    <li>
-                        <a href="http://sail.unist.ac.kr/">UNIST</a>: Advanced Machine Learning (TA, 2017);  Engineer Programming (TA, 2016).
-                    </li>
-                    <li>
-                        <a href="http://fast.dut.udn.vn/en/">CoE@DUT</a>: Machine Learning (TA, 2015); Digital Signal Processing (TA, 2014); Advanced Calculus and Algebra (TA, 2011-2015). 
-                    </li>
-                </ul>
-            
-                <b> Past projects </b>
-                <ul>
-                    <!-- <li><a href="https://www.researchgate.net/project/Neural-Reading-Comprehension">Neural Reading Comprehension in SQuAD 2.0</a><br><span class="journal">2018-</span></li>
-                    <li><a href="https://www.researchgate.net/project/Information-Theoretic-Interpretation-of-Deep-Neural-Networks">Information-Theoretic Interpretation of Deep Neural Networks</a><br><span class="journal">2017-</span></li> -->
-                    <li>Neural reading comprehension (collaborators: <a href="https://scholar.google.co.kr/citations?user=N9ZM-CIAAAAJ&hl=ko">S. Kwon</a>, J.C.)
-                        <br>
-                        <span class="journal"> <a href="https://rajpurkar.github.io/SQuAD-explorer/">Stanford question answering dataset</a><b>, 2018</b>.</span> </li>
-                    </li>
-
-                    <li>Deep Learning based Real-Time Pedestrian Detection for CCTV 
-                        (collaborators: <a href="https://scholar.google.com/citations?user=ZKhDYmUAAAAJ&hl=en">R. Lima</a>, and J.C.). [ <a href="http://saildemo.unist.ac.kr/pedestrian_detection/">demo</a> ]  <br>
-                        <span class="journal">NIPA project, <b>2016</b>.</span> </li>
-
-                    <li>Lesion Dermoscopic Feature Segmentation (ranked 1st) and Lesion Segmentation (ranked 8th) 
-                        (collaborators: <a href="https://github.com/LieCOS">J. Ju</a>, 
-                        <a href="https://haebeom-lee.github.io/">H. Lee</a>, 
-                        <a href="http://bmipl.unist.ac.kr/">S.Y. Chun</a>, and J.C.). [ <a href="https://github.com/thanhnguyentang/melanoma_tutorial">code</a> | 
-                         <a href="https://seyoungchun.wordpress.com/2016/04/15/posters-and-challenge-results-at-the-2016-international-symposium-on-biomedical-imaging-isbi/">BMIPL News</a> 
-                         | <a href="http://sail.unist.ac.kr/ieee-isbi-2016-challenge-rank-1st-and-3rd-in-skin-cancer-classification-challenges/">SAIL News</a> ]<br>
-                        
-                        <span class="journal">ISBI 2016: Skin Lesion Analysis Towards Melanoma Detection, <b>2016</b>.</span> 
-                    </li>
-                </ul>
-
-               
-                
-                <!-- To do so, please fill out this <a href="https://forms.gle/79rxAcx3GQbtYQPz7">form</a> to notify me.  -->
- 
-            <!--
-                <h2> Activities </h2>
-                <ul>
-                    <li>
-                    2018/10/12: Attended <a href="http://xai.unist.ac.kr/Symposium/2018/" target="_blank">International Explainable AI Symposium 2018</a>, Seoul, Korea.
-                    </li>
-                    <li>
-                    2017/11/15-17: Attended <a href="http://www.acml-conf.org/2017/" target="_blank">the Asian Conference on Machine Learning (ACML) 2017</a>, Seoul, Korea.
-                    </li>
-
-                    <li>
-                    2017/11/02-03: Attended <a href="http://www.kiise.or.kr/conference/PACS/2017/" target="_blank">the International Symposium on Perception, Action, and Cognitive Systems (PACS)</a>, Seoul, Korea.
-                    </li>
-
-                    <li>
-                    2016/06/02-03: Attended <a href="http://mlcenter.postech.ac.kr/ml_symposium_2016_program" target="_blank">the First Korea-Japan Machine Learning Symposium</a>, Seoul, Korea.
-                    </li>
-                </ul>
-            -->
-            <!--
-                <h2>Highlight</h2>
-            
-                <center>
-                    <div style='display:inline-block;vertical-align:top;margin:10px;width:200px;color:#555555'>
-                    <a alt="Fix2Att" href="/assets/[AML]relevant-from-fixations.pdf" target="_blank"><img src="assets/Ik3nhT4.gif" width=200px height=150px style="border:solid 2px #AAAAAA"></a><br><b>Attention from Fixations:</b> The model learns to attend to the salient regions in the videos from eye fixations. 
-                    </div>
-                    <div style='display:inline-block;vertical-align:top;margin:10px;width:200px;color:#555555'>
-                    <a alt="PedestrainDetection" href="http://saildemo.unist.ac.kr/pedestrian_detection/" target="_blank"><img src="images/nipa_model.png" width=200px height=150px style="border:solid 2px #AAAAAA"></a><br><b>Pedestrian Detection:</b> The region proposal network directly predicts boxes of various scales at each position in an image. 
-                    </div>
-                    <div style='display:inline-block;vertical-align:top;margin:10px;width:200px;color:#555555'>
-                    <a alt="PIB" href="https://arxiv.org/pdf/1712.01272v4.pdf" target="_blank"><img src="images/pib_model.png" width=200px height=150px style="border:solid 2px #AAAAAA"></a><br><b>PIB:</b> Each layer in DNNs is considered as a bottleneck that splits the architecture into an encoder and a variational relevance decoder. Compression and relevance are then induced at each bottleneck.
-                    </div>
-                    <div style='display:inline-block;vertical-align:top;margin:10px;width:200px;color:#555555'>
-                    <a alt="Squad" href="https://rajpurkar.github.io/SQuAD-explorer/" target="_blank"><img src="images/squad20.png" width=200px height=150px style="border:solid 2px #AAAAAA"></a><br><b>Reading Comprehension:</b> The network answers to a question relevant to a context by selecting a span in the context. The question might or might not be answerable. 
-                    </div>
-                </center>
-                -->
-            
-            <!--
-            <div>
-            <a href="https://info.flagcounter.com/btag"><img src="https://s05.flagcounter.com/count/btag/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>   
-            </div>
-            -->
-        </div>
-        <!-- <a href='https://clustrmaps.com/site/1bdrh'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=080808&w=80&t=n&d=82NHafzempW8zXlKpsMbUtpsRrG-yvVYFzxInVdWKuQ&co=ffffff&ct=808080'/></a>        <br> -->
-        
-        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=120&t=tt&d=82NHafzempW8zXlKpsMbUtpsRrG-yvVYFzxInVdWKuQ&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
-        
-        <!-- <a href='https://clustrmaps.com/site/1bdrh'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=080808&w=120&t=tt&d=82NHafzempW8zXlKpsMbUtpsRrG-yvVYFzxInVdWKuQ&co=ffffff&ct=808080'/></a> -->
-
-        <i><font size="1">Last updated: 2020. </font></i> <br>
-        <i><font size="1"> Built with <a href="https://jekyllrb.com/">Jekyll</a> | Inspired by <a href="http://heatmapping.org/" target="_blank">heatmapping</a>.</font></i><br><br>
-        <!-- <i><font size="1">Every new day is blessed; one idea, one experiment, one proof at a time.</font></i> -->
-
-   
-            <!--<p><font size="4" color="red">"Stand on the shoulders of giants"</font></p> -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Thanh Nguyen-Tang</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div id="profile">
+<img alt="tnt" src="profile_pic.jpg"
+style="display:inline;margin:5px 10px 0px 0px;float:center" width="120">
+</div>
+<hr>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="blog.html">Blog</a></div>
+<div class="menu-item"><a href="news.html">News&nbsp;and&nbsp;Events</a></div>
+<div class="menu-item"><a href="talks.html">Talks</a></div>
+<div class="menu-item"><a href="projects.html">Past&nbsp;Projects</a></div>
+<div class="menu-item"><a href="photos.html">Photos</a></div>
+<hr>
+<div id="counter">
+  <script type='text/javascript'
+    id='clustrmaps'
+    src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=120&t=tt&d=82NHafzempW8zXlKpsMbUtpsRrG-yvVYFzxInVdWKuQ'>
+    </script>
+</div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Thanh Nguyen-Tang</h1>
+<div id="subtitle">Postdoctoral Researcher <br />
+<a href="https://a2i2.deakin.edu.au/" target=&ldquo;blank&rdquo;>Applied AI Institute (A\(^2\)I\(^2\))</a> <br /> 
+Deakin University, Australia <br /> 
+Email: <i>nguyent2792</i> [AT] gmail [DOC] com 
+</div>
+</div>
+<p>I am currently a postdoctoral researcher of the Applied AI Institute at Deakin University. 
+Prior to that, I was a PhD student at Deakin University from Jan 2019 to Jul 2021, 
+was a researcher at Ulsan National University of Science and Technology (UNIST) from Mar 2018 to Dec 2019, 
+and obtained my Master at UNIST in 2018. <br />
+</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p>I work on machine learing with the goal of 
+developing advanced data-driven machine learning and statistical methods for 
+learning and reasoning in complex, structured models over large, structured datasets. 
+In particular, I am interested in improving statistical efficiency and generalization 
+beyond i.i.d. setting of machine and reinforcement learning systems via imposing/exploiting 
+minimal structural inductive biases. 
+Currently, I focus on: (i) (offline) RL theory (with neural function approximation), and (ii) robust generalization beyond i.i.d. setting,
+(iii) ML applications.  
+</p>
+</div></div>
+<p>I publish under Thanh Tang Nguyen (old name arrangement) and Thanh Nguyen-Tang (new one). 
+Here are my latest <a href="thanhnguyentang.github.io" target=&ldquo;blank&rdquo;>CV</a>, 
+<a href="https://scholar.google.com/citations?hl=en&amp;user=UrTlMiwAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target=&ldquo;blank&rdquo;>Google Scholar</a>, 
+<a href="https://www.semanticscholar.org/author/Thanh-Nguyen-Tang/1490490191?sort=pub-date" target=&ldquo;blank&rdquo;>Semantic Scholar</a>, 
+<a href="https://github.com/thanhnguyentang" target=&ldquo;blank&rdquo;>Github</a>,
+<a href="https://twitter.com/thanhnguyentang" target=&ldquo;blank&rdquo;>Twitter</a> . 
+</p>
+<h2>Latest News </h2>
+<ul>
+<li><p>[Jul 8, 2021] A short version of our work have been accepted to the ICML Workshop on Reinforcement Learning Theory 2021.
+</p>
+</li>
+<li><p>[Jul 1, 2021] I start my postdoc at A\(^2\)I\(^2\), Deakin University after submitting my Ph.D. thesis in 24 Jun. 
+</p>
+</li>
+<li><p>[May 20, 2021] I have been accepted to the Deep Learning Theory Summer School at Princeton, acceptance rate: 180/500 = 36%.
+</p>
+</li>
+</ul>
+<h2>Publications </h2>
+<ul>
+<li><p><a href="https://arxiv.org/abs/2103.06671" target=&ldquo;blank&rdquo;>Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks</a> <br />
+<b>Thanh Nguyen-Tang</b>, Sunil Gupta, Hung Tran-The, Svetha Venkatesh <br />
+<i>ICML Workshop on Reinforcement Learning Theory</i>, 2021 <br />
+[<a href="https://thanhnguyentang.github.io/assets/offrelu.pdf" target=&ldquo;blank&rdquo;>Slides</a>] [<a href="https://www.youtube.com/watch?v=xLM5pondWY4" target=&ldquo;blank&rdquo;>Talk</a>]
+</p>
+</li>
+<li><p><a href="https://ojs.aaai.org/index.php/AAAI/article/view/17104" target=&ldquo;blank&rdquo;>Distributional Reinforcement Learning via Moment Matching</a><br /> 
+<b>Thanh Nguyen-Tang</b>, Sunil Gupta, Svetha Venkatesh <br /> 
+<i>AAAI</i>, 2021 <br />
+[<a href="http://arxiv.org/abs/2007.12354" target=&ldquo;blank&rdquo;>arXiv</a>] [<a href="https://github.com/thanhnguyentang/mmdrl" target=&ldquo;blank&rdquo;>Code</a>]
+[<a href="https://cutt.ly/fkkiAGm" target=&ldquo;blank&rdquo;>Slides</a>] 
+[<a href="https://cutt.ly/4kkiJZt" target=&ldquo;blank&rdquo;>Poster</a>] [<a href="https://youtu.be/1fMqZZjy84E" target=&ldquo;blank&rdquo;>Talk</a>]
+</p>
+</li>
+<li><p><a href="http://proceedings.mlr.press/v108/nguyen20a.html" target=&ldquo;blank&rdquo;>Distributionally Robust Bayesian Quadrature Optimization</a><br /> 
+<b>Thanh Tang Nguyen</b>, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh<br /> 
+<i>AISTATS</i>, 2020 <br /> 
+[<a href="https://arxiv.org/abs/2001.06814" target=&ldquo;blank&rdquo;>arXiv</a>] [<a href="https://github.com/thanhnguyentang/drbqo" target=&ldquo;blank&rdquo;>Code</a>]
+[<a href="https://thanhnguyentang.github.io/assets/aistats20_drbqo.pdf" target=&ldquo;blank&rdquo;>Slides</a>] 
+[<a href="https://slideslive.com/38930124/" target=&ldquo;blank&rdquo;>Talk</a>]
+</p>
+</li>
+<li><p><a href="https://doi.org/10.3390/e21100976" target=&ldquo;blank&rdquo;>Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks</a><br />
+<b>Thanh Tang Nguyen</b>, Jaesik Choi<br />
+<i>Entropy</i>, 21(10), 976, 2019 <br /> 
+[<a href="https://github.com/thanhnguyentang/pib" target=&ldquo;blank&rdquo;>Code</a>]
+</p>
+</li>
+<li><p><a href="https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space" target=&ldquo;blank&rdquo;>Bayesian Optimization with Unknown Search Space</a><br />
+Huong Ha, Santu Rana, Sunil Gupta, <b>Thanh Tang Nguyen</b>, Hung Tran-The, Svetha Venkatesh <br />
+<i>NeurIPS</i>, 2019 <br />
+[<a href="https://github.com/HuongHa12/BO_unknown_searchspace" target=&ldquo;blank&rdquo;>Code</a>]
+[<a href="https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/" target=&ldquo;blank&rdquo;>Poster</a>]
+</p>
+</li>
+</ul>
+<h3>Preprints </h3>
+<ul>
+<li><p><a href="https://thanhnguyentang.github.io/" target=&ldquo;blank&rdquo;>Neural Offline Contextual Bandits: Pessimistic Exploitation and Generalization</a> <br /> 
+<b>Thanh Nguyen-Tang</b><br /> 
+<i>In preparation</i>, 2021
+</p>
+</li>
+</ul>
+<ul>
+<li><p><a href="https://thanhnguyentang.github.io/" target=&ldquo;blank&rdquo;>Combining Online Learning and Offline Learning for Contextual Bandits with Deficient Support</a><br />
+Hung Tran-The, Sunil Gupta, <b>Thanh Nguyen-Tang</b>, Santu Rana, Svetha Venkatesh <br /> 
+<i>Under review</i>, 2021
+</p>
+</li>
+</ul>
+<h3>Dissertations </h3>
+<ul>
+<li><p><a href="https://thanhnguyentang.github.io/" target=&ldquo;blank&rdquo;>On Practical Considerations of Reinforcement Learning: Provable Robustness, Scalability and Statistical Efficiency</a><br /> 
+<i>Ph.D. dissertation</i>, Deakin University, Australia, July 2021
+</p>
+</li>
+</ul>
+<ul>
+<li><p><a href="http://scholarworks.unist.ac.kr/handle/201301/23561" target=&ldquo;blank&rdquo;>Parametric Information Bottleneck to Optimize Stochastic Neural Networks</a><br />
+<i>Master Thesis</i>, Ulsan National University of Science and Technology, South Korea, 2018<br />
+[<a href="https://thanhnguyentang.github.io/assets/PIB_thesis_slide.pdf" target=&ldquo;blank&rdquo;>Slides</a>] [<a href="https://www.youtube.com/watch?v=md9qV4Hrgbo&amp;t=378s" target=&ldquo;blank&rdquo;>Talk</a>]
+</p>
+</li>
+</ul>
+<h2>Services </h2>
+<ul>
+<li><p>Invited reviewer: <i>ICML</i> (2021), <i>NeurIPS</i> (2020, 2021), 
+<i>ICLR</i> (2021 - <b>outstanding reviewer award</b>, 2022), <i>AAAI</i> (2021 - PC), 
+<i>AISTATS</i> (2021).</p>
+</li>
+</ul>
+<div id="footer">
+<div id="footer-text">
+Page generated 2021-07-25 17:05:15 +07, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+(<a href="index.jemdoc">source</a>)
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
 </html>
-    

@@ -1,0 +1,101 @@
+I"{<p><a href="/">[Back Home]</a>  <a href="/blogs/post">[Back to Blog]</a></p>
+
+<h1 id="1-history">1. History</h1>
+<ul>
+  <li>Originally proposed by Monge in the 18-th century</li>
+  <li>Nobel Prizes for Koopmans and Kantorovich</li>
+  <li>Fields Medals for Villani and Figalli</li>
+</ul>
+
+<h1 id="2-introduction">2. Introduction</h1>
+<p><strong>Primal</strong>:</p>
+<ul>
+  <li>$(M,d)$: a complete separable metric space</li>
+  <li>$p,q$: absolutely continuous Borel probability measure on $M$</li>
+  <li>
+    <p>$\pi$: a <strong>transport plan</strong>, a joint probability measure on $M \times M$ with marginals $p$ and $q$:</p>
+
+\[\pi(A \times M) = p(A) \text{ for any Borel subset } A \subseteq M\\
+      \pi(B \times M) = q(B) \text{ for any Borel subset } B \subseteq M\]
+  </li>
+  <li>$d(x,x’)$: a distance metric on $M \times M$</li>
+  <li>Wasserstein distance between $p$ and $q$:</li>
+</ul>
+
+\[W(p,q) := \min_{\pi \in \Pi(p,q)} \mathbb{E}_{\pi} d(x,x')\]
+
+<p>where $\Pi(p,q)$ is the set of all joint probability measure on $M \times M$ with marginals $p$ and $q$.</p>
+
+<p><strong>Intuition or the primal</strong>:</p>
+<ul>
+  <li>$p(x)$: The amount of bread produced in bakery at location $x$</li>
+  <li>$q(x’)$: The amount of bread produced in cafe at location $x’$</li>
+  <li>$d(x,x’)$: The cost to transport unit bread from location $x$ to $x’$</li>
+  <li>$\pi(x,x’)$: The amount of bread to transport from $x$ to $x’$</li>
+  <li>$W(p,q)$: The minimum cost to transport all bread from bakeries to cafes.</li>
+</ul>
+
+<p><strong>Kantorovich duality</strong>:</p>
+
+\[W(p,q) = \max_{\alpha, \beta} \{ \sum_{x} \alpha(x) p(x) + \sum_{x'} \beta(x') q(x')  \}  \\
+\text{ subject to } \alpha(x) + \beta(x') \leq d(x,x')\]
+
+<p><strong>$p$-Wasserstein metric as the $L^p$ metric on the inverse CDF:</strong></p>
+
+\[W_p^p(U,V) = \int_{0}^1 | F^{-1}_U(\omega) - F^{-1}_V(\omega) |^p d \omega\]
+
+<h1 id="3-many-divergences-why-optimal-transport">3. Many divergences, why optimal transport?</h1>
+
+<ul>
+  <li>Different from KL divergence, Wasserstein distance is a legimate distance. Also, Wasserstein distance works even for two dimensions that do not have common support while KL divergence fails in such scenario. And unlike $L_1$-norm, OT has a continuity property: as probability measures is that as one probability measure weakly converges to another probability measure, their  Wasserstein distance also converges to zero (Slide 9/47 in [1]). More formally, this “continuity” property can be stated as follows.</li>
+</ul>
+
+\[p \rightharpoonup q \iff W(p,q) \rightarrow 0\]
+
+<p>where $p \rightharpoonup q$ denotes weak convergence, i.e., $\forall f \in \mathcal{C}(\mathcal{X}), \int_{\mathcal{X}} f d p \rightarrow \int_{\mathcal{X}} f d q$.</p>
+
+<ul>
+  <li>Applicable in domains where the underlying similarity in the outcome space is more important than exact matching likelihoods.</li>
+</ul>
+
+<!-- Consider the OT distance denoted by: 
+
+$$W_p(\alpha, \beta) := \min_{\pi \in \mathcal{M}^1_{+}(\mathcal{X}^2)} \left\{ \int_{\mathcal{X}^2} d(x,y)^p d\pi(x,y): \pi_1 = \alpha, \pi_2 = \beta \right\}$$
+
+Then, we have: 
+$$ \alpha_n \rightharpoonup \beta \iff W_p(\alpha_n, \beta) \rightarrow 0 $$ where $\alpha_n \rightharpoonup \beta$ denotes weak convergence, i.e., $\forall f \in \mathcal{C}(\mathcal{X}), \int_{\mathcal{X}} f d \alpha_n \rightarrow \int_{\mathcal{X}} f d \beta$. -->
+
+<h1 id="4-maximum-entropy-wasserstein-distance">4. Maximum Entropy Wasserstein distance</h1>
+<p>One major drawback of Wasserstein distance is its expensive computation, which is $O(n^3 \log(n))$ in general. In some special cases, the computation can be less, e.g., $O(n^3)$ if $\alpha$ and $\beta$ have the same weights, $O(n \log(n))$ for 1-D case, and $O(n^2 \log(n))$ for $p=1$.</p>
+
+<p>One of the major research direction for Wasserstein distance that I am aware is to reduce its computation. A common approach is to introduce regularization into the OT objective so that we relax some constraints and solve for an approximation optimization. Interestingly, regularization in some particular way does not give the optimazation more difficult, it makes it more tracable. For example, in Sinkhorn divergence, an entropy regularization is added, resulting a tractable optimization:</p>
+
+\[W_{\gamma}(p,q) := \min_{\pi \in \Pi(p,q)} \mathbb{E}_{\pi} d(x,x') - \gamma H(\pi)\]
+
+<p>where</p>
+
+<ul>
+  <li>$\pi(x,x’) = u(x) v(x’) K(x, x’)$</li>
+  <li>$Kv = p./ u$ and $K^Tu = q./ v$ if $x$ and $x’$ take finite values.</li>
+</ul>
+
+<!-- . Specifically, the regularized OT objective in Sinkorn is: 
+
+$$\min_{P \in U(a,b)} \sum_{i,j} d(x_i, y_j)^p P_{i,j} + \epsilon P_{i,j} \log \frac{P_{i,j}}{a_i b_j}$$
+
+The solution to the regularized OT optimization above is tractable, as given by: $P_{i,j} = u_i K_{i,j} v_j, K_{i,j} = e^{-\frac{d(x_i, y_j)^p}{\epsilon}}$. -->
+
+<p>Which rationale that allows an entropic regularization to make a more tractable optimization even if adding an entropic regularization seems to make the objective more complex? Introducing an entropy constraint into the OT objective can be thought of as relaxing the optimization, thus the resulting optimization can be easier, not nessasarily harder because of having more terms. Indeed, the regularized optimization is easier in this case. In particular, the regularized OT is a constraint optimization that can be solved with Lagrangian method because the strong duality holds for this optimization (the entropy term is convex). Thus, we instead solve the KKT conditions for the Lagrangian, resulting in a closed-form solution which can be efficiently iteratively updated using Sinkorn’s update [1].</p>
+
+<h1 id="5-discussion">5. Discussion</h1>
+<p>It strikes me that Lagrangian method is really helpful to regularize hard optimization and by softening it, the resulting optimization becomes more tractable. I have encountered its usage at least in Information Botllteneck [3], Distributional Robustness [4] and now regularized OT. It would be interesting to be able to apply OT into sequential decision making problems, especially Bayesian optimization and Reinforcement Learning. How likely and fruitly it would be?</p>
+
+<h1 id="references">References:</h1>
+<p>[1] Grabriel Peyre, <a href="https://portal.klewel.com/watch/webcast/optimal-transport-for-machine-learning/talk/1/">Optimal Transport for Machine Learning</a>. <br />
+[2] Marco Cuturi, <a href="https://arxiv.org/abs/1306.0895">Sinkhorn Distances: Lightspeed Computation of Optimal Transport</a>.<br />
+[3] Naftali Tishby, Fernando C. Pereira, and William Bialek, <a href="https://arxiv.org/abs/physics/0004057">Information Bottleneck Method</a>. <br />
+[4] John Duchi, and Hongseok Namkoong, <a href="https://arxiv.org/abs/1610.02581">Variance-based regularization with convex objectives</a>. <br />
+[5] <a href="https://www.cs.cmu.edu/~epxing/Class/10708-17/project-reports/project11.pdf">Wasserstein Training of Deep Boltzmann Machines</a></p>
+
+<p><em>Last update: 16/08/19</em></p>
+:ET
