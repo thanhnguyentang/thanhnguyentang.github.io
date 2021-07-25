@@ -1,12 +1,1 @@
-<div id="profile">
-<img alt="tnt" src="profile_pic.jpg" 
-style="display:inline;margin:5px 10px 0px 0px;float:center" width="120">
-</div>
-
-<hr>
-
-<hr>
-
-<div id="counter">
-  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=120&t=tt&d=82NHafzempW8zXlKpsMbUtpsRrG-yvVYFzxInVdWKuQ'></script>
-</div>
+jemdoc -c mysite.conf *.jemdoc 
