@@ -37,10 +37,12 @@ Here are my latest [thanhnguyentang.github.io CV],
 - \[May 20, 2021\] I have been accepted to the Deep Learning Theory Summer School at Princeton, acceptance rate: 180/500 = 36%.
 
 == Publications 
-- [https://arxiv.org/abs/2103.06671 Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks] \n
+- [https://lyang36.github.io/icml2021_rltheory/camera_ready/5.pdf Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks] \n
 *Thanh Nguyen-Tang*, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n
 /ICML Workshop on Reinforcement Learning Theory/, 2021 \n
-\[[https://thanhnguyentang.github.io/assets/offrelu.pdf Slides]] \[[https://www.youtube.com/watch?v=xLM5pondWY4 Talk]]
+\[[https://arxiv.org/abs/2103.06671 arXiv]\]
+\[[https://thanhnguyentang.github.io/assets/offrelu.pdf Slides]] 
+\[[https://www.youtube.com/watch?v=xLM5pondWY4 Talk]]
 - [https://ojs.aaai.org/index.php/AAAI/article/view/17104 Distributional Reinforcement Learning via Moment Matching]\n 
 *Thanh Nguyen-Tang*, Sunil Gupta, Svetha Venkatesh \n 
 /AAAI/, 2021 \n
