@@ -1,6 +1,8 @@
 # jemdoc: menu{MENU}{talks.html}, nofooter
 ==Talks/Poster Presentations
 
+- \[Aug 11, 2021\] Generalization and Optimization in Deep Learning: Over-parameterization and Interpolation, in Sample-Efficient AI Group Reading, A2I2. 
+\[[/assets/ntk_interpolation.pdf Slides]\]
 - \[Jul 25, 2021\] Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks at ICML Workshop on Reinforcement Learning Theory.
 - \[Jul 7-15, 2021\] Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks at EEML'21, Budapest, Hungary.
 - \[Apr 25, 2021\] On Finite-Sample Analysis of Batch Reinforcement Learning with Deep ReLU Networks at Viet.Operator.Theorists.
