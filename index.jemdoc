@@ -19,7 +19,7 @@ In particular, I am interested in improving statistical efficiency and generaliz
 beyond i.i.d. setting of machine and reinforcement learning systems via imposing\/exploiting 
 minimal structural inductive biases. 
 Currently, I focus on: (i) (offline) RL theory (with neural function approximation), and (ii) robust generalization beyond i.i.d. setting,
-(iii) ML applications.  
+(iii) ML applications.  See more at [proposal.html my research proposals].
 ~~~
 
 
@@ -80,6 +80,6 @@ Hung Tran-The, Sunil Gupta, *Thanh Nguyen-Tang*, Santu Rana, Svetha Venkatesh \n
 
 
 == Services 
-- Invited Reviewer/ Program Committee: NeurIPS'21 Workshop on Offline Reinforcement Learning, ICML (2021), NeurIPS (2020, 2021), 
+- **Invited Reviewer/ Program Committee**: NeurIPS'21 Workshop on Offline Reinforcement Learning, ICML (2021), NeurIPS (2020, 2021), 
 ICLR (2021 - *outstanding reviewer award*, 2022), AAAI (2021, 2022), 
 AISTATS (2021).

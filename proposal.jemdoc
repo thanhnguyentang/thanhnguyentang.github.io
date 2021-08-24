@@ -1,0 +1,55 @@
+# jemdoc: menu{MENU}{proposal.html}, nofooter
+==Research proposal
+
+=== Project 1: Offline Reinforcement Learning with Provable Statistical Efficiency
+
+
+Reinforcement Learning (RL) is one of the most ubiquitous learning paradigms and of the most active research area in machine learning. An RL agent interactively and simultaneously learns the underlying dynamics and produces a policy to make decisions in this environment.  However, in practical settings, an interaction with such environment is often expensive or even prohibited, making the RL agent difficult to obtain any online data. Instead, an offline dataset from historical interactions (e.g., demonstration data from human experts or data from any previous policies) is redundant. This research proposal aims at developing new algorithms to leverage offline data with provable statistical efficiency. The significance of this project is that it will constitute fundamental understanding (of the statistical limits and benefits) of offline RL [1] and provide practical algorithms to efficiently and reliably accelerate real-life decision-making problems such as audit, marketing, dynamic pricing, personalized medicines, recommender systems, matching markets, and new material discoveries. 
+
+The fundamental challenges of offline RL are embodied into two following questions: 
+(i) What is a minimal, realistic condition that guarantees sample efficiency in offline RL? and 
+(ii) How can we design a practical algorithm that can efficiently leverage various offline dataset scenarios with provable guarantee under function approximation? 
+
+This project proposal will significantly advance the current literature of offline RL by investigating into these fundamental questions. 
+
+
+
+
+==== References
+- [hi Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems.] \n 
+Sergey Levine, Aviral Kumar, George Tucker, Justin Fu, 2020.     
+
+==== Relevant Publications 
+- [https://lyang36.github.io/icml2021_rltheory/camera_ready/5.pdf Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks] \n
+*Thanh Nguyen-Tang*, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n
+/ICML Workshop on Reinforcement Learning Theory/, 2021 \n
+- [https://arxiv.org/abs/2107.11533 Combining Online Learning and Offline Learning for Contextual Bandits with Deficient Support]\n
+Hung Tran-The, Sunil Gupta, *Thanh Nguyen-Tang*, Santu Rana, Svetha Venkatesh \n 
+/Under review/, 2021
+
+=== Project 2: Provably Robust Generalization Beyond i.i.d. Setting    
+
+
+Generalization – the ability to generalize from training datasets or scenarios to unseen ones, is one of the ultimate goals for AI systems. Deep learning (DL) – a revolutionized machine learning method that adapts deep neural networks with stacked computation modules to datasets, presents a stronger generalization ability than classical methods in many strongly supervised learning tasks or in environments with strong and densely rewards. However, in real-life scenarios, the new data might come from different (but relevant) distributions or new tasks, and the current DL systems generally are not robust in such changes in distribution. How can we provably improve the generalization ability of current DL systems? The no-free lunch theorem for machine learning suggests that any learning algorithm that generalizes well on several distributions or tasks can fail arbitrarily in some other distributions or tasks. Thus, for generalization, it is necessary to introduce structural assumptions about the solutions or the problems at hand. Inductive biases (e.g., compossibility in convolutional neural networks) – a set of cognitive structures that prioritizes the learning toward several desirable properties, are a promising direction to improve DL generalization. This research proposals aim at systematically developing new structural inductive biases that provably guarantee robust generalization in DL. The significance of this project is that it will fundamentally and algorithmically advance the generalization ability of DL systems which in turns benefit vast downstream DL application tasks that require stronger forms of cognitive abilities (e.g., sequential decision making and reasoning) rather than large-scale pattern recognition as in many current DL systems. 
+
+The fundamental challenges in DL generalization are embodied into two following questions: 
+(i) What inductive biases can improve generalization in deep neural networks?, and 
+(ii) In particular, how much do the structures induced by inductive biases improve the generalization bound? 
+For (i), we will draw inspirations from cognitive science and information theory to design new scalable deep neural networks with inductive biases. 
+Currently, we focus on exploiting the causality structure for deep representation learning to make DL systems generalize beyound the i.i.d. settings. 
+For (ii), a new generalization theory is required as the capacity-based generalization bounds obtained by classical statistical learning 
+(e.g., via uniform convergence with VC dimension and Rademacher complexity) are vacuous for overparameterized models such as deep neural networks. 
+This research proposal will investigate into understanding and improving DL generalization guided by these two questions. 
+
+
+==== References 
+- [hi Understanding deep learning requires rethinking generalization]\n 
+Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals, 2017.    
+- [hi Towards Causal Representation Learning]\n 
+Bernhard Schölkopf, Francesco Locatello, Stefan Bauer, Nan Rosemary Ke, Nal Kalchbrenner, Anirudh Goyal, Yoshua Bengio, 2021. 
+- [/assets/ntk_interpolation.pdf Generalization and Optimization in Deep Learning: Over-parameterization and Interpolation]
+
+==== Relevant Publications
+- [https://doi.org/10.3390/e21100976 Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks]\n
+*Thanh Tang Nguyen*, Jaesik Choi\n
+/Entropy/, 21(10), 976, 2019 \n 

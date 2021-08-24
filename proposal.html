@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Research proposal</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div id="profile">
+<img alt="tnt" src="profile_pic.jpg"
+style="display:inline;margin:5px 10px 0px 0px;float:center" width="120">
+</div>
+<hr>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="blog.html">Blog</a></div>
+<div class="menu-item"><a href="news.html">News&nbsp;and&nbsp;Events</a></div>
+<div class="menu-item"><a href="talks.html">Talks</a></div>
+<div class="menu-item"><a href="projects.html">Past&nbsp;Projects</a></div>
+<div class="menu-item"><a href="photos.html">Photos</a></div>
+<hr>
+<div id="counter">
+  <script type='text/javascript'
+    id='clustrmaps'
+    src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=120&t=tt&d=82NHafzempW8zXlKpsMbUtpsRrG-yvVYFzxInVdWKuQ'>
+    </script>
+</div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research proposal</h1>
+</div>
+<h3>Project 1: Offline Reinforcement Learning with Provable Statistical Efficiency</h3>
+<p>Reinforcement Learning (RL) is one of the most ubiquitous learning paradigms and of the most active research area in machine learning. An RL agent interactively and simultaneously learns the underlying dynamics and produces a policy to make decisions in this environment.  However, in practical settings, an interaction with such environment is often expensive or even prohibited, making the RL agent difficult to obtain any online data. Instead, an offline dataset from historical interactions (e.g., demonstration data from human experts or data from any previous policies) is redundant. This research proposal aims at developing new algorithms to leverage offline data with provable statistical efficiency. The significance of this project is that it will constitute fundamental understanding (of the statistical limits and benefits) of offline RL <a href="1" target=&ldquo;blank&rdquo;>1</a> and provide practical algorithms to efficiently and reliably accelerate real-life decision-making problems such as audit, marketing, dynamic pricing, personalized medicines, recommender systems, matching markets, and new material discoveries. 
+</p>
+<p>The fundamental challenges of offline RL are embodied into two following questions: 
+(i) What is a minimal, realistic condition that guarantees sample efficiency in offline RL? and 
+(ii) How can we design a practical algorithm that can efficiently leverage various offline dataset scenarios with provable guarantee under function approximation? 
+</p>
+<p>This project proposal will significantly advance the current literature of offline RL by investigating into these fundamental questions. 
+</p>
+<h4>References</h4>
+<ul>
+<li><p><a href="hi" target=&ldquo;blank&rdquo;>Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems.</a> <br /> 
+Sergey Levine, Aviral Kumar, George Tucker, Justin Fu, 2020.     
+</p>
+</li>
+</ul>
+<h4>Relevant Publications </h4>
+<ul>
+<li><p><a href="https://lyang36.github.io/icml2021_rltheory/camera_ready/5.pdf" target=&ldquo;blank&rdquo;>Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks</a> <br />
+<b>Thanh Nguyen-Tang</b>, Sunil Gupta, Hung Tran-The, Svetha Venkatesh <br />
+<i>ICML Workshop on Reinforcement Learning Theory</i>, 2021 <br />
+</p>
+</li>
+<li><p><a href="https://arxiv.org/abs/2107.11533" target=&ldquo;blank&rdquo;>Combining Online Learning and Offline Learning for Contextual Bandits with Deficient Support</a><br />
+Hung Tran-The, Sunil Gupta, <b>Thanh Nguyen-Tang</b>, Santu Rana, Svetha Venkatesh <br /> 
+<i>Under review</i>, 2021
+</p>
+</li>
+</ul>
+<h3>Project 2: Provably Robust Generalization Beyond i.i.d. Setting    </h3>
+<p>Generalization – the ability to generalize from training datasets or scenarios to unseen ones, is one of the ultimate goals for AI systems. Deep learning (DL) – a revolutionized machine learning method that adapts deep neural networks with stacked computation modules to datasets, presents a stronger generalization ability than classical methods in many strongly supervised learning tasks or in environments with strong and densely rewards. However, in real-life scenarios, the new data might come from different (but relevant) distributions or new tasks, and the current DL systems generally are not robust in such changes in distribution. How can we provably improve the generalization ability of current DL systems? The no-free lunch theorem for machine learning suggests that any learning algorithm that generalizes well on several distributions or tasks can fail arbitrarily in some other distributions or tasks. Thus, for generalization, it is necessary to introduce structural assumptions about the solutions or the problems at hand. Inductive biases (e.g., compossibility in convolutional neural networks) – a set of cognitive structures that prioritizes the learning toward several desirable properties, are a promising direction to improve DL generalization. This research proposals aim at systematically developing new structural inductive biases that provably guarantee robust generalization in DL. The significance of this project is that it will fundamentally and algorithmically advance the generalization ability of DL systems which in turns benefit vast downstream DL application tasks that require stronger forms of cognitive abilities (e.g., sequential decision making and reasoning) rather than large-scale pattern recognition as in many current DL systems. 
+</p>
+<p>The fundamental challenges in DL generalization are embodied into two following questions: 
+(i) What inductive biases can improve generalization in deep neural networks?, and 
+(ii) In particular, how much do the structures induced by inductive biases improve the generalization bound? 
+For (i), we will draw inspirations from cognitive science and information theory to design new scalable deep neural networks with inductive biases. 
+Currently, we focus on exploiting the causality structure for deep representation learning to make DL systems generalize beyound the i.i.d. settings. 
+For (ii), a new generalization theory is required as the capacity-based generalization bounds obtained by classical statistical learning 
+(e.g., via uniform convergence with VC dimension and Rademacher complexity) are vacuous for overparameterized models such as deep neural networks. 
+This research proposal will investigate into understanding and improving DL generalization guided by these two questions. 
+</p>
+<h4>References </h4>
+<ul>
+<li><p><a href="hi" target=&ldquo;blank&rdquo;>Understanding deep learning requires rethinking generalization</a><br /> 
+Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals, 2017.    
+</p>
+</li>
+<li><p><a href="hi" target=&ldquo;blank&rdquo;>Towards Causal Representation Learning</a><br /> 
+Bernhard Schölkopf, Francesco Locatello, Stefan Bauer, Nan Rosemary Ke, Nal Kalchbrenner, Anirudh Goyal, Yoshua Bengio, 2021. 
+</p>
+</li>
+<li><p><a href="assets/ntk_interpolation.pdf">Generalization and Optimization in Deep Learning: Over-parameterization and Interpolation</a>
+</p>
+</li>
+</ul>
+<h4>Relevant Publications</h4>
+<ul>
+<li><p><a href="https://doi.org/10.3390/e21100976" target=&ldquo;blank&rdquo;>Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks</a><br />
+<b>Thanh Tang Nguyen</b>, Jaesik Choi<br />
+<i>Entropy</i>, 21(10), 976, 2019 <br /> 
+</p>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</body>
+</html>
