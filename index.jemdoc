@@ -5,10 +5,9 @@ Postdoctoral Researcher \n
 Deakin University, Australia \n 
 Email: /nguyent2792/ \[AT\] gmail \[DOC\] com 
 
-I am currently a postdoctoral researcher of the Applied AI Institute at Deakin University. 
-Prior to that, I was a PhD student at Deakin University from Jan 2019 to Jul 2021, 
-was a researcher at Ulsan National University of Science and Technology (UNIST) from Mar 2018 to Dec 2019, 
-and obtained my Master at UNIST in 2018. \n
+I am currently an associate research fellow and an PhD candidate of the Applied AI Institute at Deakin University. 
+Prior to that, I was a researcher at Ulsan National University of Science and Technology (UNIST) from Mar 2018 to Dec 2019, 
+and I obtained my Master at UNIST in 2018. \n
 
 
 ~~~
@@ -66,6 +65,9 @@ Huong Ha, Santu Rana, Sunil Gupta, *Thanh Tang Nguyen*, Hung Tran-The, Svetha Ve
 \[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ Poster]]
 
 === Preprints 
+- [thanhnguyentang.github.io Offline Neural Contextual Bandits:  Pes-simism, Optimization and Generalization]\n
+*Thanh Nguyen-Tang*, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh \n  
+/Under review/, 2021 
 - [https://arxiv.org/abs/2107.11533 Combining Online Learning and Offline Learning for Contextual Bandits with Deficient Support]\n
 Hung Tran-The, Sunil Gupta, *Thanh Nguyen-Tang*, Santu Rana, Svetha Venkatesh \n 
 /Under review/, 2021
