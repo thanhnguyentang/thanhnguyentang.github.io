@@ -12,8 +12,8 @@ and I obtained my Master at UNIST in 2018. \n
 
 ~~~ 
 The goal of my research is to develop a better understanding and design more efficient data-driven machine learning methods for 
-learning and decision-making in modern practical settings. The key highlights for my research interest are:  
-My research lies at the intersection of machine learning with statistics and optimization. 
+learning and decision-making in modern practical settings. 
+My research interest lies at the intersection of machine learning with statistics and optimization, with the key highlights:
 - Offline reinforcement learning (theory) with neural function approximation 
 - Robust generalization beyond i.i.d. setting  
 - Distributional reinforcement learning 
