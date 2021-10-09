@@ -10,15 +10,15 @@ Prior to that, I was a researcher at Ulsan National University of Science and Te
 and I obtained my Master at UNIST in 2018. \n
 
 
-~~~
-I work on machine learing with the goal of 
-developing advanced data-driven machine learning and statistical methods for 
-learning and reasoning in complex, structured models over large, structured datasets. 
-In particular, I am interested in improving statistical efficiency and generalization 
-beyond i.i.d. setting of machine and reinforcement learning systems via imposing\/exploiting 
-minimal structural inductive biases. 
-Currently, I focus on: (i) (offline) RL theory (with neural function approximation), and (ii) robust generalization beyond i.i.d. setting,
-(iii) ML applications.  
+~~~ 
+The goal of my research is to develop a better understanding and design more efficient data-driven machine learning methods for 
+learning and decision-making in modern practical settings. 
+My research lies at the intersection of machine learning with statistics and optimization. 
+- Offline Reinforcement Learning (theory) with neural function approximation 
+- Robust generalization beyond i.i.d. setting  
+- Distributional Reinforcement Learning 
+- Information Bottleneck for robust representation 
+- Causal Inference for Robust Generalization 
 ~~~
 
 
