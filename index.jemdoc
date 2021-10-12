@@ -12,13 +12,11 @@ and I obtained my Master at UNIST in 2018. \n
 
 ~~~ 
 The goal of my research is to develop a better understanding and design more efficient data-driven machine learning methods for 
-learning and decision-making in modern practical settings. 
+learning and decision-making in modern practical settings for robustness, scalability and statistical efficiency. 
 My research interest lies at the intersection of machine learning with statistics and optimization, with the key highlights:
-- Offline reinforcement learning (theory) with neural function approximation 
-- Robust generalization beyond i.i.d. setting  
+- Bandits and reinforcement learning (especially offline learing and neural function approximation)
+- Robust generalization beyond i.i.d. setting (e.g., using Information Botllteneck and causal inference) 
 - Distributional reinforcement learning 
-- Information Bottleneck for robust representation 
-- Causal Inference for robust generalization 
 ~~~
 
 
