@@ -34,11 +34,15 @@ I have been also serving as a ML technical consultant for a local startup compan
 
 
 == Latest News 
-- \[Jul 8, 2021\] A short version of our work have been accepted to the ICML Workshop on Reinforcement Learning Theory 2021.
+- \[Oct 25, 2021\] A short version of our work has been accepted to the NeurIPS'21 Workshop on Offline Reinforcement Learning.
+- \[Jul 8, 2021\] A short version of our work has been accepted to the ICML'21 Workshop on Reinforcement Learning Theory.
 - \[Jul 1, 2021\] I start my postdoc at A$^2$I$^2$, Deakin University after submitting my Ph.D. thesis in 24 Jun. 
 - \[May 20, 2021\] I have been accepted to the Deep Learning Theory Summer School at Princeton, acceptance rate: 180/500 = 36%.
 
 == Publications 
+- [thanhnguyentang.github.io Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization]\n
+*Thanh Nguyen-Tang*, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh \n  
+/NeurIPS Workshop on Offline Reinforcement Learning/, 2021 
 - [https://lyang36.github.io/icml2021_rltheory/camera_ready/5.pdf Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks] \n
 *Thanh Nguyen-Tang*, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n
 /ICML Workshop on Reinforcement Learning Theory/, 2021 \n
@@ -74,6 +78,10 @@ Huong Ha, Santu Rana, Sunil Gupta, *Thanh Tang Nguyen*, Hung Tran-The, Svetha Ve
 - [https://arxiv.org/abs/2107.11533 Combining Online Learning and Offline Learning for Contextual Bandits with Deficient Support]\n
 Hung Tran-The, Sunil Gupta, *Thanh Nguyen-Tang*, Santu Rana, Svetha Venkatesh \n 
 /Under review/, 2021
+- [https://lyang36.github.io/icml2021_rltheory/camera_ready/5.pdf Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks] \n
+*Thanh Nguyen-Tang*, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n
+/Under review/, 2021 
+
 
 === Dissertations 
 - [https://thanhnguyentang.github.io/ On Practical Reinforcement Learning: Provable Robustness, Scalability and Statistical Efficiency]\n 
