@@ -1,0 +1,15 @@
+# jemdoc: menu{MENU}{resources.html}, nofooter
+== Resources 
+
+=== Courses
+- [https://web.stanford.edu/class/stats300b/syllabus.html Stats 300B: Theory of Statistics II], by John Duchi (Stanford)
+- [https://boazbk.github.io/mltheoryseminar/cs229br.html#plan Harvard CS 229br: Advanced Topics in the theory of machine learning], 
+by Boaz Barak (Harvard)
+- [https://github.com/TomasVaskevicius/learning-and-statistical-optimization Learning Theory and Statistical Optimization repos], 
+by Patrick Rebeschini (Oxford)
+- [http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/20/index.html Algorithmic Foundations of Learning], by Patrick Rebeschini (Oxford) 
+
+=== Seminars 
+- [https://simons.berkeley.edu/ Simons Institute for The Theory of Computing] 
+- [https://stat.mit.edu/calendars/category/stochastics-and-statistics-seminar/ MIT Statistics and Data Science center]
+- [http://www-math.mit.edu/~rigollet/ Philippe Rigollet]
