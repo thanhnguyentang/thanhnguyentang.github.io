@@ -1,7 +1,9 @@
 # jemdoc: menu{MENU}{resources.html}, nofooter
 == Resources 
 
-=== Courses
+=== Courses/Tutorials 
+- [https://arxiv.org/abs/2110.11216 User-friendly introduction to PAC-Bayes bounds], by Pierre Alquier (RIKEN)
+- [https://haipeng-luo.net/courses/pku_summer_2018/index.html Introduction to Online Optimization/Learning], by Haipeng Luo (USC)
 - [https://web.stanford.edu/class/stats300b/syllabus.html Stats 300B: Theory of Statistics II], by John Duchi (Stanford)
 - [https://boazbk.github.io/mltheoryseminar/cs229br.html Harvard CS 229br: Advanced Topics in the theory of machine learning], by Boaz Barak (Harvard)
 - [https://github.com/TomasVaskevicius/learning-and-statistical-optimization Learning Theory and Statistical Optimization repos], 
