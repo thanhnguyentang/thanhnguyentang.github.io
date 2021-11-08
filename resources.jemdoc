@@ -1,12 +1,12 @@
 # jemdoc: menu{MENU}{resources.html}, nofooter
 == Resources 
 
-=== Courses/ Tutorials/ Books
-- [https://arxiv.org/abs/1912.13213 A Modern Introduction to Online Learning] by Francesco Orabona (Boston University)
-- [https://tor-lattimore.com/downloads/book/book.pdf Bandit Algorithms] by Tor Lattimore (Deepmind) and Csaba Szepesvari (Deepmind, University of Alberta)
+=== Courses// Tutorials// Books
+- [https://arxiv.org/abs/1912.13213 A Modern Introduction to Online Learning], by Francesco Orabona (Boston University)
+- [https://tor-lattimore.com/downloads/book/book.pdf Bandit Algorithms], by Tor Lattimore (Deepmind) and Csaba Szepesvari (Deepmind, University of Alberta)
 - [https://arxiv.org/abs/2110.11216 User-friendly introduction to PAC-Bayes bounds], by Pierre Alquier (RIKEN)
 - [https://haipeng-luo.net/courses/pku_summer_2018/index.html Introduction to Online Optimization/Learning], by Haipeng Luo (USC)
-- [https://www.cambridge.org/core/books/highdimensional-statistics/8A91ECEEC38F46DAB53E9FF8757C7A4E High-Dimensional Statistics: A Non-Asymptotic Viewpoint] by Martin J. Wainwright (UC Berkeley)
+- [https://www.cambridge.org/core/books/highdimensional-statistics/8A91ECEEC38F46DAB53E9FF8757C7A4E High-Dimensional Statistics: A Non-Asymptotic Viewpoint], by Martin J. Wainwright (UC Berkeley)
 - [https://web.stanford.edu/class/stats300b/syllabus.html Stats 300B: Theory of Statistics II], by John Duchi (Stanford)
 - [https://boazbk.github.io/mltheoryseminar/cs229br.html Harvard CS 229br: Advanced Topics in the theory of machine learning], by Boaz Barak (Harvard)
 - [https://github.com/TomasVaskevicius/learning-and-statistical-optimization Learning Theory and Statistical Optimization repos], 
