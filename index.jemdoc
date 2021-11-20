@@ -15,10 +15,10 @@ The goal of my research is
 to develop better understanding and tractable methods for /learning/ and /decision-making/ in modern practical settings with strong theoretical guarantees. 
 My research interest lies at the intersection of machine learning with statistics and optimization. My research areas: 
 
-- Sequential decision-making under uncertainty (e.g., reinforcement learning, bandit, online learning)
-- Computational statistics 
-- Robust generalization beyond i.i.d. setting (e.g., OOD generalization, adversarial learning) 
-- Applications in econometric, finance and healthcare
+- Sequential decision-making under uncertainty (e.g., reinforcement learning, bandit, online learning),
+- Computational Bayesian statistics,
+- Robust OOD generalization,
+and their applications in the quantative settings (e.g., econometric, finance and healthcare). 
 ~~~
 
 
