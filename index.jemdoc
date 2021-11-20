@@ -11,12 +11,14 @@ and I obtained my Master at UNIST in 2018. \n
 
 
 ~~~ 
-The goal of my research is to develop a better understanding and design more efficient data-driven machine learning methods for 
-learning and decision-making in modern practical settings for robustness, scalability and statistical efficiency. 
-My research interest lies at the intersection of machine learning with statistics and optimization, with the key highlights:
-- Reinforcement learning (e.g., offline policy learing, bandits, distributional RL)
+The goal of my research is
+to develop better understanding and tractable methods for /learning/ and /decision-making/ in modern practical settings with strong theoretical guarantees. 
+My research interest lies at the intersection of machine learning with statistics and optimization. My research areas: 
+
+- Sequential decision-making under uncertainty (e.g., reinforcement learning, bandit, online learning)
+- Computational statistics 
 - Robust generalization beyond i.i.d. setting (e.g., OOD generalization, adversarial learning) 
-- Information Bottleneck 
+- Applications in econometric, finance and healthcare
 ~~~
 
 
