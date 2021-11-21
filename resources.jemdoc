@@ -1,7 +1,8 @@
 # jemdoc: menu{MENU}{resources.html}, nofooter
 == Resources 
 
-=== Courses/Books  
+=== Courses/Books   
+- [https://www.stat.berkeley.edu/~jsteinhardt/stat260/ Robust Statistics], by Jacob Steinhardt (UC Berkeley)
 - [https://arxiv.org/abs/1912.13213 A Modern Introduction to Online Learning], by Francesco Orabona (Boston University)
 - [https://tor-lattimore.com/downloads/book/book.pdf Bandit Algorithms], by Tor Lattimore (Deepmind) and Csaba Szepesvari (Deepmind, University of Alberta)
 - [https://arxiv.org/abs/2110.11216 User-friendly introduction to PAC-Bayes bounds], by Pierre Alquier (RIKEN)
