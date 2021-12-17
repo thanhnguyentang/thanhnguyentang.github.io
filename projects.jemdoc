@@ -1,5 +1,11 @@
-# jemdoc: menu{MENU}{projects.html}, nofooter
-== Projects
+# jemdoc: menu{MENU}{projects.html}, nofooter  
+== Current Research Projects   
+- Asymptotic Causal Inference 
+- Deep Equilibrium Models  
+- Bayesain domain generalization  
+- Trojan attacks and defenses 
+
+== Past Projects
 
 - Neural reading comprehension (collaborators: S. Kwon, J.C.) \n 
 Stanford question answering dataset, 2018.
