@@ -9,21 +9,19 @@ I am currently an Associate Research Fellow and was a PhD candidate of the Appli
 Prior to that, I was a researcher at Ulsan National University of Science and Technology (UNIST) from Mar 2018 to Dec 2019, 
 and I obtained my Master at UNIST in 2018. \n
 
-
-~~~ 
 The goal of my research is
 to develop better understanding and tractable methods for /learning/ and /decision-making/ in modern practical settings with strong theoretical guarantees. 
 My research interest lies at the intersection of machine learning with statistics and optimization. My research areas: 
 
 - Sequential decision-making under uncertainty (e.g., reinforcement learning, bandit, online learning),
-- Computational Bayesian statistics,
-- Robust OOD generalization,
+- Robust generalization (e.g. OOD, adversarial learning)
+- Statistical inference (including causal inference)
 
-and their applications in the quantative settings (e.g., econometric, finance and healthcare). 
+~~~ 
+Our Institute at Deakin University have several PhD openings in offline learning and causal inference. Please contact me for more information. 
 ~~~
 
 
-I publish under Thanh Tang Nguyen (old name arrangement) and Thanh Nguyen-Tang (new one). 
 Here are my latest [https://thanhnguyentang.github.io/ CV], 
 [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar], 
 [https://www.semanticscholar.org/author/Thanh-Nguyen-Tang/1490490191?sort=pub-date Semantic Scholar], 
@@ -96,6 +94,9 @@ Hung Tran-The, Sunil Gupta, *Thanh Nguyen-Tang*, Santu Rana, Svetha Venkatesh \n
 /Master Thesis/, Ulsan National University of Science and Technology, South Korea, 2018\n
 \[[https://thanhnguyentang.github.io/assets/PIB_thesis_slide.pdf Slides]] \[[https://www.youtube.com/watch?v=md9qV4Hrgbo&t=378s Talk]]
 
+== Supervision and mentoring 
+- Ragja Palakkadavath, Ph.D. student in ML at A2I2, Deakin University – Topic: Domain Generalization – Role: Associate supervisor   
+- Qiyao Wei, senior undergrad at University of Toronto – Role: PhD application mentor  
 
 == Academic Service  
 - Reviewer, L4DC, 2022
