@@ -35,6 +35,7 @@ I have been also serving as a ML technical consultant for a local startup compan
 
 
 == Latest News 
+- \[Jan 21, 2022\] One paper got accepted to ICLR, 2022. 
 - \[Oct 25, 2021\] A short version of our work has been accepted to the NeurIPS'21 Workshop on Offline Reinforcement Learning.
 - \[Jul 8, 2021\] A short version of our work has been accepted to the ICML'21 Workshop on Reinforcement Learning Theory.
 - \[Jul 1, 2021\] I start my postdoc at A$^2$I$^2$, Deakin University after submitting my Ph.D. thesis in 24 Jun. 
@@ -43,6 +44,7 @@ I have been also serving as a ML technical consultant for a local startup compan
 == Publications 
 - [https://offline-rl-neurips.github.io/2021/pdf/28.pdf Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization]\n
 *Thanh Nguyen-Tang*, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh \n  
+/ICLR/, 2022 \n 
 /Workshop on Offline Reinforcement Learning/, /NeurIPS/, 2021 \n 
 \[[https://arxiv.org/abs/2111.13807 arXiv]\] 
 \[[assets/poster_NeurIPSW21.pdf Poster]\]
@@ -75,12 +77,10 @@ Huong Ha, Santu Rana, Sunil Gupta, *Thanh Tang Nguyen*, Hung Tran-The, Svetha Ve
 \[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ Poster]]
 
 === Preprints 
-- [thanhnguyentang.github.io Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization]\n
-*Thanh Nguyen-Tang*, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh \n  
-/Under review/, 2021 
-- [https://arxiv.org/abs/2107.11533 Combining Online Learning and Offline Learning for Contextual Bandits with Deficient Support]\n
-Hung Tran-The, Sunil Gupta, *Thanh Nguyen-Tang*, Santu Rana, Svetha Venkatesh \n 
-/Under review/, 2021
+
+- [https://arxiv.org/abs/2107.11533 Offline Contextual Bandit Learning under Support Defficiency]\n
+Hung Tran-The, *Thanh Nguyen-Tang*, Sunil Gupta, Santu Rana, Svetha Venkatesh \n 
+/Under review/, 2022
 - [https://lyang36.github.io/icml2021_rltheory/camera_ready/5.pdf Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks] \n
 *Thanh Nguyen-Tang*, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n
 /Under review/, 2021 
