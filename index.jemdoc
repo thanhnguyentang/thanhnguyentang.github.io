@@ -13,9 +13,9 @@ The goal of my research is
 to develop better understanding and tractable methods for /learning/ and /decision-making/ in modern practical settings with strong theoretical guarantees. 
 My research interest lies at the intersection of machine learning with statistics and optimization. My research areas: 
 
-- Sequential decision-making under uncertainty (e.g., reinforcement learning, bandit, online learning),
-- Robust generalization (e.g. OOD, adversarial learning)
-- Statistical inference (e.g. semiparametric models and causal inference)
+- Reinforcement learning (including bandits and online learning),
+- Robust generalization (e.g. domain generalization), 
+- Data-driven optimizaiton  
 
 ~~~ 
 Our Institute at Deakin University have several PhD openings in offline learning and causal inference. Please contact me for more information. 
