@@ -7,18 +7,23 @@ Email: /nguyent2792/ \[AT\] gmail \[DOC\] com
 
 I am currently an Associate Research Fellow and was a PhD candidate of the Applied AI Institute at Deakin University. 
 Prior to that, I was a researcher at Ulsan National University of Science and Technology (UNIST) from Mar 2018 to Dec 2019, 
-and I obtained my Master at UNIST in 2018. \n
+and I obtained my Master at UNIST in 2018. I have been also serving as a ML technical consultant for a local startup company on NLP product solutions. 
+\n
 
 The goal of my research is
-to develop better understanding and tractable methods for /learning/ and /decision-making/ in modern practical settings with strong theoretical guarantees. 
-My research interest lies at the intersection of machine learning with statistics and optimization. My research areas: 
+to develop better understanding and computationally efficient methods for /learning/ and /decision-making/ in modern practical settings with strong theoretical guarantees. 
+My research interest lies at the intersection of machine learning with statistics and optimization. 
 
-- Reinforcement learning (including bandits and online learning),
-- Robust generalization (e.g. domain generalization), 
-- Data-driven optimizaiton  
+*Research areas*: reinforcement learning (including bandits and online learning), robust generalization (e.g. domain generalization), large-scale optimization,
+and their applications in finance, business, and medicine.  
+
+~~~
+I’m actively open to research collaborations. Please feel free to email me at nguyent2792 AT gmail DOT com if you are interested in creating some fun project together! 
+I highly encourage motivated undergrad students to contact me even when you are a ML newbie! 
+~~~
 
 ~~~ 
-Our Institute at Deakin University have several PhD openings in offline learning and causal inference. Please contact me for more information. 
+Our Institute at Deakin University is looking for several strongly motivated PhD students (especially in RL and domain generalization). Please contact me for more information. 
 ~~~
 
 
@@ -28,10 +33,6 @@ Here are my latest [https://thanhnguyentang.github.io/ CV],
 [https://github.com/thanhnguyentang Github],
 [https://twitter.com/thanhnguyentang Twitter] . 
 
-I created the [https://thanhnguyentang.github.io/mlten.html "ML Theory Exchange Network" Discord channel] (currently 66 members as of 25 Oct 2021) 
-to connect ML-theory passionate self-learners (like myself) with senior researchers for exchanging ideas and learning resources. 
-
-I have been also serving as a ML technical consultant for a local startup company on NLP product solutions. 
 
 
 == Latest News 
@@ -45,13 +46,13 @@ I have been also serving as a ML technical consultant for a local startup compan
 === **2022** 
 - [https://offline-rl-neurips.github.io/2021/pdf/28.pdf *Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization*]\n
 *Thanh Nguyen-Tang*, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh \n  
-/ICLR/, 2022 \n 
+ICLR, 2022 \n 
 /Workshop on Offline Reinforcement Learning/, /NeurIPS/, 2021 \n 
 \[[https://arxiv.org/abs/2111.13807 arXiv]\] 
 \[[assets/poster_NeurIPSW21.pdf Poster]\]  
 - [https://arxiv.org/abs/2107.11533 *Partially Offline Contextual Bandit Learning under Support Defficiency*]\n
 Hung Tran-The, *Thanh Nguyen-Tang*, Sunil Gupta, Santu Rana, Svetha Venkatesh \n 
-/Under review/, 2022
+Under review, 2022
 === **2021** 
 - [https://lyang36.github.io/icml2021_rltheory/camera_ready/5.pdf *Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks*] \n
 *Thanh Nguyen-Tang*, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n
@@ -61,7 +62,7 @@ Hung Tran-The, *Thanh Nguyen-Tang*, Sunil Gupta, Santu Rana, Svetha Venkatesh \n
 \[[https://www.youtube.com/watch?v=xLM5pondWY4 Talk]]
 - [https://ojs.aaai.org/index.php/AAAI/article/view/17104 *Distributional Reinforcement Learning via Moment Matching*]\n 
 *Thanh Nguyen-Tang*, Sunil Gupta, Svetha Venkatesh \n 
-/AAAI/, 2021 \n
+AAAI, 2021 \n
 \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl Code]]
 \[[https://cutt.ly/fkkiAGm Slides]] 
 \[[https://cutt.ly/4kkiJZt Poster]] \[[https://youtu.be/1fMqZZjy84E Talk]] 
@@ -69,7 +70,7 @@ Hung Tran-The, *Thanh Nguyen-Tang*, Sunil Gupta, Santu Rana, Svetha Venkatesh \n
 === **2020**
 - [http://proceedings.mlr.press/v108/nguyen20a.html *Distributionally Robust Bayesian Quadrature Optimization*]\n 
 *Thanh Tang Nguyen*, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh\n 
-/AISTATS/, 2020 \n 
+AISTATS, 2020 \n 
 \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo Code]]
 \[[https://thanhnguyentang.github.io/assets/aistats20_drbqo.pdf Slides]] 
 \[[https://slideslive.com/38930124/ Talk]]  
@@ -77,21 +78,21 @@ Hung Tran-The, *Thanh Nguyen-Tang*, Sunil Gupta, Santu Rana, Svetha Venkatesh \n
 === **2019** 
 - [https://doi.org/10.3390/e21100976 *Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks*]\n
 *Thanh Tang Nguyen*, Jaesik Choi\n
-/Entropy/, 21(10), 976, 2019 \n 
+Entropy, 21(10), 976, 2019 \n 
 \[[https://github.com/thanhnguyentang/pib Code]]
 - [https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space *Bayesian Optimization with Unknown Search Space*]\n
 Huong Ha, Santu Rana, Sunil Gupta, *Thanh Tang Nguyen*, Hung Tran-The, Svetha Venkatesh \n
-/NeurIPS/, 2019 \n
+NeurIPS, 2019 \n
 \[[https://github.com/HuongHa12/BO_unknown_searchspace Code]]
 \[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ Poster]]
 
 
 === Dissertations 
 - [https://thanhnguyentang.github.io/ *On Practical Reinforcement Learning: Provable Robustness, Scalability and Statistical Efficiency*]\n 
-/Ph.D. dissertation/, Deakin University, Australia, July 2021
+Ph.D. dissertation, Deakin University, Australia, July 2021
 
 - [http://scholarworks.unist.ac.kr/handle/201301/23561 *Parametric Information Bottleneck to Optimize Stochastic Neural Networks*]\n
-/Master Thesis/, Ulsan National University of Science and Technology, South Korea, 2018\n
+Master Thesis, Ulsan National University of Science and Technology, South Korea, 2018\n
 \[[https://thanhnguyentang.github.io/assets/PIB_thesis_slide.pdf Slides]] \[[https://www.youtube.com/watch?v=md9qV4Hrgbo&t=378s Talk]]
 
 == Supervision and mentoring 
@@ -110,3 +111,6 @@ Huong Ha, Santu Rana, Sunil Gupta, *Thanh Tang Nguyen*, Hung Tran-The, Svetha Ve
 - Program Committee, AAAI, 2021 
 - Reviewer, ICLR, 2021 (*outstanding reviewer award*)
 - Reviewer, NeurIPS, 2020 
+
+I created the [https://thanhnguyentang.github.io/mlten.html "ML Theory Exchange Network" Discord channel] (currently 66 members as of 25 Oct 2021) 
+to connect ML-theory passionate self-learners (like myself) with senior researchers for exchanging ideas and learning resources. 
