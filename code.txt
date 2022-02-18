@@ -1,1 +1,3 @@
 jemdoc -c mysite.conf *.jemdoc 
+
+I advocate "Engaged Machine-Learningism": building learning theory and algorithms for contemporary problems with collaborative effort.  
