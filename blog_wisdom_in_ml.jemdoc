@@ -148,3 +148,21 @@ This is what a repaired mind does, once they see an opportunity, they go after i
 - “Great Thoughts Time”: Devote some small time of one day in a week (e.g., Friday afternoon) 
 ONLY to think and understand the bigger problems in the field, what’s important, what’s not.
 - Drive + commitment > talent
+
+
+=== How to do research (personalized section)  
+
+For me, research should be about dare to ask fundamental questions that are important for many real-world applications.  
+Novelty is a key in research as this is how new knowledge is emerged. But how to improve the ability to ask questions and how to seek for novelty? 
+For me, I believe that these skills can be trained and improved significantly over time (given hard working and passion). 
+For this I treat these skills as the objective in a reinforcment learning problem where we need to balance exploration-exploitation. 
+What is exploration and exploitation in the context of "question asking" and "novelty seeking"? 
+
+- Exploitation: Spend huge time in keeping myself dive deep into technical subjects and proofs. 
+I am currently interested in RL with function approximation, adversarial robust learning, learning in strategic environments, and non-convex optimization. 
+
+- Exploration: Stay off from technical details for awhile and asking high-level questions. 
+
+These two activities should be practiced frequently to the point that they become habit. 
+Many would emphasize too much in exploration stage whereas I think that exploitation is just as important as exploration, especially in ML theory. 
+The art is how to balance them.  
