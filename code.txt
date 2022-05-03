@@ -1,3 +1,11 @@
 jemdoc -c mysite.conf *.jemdoc 
 
 I advocate "Engaged Machine-Learningism": building learning theory and algorithms for contemporary problems with collaborative effort.  
+
+The goal of my research is
+to seek better understanding and develop computationally and provably efficient /learning/ and /decision-making/ methods in modern practical settings 
+of machine learning. 
+My research interest lies at the intersection of machine learning with statistics and optimization (Statistical Learning and Optimization Lab - *SLOpt Lab*).
+
+ (including bandits and online learning); overparameterized neural networks; adversarial robust learning; 
+
