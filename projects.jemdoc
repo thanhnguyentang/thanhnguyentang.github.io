@@ -2,10 +2,10 @@
 == Projects     
 
 === Current Research Projects 
-- Asymptotic Causal Inference 
-- Deep Equilibrium Models  
-- Bayesain domain generalization  
-- Trojan attacks and defenses 
+- Sample-efficient Offline RL 
+- Representation Learning for Sample-efficient RL 
+- OOD Generalization and Meta Learning 
+- Implicit Deep Learning (e.g. Deep Equilibrium Models)
 
 === Past Projects
 
