@@ -33,6 +33,16 @@ Here are my
 
 == Publications  
 === **2022** 
+- [https://thanhnguyentang.github.io/ *Learning White Noises in Neural Stochastic Differential Equations*]\n  
+Anh Tong, *Thanh Nguyen-Tang*, Toan Tran, Jaesik Choi \n
+Under review, 2022 \n
+- [https://thanhnguyentang.github.io/ *Two-Stage Neural Contextual Bandits for Personalised News Recommendation*]\n  
+Mengyan Zhang, *Thanh Nguyen-Tang*, Fangzhao Wu, Zhenyu He, Xing Xie, Cheng Soon Ong \n
+Under review, 2022 \n
+- [https://arxiv.org/abs/2107.11533 *Partially Offline Contextual Bandit Learning under Support Defficiency*]\n
+Hung Tran-The, *Thanh Nguyen-Tang*, Sunil Gupta, Santu Rana, Svetha Venkatesh \n 
+Under review, 2022 \n
+
 - [https://openreview.net/pdf?id=sPIFuucA3F *Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization*]\n
 *Thanh Nguyen-Tang*, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh \n  
 ICLR, 2022 \n 
@@ -41,9 +51,7 @@ ICLR, 2022 \n
 \[[assets/poster_NeurIPSW21.pdf Poster]\]  
 \[[assets/neuralcb_slides.pdf Slides]\] 
 \[[https://github.com/thanhnguyentang/offline_neural_bandits Code]\]
-- [https://arxiv.org/abs/2107.11533 *Partially Offline Contextual Bandit Learning under Support Defficiency*]\n
-Hung Tran-The, *Thanh Nguyen-Tang*, Sunil Gupta, Santu Rana, Svetha Venkatesh \n 
-Under review, 2022
+
 === **2021** 
 - [https://lyang36.github.io/icml2021_rltheory/camera_ready/5.pdf *Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks*] \n
 *Thanh Nguyen-Tang*, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n
