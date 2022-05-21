@@ -1,0 +1,17 @@
+== Modern Statistical Learning and Optimization Seminar (MSLOS) 
+
+=== About 
+We host a mini bi-weekly seminar on algorithmic and theoretical foundations of modern machine learning via Zoom room. The seminar is open to everyone.
+If you are interested in giving a talk in the seminar, please feel free to contact us. The links for this seminar are:
+
+- Youtube link: TBA.  
+- Zoom link: TBA.  
+
+=== Schedule 
+~~~
+{}{table}{countries}
+ |Date | Title               | Presenter | Link ||
+ | 9 am (GMT+7), June 03, 2022 | "Rate-Distortion Theoretic Generalization Bounds for Stochastic Learning Algorithms", Sefidgaran et al. COLT'22 | -- | [https://arxiv.org/abs/2203.02474 arxiv] ||
+ | TBA | "Complete Policy Regret Bounds for Tallying Bandits", Malik et al. COLT'22 | -- | [https://arxiv.org/abs/2204.11174 arxiv] || 
+
+~~~
