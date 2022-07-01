@@ -1,17 +1,22 @@
 # jemdoc: menu{MENU}{index.html}, showsource
 = Thanh Nguyen-Tang
-Associate Research Fellow \n
-[https://a2i2.deakin.edu.au/ Applied AI Institute (A$^2$I$^2$)] \n 
-Deakin University, Australia \n 
-Email: /nguyent2792/ \[AT\] gmail \[DOT\] com 
+Postdoctoral Research Fellow \n
+[https://www.cs.jhu.edu/ Department of Computer Science] \n 
+[https://engineering.jhu.edu/ Whiting School of Engineering] \n 
+[https://www.jhu.edu/ Johns Hopkins University] \n 
+3400 N Charles Street, Malone Hall 331, Baltimore, MD 21218
 
-*Intro.* I am currently an Associate Research Fellow and have recently finished my PhD (Feb 2022) at the Applied AI Institute, Deakin University. 
-Prior to that, I was a researcher at Ulsan National University of Science and Technology (UNIST) from Mar 2018 to Dec 2018, 
-and I obtained my Master at UNIST in 2018. I was also serving as a ML technical consultant for a local startup company on NLP product solutions. 
+
+Email: /tnguy258/ at jhu dot edu, Or /nguyent2792/ at gmail dot com 
+
+*Intro.* I am a Postdoctoral Research Fellow at Department of Computer Science, Whiting School of Engineering, Johns Hopkins University, 
+working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. Prior to that, I was an Associate Research Fellow at the Applied AI Institute, Deakin University from Jul 2021 to June 2022 
+and completed my PhD there in Feb 2022. I was a researcher at Ulsan National University of Science and Technology (UNIST) from Mar 2018 to Dec 2018, 
+and I obtained my Master there in 2018. I was also serving as a ML technical consultant for a local startup company on NLP product solutions. 
 \n
 
 
-*Research interests.* Algorithmic and theoretical foundations of modern machine learning - reinforcement learning, deep learning and representation learning. 
+*Research interests.* Modern machine learning. 
 
 We are running a mini [mslos.html Modern Statistical Learning and Optimization Seminar (MSLOS)].
 
@@ -37,9 +42,11 @@ Here are my
 - [https://thanhnguyentang.github.io/ *Learning White Noises in Neural Stochastic Differential Equations*]\n  
 Anh Tong, *Thanh Nguyen-Tang*, Toan Tran, Jaesik Choi \n
 Under review, 2022 \n
-- [https://thanhnguyentang.github.io/ *Two-Stage Neural Contextual Bandits for Personalised News Recommendation*]\n  
+- [https://arxiv.org/abs/2206.14648 *Two-Stage Neural Contextual Bandits for Personalised News Recommendation*]\n  
 Mengyan Zhang, *Thanh Nguyen-Tang*, Fangzhao Wu, Zhenyu He, Xing Xie, Cheng Soon Ong \n
-Under review, 2022 \n
+Under review, 2022 \n 
+\[[https://arxiv.org/abs/2206.14648 arXiv]\]  
+
 - [https://arxiv.org/abs/2107.11533 *Partially Offline Contextual Bandit Learning under Support Defficiency*]\n
 Hung Tran-The, *Thanh Nguyen-Tang*, Sunil Gupta, Santu Rana, Svetha Venkatesh \n 
 Under review, 2022 \n
@@ -95,16 +102,18 @@ Ph.D. dissertation, Deakin University, Australia, July 2021
 Master Thesis, Ulsan National University of Science and Technology, South Korea, 2018\n
 \[[https://thanhnguyentang.github.io/assets/PIB_thesis_slide.pdf Slides]] \[[https://www.youtube.com/watch?v=md9qV4Hrgbo&t=378s Talk]]
 
-== Supervision and mentoring 
-- [https://scholar.google.com/citations?user=cVTpiuoAAAAJ&hl=en Ragja Palakkadavath] -- Ph.D. student at A2I2, Deakin University – Topic: Domain Generalization    
-- Nguyen Ngoc Hieu -- Resident at FPT.AI -- Topic: Learning Theory for Implicit Deep Models. 
-- [https://qiyaowei.github.io/index.html Qiyao Wei], senior undergrad at University of Toronto – Topic: Research statement in offline RL for PhD application   
+== Supervision and mentoring  
+- Thong Bach (Tohoku University) - Self-supervised representation learning 
+- [https://scholar.google.com/citations?user=cVTpiuoAAAAJ&hl=en Ragja Palakkadavath] (Ph.D. student at A2I2, Deakin University) - Domain Generalization    
+- Nguyen Ngoc Hieu (Resident at FPT.AI) - Learning Theory for Implicit Deep Models. 
+- [https://qiyaowei.github.io/index.html Qiyao Wei] (senior undergrad at University of Toronto) – Research statement in offline RL for PhD application   
 
 == Academic Service  
+- Volunteer, ICML 2022 
 - Reviewer, NeurIPS, 2022  
 - Program Committee, EWRL, 2022  
-- Reviewer, L4DC, 2022 (1 paper)
-- Reviewer, ICML, 2022  (3 papers)
+- Reviewer, L4DC, 2022 
+- Reviewer, ICML, 2022  
 - Program Committee, NeurIPS Workshop on Offline Reinforcement Learning, 2021 
 - Program Committee, AAAI, 2022 
 - Reviewer, ICLR, 2022 
