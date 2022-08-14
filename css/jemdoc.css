@@ -9,20 +9,21 @@ table#tlayout {
 body {
 	background: white;
 	font-family: serif;
-	padding-bottom: 8px;
-	margin: 0;
-	width: 100%;
+	margin: 5px auto;
+	width: 60%;
+    border: 1px solid #3c3a3a;
+    text-align: center;
+    font-size: 0.9em;
 }
 
 #layout-menu {
 	background: #f6f6f6;
 	border: 1px solid #dddddd;
 	padding-top: 0.5em;
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 1.0em;
+	padding-left: 1px;
+	padding-right: 1px;
+	font-size: 0.9em;
 	width: auto;
-	white-space: nowrap;
 	text-align: left;
 	vertical-align: top;
 }
@@ -40,7 +41,8 @@ body {
 	background: white;
 	text-align: left;
 	vertical-align: top;
-	width: 800px;
+	min-width: 600px;
+	width: 1000px;
 }
 
 #layout-menu a {
@@ -53,7 +55,7 @@ tt {
 }
 
 pre, tt {
-	font-size: 90%;
+	font-size: 70%;
 	font-family: monaco, monospace;
 }
 
@@ -162,7 +164,7 @@ div#footer {
 	font-size: small;
 	border-top: 1px solid #c0c0c0;
 	padding-top: 0.1em;
-	margin-top: 4.0em;
+	margin-top: 0.5em;
 	color: #c0c0c0;
 }
 
@@ -247,7 +249,7 @@ div.blocktitle {
 }
 
 div.blockcontent {
-	border: 1px solid silver;
+	border: 4px solid rgb(8, 8, 8);
 	padding: 0.3em 0.5em;
 }
 
