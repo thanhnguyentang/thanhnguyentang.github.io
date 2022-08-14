@@ -5,16 +5,17 @@ Postdoctoral Research Fellow \n
 [https://engineering.jhu.edu/ Whiting School of Engineering] \n 
 [https://www.jhu.edu/ Johns Hopkins University] \n 
 3400 N Charles Street, Malone Hall 331, Baltimore, MD 21218 \n 
-Email: /tnguy258/ at jhu dot edu, Or /nguyent2792/ at gmail dot com 
+Email: /tnguy258/ at jhu dot edu, or /nguyent2792/ at gmail dot com 
 
-*Intro.* I am a Postdoctoral Research Fellow at Department of Computer Science, Whiting School of Engineering, Johns Hopkins University, 
-working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. Prior to that, I was an Associate Research Fellow at the Applied AI Institute, Deakin University from Jul 2021 to June 2022 
-and completed my PhD there in Feb 2022. I was a researcher at Ulsan National University of Science and Technology (UNIST) from Mar 2018 to Dec 2018, 
-and I obtained my Master there in 2018. I was also serving as a ML technical consultant for a local startup company on NLP product solutions. 
-\n
+*Intro:* I am a Postdoctoral Research Fellow at Department of Computer Science, Whiting School of Engineering, Johns Hopkins University, 
+working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I was an Associate Research Fellow at the Applied AI Institute, Deakin University in July 2021-June 2022 
+and completed my PhD there in Feb 2022. I did my Master in Computer Science and Engineering at Ulsan National University of Science and Technology (UNIST) in 2018. 
 
-
-*Research interest.* Machine Learning. 
+*Research interests:* 
+- Reinforcement Learning 
+- Probabilistic Deep Learning 
+- Representation Learning 
+- Learning under Distributional Shifts 
 
 I’m always actively open to research collaborations and chat!
 
@@ -27,6 +28,7 @@ Here are my
 
 
 == Latest News 
+- \[Aug 8, 2022\] I am acknowledged in Mengyan Zhang's PhD thesis. 
 - \[Jan 21, 2022\] One paper got accepted to ICLR, 2022. 
 - \[Oct 25, 2021\] A short version of our work has been accepted to the NeurIPS'21 Workshop on Offline Reinforcement Learning.
 - \[Jul 8, 2021\] A short version of our work has been accepted to the ICML'21 Workshop on Reinforcement Learning Theory.
@@ -34,7 +36,11 @@ Here are my
 - \[May 20, 2021\] I have been accepted to the Deep Learning Theory Summer School at Princeton, acceptance rate: 180/500 = 36%.
 
 == Publications  
-=== **2022** 
+=== **2022**  
+- [https://thanhnguyentang.github.io/ *On Instance-Dependent Bounds for Offline Reinforcement Learning
+with Linear Function Approximation*]\n 
+*Thanh Nguyen-Tang*, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
+Under review, 2022 \n
 - [https://thanhnguyentang.github.io/ *Learning White Noises in Neural Stochastic Differential Equations*]\n  
 Anh Tong, *Thanh Nguyen-Tang*, Toan Tran, Jaesik Choi \n
 Under review, 2022 \n
@@ -98,27 +104,11 @@ Ph.D. dissertation, Deakin University, Australia, July 2021
 Master Thesis, Ulsan National University of Science and Technology, South Korea, 2018\n
 \[[https://thanhnguyentang.github.io/assets/PIB_thesis_slide.pdf Slides]] \[[https://www.youtube.com/watch?v=md9qV4Hrgbo&t=378s Talk]]
 
-== Supervision and mentoring  
-- [https://scholar.google.com/citations?user=yFLbTtkAAAAJ&hl=en&authuser=1 Thong Bach] (Senior AI Engineer) - Self-supervised representation learning 
-- [https://scholar.google.com/citations?user=cVTpiuoAAAAJ&hl=en Ragja Palakkadavath] (Ph.D. student at A2I2, Deakin University) - Domain Generalization    
-- Nguyen Ngoc Hieu (Resident at FPT.AI) - Learning Theory for Implicit Deep Models. 
-- [https://qiyaowei.github.io/index.html Qiyao Wei] (senior undergrad at University of Toronto) – Research statement in offline RL for PhD application   
 
 == Academic Service  
-- Senior Program Committee, AAAI-23
-- Volunteer, ICML 2022 
-- Reviewer, NeurIPS, 2022  
-- Program Committee, EWRL, 2022  
-- Reviewer, L4DC, 2022 
-- Reviewer, ICML, 2022  
-- Program Committee, NeurIPS Workshop on Offline Reinforcement Learning, 2021 
-- Program Committee, AAAI, 2022 
-- Reviewer, NeurIPS, 2021 
-- Reviewer, ICML, 2021 
-- Reviewer, AISTATS, 2021 
-- Program Committee, AAAI, 2021 ([https://aaai.org/Conferences/AAAI-21/wp-content/uploads/2021/05/AAAI-21-Program-Committee.pdf Top 25% of Program Committees])
-- Reviewer, ICLR, 2021 (*outstanding reviewer award*)
-- Reviewer, NeurIPS, 2020 
+- Senior Program Committee: AAAI (2023)
+- Reviewer/Program Committee: NeurIPS (2022, 2021, 2020), ICML (2022, 2021), ICLR (2022,2021- *Outstanding reviewer award*), AISTATS (2021), 
+AAAI (2022, 2021-[https://aaai.org/Conferences/AAAI-21/wp-content/uploads/2021/05/AAAI-21-Program-Committee.pdf Top 25% of Program Committees], 2020), 
+EWRL (2022), L4DC (2022), NeurIPS Workshop on Offline Reinforcement Learning (2021)
+- Volunteer: ICML (2022), AutoML (2022)
 
-I created the [https://thanhnguyentang.github.io/mlten.html "ML Theory Exchange Network" Discord channel] (currently 66 members as of 25 Oct 2021) 
-to connect ML-theory passionate self-learners (like myself) with senior researchers for exchanging ideas and learning resources. 

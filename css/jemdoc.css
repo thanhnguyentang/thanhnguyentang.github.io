@@ -8,7 +8,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Georgia, serif;
+	font-family: serif;
 	padding-bottom: 8px;
 	margin: 0;
 	width: 100%;
@@ -40,7 +40,7 @@ body {
 	background: white;
 	text-align: left;
 	vertical-align: top;
-	width: 1400px;
+	width: 800px;
 }
 
 #layout-menu a {
