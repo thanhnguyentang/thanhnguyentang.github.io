@@ -38,14 +38,16 @@ Here are my
 
 == Publications  
 === **2022**  
+- [https://thanhnguyentang.github.io/ *Provably Efficient Neural Offline Reinforcement Learning via Perturbed Rewards*]\n 
+*Thanh Nguyen-Tang*, Raman Arora \n 
+Under review, 2022 \n
+
 - [https://thanhnguyentang.github.io/ *On Instance-Dependent Bounds for Offline Reinforcement Learning
 with Linear Function Approximation*]\n 
 *Thanh Nguyen-Tang*, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
 Under review, 2022 \n
-- [https://thanhnguyentang.github.io/ *On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces*]\n 
-*Thanh Nguyen-Tang*, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n 
-Under review, 2022 \n
-- [https://thanhnguyentang.github.io/ *Learning White Noises in Neural Stochastic Differential Equations*]\n  
+
+- [https://thanhnguyentang.github.io/ *Learning Fractional White Noises in Neural Stochastic Differential Equations*]\n  
 Anh Tong, *Thanh Nguyen-Tang*, Toan Tran, Jaesik Choi \n
 NeurIPS, 2022 \n
 - [https://arxiv.org/abs/2206.14648 *Two-Stage Neural Contextual Bandits for Personalised News Recommendation*]\n  
