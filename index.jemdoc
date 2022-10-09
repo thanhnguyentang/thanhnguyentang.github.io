@@ -11,11 +11,13 @@ Email: /tnguy258/ at jhu dot edu, or /nguyent2792/ at gmail dot com
 working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I was an Associate Research Fellow at the Applied AI Institute, Deakin University in July 2021-June 2022 
 and completed my PhD there in Feb 2022. I did my Master in Computer Science and Engineering at Ulsan National University of Science and Technology (UNIST) in 2018. 
 
-*Research interests:*  I am building Provably Efficient and Trustworthy Machine Learning (PETML) via 
+*Research interests*  I am building toward an data-efficient and trustworthy AI 
+by studying three foundational pillars of modern machine learning - provable statistical efficiency, computational efficiency, and robustness. My current focus includes 
+
 - Reinforcement Learning 
+- Learning under Distributional Shifts 
 - Probabilistic Deep Learning 
 - Representation Learning 
-- Learning under Distributional Shifts 
 
 I’m always actively open to research collaborations and chat!
 
@@ -37,7 +39,11 @@ Here are my
 - \[May 20, 2021\] I have been accepted to the Deep Learning Theory Summer School at Princeton, acceptance rate: 180/500 = 36%.
 
 == Publications  
-=== **2022**  
+=== **2022**   
+- [https://thanhnguyentang.github.io/ *Improving Domain Generalization with Interpolation Robustness*]\n 
+Ragja Palakkadavath, *Thanh Nguyen-Tang*, Sunil Gupta, Svetha Venkatesh \n 
+Under review, 2022 \n
+
 - [https://thanhnguyentang.github.io/ *Provably Efficient Neural Offline Reinforcement Learning via Perturbed Rewards*]\n 
 *Thanh Nguyen-Tang*, Raman Arora \n 
 Under review, 2022 \n
@@ -50,12 +56,12 @@ Under review, 2022 \n
 - [https://thanhnguyentang.github.io/ *Learning Fractional White Noises in Neural Stochastic Differential Equations*]\n  
 Anh Tong, *Thanh Nguyen-Tang*, Toan Tran, Jaesik Choi \n
 NeurIPS, 2022 \n
-- [https://arxiv.org/abs/2206.14648 *Two-Stage Neural Contextual Bandits for Personalised News Recommendation*]\n  
+- [https://arxiv.org/abs/2206.14648 *Two-Stage Neural Contextual Bandits for Adaptive Personalised Recommendation*]\n  
 Mengyan Zhang, *Thanh Nguyen-Tang*, Fangzhao Wu, Zhenyu He, Xing Xie, Cheng Soon Ong \n
 Under review, 2022 \n 
 \[[https://arxiv.org/abs/2206.14648 arXiv]\]  
 
-- [https://arxiv.org/abs/2107.11533 *Partially Offline Contextual Bandit Learning under Support Defficiency*]\n
+- [https://arxiv.org/abs/2107.11533 *Improving Contextual Bandit From Logged Data*]\n
 Hung Tran-The, *Thanh Nguyen-Tang*, Sunil Gupta, Santu Rana, Svetha Venkatesh \n 
 Under review, 2022 \n
 
