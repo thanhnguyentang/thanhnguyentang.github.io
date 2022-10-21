@@ -11,7 +11,7 @@ Email: /tnguy258/ at jhu dot edu, or /nguyent2792/ at gmail dot com
 working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I was an Associate Research Fellow at the Applied AI Institute, Deakin University in July 2021-June 2022 
 and completed my PhD there in Feb 2022. I did my Master in Computer Science and Engineering at Ulsan National University of Science and Technology (UNIST) in 2018. 
 
-*Research interests*  I am building toward an data-efficient and trustworthy AI 
+*Research interests*  I am building toward data-efficient and trustworthy AI 
 by studying three foundational pillars of modern machine learning - provable statistical efficiency, computational efficiency, and robustness. My current focus includes 
 
 - Reinforcement Learning 
@@ -42,7 +42,7 @@ Here are my
 === **2022**   
 - [https://thanhnguyentang.github.io/ *Improving Domain Generalization with Interpolation Robustness*]\n 
 Ragja Palakkadavath, *Thanh Nguyen-Tang*, Sunil Gupta, Svetha Venkatesh \n 
-Under review, 2022 \n
+INTERPOLATE@NeurIPS2022, under review, 2022 \n
 
 - [https://thanhnguyentang.github.io/ *Provably Efficient Neural Offline Reinforcement Learning via Perturbed Rewards*]\n 
 *Thanh Nguyen-Tang*, Raman Arora \n 
