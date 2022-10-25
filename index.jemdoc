@@ -7,11 +7,12 @@ Postdoctoral Research Fellow \n
 3400 N Charles Street, Malone Hall 331, Baltimore, MD 21218 \n 
 Email: /tnguy258/ at jhu dot edu, or /nguyent2792/ at gmail dot com 
 
-*Intro:* I am a Postdoctoral Research Fellow at Department of Computer Science, Whiting School of Engineering, Johns Hopkins University, 
+I am a Postdoctoral Research Fellow at Department of Computer Science, Whiting School of Engineering, Johns Hopkins University, 
 working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I was an Associate Research Fellow at the Applied AI Institute, Deakin University in July 2021-June 2022 
 and completed my PhD there in Feb 2022. I did my Master in Computer Science and Engineering at Ulsan National University of Science and Technology (UNIST) in 2018. 
 
-*Research interests*  I am building toward data-efficient and trustworthy AI 
+== Research Interests 
+I am building toward data-efficient and trustworthy AI 
 by studying three foundational pillars of modern machine learning - provable statistical efficiency, computational efficiency, and robustness. My current focus includes 
 
 - Reinforcement Learning 
@@ -29,94 +30,93 @@ Here are my
 
 
 
-== Latest News 
-- \[Sep 14, 2022\] One paper got accepted to NeurIPS, 2022. 
-- \[Aug 8, 2022\] I am acknowledged in Mengyan Zhang's PhD thesis. 
-- \[Jan 21, 2022\] One paper got accepted to ICLR, 2022. 
-- \[Oct 25, 2021\] A short version of our work has been accepted to the NeurIPS'21 Workshop on Offline Reinforcement Learning.
-- \[Jul 8, 2021\] A short version of our work has been accepted to the ICML'21 Workshop on Reinforcement Learning Theory.
-- \[Jul 1, 2021\] I start my postdoc at A$^2$I$^2$, Deakin University after submitting my Ph.D. thesis in 24 Jun. 
-- \[May 20, 2021\] I have been accepted to the Deep Learning Theory Summer School at Princeton, acceptance rate: 180/500 = 36%.
+== Recent News 
+- Sep. 14, 2022: One paper got accepted to NeurIPS, 2022. 
+- Aug. 8, 2022: I am acknowledged in Mengyan Zhang's PhD thesis. 
+- Jan. 21, 2022: One paper got accepted to ICLR, 2022. 
+- Oct. 25, 2021: A short version of our work has been accepted to the NeurIPS'21 Workshop on Offline Reinforcement Learning.
+- July 8, 2021: A short version of our work has been accepted to the ICML'21 Workshop on Reinforcement Learning Theory.
+- July 1, 2021: I start my postdoc at A$^2$I$^2$, Deakin University after submitting my Ph.D. thesis in 24 Jun. 
+- May 20, 2021: I have been accepted to the Deep Learning Theory Summer School at Princeton, acceptance rate: 180/500 = 36%.
 
 == Publications  
 === **2022**   
-- [https://thanhnguyentang.github.io/ *Improving Domain Generalization with Interpolation Robustness*]\n 
-Ragja Palakkadavath, *Thanh Nguyen-Tang*, Sunil Gupta, Svetha Venkatesh \n 
-INTERPOLATE@NeurIPS2022 \n
-Distribution Shifts Workshop@NeurIPS2022 \n
-Under review, 2022 \n
+- [https://thanhnguyentang.github.io/ Improving Domain Generalization with Interpolation Robustness]\n 
+    -- Ragja Palakkadavath, *Thanh Nguyen-Tang*, Sunil Gupta, Svetha Venkatesh \n
+    -- Distribution Shifts Workshop@NeurIPS2022, INTERPOLATE@NeurIPS2022\n
+    -- Under review, 2022 \n
 
-- [https://thanhnguyentang.github.io/ *Provably Efficient Neural Offline Reinforcement Learning via Perturbed Rewards*]\n 
-*Thanh Nguyen-Tang*, Raman Arora \n 
-Under review, 2022 \n
+- [https://thanhnguyentang.github.io/ Provably Efficient Neural Offline Reinforcement Learning via Perturbed Rewards]\n 
+    -- *Thanh Nguyen-Tang*, Raman Arora \n 
+    -- Under review, 2022 \n
 
-- [https://thanhnguyentang.github.io/ *On Instance-Dependent Bounds for Offline Reinforcement Learning
-with Linear Function Approximation*]\n 
-*Thanh Nguyen-Tang*, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
-Under review, 2022 \n
+- [https://thanhnguyentang.github.io/ On Instance-Dependent Bounds for Offline Reinforcement Learning
+with Linear Function Approximation]\n 
+    -- Thanh Nguyen-Tang*, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
+    -- Under review, 2022 \n
 
-- [https://thanhnguyentang.github.io/ *Learning Fractional White Noises in Neural Stochastic Differential Equations*]\n  
-Anh Tong, *Thanh Nguyen-Tang*, Toan Tran, Jaesik Choi \n
-NeurIPS, 2022 \n
-- [https://arxiv.org/abs/2206.14648 *Two-Stage Neural Contextual Bandits for Adaptive Personalised Recommendation*]\n  
-Mengyan Zhang, *Thanh Nguyen-Tang*, Fangzhao Wu, Zhenyu He, Xing Xie, Cheng Soon Ong \n
-Under review, 2022 \n 
-\[[https://arxiv.org/abs/2206.14648 arXiv]\]  
+- [https://thanhnguyentang.github.io/ Learning Fractional White Noises in Neural Stochastic Differential Equations]\n  
+    -- Anh Tong, *Thanh Nguyen-Tang*, Toan Tran, Jaesik Choi \n
+    -- NeurIPS, 2022 \n
+- [https://arxiv.org/abs/2206.14648 Two-Stage Neural Contextual Bandits for Adaptive Personalised Recommendation]\n  
+    -- Mengyan Zhang, *Thanh Nguyen-Tang*, Fangzhao Wu, Zhenyu He, Xing Xie, Cheng Soon Ong \n
+    -- Under review, 2022 \n 
+    -- \[[https://arxiv.org/abs/2206.14648 arXiv]\]  
 
-- [https://arxiv.org/abs/2107.11533 *Improving Contextual Bandit From Logged Data*]\n
-Hung Tran-The, *Thanh Nguyen-Tang*, Sunil Gupta, Santu Rana, Svetha Venkatesh \n 
-Under review, 2022 \n
+- [https://arxiv.org/abs/2107.11533 Contextual Bandits with Reduced Explorations via Logged Data]\n
+    -- Hung Tran-The, *Thanh Nguyen-Tang*, Sunil Gupta, Santu Rana, Svetha Venkatesh \n 
+    -- Under review, 2022 \n
 
-- [https://openreview.net/pdf?id=sPIFuucA3F *Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization*]\n
-*Thanh Nguyen-Tang*, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh \n  
-ICLR, 2022 \n 
-[https://offline-rl-neurips.github.io/2021/pdf/28.pdf Workshop on Offline Reinforcement Learning], NeurIPS, 2021 \n 
-\[[https://arxiv.org/abs/2111.13807 arXiv]\] 
+- [https://openreview.net/pdf?id=sPIFuucA3F Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization]\n
+    -- *Thanh Nguyen-Tang*, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh \n  
+    -- ICLR, 2022 \n 
+    -- [https://offline-rl-neurips.github.io/2021/pdf/28.pdf Workshop on Offline Reinforcement Learning], NeurIPS, 2021 \n 
+    -- \[[https://arxiv.org/abs/2111.13807 arXiv]\] 
 \[[assets/poster_NeurIPSW21.pdf Poster]\]  
 \[[assets/neuralcb_slides.pdf Slides]\] 
 \[[https://github.com/thanhnguyentang/offline_neural_bandits Code]\]
 
 === **2021** 
-- [https://lyang36.github.io/icml2021_rltheory/camera_ready/5.pdf *Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks*] \n
-*Thanh Nguyen-Tang*, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n
-Workshop on Reinforcement Learning Theory, ICML, 2021 \n
-\[[https://arxiv.org/abs/2103.06671 arXiv]\]
+- [https://lyang36.github.io/icml2021_rltheory/camera_ready/5.pdf Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks] \n
+    -- *Thanh Nguyen-Tang*, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n
+    -- Workshop on Reinforcement Learning Theory, ICML, 2021 \n
+    -- \[[https://arxiv.org/abs/2103.06671 arXiv]\]
 \[[https://thanhnguyentang.github.io/assets/offrelu.pdf Slides]] 
 \[[https://www.youtube.com/watch?v=xLM5pondWY4 Talk]]
-- [https://ojs.aaai.org/index.php/AAAI/article/view/17104 *Distributional Reinforcement Learning via Moment Matching*]\n 
-*Thanh Nguyen-Tang*, Sunil Gupta, Svetha Venkatesh \n 
-AAAI, 2021 \n
-\[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl Code]]
+- [https://ojs.aaai.org/index.php/AAAI/article/view/17104 Distributional Reinforcement Learning via Moment Matching ]\n 
+    -- *Thanh Nguyen-Tang*, Sunil Gupta, Svetha Venkatesh \n 
+    -- AAAI, 2021 \n
+    -- \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl Code]]
 \[[https://cutt.ly/fkkiAGm Slides]] 
 \[[https://cutt.ly/4kkiJZt Poster]] \[[https://youtu.be/1fMqZZjy84E Talk]] 
 
 === **2020**
-- [http://proceedings.mlr.press/v108/nguyen20a.html *Distributionally Robust Bayesian Quadrature Optimization*]\n 
-*Thanh Tang Nguyen*, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh\n 
-AISTATS, 2020 \n 
-\[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo Code]]
+- [http://proceedings.mlr.press/v108/nguyen20a.html Distributionally Robust Bayesian Quadrature Optimization]\n 
+    -- *Thanh Tang Nguyen*, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh\n 
+    -- AISTATS, 2020 \n 
+    -- \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo Code]]
 \[[https://thanhnguyentang.github.io/assets/aistats20_drbqo.pdf Slides]] 
 \[[https://slideslive.com/38930124/ Talk]]  
 
 === **2019** 
-- [https://doi.org/10.3390/e21100976 *Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks*]\n
-*Thanh Tang Nguyen*, Jaesik Choi\n
-Entropy, 21(10), 976, 2019 \n 
-\[[https://github.com/thanhnguyentang/pib Code]]
-- [https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space *Bayesian Optimization with Unknown Search Space*]\n
-Huong Ha, Santu Rana, Sunil Gupta, *Thanh Tang Nguyen*, Hung Tran-The, Svetha Venkatesh \n
-NeurIPS, 2019 \n
-\[[https://github.com/HuongHa12/BO_unknown_searchspace Code]]
+- [https://doi.org/10.3390/e21100976 Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks]\n
+    -- *Thanh Tang Nguyen*, Jaesik Choi\n
+    -- Entropy, 21(10), 976, 2019 \n 
+    -- \[[https://github.com/thanhnguyentang/pib Code]]
+- [https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space Bayesian Optimization with Unknown Search Space]\n
+    -- Huong Ha, Santu Rana, Sunil Gupta, *Thanh Tang Nguyen*, Hung Tran-The, Svetha Venkatesh \n
+    -- NeurIPS, 2019 \n
+    -- \[[https://github.com/HuongHa12/BO_unknown_searchspace Code]]
 \[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ Poster]]
 
 
 === Dissertations 
-- [https://thanhnguyentang.github.io/ *On Practical Reinforcement Learning: Provable Robustness, Scalability and Statistical Efficiency*]\n 
-Ph.D. dissertation, Deakin University, Australia, July 2021
+- [https://thanhnguyentang.github.io/ On Practical Reinforcement Learning: Provable Robustness, Scalability and Statistical Efficiency]\n 
+    -- Ph.D. dissertation, Deakin University, Australia, July 2021
 
-- [http://scholarworks.unist.ac.kr/handle/201301/23561 *Parametric Information Bottleneck to Optimize Stochastic Neural Networks*]\n
-Master Thesis, Ulsan National University of Science and Technology, South Korea, 2018\n
-\[[https://thanhnguyentang.github.io/assets/PIB_thesis_slide.pdf Slides]] \[[https://www.youtube.com/watch?v=md9qV4Hrgbo&t=378s Talk]]
+- [http://scholarworks.unist.ac.kr/handle/201301/23561 Parametric Information Bottleneck to Optimize Stochastic Neural Networks]\n
+    -- Master Thesis, Ulsan National University of Science and Technology, South Korea, 2018\n
+    -- \[[https://thanhnguyentang.github.io/assets/PIB_thesis_slide.pdf Slides]] \[[https://www.youtube.com/watch?v=md9qV4Hrgbo&t=378s Talk]]
 
 
 == Academic Service  
