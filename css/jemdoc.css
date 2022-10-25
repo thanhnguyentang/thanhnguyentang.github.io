@@ -9,11 +9,11 @@ table#tlayout {
 body {
 	background: white;
 	font-family: serif;
-	margin: 5px auto;
+	margin: 4px auto;
 	width: 60%;
     border: 1px solid #3c3a3a;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 #layout-menu {
@@ -22,7 +22,7 @@ body {
 	padding-top: 0.5em;
 	padding-left: 1px;
 	padding-right: 1px;
-	font-size: 0.9em;
+	font-size: 1em;
 	width: auto;
 	text-align: left;
 	vertical-align: top;
@@ -178,8 +178,10 @@ div#footer-text {
 }
 
 ul, ol, dl {
-	margin-top: 0.2em;
+	margin-top: 0.05em;
 	padding-top: 0;
+    margin-left: 0.0em; 
+    margin-right: 0.01em;
 	margin-bottom: 0.8em;
 }
 
@@ -203,14 +205,18 @@ dd > *:first-child {
 ul {
 	list-style-position: outside;
 	list-style-type: square;
+    margin-left: -1.4em;
 }
 
 p + ul, p + ol {
 	margin-top: -0.5em;
+    margin-left: -1.2em;
 }
 
 li ul, li ol {
-	margin-top: -0.3em;
+	margin-top: -0.1em;
+    margin-left: -1.2em;
+    list-style-type: circle;
 }
 
 ol {
@@ -219,7 +225,7 @@ ol {
 }
 
 li p, dd p {
-	margin-bottom: 0.3em;
+	margin-bottom: 0.1em;
 }
 
 
