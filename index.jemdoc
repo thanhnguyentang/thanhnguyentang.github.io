@@ -40,10 +40,10 @@ Here are my
 - May 20, 2021: I have been accepted to the Deep Learning Theory Summer School at Princeton, acceptance rate: 180/500 = 36%.
 
 == Publications  
-=== **2022**   
+=== 2022
 - [https://thanhnguyentang.github.io/ Improving Domain Generalization with Interpolation Robustness]\n 
     -- Ragja Palakkadavath, *Thanh Nguyen-Tang*, Sunil Gupta, Svetha Venkatesh \n
-    -- Distribution Shifts Workshop@NeurIPS2022, INTERPOLATE@NeurIPS2022 (**Spotlight**)\n
+    -- Distribution Shifts Workshop@NeurIPS2022, INTERPOLATE@NeurIPS2022 (*Spotlight*)\n
     -- Under review, 2022 \n
 
 - [https://thanhnguyentang.github.io/ Provably Efficient Neural Offline Reinforcement Learning via Perturbed Rewards]\n 
