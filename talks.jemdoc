@@ -1,5 +1,6 @@
-# jemdoc: menu{MENU}{talks.html}, nofooter
-==Talks/Poster Presentations 
+# jemdoc: menu{MENU}{talks.html}
+
+== Talks/Poster Presentations 
 
 === Talks/Presentations 
 - Dec. 2021: On Practical Reinforcement Learning: Provable Robustness, Scalability and Statistical Efficiency, University of Michigan, USA 

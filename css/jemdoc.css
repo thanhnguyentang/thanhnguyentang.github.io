@@ -8,10 +8,10 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: serif;
+	font-family:  system-ui;
 	margin: 4px auto;
-	width: 60%;
-    border: 1px solid #3c3a3a;
+	width: 100%;
+    /* border: 1px solid #3c3a3a; */
     text-align: center;
     font-size: 1em;
 }
@@ -28,6 +28,11 @@ body {
 	vertical-align: top;
 }
 
+#profileimage  {
+    float: left;    
+     margin: 0 0 0 15px;
+    }
+
 #layout-menu td {
 	background: #f4f4f4;
 	vertical-align: top;
@@ -42,7 +47,7 @@ body {
 	text-align: left;
 	vertical-align: top;
 	min-width: 600px;
-	width: 1000px;
+	width: 100%;
 }
 
 #layout-menu a {
@@ -60,7 +65,7 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #224b8d;
+	color: #124598;
 	text-decoration: none;
 }
 
@@ -69,11 +74,11 @@ a:hover {
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #022b6d;
+	color: #89b1f2;
 	border-bottom: 1px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #527bbd;
+	color: #0b64f3;
 	text-decoration: none;
 }
 #layout-menu a:hover {
@@ -121,7 +126,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #527bbd;
+	color: #0d0d0d;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
