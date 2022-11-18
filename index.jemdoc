@@ -47,7 +47,6 @@ I’m always actively open to research collaborations and chat!
     -- A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr \n
     -- Under review, 2022 \n
 
-
 - [https://openreview.net/pdf?id=Yl_4LpR_3Z Improving Domain Generalization with Interpolation Robustness]\n 
     -- Ragja Palakkadavath, _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh \n
     -- Distribution Shifts Workshop@NeurIPS2022, INTERPOLATE@NeurIPS2022 (/Spotlight/)\n
@@ -63,20 +62,23 @@ I’m always actively open to research collaborations and chat!
 
 - [https://openreview.net/pdf?id=lTZBRxm2q5 Learning Fractional White Noises in Neural Stochastic Differential Equations]\n  
     -- Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi \n
-    -- NeurIPS, 2022 \n
-- [https://arxiv.org/abs/2206.14648 Two-Stage Neural Contextual Bandits for Adaptive Personalised Recommendation]\n  
+    -- NeurIPS, 2022 \n 
+    -- \[[https://github.com/anh-tong/fractional_neural_sde Code]\] 
+    
+- Two-Stage Neural Contextual Bandits for Adaptive Personalised Recommendation\n  
     -- Mengyan Zhang, _Thanh Nguyen-Tang_, Fangzhao Wu, Zhenyu He, Xing Xie, Cheng Soon Ong \n
     -- Under review, 2022 \n 
     -- \[[https://arxiv.org/abs/2206.14648 arXiv]\]  
 
-- [https://arxiv.org/abs/2107.11533 Contextual Bandits with Reduced Explorations via Logged Data]\n
+- Contextual Bandits with Reduced Explorations via Logged Data\n
     -- Hung Tran-The, _Thanh Nguyen-Tang_, Sunil Gupta, Santu Rana, Svetha Venkatesh \n 
     -- Under review, 2022 \n
+    -- \[[https://arxiv.org/abs/2107.11533 arXiv]\]
 
 - [https://openreview.net/pdf?id=sPIFuucA3F Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization]\n
     -- _Thanh Nguyen-Tang_ , Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh \n  
     -- ICLR, 2022 \n 
-    -- [https://offline-rl-neurips.github.io/2021/pdf/28.pdf Workshop on Offline Reinforcement Learning], NeurIPS, 2021 \n 
+    -- [https://offline-rl-neurips.github.io/2021/pdf/28.pdf Workshop on OfflineRL], NeurIPS, 2021 \n 
     -- \[[https://arxiv.org/abs/2111.13807 arXiv]\] 
 \[[assets/poster_NeurIPSW21.pdf Poster]\]  
 \[[assets/neuralcb_slides.pdf Slides]\] 
@@ -129,7 +131,7 @@ I’m always actively open to research collaborations and chat!
 - Senior Program Committee: AAAI (2023)
 - Reviewer/Program Committee: NeurIPS (2022, 2021, 2020), ICML (2022, 2021), ICLR (2023, 2022, 2021- Outstanding reviewer award), AISTATS (2021), 
 AAAI (2022, 2021-[https://aaai.org/Conferences/AAAI-21/wp-content/uploads/2021/05/AAAI-21-Program-Committee.pdf Top 25% of Program Committees], 2020), 
-EWRL (2022), L4DC (2022), NeurIPS Workshop on Offline Reinforcement Learning (2022, 2021)
+EWRL (2022), L4DC (2022), NeurIPS Workshop on OfflineRL (2022, 2021)
 - Volunteer: ICML (2022), AutoML (2022) 
 
 == Invited Talks 
