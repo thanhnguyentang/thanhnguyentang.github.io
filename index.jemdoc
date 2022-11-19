@@ -17,7 +17,7 @@ working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I was an Ass
 and completed my PhD there in Feb 2022. I did my Master in Computer Science and Engineering at Ulsan National University of Science and Technology (UNIST) in 2018. 
 
 == Research Interests 
-I am building toward data-efficient, runtime-efficient and trustworthy AI 
+I am building toward data-efficient, runtime-efficient and robust AI 
 by studying three foundational pillars of modern machine learning -- provable statistical efficiency, computational efficiency, and robustness. My current focus includes: 
 
 - Reinforcement Learning 
@@ -32,6 +32,7 @@ I’m always actively open to research collaborations and chat!
 
 
 == Recent News  
+- Nov. 19, 2022: One papge accepted to AAAI, 2023. 
 - Oct. 30, 2022:  I was acknowledged in Francis Bach's [https://www.di.ens.fr/~fbach/ltfp_book.pdf "Learning Theory from First Principles"]
 - Sep. 14, 2022: One paper got accepted to NeurIPS, 2022. 
 - Aug. 8, 2022: I am acknowledged in Mengyan Zhang's PhD thesis. 
@@ -42,6 +43,12 @@ I’m always actively open to research collaborations and chat!
 - May 20, 2021: I have been accepted to the Deep Learning Theory Summer School at Princeton, acceptance rate: 180/500 = 36%.
 
 == Publications  
+=== 2023  
+
+- On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation\n 
+    -- _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
+    -- AAAI, 2023 \n
+
 === 2022  
 - TIPI: Test Time Adaptation with Transformation Invariance\n 
     -- A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr \n
@@ -56,9 +63,6 @@ I’m always actively open to research collaborations and chat!
     -- _Thanh Nguyen-Tang_, Raman Arora \n 
     -- Under review, 2022 \n
 
-- On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation\n 
-    -- _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
-    -- Under review, 2022 \n
 
 - [https://openreview.net/pdf?id=lTZBRxm2q5 Learning Fractional White Noises in Neural Stochastic Differential Equations]\n  
     -- Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi \n
