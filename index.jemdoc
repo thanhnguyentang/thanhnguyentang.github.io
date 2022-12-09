@@ -30,6 +30,7 @@ I’m always actively open to research collaborations and chat!
 
 
 == Recent News  
+- Dec. 9, 2022: One manuscript accepted to TMLR. 
 - Nov. 19, 2022: One paper accepted to AAAI, 2023 (acceptance rate: 19.6%). 
 - Oct. 30, 2022: I was acknowledged in Francis Bach's [https://www.di.ens.fr/~fbach/ltfp_book.pdf "Learning Theory from First Principles"]
 - Sep. 14, 2022: One paper accepted to NeurIPS, 2022 (acceptance rate: 25.6%). 
@@ -39,13 +40,16 @@ I’m always actively open to research collaborations and chat!
 
 == Publications  
 === 2023  
-
 - On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation\n 
     -- _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
     -- AAAI, 2023 \n 
     -- \[[https://arxiv.org/abs/2211.13208 arXiv]\]
 
-=== 2022  
+=== 2022   
+- On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces\n
+    -- _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n 
+    -- TMLR, 2022 
+
 - TIPI: Test Time Adaptation with Transformation Invariance\n 
     -- A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr \n
     -- Under review, 2022 \n
