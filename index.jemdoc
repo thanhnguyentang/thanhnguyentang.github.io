@@ -42,13 +42,13 @@ I’m always actively open to research collaborations and chat!
 === 2023  
 - On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation\n 
     -- _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
-    -- AAAI, 2023 \n 
+    -- AAAI Conference on Artificial Intelligence (AAAI), 2023 \n 
     -- \[[https://arxiv.org/abs/2211.13208 arXiv]\]
 
 === 2022   
-- On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces\n
+- [https://openreview.net/forum?id=LdEm0umNcv On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces]\n
     -- _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n 
-    -- TMLR, 2022 
+    -- Transactions on Machine Learning Research (TMLR), 2022 
 
 - TIPI: Test Time Adaptation with Transformation Invariance\n 
     -- A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr \n
@@ -66,7 +66,7 @@ I’m always actively open to research collaborations and chat!
 
 - [https://openreview.net/pdf?id=lTZBRxm2q5 Learning Fractional White Noises in Neural Stochastic Differential Equations]\n  
     -- Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi \n
-    -- NeurIPS, 2022 \n 
+    -- Advances in Neural Information Processing Systems (NeurIPS), 2022 \n 
     -- \[[https://github.com/anh-tong/fractional_neural_sde Code]\] 
 
 - Two-Stage Neural Contextual Bandits for Adaptive Personalised Recommendation\n  
@@ -81,7 +81,7 @@ I’m always actively open to research collaborations and chat!
 
 - [https://openreview.net/pdf?id=sPIFuucA3F Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization]\n
     -- _Thanh Nguyen-Tang_ , Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh \n  
-    -- ICLR, 2022 \n 
+    -- International Conference on Learning Representations (ICLR), 2022 \n 
     -- [https://offline-rl-neurips.github.io/2021/pdf/28.pdf Workshop on OfflineRL], NeurIPS, 2021 \n 
     -- \[[https://arxiv.org/abs/2111.13807 arXiv]\] 
 \[[assets/poster_NeurIPSW21.pdf Poster]\]  
@@ -97,7 +97,7 @@ I’m always actively open to research collaborations and chat!
 \[[https://www.youtube.com/watch?v=xLM5pondWY4 Talk]]
 - [https://ojs.aaai.org/index.php/AAAI/article/view/17104 Distributional Reinforcement Learning via Moment Matching ]\n 
     -- _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh \n 
-    -- AAAI, 2021 \n
+    -- AAAI Conference on Artificial Intelligence (AAAI), 2021 \n
     -- \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl Code]]
 \[[https://cutt.ly/fkkiAGm Slides]] 
 \[[https://cutt.ly/4kkiJZt Poster]] \[[https://youtu.be/1fMqZZjy84E Talk]] 
@@ -105,7 +105,7 @@ I’m always actively open to research collaborations and chat!
 === **2020**
 - [http://proceedings.mlr.press/v108/nguyen20a.html Distributionally Robust Bayesian Quadrature Optimization]\n 
     -- _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh\n 
-    -- AISTATS, 2020 \n 
+    -- International Conference on Artificial Intelligence and Statistics (AISTATS), 2020 \n 
     -- \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo Code]]
 \[[https://thanhnguyentang.github.io/assets/aistats20_drbqo.pdf Slides]] 
 \[[https://slideslive.com/38930124/ Talk]]  
@@ -117,7 +117,7 @@ I’m always actively open to research collaborations and chat!
     -- \[[https://github.com/thanhnguyentang/pib Code]]
 - [https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space Bayesian Optimization with Unknown Search Space]\n
     -- Huong Ha, Santu Rana, Sunil Gupta, _Thanh Nguyen-Tang_, Hung Tran-The, Svetha Venkatesh \n
-    -- NeurIPS, 2019 \n
+    -- Advances in Neural Information Processing Systems (NeurIPS), 2019 \n
     -- \[[https://github.com/HuongHa12/BO_unknown_searchspace Code]]
 \[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ Poster]]
 
