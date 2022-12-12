@@ -42,13 +42,14 @@ I’m always actively open to research collaborations and chat!
 === 2023  
 - On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation\n 
     -- _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
-    -- AAAI Conference on Artificial Intelligence (AAAI), 2023 \n 
+    -- AAAI Conference on Artificial Intelligence ({{<font color=red >}}AAAI{{</font>}}), 2023  \n 
     -- \[[https://arxiv.org/abs/2211.13208 arXiv]\]
 
 === 2022   
 - [https://openreview.net/forum?id=LdEm0umNcv On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces]\n
     -- _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n 
-    -- Transactions on Machine Learning Research (TMLR), 2022 
+    -- Transactions on Machine Learning Research ({{<font color=red >}}TMLR{{</font>}}), 2022 
+    -- \[[bibtex/tmlr22 cite]\]
 
 - TIPI: Test Time Adaptation with Transformation Invariance\n 
     -- A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr \n
@@ -61,13 +62,14 @@ I’m always actively open to research collaborations and chat!
 
 - Provably Efficient Neural Offline Reinforcement Learning via Perturbed Rewards\n 
     -- _Thanh Nguyen-Tang_, Raman Arora \n 
-    -- Under review, 2022 \n
+    -- Under review, 2022 \n 
+    -- \[[assets/offlinerl_dec22.pdf slides]\]
 
 
 - [https://openreview.net/pdf?id=lTZBRxm2q5 Learning Fractional White Noises in Neural Stochastic Differential Equations]\n  
     -- Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi \n
-    -- Advances in Neural Information Processing Systems (NeurIPS), 2022 \n 
-    -- \[[https://github.com/anh-tong/fractional_neural_sde Code]\] 
+    -- Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2022 \n 
+    -- \[[bibtex/neurips22 cite]\] \[[https://github.com/anh-tong/fractional_neural_sde code]\] 
 
 - Two-Stage Neural Contextual Bandits for Adaptive Personalised Recommendation\n  
     -- Mengyan Zhang, _Thanh Nguyen-Tang_, Fangzhao Wu, Zhenyu He, Xing Xie, Cheng Soon Ong \n
@@ -81,45 +83,47 @@ I’m always actively open to research collaborations and chat!
 
 - [https://openreview.net/pdf?id=sPIFuucA3F Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization]\n
     -- _Thanh Nguyen-Tang_ , Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh \n  
-    -- International Conference on Learning Representations (ICLR), 2022 \n 
+    -- International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2022 \n 
     -- [https://offline-rl-neurips.github.io/2021/pdf/28.pdf Workshop on OfflineRL], NeurIPS, 2021 \n 
-    -- \[[https://arxiv.org/abs/2111.13807 arXiv]\] 
-\[[assets/poster_NeurIPSW21.pdf Poster]\]  
-\[[assets/neuralcb_slides.pdf Slides]\] 
-\[[https://github.com/thanhnguyentang/offline_neural_bandits Code]\]
+    -- \[[bibtex/iclr22 cite]\] \[[https://arxiv.org/abs/2111.13807 arXiv]\] 
+\[[assets/poster_NeurIPSW21.pdf poster]\]  
+\[[assets/neuralcb_slides.pdf slides]\] 
+\[[https://github.com/thanhnguyentang/offline_neural_bandits code]\]
 
 === **2021** 
 - [https://lyang36.github.io/icml2021_rltheory/camera_ready/5.pdf Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks] \n
     -- _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n
     -- Workshop on Reinforcement Learning Theory, ICML, 2021 \n
     -- \[[https://arxiv.org/abs/2103.06671 arXiv]\]
-\[[https://thanhnguyentang.github.io/assets/offrelu.pdf Slides]] 
-\[[https://www.youtube.com/watch?v=xLM5pondWY4 Talk]]
+\[[https://thanhnguyentang.github.io/assets/offrelu.pdf slides]] 
+\[[https://www.youtube.com/watch?v=xLM5pondWY4 talk]]
+
 - [https://ojs.aaai.org/index.php/AAAI/article/view/17104 Distributional Reinforcement Learning via Moment Matching ]\n 
     -- _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh \n 
-    -- AAAI Conference on Artificial Intelligence (AAAI), 2021 \n
-    -- \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl Code]]
-\[[https://cutt.ly/fkkiAGm Slides]] 
-\[[https://cutt.ly/4kkiJZt Poster]] \[[https://youtu.be/1fMqZZjy84E Talk]] 
+    -- AAAI Conference on Artificial Intelligence ({{<font color=red >}}AAAI{{</font>}}), 2021 \n
+    -- \[[bibtex/aaai21 cite]\] \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl code]]
+\[[https://cutt.ly/fkkiAGm slides]] 
+\[[https://cutt.ly/4kkiJZt poster]] \[[https://youtu.be/1fMqZZjy84E talk]] 
 
 === **2020**
 - [http://proceedings.mlr.press/v108/nguyen20a.html Distributionally Robust Bayesian Quadrature Optimization]\n 
     -- _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh\n 
-    -- International Conference on Artificial Intelligence and Statistics (AISTATS), 2020 \n 
-    -- \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo Code]]
-\[[https://thanhnguyentang.github.io/assets/aistats20_drbqo.pdf Slides]] 
-\[[https://slideslive.com/38930124/ Talk]]  
+    -- International Conference on Artificial Intelligence and Statistics ({{<font color=red >}}AISTATS{{</font>}}), 2020 \n 
+    -- \[[bibtex/aistats20 cite]\] \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo code]]
+\[[https://thanhnguyentang.github.io/assets/aistats20_drbqo.pdf slides]] 
+\[[https://slideslive.com/38930124/ talk]]  
 
 === **2019** 
 - [https://doi.org/10.3390/e21100976 Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks]\n
     -- _Thanh Nguyen-Tang_, Jaesik Choi\n
-    -- Entropy, 21(10), 976, 2019 \n 
-    -- \[[https://github.com/thanhnguyentang/pib Code]]
+    -- {{<font color=red >}}Entropy{{</font>}}, 21(10), 976, 2019 \n 
+    -- \[[bibtex/nguyen-pib17.txt cite]\] \[[https://github.com/thanhnguyentang/pib code]]
+
 - [https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space Bayesian Optimization with Unknown Search Space]\n
     -- Huong Ha, Santu Rana, Sunil Gupta, _Thanh Nguyen-Tang_, Hung Tran-The, Svetha Venkatesh \n
-    -- Advances in Neural Information Processing Systems (NeurIPS), 2019 \n
-    -- \[[https://github.com/HuongHa12/BO_unknown_searchspace Code]]
-\[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ Poster]]
+    -- Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2019 \n
+    -- \[[bibtex/huong_neurips19.txt cite]\] \[[https://github.com/HuongHa12/BO_unknown_searchspace code]]
+\[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ poster]]
 
 
 === Dissertations 
@@ -128,7 +132,7 @@ I’m always actively open to research collaborations and chat!
 
 - [http://scholarworks.unist.ac.kr/handle/201301/23561 Parametric Information Bottleneck to Optimize Stochastic Neural Networks]\n
     -- Master Thesis, Ulsan National University of Science and Technology, South Korea, 2018\n
-    -- \[[https://thanhnguyentang.github.io/assets/PIB_thesis_slide.pdf Slides]] \[[https://www.youtube.com/watch?v=md9qV4Hrgbo&t=378s Talk]]
+    -- \[[https://thanhnguyentang.github.io/assets/PIB_thesis_slide.pdf slides]] \[[https://www.youtube.com/watch?v=md9qV4Hrgbo&t=378s talk]]
 
 
 == Academic Service  
@@ -146,10 +150,10 @@ EWRL (2022), L4DC (2022), NeurIPS Workshop on OfflineRL (2022, 2021)
 - Provable Offline Reinforcement Learning: Neural Function Approximation, Randomization, and Sample Complexity 
     -- FPT AI, Vietnam, Dec. 21, 2022 
 
-- Provable Offline Reinforcement Learning: Neural Function Approximation, Randomization, and Sample Complexity 
+- Provable Offline Reinforcement Learning: Neural Function Approximation, Randomization, and Sample Complexity \[[assets/offlinerl_dec22.pdf slides]\] 
     -- UC San Diego, USA, Dec. 8, 2022 (Host: Rose Yu)
 
-- Offline Reinforcement Learning: Assurance in High-Stakes AI Applications 
+- Offline Reinforcement Learning: Assurance in High-Stakes AI Applications \[[assets/offrl_iaa_22.pdf slides]\]
     -- IAA Research Summit, Johns Hopkins University, USA, Nov. 2022 
 
 - Offline Neural Contextual Bandits: Pessimism, Optimization, and Generalization
@@ -158,7 +162,7 @@ EWRL (2022), L4DC (2022), NeurIPS Workshop on OfflineRL (2022, 2021)
 - Offline Neural Contextual Bandits: Pessimism, Optimization, and Generalization
     -- Arizona State University, USA, Dec. 2021 (Host: Kwang-Sung Jun)
 
-- Generalization and Optimization in Deep Learning: Over-parameterization and Interpolation
+- Generalization and Optimization in Deep Learning: Over-parameterization and Interpolation \[[assets/ntk_interpolation.pdf slides]\]
     -- Deakin University, Australia, Aug. 2021 
 
 - On Finite-Sample Analysis of Batch Reinforcement Learning with Deep ReLU Networks
