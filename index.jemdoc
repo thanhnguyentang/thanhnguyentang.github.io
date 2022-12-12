@@ -49,7 +49,7 @@ I’m always actively open to research collaborations and chat!
 - [https://openreview.net/forum?id=LdEm0umNcv On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces]\n
     -- _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh \n 
     -- Transactions on Machine Learning Research ({{<font color=red >}}TMLR{{</font>}}), 2022 
-    -- \[[bibtex/tmlr22 cite]\]
+    -- \[[bibtex/tmlr22.txt cite]\]
 
 - TIPI: Test Time Adaptation with Transformation Invariance\n 
     -- A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr \n
@@ -69,7 +69,7 @@ I’m always actively open to research collaborations and chat!
 - [https://openreview.net/pdf?id=lTZBRxm2q5 Learning Fractional White Noises in Neural Stochastic Differential Equations]\n  
     -- Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi \n
     -- Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2022 \n 
-    -- \[[bibtex/neurips22 cite]\] \[[https://github.com/anh-tong/fractional_neural_sde code]\] 
+    -- \[[bibtex/neurips22.txt cite]\] \[[https://github.com/anh-tong/fractional_neural_sde code]\] 
 
 - Two-Stage Neural Contextual Bandits for Adaptive Personalised Recommendation\n  
     -- Mengyan Zhang, _Thanh Nguyen-Tang_, Fangzhao Wu, Zhenyu He, Xing Xie, Cheng Soon Ong \n
@@ -85,7 +85,7 @@ I’m always actively open to research collaborations and chat!
     -- _Thanh Nguyen-Tang_ , Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh \n  
     -- International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2022 \n 
     -- [https://offline-rl-neurips.github.io/2021/pdf/28.pdf Workshop on OfflineRL], NeurIPS, 2021 \n 
-    -- \[[bibtex/iclr22 cite]\] \[[https://arxiv.org/abs/2111.13807 arXiv]\] 
+    -- \[[bibtex/iclr22.txt cite]\] \[[https://arxiv.org/abs/2111.13807 arXiv]\] 
 \[[assets/poster_NeurIPSW21.pdf poster]\]  
 \[[assets/neuralcb_slides.pdf slides]\] 
 \[[https://github.com/thanhnguyentang/offline_neural_bandits code]\]
@@ -101,7 +101,7 @@ I’m always actively open to research collaborations and chat!
 - [https://ojs.aaai.org/index.php/AAAI/article/view/17104 Distributional Reinforcement Learning via Moment Matching ]\n 
     -- _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh \n 
     -- AAAI Conference on Artificial Intelligence ({{<font color=red >}}AAAI{{</font>}}), 2021 \n
-    -- \[[bibtex/aaai21 cite]\] \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl code]]
+    -- \[[bibtex/aaai21.txt cite]\] \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl code]]
 \[[https://cutt.ly/fkkiAGm slides]] 
 \[[https://cutt.ly/4kkiJZt poster]] \[[https://youtu.be/1fMqZZjy84E talk]] 
 
@@ -109,7 +109,7 @@ I’m always actively open to research collaborations and chat!
 - [http://proceedings.mlr.press/v108/nguyen20a.html Distributionally Robust Bayesian Quadrature Optimization]\n 
     -- _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh\n 
     -- International Conference on Artificial Intelligence and Statistics ({{<font color=red >}}AISTATS{{</font>}}), 2020 \n 
-    -- \[[bibtex/aistats20 cite]\] \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo code]]
+    -- \[[bibtex/aistats20.txt cite]\] \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo code]]
 \[[https://thanhnguyentang.github.io/assets/aistats20_drbqo.pdf slides]] 
 \[[https://slideslive.com/38930124/ talk]]  
 
