@@ -18,20 +18,22 @@ and completed my PhD there in Feb 2022. I did my Master in Computer Science and 
 
 == Research Interests 
 I am building toward data-efficient, runtime-efficient and robust AI 
-by studying three foundational pillars of modern machine learning -- provable statistical efficiency, computational efficiency, and robustness. My current focus includes: 
+by studying three foundational pillars of modern machine learning -- provable statistical efficiency, computational efficiency, and robustness. My current key focus includes: 
 
 - Reinforcement Learning 
+- Neural network theory 
+
+Besides, I am also studying algorithmic designs for
 - Learning under Distributional Shifts 
 - Robust Adversarial Learning 
 - Probabilistic Deep Learning 
 - Representation Learning 
-- Probability Theory and Generalization Bounds 
 
 I’m always actively open to research collaborations and chat!
 
 
 == Recent News  
-- Dec. 9, 2022: One manuscript accepted to TMLR. 
+- Dec. 9, 2022: One paper accepted to TMLR. 
 - Nov. 19, 2022: One paper accepted to AAAI, 2023 (acceptance rate: 19.6%). 
 - Oct. 30, 2022: I was acknowledged in Francis Bach's [https://www.di.ens.fr/~fbach/ltfp_book.pdf "Learning Theory from First Principles"]
 - Sep. 14, 2022: One paper accepted to NeurIPS, 2022 (acceptance rate: 25.6%). 
@@ -44,7 +46,7 @@ I’m always actively open to research collaborations and chat!
 - On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation\n 
     -- _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
     -- AAAI Conference on Artificial Intelligence ({{<font color=red >}}AAAI{{</font>}}), 2023  \n 
-    -- \[[https://arxiv.org/abs/2211.13208 arXiv]\]
+    -- \[[https://arxiv.org/abs/2211.13208 arXiv]\] \[[assets/aaai23-poster.pdf poster]\] \[[assets/aaai23-slides-only.pdf slides]\] \[[https://youtu.be/xUsMHodydO8 video]\]
 
 === 2022   
 - [https://openreview.net/forum?id=LdEm0umNcv On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces]\n
