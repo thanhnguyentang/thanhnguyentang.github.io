@@ -5,7 +5,7 @@ Postdoctoral Research Fellow \n
 [https://engineering.jhu.edu/ Whiting School of Engineering] \n 
 [https://www.jhu.edu/ Johns Hopkins University] \n \n
 Malone Hall 331, 3400 N Charles Street, Baltimore, MD 21218 \n \n 
-_Email_ /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n 
+_Email_ /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n \n
 _Links_ [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar], 
 [https://www.semanticscholar.org/author/Thanh-Nguyen-Tang/1490490191?sort=pub-date Semantic Scholar], 
 [https://github.com/thanhnguyentang Github],
@@ -141,20 +141,27 @@ I’m always actively open to research collaborations and chat!
 
 == Academic Service  
 - Senior Program Committee: AAAI (2023)
-- Reviewer/Program Committee: NeurIPS (2022, 2021, 2020), ICML (2023, 2022, 2021), ICLR (2023, 2022, 2021- Outstanding reviewer award), AISTATS (2021), 
-AAAI (2022, 2021-[https://aaai.org/Conferences/AAAI-21/wp-content/uploads/2021/05/AAAI-21-Program-Committee.pdf Top 25% of Program Committees], 2020), 
-EWRL (2022), L4DC (2022), NeurIPS Workshop on OfflineRL (2022, 2021)
+- Reviewer/Program Committee: 
+    -- NeurIPS (2022, 2021, 2020)
+    -- ICML (2023, 2022, 2021)
+    -- ICLR (2023, 2022, 2021- Outstanding reviewer award) 
+    -- AAAI (2022, 2021-[https://aaai.org/Conferences/AAAI-21/wp-content/uploads/2021/05/AAAI-21-Program-Committee.pdf Top 25% PC], 2020)
+    -- TPAMI (2023) 
+    -- AISTATS (2021)
+    -- EWRL (2022)
+    -- L4DC (2022)
+    -- NeurIPS Workshop on OfflineRL (2022, 2021)
 - Volunteer: ICML (2022), AutoML (2022) 
 
 == Invited Talks 
 
-- Provable Offline Reinforcement Learning: Neural Function Approximation, Randomization, and Sample Complexity \[[https://www.vinai.io/seminar-posts/provable-offline-reinforcement-learning-neural-function-approximation-randomization-and-sample-complexity/ post]\]
+- Neural Offline Reinforcement Learning \[[https://www.vinai.io/seminar-posts/provable-offline-reinforcement-learning-neural-function-approximation-randomization-and-sample-complexity/ post]\]
     -- VinAI, Vietnam, Jan. 13, 2023 
 
-- Provable Offline Reinforcement Learning: Neural Function Approximation, Randomization, and Sample Complexity \[[https://www.youtube.com/watch?v=FNj8UScJmrk record]\]
+- Neural Offline Reinforcement Learning \[[https://www.youtube.com/watch?v=FNj8UScJmrk record]\]
     -- FPT AI, Vietnam, Dec. 21, 2022 
 
-- Provable Offline Reinforcement Learning: Neural Function Approximation, Randomization, and Sample Complexity \[[assets/offlinerl_dec22.pdf slides]\] 
+- Neural Offline Reinforcement Learning \[[assets/offlinerl_dec22.pdf slides]\] 
     -- UC San Diego, USA, Dec. 8, 2022 (Host: Rose Yu)
 
 - Offline Reinforcement Learning: Assurance in High-Stakes AI Applications \[[assets/offrl_iaa_22.pdf slides]\]

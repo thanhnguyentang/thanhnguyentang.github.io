@@ -159,7 +159,7 @@ def standardconf():
 </br>
  <h1>|</h1>
  <img alt="tnt" src="profile_pic.jpg" 
-  style="display:inline;margin:5px 10px 0px 0px;float:center" width="180" id="profileimage">
+  style="display:inline;margin:5px 10px 0px 0px;float:center" width="163" id="profileimage">
  
   
   [doctitle]
