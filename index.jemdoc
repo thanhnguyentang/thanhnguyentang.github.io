@@ -44,6 +44,10 @@ I’m always actively open to research collaborations and chat!
 
 == Publications  
 === 2023  
+- On Langevin Posterior Sampling for Offline Reinforcement Learning\n 
+    -- _Thanh Nguyen-Tang_, Ming Yin, Masatoshi Uehara, Yu-Xiang Wang, Raman Arora\n
+    -- Under review, 2023
+    
 - Provably Efficient Neural Offline Reinforcement Learning via Perturbed Rewards\n 
     -- _Thanh Nguyen-Tang_, Raman Arora \n 
     --  International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2023 ({{<font color=red >}}Top 25% - Spotlight{{</font>}}) \n 
@@ -151,7 +155,7 @@ I’m always actively open to research collaborations and chat!
     -- EWRL (2022)
     -- L4DC (2022)
     -- NeurIPS Workshop on OfflineRL (2022, 2021)
-- Volunteer: ICML (2022), AutoML (2022) 
+- Volunteer: AAAI (2023 - Session chair for ML theory), ICML (2022), AutoML (2022) 
 
 == Invited Talks 
 
