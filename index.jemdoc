@@ -47,8 +47,8 @@ I’m always actively open to research collaborations and chat!
 - On Langevin Posterior Sampling for Offline Reinforcement Learning\n 
     -- _Thanh Nguyen-Tang_, Ming Yin, Masatoshi Uehara, Yu-Xiang Wang, Raman Arora\n
     -- Under review, 2023
-    
-- Provably Efficient Neural Offline Reinforcement Learning via Perturbed Rewards\n 
+
+- [https://openreview.net/forum?id=WOquZTLCBO1 Provably Efficient Neural Offline Reinforcement Learning via Perturbed Rewards]\n 
     -- _Thanh Nguyen-Tang_, Raman Arora \n 
     --  International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2023 ({{<font color=red >}}Top 25% - Spotlight{{</font>}}) \n 
     -- \[[assets/offlinerl_dec22.pdf slides]\]
