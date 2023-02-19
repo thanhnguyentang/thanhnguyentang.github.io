@@ -18,16 +18,16 @@ and completed my PhD there in Feb 2022. I did my Master in Computer Science and 
 
 == Research Interests 
 I am building toward data-efficient, runtime-efficient and robust AI 
-by studying three foundational pillars of modern machine learning -- provable statistical efficiency, computational efficiency, and robustness. My current key focus includes: 
+by studying three foundational pillars of modern machine learning -- statistical efficiency, computational efficiency, and robustness. My current key focus includes: 
 
-- Reinforcement Learning 
+- Reinforcement learning theory 
 - (Deep) learning theory 
 
-Besides, I am also studying algorithmic designs for
-- Learning under Distributional Shifts 
-- Robust Adversarial Learning 
-- Probabilistic Deep Learning 
-- Representation Learning 
+Besides, I am also studying: 
+- Learning under distributional shifts 
+- Representation (multi-task, federated) learning 
+- Robust adversarial learning 
+- Probabilistic deep learning 
 
 I’m always actively open to research collaborations and chat!
 
@@ -157,6 +157,10 @@ I’m always actively open to research collaborations and chat!
     -- NeurIPS Workshop on OfflineRL (2022, 2021)
 - Volunteer: AAAI (2023 - Session chair for ML theory), ICML (2022), AutoML (2022) 
 
+== Teaching 
+- Co-instructor (responsible for bandits/reinforcement learning), Machine Learning (CS 475/675) Spring 2023, JHU  
+
+
 == Invited Talks 
 
 - Neural Offline Reinforcement Learning \[[https://www.vinai.io/seminar-posts/provable-offline-reinforcement-learning-neural-function-approximation-randomization-and-sample-complexity/ post]\]
@@ -202,14 +206,12 @@ Moreover, asking questions forces them into the laborious task of thinking, whic
 
 - You and your research -- [https://www.cs.virginia.edu/~robins/YouAndYourResearch.html Richard Hamming]
     -- Do not be afraid to do first-class research.
-    -- Courage to think hard about curious questions, dare to ask the impossible questions (Shannon’s case).
+    -- Courage to think hard about your genuinely curious questions, dare to ask the impossible questions (Shannon’s case).
     -- Do not get the big thing right off, start with small basics and let it compound.
     -- Great scientists tolerate ambiguity.
-    -- Completely commit to the problems
-    -- Take subconscious to your advantage (e.g. deeply immmersed into the problem, think of it in the sleep)
+    -- Take subconscious to your advantage (e.g. deeply immmerse into the problem, think of it in the sleep)
     -- Ask “What are the important problems in my field?”; keep a list of 10-20 important problems and look for an attack. 
-    -- Research questions can be adaptively adjusted  
     -- Learn to sell your work
-    -- “Great Thoughts Time”: Devote some small time of one day in a week ONLY to think and understand the bigger problems in the field, what’s important, what’s not.
+    -- “Great thoughts time”: Devote some small time of one day in a week ONLY to think and understand the bigger problems in the field, what’s important, what’s not.
     -- Drive + commitment > talent
 
