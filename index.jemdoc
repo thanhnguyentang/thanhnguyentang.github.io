@@ -13,12 +13,11 @@ _Links_ [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=li
 
 == About Me  
 I am a Postdoctoral Research Fellow in Department of Computer Science at Johns Hopkins University, 
-working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I was an Associate Research Fellow at the Applied AI Institute, Deakin University in July 2021-June 2022 
-and completed my PhD there in Feb 2022. I did my Master in Computer Science and Engineering at Ulsan National Institute of Science and Technology (UNIST) in 2018. 
+working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I was an Associate Research Fellow at the Applied AI Institute, Deakin University (Australia) in July 2021-June 2022 
+and completed my PhD there in Feb 2022. I did my Master in Computer Science and Engineering at Ulsan National Institute of Science and Technology (South Korea) in 2018. 
 
 == Research Interests 
-I am building toward data-efficient, runtime-efficient and robust AI 
-by studying three foundational pillars of modern machine learning -- statistical efficiency, computational efficiency, and robustness. My current key focus includes: 
+I am studying the algorithmic and theoretical foundations of /modern/ machine learning with a focus on the following pillars: statistical efficiency, computational efficiency, and trustworthiness. My current key topics include: 
 
 - Reinforcement learning theory 
 - (Deep) learning theory 
