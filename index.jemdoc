@@ -50,7 +50,7 @@ I’m always actively open to research collaborations and chat!
 - [https://openreview.net/forum?id=WOquZTLCBO1 Provably Efficient Neural Offline Reinforcement Learning via Perturbed Rewards]\n 
     -- _Thanh Nguyen-Tang_, Raman Arora \n 
     --  International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2023 ({{<font color=red >}}Top 25% - Spotlight{{</font>}}) \n 
-    -- \[[assets/offlinerl_dec22.pdf slides]\]
+    -- \[[assets/offlinerl_dec22.pdf slides]\] \[[https://github.com/thanhnguyentang/neural-offline-rl code]\]
 
 - On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation\n 
     -- _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
