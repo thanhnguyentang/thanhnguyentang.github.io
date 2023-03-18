@@ -56,7 +56,7 @@ Students can also contact me for research projects in ML.
 - [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation]\n 
     -- _Thanh Nguyen-Tang_, Raman Arora \n 
     --  International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2023 ({{<font color=red >}}Top 25% - Spotlight{{</font>}}) \n 
-    -- \[[assets/offlinerl_dec22.pdf slides]\] \[[https://github.com/thanhnguyentang/neural-offline-rl code]\]
+    -- \[[https://arxiv.org/abs/2302.12780 arXiv]\] \[[assets/offlinerl_dec22.pdf slides]\] \[[https://github.com/thanhnguyentang/neural-offline-rl code]\]
 
 - On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation\n 
     -- _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
