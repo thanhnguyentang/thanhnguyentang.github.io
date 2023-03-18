@@ -34,7 +34,7 @@ Students can also contact me for research projects in ML.
 
 == Recent News   
 - 02\/27\/2023: One paper accepted to CVPR'23 (acceptance rate: 25.78%).  
-- Jan. 20, 2023: One paper accepted to ICLR'23 (Spotlight, acceptance rate: 31.8%).
+- Jan. 20, 2023: One paper accepted to ICLR'23 (acceptance rate: 31.8%, top 25% noble).
 - Dec. 9, 2022: One paper accepted to TMLR. 
 - Nov. 19, 2022: One paper accepted to AAAI, 2023 (acceptance rate: 19.6%). 
 - Oct. 30, 2022: I was acknowledged in Francis Bach's [https://www.di.ens.fr/~fbach/ltfp_book.pdf "Learning Theory from First Principles"].
@@ -55,7 +55,7 @@ Students can also contact me for research projects in ML.
 
 - [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation]\n 
     -- _Thanh Nguyen-Tang_, Raman Arora \n 
-    --  International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2023 ({{<font color=red >}}Top 25% - Spotlight{{</font>}}) \n 
+    --  International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2023 ({{<font color=red >}}Top 25% noble {{</font>}}) \n 
     -- \[[https://arxiv.org/abs/2302.12780 arXiv]\] \[[assets/offlinerl_dec22.pdf slides]\] \[[https://github.com/thanhnguyentang/neural-offline-rl code]\]
 
 - On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation\n 
