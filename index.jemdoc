@@ -33,11 +33,11 @@ Students can also contact me for research projects in ML.
 
 
 == Recent News   
-- 02\/27\/2023: One paper accepted to CVPR'23 (acceptance rate:  25.78%)  
-- Jan. 20, 2023: One paper accepted to ICLR'23 (spotlight, acceptance rate: 31.8%)
+- 02\/27\/2023: One paper accepted to CVPR'23 (acceptance rate: 25.78%).  
+- Jan. 20, 2023: One paper accepted to ICLR'23 (Spotlight, acceptance rate: 31.8%).
 - Dec. 9, 2022: One paper accepted to TMLR. 
 - Nov. 19, 2022: One paper accepted to AAAI, 2023 (acceptance rate: 19.6%). 
-- Oct. 30, 2022: I was acknowledged in Francis Bach's [https://www.di.ens.fr/~fbach/ltfp_book.pdf "Learning Theory from First Principles"]
+- Oct. 30, 2022: I was acknowledged in Francis Bach's [https://www.di.ens.fr/~fbach/ltfp_book.pdf "Learning Theory from First Principles"].
 - Sep. 14, 2022: One paper accepted to NeurIPS, 2022 (acceptance rate: 25.6%). 
 - Aug. 8, 2022: I am acknowledged in Mengyan Zhang's PhD thesis. 
 - Jan. 21, 2022: One paper accepted to ICLR, 2022 (acceptance rate: 32.26%). 
@@ -51,7 +51,7 @@ Students can also contact me for research projects in ML.
 
 - TIPI: Test Time Adaptation with Transformation Invariance\n 
     -- A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr \n
-    -- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023 \n
+    -- IEEE/CVF Conference on Computer Vision and Pattern Recognition ({{<font color=red >}}CVPR{{</font>}}), 2023 \n
 
 - [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation]\n 
     -- _Thanh Nguyen-Tang_, Raman Arora \n 
@@ -71,7 +71,7 @@ Students can also contact me for research projects in ML.
 
 - [https://openreview.net/pdf?id=Yl_4LpR_3Z Improving Domain Generalization with Interpolation Robustness]\n 
     -- Ragja Palakkadavath, _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh \n
-    -- Distribution Shifts Workshop@NeurIPS2022, INTERPOLATE@NeurIPS2022 (/Spotlight/)\n
+    -- Distribution Shifts Workshop@NeurIPS2022, INTERPOLATE@NeurIPS2022 ({{<font color=red >}}Spotlight{{</font>}})\n
     -- Under review, 2022 \n
 
 
@@ -159,7 +159,7 @@ Students can also contact me for research projects in ML.
 - Volunteer: AAAI (2023 - session chair for ML theory), ICML (2022), AutoML (2022) 
 
 == Teaching 
-- Co-instructor (responsible for bandits\/reinforcement learning), Machine Learning (CS 475\/675) Spring 2023, JHU  
+- Guess lecturer (in bandits\/reinforcement learning): Machine Learning (CS 475\/675) Spring 2023, JHU  
 
 
 == Invited Talks 
