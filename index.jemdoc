@@ -17,16 +17,14 @@ working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I was an Ass
 and completed my PhD there in Feb 2022. I did my Master in Computer Science and Engineering at [http://sailab.kaist.ac.kr/publications/ the Statistical AI Lab in Ulsan National Institute of Science and Technology] (South Korea) in 2018. 
 
 == Research Interests 
-I am studying the algorithmic and theoretical foundations of /modern/ machine learning with a focus on the following pillars: /statistical efficiency/, /computational efficiency/, and /trustworthiness/. My current key topics include: 
+I am studying the algorithmic and theoretical foundations of /modern/ machine learning with a focus on the following pillars: /statistical efficiency/, /computational efficiency/, and /trustworthiness/, with topics: 
 
 - Reinforcement learning theory 
 - (Deep) learning theory 
-
-Besides, I am also studying: 
-- Learning under distributional shifts 
-- Representation (multi-task, federated) learning 
 - Robust adversarial learning 
-- Probabilistic deep learning 
+- Representation (multi-task, federated, collaborative) learning 
+- Learning under distributional shifts 
+- Probabilistic learning 
 
 I’m always actively open to research collaborations and chat! 
 Students can also contact me for research projects in ML. 
@@ -34,7 +32,7 @@ Students can also contact me for research projects in ML.
 
 == Recent News   
 - 02\/27\/2023: One paper accepted to CVPR'23 (acceptance rate: 25.78%).  
-- Jan. 20, 2023: One paper accepted to ICLR'23 (acceptance rate: 31.8%, top 25/% noble).
+- Jan. 20, 2023: One paper won ({{<font color=red >}}Top 25% noble {{</font>}}) to ICLR'23 (acceptance rate: 31.8%).
 - Dec. 9, 2022: One paper accepted to TMLR. 
 - Nov. 19, 2022: One paper accepted to AAAI, 2023 (acceptance rate: 19.6%). 
 - Oct. 30, 2022: I was acknowledged in Francis Bach's [https://www.di.ens.fr/~fbach/ltfp_book.pdf "Learning Theory from First Principles"].
