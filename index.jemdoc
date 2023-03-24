@@ -122,7 +122,7 @@ I love discussing research problems in ML and making new good friends along the 
 === **2019** 
 - [https://doi.org/10.3390/e21100976 Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks]\n
     -- _Thanh Nguyen-Tang_, Jaesik Choi\n
-    -- {{<font color=red >}}Entropy{{</font>}}, 21(10), 976, 2019 \n 
+    -- {{<font color=red >}}Entropy{{</font>}}, 21(10), 976, 2019 (in Special Issue on Information Bottleneck: Theory and Applications in Deep Learning) \n 
     -- \[[bibtex/nguyen-pib17.txt cite]\] \[[https://github.com/thanhnguyentang/pib code]]
 
 - [https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space Bayesian Optimization with Unknown Search Space]\n
