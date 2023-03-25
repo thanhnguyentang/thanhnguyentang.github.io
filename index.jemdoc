@@ -7,7 +7,6 @@ Postdoctoral Research Fellow \n
 Malone Hall 331, 3400 N Charles Street, Baltimore, MD 21218 \n \n 
 _Email_ /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n \n
 _Links_ [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar], 
-[https://www.semanticscholar.org/author/Thanh-Nguyen-Tang/1490490191?sort=pub-date Semantic Scholar], 
 [https://github.com/thanhnguyentang Github],
 [https://twitter.com/thanhnguyentang Twitter] 
 
@@ -49,6 +48,7 @@ I love discussing research problems in ML and making new good friends along the 
 - TIPI: Test Time Adaptation with Transformation Invariance\n 
     -- A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr \n
     -- IEEE/CVF Conference on Computer Vision and Pattern Recognition ({{<font color=red >}}CVPR{{</font>}}), 2023 \n
+    -- \[[https://atuannguyen.com/assets/pdf/nguyen2023tipi.pdf pdf]\] 
 
 - [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation]\n 
     -- _Thanh Nguyen-Tang_, Raman Arora \n 
