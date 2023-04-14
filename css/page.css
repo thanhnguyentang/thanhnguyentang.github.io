@@ -45,6 +45,6 @@ body {
 	padding: 0;
 	padding-bottom: 8px;
     box-sizing: border-box;
-    width: 50%;
+    width: 100%;
     border: 5px solid red;
 }

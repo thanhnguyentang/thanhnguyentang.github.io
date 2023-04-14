@@ -8,9 +8,9 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family:  system-ui;
+	font-family:  system-ui, -apple-system;
 	margin: auto;
-	width: 700px;
+	width: 750px;
     /* border: 1px solid #3c3a3a; */
     text-align: left;
     font-size: 0.84em;
