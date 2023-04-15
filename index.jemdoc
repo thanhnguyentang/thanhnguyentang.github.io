@@ -19,9 +19,8 @@ I am studying the algorithmic and theoretical foundations of /modern/ machine le
 
 - Reinforcement learning theory 
 - (Deep) learning theory 
-- Robust adversarial learning 
+- Trustworthy machine learning (robust adversarial learning, differntial privacy and OOD generalization)
 - Representation (multi-task, federated, collaborative) learning 
-- Learning under distributional shifts 
 - Probabilistic learning 
 
 == Recent News   
