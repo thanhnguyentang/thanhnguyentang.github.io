@@ -19,7 +19,7 @@ I am studying the algorithmic and theoretical foundations of /modern/ machine le
 
 - Reinforcement learning theory 
 - (Deep) learning theory 
-- Trustworthy machine learning (robust adversarial learning, Differential privacy and OOD generalization)
+- Trustworthy machine learning (robust adversarial learning, differential privacy and OOD generalization)
 - Representation (multi-task, federated, collaborative) learning 
 - Probabilistic learning 
 
@@ -46,7 +46,7 @@ I am studying the algorithmic and theoretical foundations of /modern/ machine le
 - [https://openreview.net/forum?id=WOquZTLCBO1 ***VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation***]\n 
     _Thanh Nguyen-Tang_, Raman Arora \n 
     International Conference on Learning Representations ({{<font color=red >}}***ICLR***{{</font>}}), 2023 ({{<font color=red >}}Top 25% noble{{</font>}})  
-\[[https://arxiv.org/abs/2302.12780 arXiv]\] \[[https://recorder-v3.slideslive.com/?share=80688&s=a24d555f-edda-4210-a19e-4fded4165c62 talk]\]  \[[assets/offlinerl_dec22.pdf long-slides]\] \[[assets/viper.pdf short-slides]\] \[[https://github.com/thanhnguyentang/neural-offline-rl code]\]
+\[[https://arxiv.org/abs/2302.12780 arXiv]\] \[[https://recorder-v3.slideslive.com/?share=80688&s=a24d555f-edda-4210-a19e-4fded4165c62 talk]\] \[[assets/viper.pdf slides]\] \[[https://github.com/thanhnguyentang/neural-offline-rl code]\]
 
 - ***On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation***\n 
     _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora \n 
