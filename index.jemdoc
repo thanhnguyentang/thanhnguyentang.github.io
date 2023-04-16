@@ -15,9 +15,9 @@ working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I was an Ass
 and completed my PhD there in Feb 2022. I did my Master in Computer Science and Engineering at [http://sailab.kaist.ac.kr/publications/ the Statistical AI Lab], Ulsan National Institute of Science and Technology (South Korea) in 2018. 
 
 == Research Interests 
-I study the algorithmic and theoretical foundations of __modern__ machine learning.  
-In particular, I often think about *when* and *how* it is possible to design learning algorithms for modern practical settings that earn __statistical efficiency__, __computational efficiency__, and __trustworthiness__. 
-More concretely, the current topics are: 
+I study the algorithmic and theoretical foundations of _modern_ machine learning.  
+In particular, I often think about /when/ and /how/ it is possible to design learning algorithms for modern practical settings that earn _statistical efficiency_, _computational efficiency_, and _trustworthiness_. 
+Current topics: 
 
 - Reinforcement learning theory 
 - (Deep) learning theory 
