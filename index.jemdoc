@@ -15,8 +15,8 @@ working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I was an Ass
 and completed my PhD there in Feb 2022. I did my Master in Computer Science and Engineering at [http://sailab.kaist.ac.kr/publications/ the Statistical AI Lab], Ulsan National Institute of Science and Technology (South Korea) in 2018. 
 
 == Research Interests 
-Broadly speaking, I study the _algorithmic_ and _theoretical_ foundations of _modern_ machine learning, in the aspects of _statistical efficiency_, _computational efficiency_, and _trustworthiness_. 
-Lately I've been thinking about foundations questions in: offline RL, multi-task representation learning, collaborative (e.g., multi-agent, federated) learning, and trustworthy ml (robustness and differential privacy).
+Broadly speaking, I study the algorithmic and theoretical foundations of modern machine learning, in the aspects of statistical efficiency, computational efficiency, and trustworthiness. 
+Lately I've been thinking about foundations questions in: offline RL, multi-task representation learning, collaborative (e.g., multi-agent, federated) learning, and trustworthy machine learning (robustness and differential privacy).
 
 == Recent News   
 - 02\/27\/2023: One paper accepted to CVPR'23 (acceptance rate: 25.78%).  
