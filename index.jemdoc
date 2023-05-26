@@ -16,7 +16,7 @@ and completed my PhD there in Feb 2022. I did my Master in Computer Science and 
 
 == Research Interests 
 Broadly speaking, I study the algorithmic and theoretical foundations of modern machine learning, in the aspects of statistical efficiency, computational efficiency, and trustworthiness. 
-Lately I've been thinking about foundations questions in: offline RL, multi-task representation learning, collaborative (e.g., multi-agent, federated) learning, and trustworthy machine learning (robustness and differential privacy).
+Lately I've been thinking about foundations questions in: offline RL, multi-task representation learning, collaborative (e.g., multi-agent, federated) learning, and trustworthy machine learning (robust adversarial training and differential privacy).
 
 == Recent News   
 - 02\/27\/2023: One paper accepted to CVPR'23 (acceptance rate: 25.78%).  
