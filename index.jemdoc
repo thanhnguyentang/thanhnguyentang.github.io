@@ -20,7 +20,7 @@ These include handling offline data, generalization across large state spaces, h
 - *Stochastic optimization*: We study stochastic optimization problems that arise from modern data-driven machine learning applications.  
 The studying aspect are characterizations of convergence rates, computational complexity, and robustness of these algorithms. 
 Topics include zeroth-order optimization and adversarially/distributionally robust optimization.  
-- *Machine learning*: We strive to develop new practical algorithms and theory for generalizing across different data distributions or robustifying against attacks. 
+- *Robust generalization*: We strive to develop new practical algorithms and theory for generalizing across different data distributions or robustifying against attacks. 
 
 == Recent News   
 - 02\/27\/2023: One paper accepted to CVPR'23 (acceptance rate: 25.78%).  
