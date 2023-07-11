@@ -14,15 +14,10 @@ _Profiles_ [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op
 I am a Postdoctoral Research Fellow in Department of Computer Science at Johns Hopkins University, 
 working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I did a PhD in [https://a2i2.deakin.edu.au/publications/ the Applied AI Institute], Deakin University (Australia) in 2022, and did my Master in Computer Science and Engineering at [http://sailab.kaist.ac.kr/publications/ the Statistical AI Lab], Ulsan National Institute of Science and Technology (South Korea) in 2018. 
 == Research Interests 
-I study the statistical and computational aspects of modern machine learning, with the focus on the following directions: 
+* Online learning/ bandits / games / reinforcement learning  
+* Multi-task learning  
+* Adversarial robust learning 
 
-- *Reinforcement learning*:  We develop new data-efficient algorithms that address emerging challenges of reinforcement learning and characterize the statistical and computational complexity of these algorithms. 
-These include handling offline data, generalization across large state spaces, heterogeneous environments, representation learning and human feedback.   
-- *Stochastic optimization*: We study stochastic optimization problems that arise from modern data-driven machine learning applications.  
-The studying aspect are characterizations of convergence rates, computational complexity, and robustness of these algorithms. 
-Topics include zeroth-order optimization, adversarially/distributionally robust optimization, and federated optimization.   
-- *Robust generalization*: We develop both new practical algorithms and theory for quickly generalizing to new distributions or for generalizing beyond various attacks. 
-Problems in this direction includes transfer learning, multi-task representation learning, domain adaptation/generalization and adversarial robust learning. 
 
 == Recent News   
 - 02\/27\/2023: One paper accepted to CVPR'23 (acceptance rate: 25.78%).  
