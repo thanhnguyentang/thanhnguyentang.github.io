@@ -22,7 +22,7 @@ working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I did a PhD 
 
 == Publications  
 === 2023 
-
+- Thong Bach, Anh Tong, Truong Son Hy, Vu Nguyen, _Thanh Nguyen-Tang_. [https://openreview.net/forum?id=xWrtiJwJj5 Long-Tailed Visual Recognition with Global Contrastive Learning and Prototype Learning]. Transactions on Machine Learning Research ({{<font color=red >}}TMLR{{</font>}}), 2023. 
 - A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr. [https://openaccess.thecvf.com/content/CVPR2023/html/Nguyen_TIPI_Test_Time_Adaptation_With_Transformation_Invariance_CVPR_2023_paper.html TIPI: Test Time Adaptation with Transformation Invariance]. IEEE/CVF Conference on Computer Vision and Pattern Recognition {{<font color=red >}}(CVPR){{</font>}}, 2023.  
 - _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation].
     International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2023 ({{<font color=red >}}top 25% noble{{</font>}})
