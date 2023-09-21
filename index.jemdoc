@@ -3,10 +3,10 @@
 Postdoctoral Research Fellow \n
 [https://www.cs.jhu.edu/ Department of Computer Science] \n 
 [https://engineering.jhu.edu/ Whiting School of Engineering] \n 
-[https://www.jhu.edu/ Johns Hopkins University] \n \n
-Malone Hall 331, 3400 N Charles Street, Baltimore, MD 21218 \n \n 
-_Email_ /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n \n
-[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar] \n \n 
+[https://www.jhu.edu/ Johns Hopkins University] \n 
+Malone Hall 331, 3400 N Charles Street, Baltimore, MD 21218 \n \n
+_Email_ /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n 
+[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar] \n \n
 [https://terrytao.wordpress.com/career-advice/work-hard/ /``Great things take time!''/]
 
 == About Me  
@@ -21,7 +21,11 @@ working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I did a PhD 
 
 == Publications  
 === 2023 
-- Thong Bach, Anh Tong, Truong Son Hy, Vu Nguyen, _Thanh Nguyen-Tang_. [https://openreview.net/forum?id=xWrtiJwJj5 Long-Tailed Visual Recognition with Global Contrastive Learning and Prototype Learning]. Transactions on Machine Learning Research ({{<font color=red >}}TMLR{{</font>}}), 2023. 
+- Anh Do, _Thanh Nguyen-Tang_, Raman Arora. [thanhnguyentang.github.io Multi-Agent Learning with Heterogeneous Linear Contextual Bandits]. Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2023.
+- Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. [thanhnguyentang.github.io Optimistic Rates for Multi-Task Representation Learning]. Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2023.
+- _Thanh Nguyen-Tang_, Raman Arora. [thanhnguyentang.github.io On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond]. Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2023.
+-  Ragja Palakkadavath, _Thanh Nguyen-Tang_, Hung Le, Svetha Venkatesh, Sunil Gupta. [https://openreview.net/pdf?id=Yl_4LpR_3Z Improving Domain Generalization with Interpolation Robustness]. Asian Conference on Machine Learning ({{<font color=red >}}ACML{{</font>}}), 2023. 
+- Thong Bach, Anh Tong, Truong Son Hy, Vu Nguyen, _Thanh Nguyen-Tang_. [https://openreview.net/forum?id=xWrtiJwJj5 Global Contrastive Learning for Long-Tailed Classification]. Transactions on Machine Learning Research ({{<font color=red >}}TMLR{{</font>}}), 2023. 
 - A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr. [https://openaccess.thecvf.com/content/CVPR2023/html/Nguyen_TIPI_Test_Time_Adaptation_With_Transformation_Invariance_CVPR_2023_paper.html TIPI: Test Time Adaptation with Transformation Invariance]. IEEE/CVF Conference on Computer Vision and Pattern Recognition {{<font color=red >}}(CVPR){{</font>}}, 2023.  
 - _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation].
     International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2023 ({{<font color=red >}}top 25% noble{{</font>}})
