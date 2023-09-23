@@ -158,8 +158,8 @@ def standardconf():
 #   <div id="toptitle">
 </br>
  <h1>|</h1>
- <img alt="tnt" src="profile_pic.png" 
-  style="display:inline;margin:1px 1px 0px 0px;float:center" width="250"  id="profileimage">
+ <img alt="tnt" src="profile_picture.png" 
+  style="display:inline;margin:1px 15px 1px 1px;float:center" width="160"  id="profileimage">
  
   
   [doctitle]
