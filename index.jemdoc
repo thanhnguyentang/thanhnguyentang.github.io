@@ -37,7 +37,7 @@ working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I did a PhD 
 === 2022   
 - _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh. [https://openreview.net/forum?id=LdEm0umNcv On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces]. 
     Transactions on Machine Learning Research ({{<font color=red >}}TMLR{{</font>}}), 2022.  
--  Ragja Palakkadavath, _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. [https://openreview.net/pdf?id=Yl_4LpR_3Z Improving Domain Generalization with Interpolation Robustness]. 
+-  Ragja Palakkadavath, _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. [https://openreview.net/pdf?id=Yl_4LpR_3Z Domain Generalization with Interpolation Robustness]. 
     Distribution Shifts Workshop@NeurIPS, INTERPOLATE@NeurIPS ({{<font color=red >}}Spotlight{{</font>}}), 2022.  
 -  Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi. [https://openreview.net/pdf?id=lTZBRxm2q5 Learning Fractional White Noises in Neural Stochastic Differential Equations].
     Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2022. 
