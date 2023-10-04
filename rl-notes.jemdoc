@@ -6,4 +6,5 @@
 - 8/03: Lower bound for OPE with linear realizability and uniform data coverage \[[rl-notes/4.pdf note]\] 
 - 8/10: UCB-VI for tabular MDPs \[[rl-notes/5.pdf note]\] 
 - 9/08: Policy gradient methods (MAB case) \[[rl-notes/6.pdf note]\] 
-- 10/14: Policy gradient methods (tabular MDP case) \[[rl-notes/7.pdf note]\]
+- 9/14: Policy gradient methods (tabular MDP case) \[[rl-notes/7.pdf note]\]
+- 10/4: LSVI-UCB for linear MDPs \[[rl-notes/8.pdf note]\]
