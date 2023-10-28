@@ -11,20 +11,24 @@ Malone Hall 331, 3400 N Charles Street, Baltimore, MD 21218 \n
 
 == About Me  
 I am a Postdoctoral Research Fellow in Department of Computer Science at Johns Hopkins University, 
-working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I did a PhD in [https://a2i2.deakin.edu.au/publications/ the Applied AI Institute], Deakin University (Australia) in 2022, and did my Master in Computer Science and Engineering at [http://sailab.kaist.ac.kr/publications/ the Statistical AI Lab], Ulsan National Institute of Science and Technology (South Korea) in 2018. 
+working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I did my PhD research in [https://a2i2.deakin.edu.au/publications/ the Applied AI Institute], Deakin University (Australia) in 2022, and did my Master research in Computer Science and Engineering at [http://sailab.kaist.ac.kr/publications/ the Statistical AI Lab], Ulsan National Institute of Science and Technology (South Korea) in 2018. 
 == Research Interests   
-- Online learning \/ bandits \/ games / reinforcement learning;   
-- Multi-task learning / transfer learning; 
-- Adversarial robust learning; 
-- Learnability. 
+My research explores how to learn as much information as possible from empirical observations, in various realistic settings and algorthmic constraints motivated by modern machine learning, 
+and use this understanding to inform practical algorithms that are efficient and robust. I often seek answers through the lens of learning theory, statistical inference, and algorithmic information theory. 
+Here are some questions I've recently working on: 
+- How much information from pre-collected experiences can one learn to extract a useful behavior? What are appropriote notions of transferrability from pre-collected experiences to an useful behavior? 
+- How much information one can re-use from source tasks to target tasks? 
+How much information one can collaboratively share across multiple tasks to solve these tasks more quickly? 
+- Can we make learning robust when the environment or empirical observations are partially manipulated? 
+- To what extent can we ensure learning is aligned with human preferences? How much information about human behavior and preference can we extract from empirical observations?
 
 
 == Publications  
 === 2023 
-- Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Toan Tran, Jaesik Choi. SigFormer: Signature Transformers for Deep Hedging. 4th ACM International Conference on AI in Finance ({{<font color=red >}}ICAIF{{</font>}}), 2023 ({{<font color=red >}}Oral{{</font>}}). 
+- Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Toan Tran, Jaesik Choi. [https://arxiv.org/abs/2310.13369 SigFormer: Signature Transformers for Deep Hedging]. 4th ACM International Conference on AI in Finance ({{<font color=red >}}ICAIF{{</font>}}), 2023 ({{<font color=red >}}Oral{{</font>}}). 
 - Anh Do, _Thanh Nguyen-Tang_, Raman Arora.  Multi-Agent Learning with Heterogeneous Linear Contextual Bandits. Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2023.
 - Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. Optimistic Rates for Multi-Task Representation Learning. Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2023.
-- _Thanh Nguyen-Tang_, Raman Arora. On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond. Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2023.
+- _Thanh Nguyen-Tang_, Raman Arora. On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond. Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2023. \[[preprints/NT-neurips23.pdf pdf]\]
 -  Ragja Palakkadavath, _Thanh Nguyen-Tang_, Hung Le, Svetha Venkatesh, Sunil Gupta. [https://openreview.net/pdf?id=Yl_4LpR_3Z Domain Generalization with Interpolation Robustness]. Asian Conference on Machine Learning ({{<font color=red >}}ACML{{</font>}}), 2023. 
 - Thong Bach, Anh Tong, Truong Son Hy, Vu Nguyen, _Thanh Nguyen-Tang_. [https://openreview.net/forum?id=xWrtiJwJj5 Global Contrastive Learning for Long-Tailed Classification]. Transactions on Machine Learning Research ({{<font color=red >}}TMLR{{</font>}}), 2023. 
 - A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr. [https://openaccess.thecvf.com/content/CVPR2023/html/Nguyen_TIPI_Test_Time_Adaptation_With_Transformation_Invariance_CVPR_2023_paper.html TIPI: Test Time Adaptation with Transformation Invariance]. IEEE/CVF Conference on Computer Vision and Pattern Recognition {{<font color=red >}}(CVPR){{</font>}}, 2023.  
