@@ -16,11 +16,11 @@ working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I did my PhD
 My research explores how to learn as much information as possible from empirical observations, in various realistic settings and algorthmic constraints motivated by modern machine learning, 
 and use this understanding to inform practical algorithms that are efficient and robust. I often seek answers through the lens of learning theory, statistical inference, and algorithmic information theory. 
 Here are some questions I've recently working on: 
-- How much information from pre-collected experiences can one learn to extract a useful behavior? What are appropriote notions of transferrability from pre-collected experiences to an useful behavior? 
+- How much information from pre-collected experiences one can learn to extract a useful behavior? What are appropriote notions of transferrability from pre-collected experiences to an useful behavior? 
 - How much information one can re-use from source tasks to target tasks? 
 How much information one can collaboratively share across multiple tasks to solve these tasks more quickly? 
-- Can we make learning robust when the environment or empirical observations are partially manipulated? 
-- To what extent can we ensure learning is aligned with human preferences? How much information about human behavior and preference can we extract from empirical observations?
+- Can one make learning robust when the environment and/or empirical observations are partially manipulated? 
+- Can one incorporate human preference as an bias into learning? Can one learn human preference out of empirical observations or interactions? 
 
 
 == Publications  
