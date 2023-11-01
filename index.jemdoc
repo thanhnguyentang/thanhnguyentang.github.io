@@ -7,21 +7,15 @@ Postdoctoral Research Fellow \n
 Malone Hall 331, 3400 N Charles Street, Baltimore, MD 21218 \n 
  /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n \n 
 [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar] \n \n
-[https://terrytao.wordpress.com/career-advice/work-hard/ /Demystify modern machine learning, one idea at a time./]
+[https://terrytao.wordpress.com/career-advice/ Research that matters!]
 
 == About Me  
 I am a Postdoctoral Research Fellow in Department of Computer Science at Johns Hopkins University, 
 working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I did my PhD research in [https://a2i2.deakin.edu.au/publications/ the Applied AI Institute], Deakin University (Australia) in 2022, and did my Master research in Computer Science and Engineering at [http://sailab.kaist.ac.kr/publications/ the Statistical AI Lab], Ulsan National Institute of Science and Technology (South Korea) in 2018. 
 == Research Interests   
 I am interested in the Theory of Machine Learning (ML). 
-My research explores how to learn as much information as possible from empirical observations, in various realistic settings and algorthmic constraints motivated by modern practice of AI and Data Science, 
-and use this understanding to inform practical algorithms that are efficient and robust. I often seek answers through the lens of learning theory, statistical inference, and algorithmic information theory. 
-Here are some questions I've recently working on: 
-- How much information from pre-collected experiences one can learn to extract a useful behavior? What are appropriote notions of transferrability from pre-collected experiences to a target behavior? 
-- How much information one can re-use from source tasks to target tasks? 
-How much information one can collaboratively share across multiple tasks to solve these tasks more quickly? 
-- Can one make learning robust when the environment and/or empirical observations are partially manipulated? 
-- Can one incorporate human preference as a bias into learning? Can one learn human preference out of empirical observations or interactions? 
+My research explores how to learn optimally and efficiently from empirical observations, under algorthmic constraints motivated by modern practice of AI and Data Science, such as limited accessibility, trustworthiness, and responsible AI. 
+ 
 
 
 == Publications  
