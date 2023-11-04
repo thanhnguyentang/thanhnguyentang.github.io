@@ -13,9 +13,18 @@ Malone Hall 331, 3400 N Charles Street, Baltimore, MD 21218 \n
 I am a Postdoctoral Research Fellow in Department of Computer Science at Johns Hopkins University, 
 working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I did my PhD research in [https://a2i2.deakin.edu.au/publications/ the Applied AI Institute], Deakin University (Australia) in 2022, and did my Master research in Computer Science and Engineering at [http://sailab.kaist.ac.kr/publications/ the Statistical AI Lab], Ulsan National Institute of Science and Technology (South Korea) in 2018. 
 == Research Interests   
-I am interested in the Theory of Machine Learning (ML). 
-My research explores how to learn optimally and efficiently from empirical observations, under algorithmic constraints motivated by modern practice of responsible AI. 
- 
+My research lies at the intersection of machine learning and decision making, including reinforcement learning, contextual bandits, 
+statistical learning. 
+I am interested in exploring algorithmic principles and fundamental limits for data-driven decision making and learning under 
+resource and/or algorithmic constraints motivated by responsible AI, with themes such as 
+- Decision making with limited interaction
+- Learning with limited in-distribution data
+- Trustworthy decision-making and learning 
+- Differential private decision-making 
+- Replicable ML  
+
+More broadly, I am interested in all (algorithmic and theoretical) aspects of ML, especially at the intersection with theoretical computer science 
+to place modern societal problems in a firm foundation. 
 
 
 == Publications  
