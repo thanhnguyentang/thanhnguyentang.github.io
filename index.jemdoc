@@ -18,9 +18,9 @@ and statistical learning.
 I am interested in exploring algorithmic principles and fundamental limits for data-driven decision making and learning under 
 resource and/or algorithmic constraints motivated by responsible AI, with themes such as 
 - Decision making with limited interaction
-- Learning and decision making with limited in-distribution data
+- Learning with limited in-distribution data
 - Trustworthy ML
-- Privacy-preserving ML decision-making 
+- Privacy-preserving ML 
 - Replicable ML  
 
 More broadly, I am interested in all algorithmic and theoretical aspects of ML, especially at the intersection with theoretical computer science 
