@@ -16,13 +16,10 @@ working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I did my PhD
 My research lies at the intersection of machine learning and decision making, including reinforcement learning, contextual bandits, 
 and statistical learning. 
 I am interested in exploring algorithmic principles and fundamental limits for data-driven decision making and learning under 
-resource and/or algorithmic constraints motivated by responsible AI, with themes such as 
-- Decision making with limited interaction
-- Learning with limited in-distribution data
-- Trustworthy ML
-- Privacy-preserving ML 
-- Replicable ML  
-
+resource/algorithmic constraints motivated by responsible AI, such as decision making with limited interaction,
+learning with limited in-distribution data, trustworthy ML,
+privacy-preserving ML, and replicable ML. The central questions I am exploring are (i) what in a class of models characterize the sample complexity required to learn these new problems, 
+and (ii) can we design efficient algorithms that exploit that characterization? 
 More broadly, I am interested in all algorithmic and theoretical aspects of ML, especially at the intersection with theoretical computer science 
 to place modern societal problems on a firmer foundation. 
 
