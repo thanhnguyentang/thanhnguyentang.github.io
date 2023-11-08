@@ -4,7 +4,7 @@ Postdoctoral Research Fellow \n
 [https://www.cs.jhu.edu/ Department of Computer Science] \n 
 [https://engineering.jhu.edu/ Whiting School of Engineering] \n 
 [https://www.jhu.edu/ Johns Hopkins University] \n \n
-Malone Hall 331, 3400 N Charles Street, Baltimore, MD 21218 \n 
+Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n 
  /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n \n 
 [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar] \n \n
 [https://terrytao.wordpress.com/career-advice/ Research that matters!]
@@ -13,10 +13,14 @@ Malone Hall 331, 3400 N Charles Street, Baltimore, MD 21218 \n
 I am a Postdoctoral Research Fellow in Department of Computer Science at Johns Hopkins University, 
 working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]. I did my PhD research in [https://a2i2.deakin.edu.au/publications/ the Applied AI Institute], Deakin University (Australia) in 2022, and did my Master research in Computer Science and Engineering in [http://sailab.kaist.ac.kr/publications/ the Statistical AI Lab], Ulsan National Institute of Science and Technology (South Korea) in 2018. 
 == Research Interests   
-My research lies at the intersection of machine learning, decision making and responsible AI. 
-I am interested in exploring algorithmic principles and fundamental limits for responsible data-driven decision making, 
-with focus on (i) what structural conditions of a class of models characterize the sample complexity required to learn these new problems, 
-and (ii) how to design efficient algorithms that adaptively exploit such structures? 
+My research is on the theory of machine learning (ML) under societal constraints motivated by
+safe, trustworthy, and responsible AI.  I have so far focused primarily
+on data-driven decision making, including contextual bandits and reinforcement learning, and have started to look into non-interactive settings. 
+I am interested in exploring algorithmic principles and fundamental limits for learning and decision making under societal constraints, 
+with focus on 
+- *Statistical complexity*: what structural conditions of a class of models characterize the sample complexity required to learn these new problems?
+- *Algorithm designs*: how to design efficient learning algorithms that adaptively exploit such structures?   
+
 More broadly, I am interested in all algorithmic and theoretical aspects of ML, especially at the intersection with theoretical computer science 
 to place modern societal problems on a firmer foundation. 
 
