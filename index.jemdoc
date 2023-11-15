@@ -13,7 +13,7 @@ Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n
 {Postdoc at Johns Hopkins University, 
 working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]} ← {PhD at [https://a2i2.deakin.edu.au/publications/ the Applied AI Institute], Deakin University (Australia) in 2022}.
 == Research Interests   
-My research is on the theory of machine learning (ML) under algorithmic constraints motivated by
+My research is on the theory of machine learning (ML) under realistic conditions motivated by
 safe, trustworthy, and responsible AI.  I have so far focused primarily
 on data-driven decision making, including contextual bandits and reinforcement learning, and but also have started to look into non-interactive settings. 
 I am interested in exploring algorithmic principles and fundamental limits for learning and decision making under societal constraints, 
