@@ -16,9 +16,8 @@ working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]} ← {PhD at 
 My research is on the theory of machine learning (ML) under realistic conditions motivated by
 safe, trustworthy, and responsible AI.  I have so far focused primarily
 on data-driven decision making, including contextual bandits and reinforcement learning, and but also have started to look into non-interactive settings. 
-I am interested in exploring algorithmic principles and fundamental limits for learning and decision making under societal constraints, 
-focusing on the following questions:  
-- *Statistical complexity*: What minimal structural conditions of a class of models characterize the sample complexity required to learn these new problems?
+My key driven questions are: 
+- *Statistical complexity*: What minimal structural conditions of a class of models characterize the sample complexity required to learn these new problems (and any emerging settings)?
 - *Algorithmic principles*: What design principles should learning algorithms leverage to adaptively exploit these structural conditions?    
 
 I am also interested in open problems in statistical learning theory. And even more broadly, I am interested in all algorithmic and theoretical aspects of ML, especially at the intersection with theoretical computer science 
