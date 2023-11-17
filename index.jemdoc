@@ -13,10 +13,11 @@ Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n
 {Postdoc at Johns Hopkins University, 
 working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]} ← {PhD at [https://a2i2.deakin.edu.au/publications/ the Applied AI Institute], Deakin University (Australia) in 2022}.
 == Research Interests   
-- Reinforcement learning and contextual bandits 
+- Reinforcement learning (including contextual bandits) 
 - Statistical learning theory 
 - Theoretical computer science 
 
+I am currently working on developing statistical foundations of reinforcement learning from the perspectives of statistical learning theory. 
 
 == Selected Publications (see [publications Full Publications])
 - Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=gQ4h6WvME0 Optimistic Rates for Multi-Task Representation Learning]. {{<font color=red >}}NeurIPS{{</font>}}, 2023. 
