@@ -1,8 +1,0 @@
-@article{nguyen-tang2022on,
-title={On Sample Complexity of Offline Reinforcement Learning with Deep Re{LU} Networks in Besov Spaces},
-author={Thanh Nguyen-Tang and Sunil Gupta and Hung Tran-The and Svetha Venkatesh},
-journal={Transactions of Machine Learning Research},
-year={2022},
-url={https://openreview.net/forum?id=LdEm0umNcv},
-note={}
-}
