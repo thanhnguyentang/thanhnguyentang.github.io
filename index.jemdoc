@@ -17,19 +17,27 @@ working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]} ← {PhD at 
 Statistical learning theory, reinforcement learning (including contextual bandits), and collaborative (multi-task) learning. 
 
 
-== Selected Publications (see [publications Full Publications])
-- Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=gQ4h6WvME0 Optimistic Rates for Multi-Task Representation Learning]. {{<font color=red >}}NeurIPS{{</font>}}, 2023. 
+== Selected Publications by Topics (see [publications Full Publications])
+=== Offline Reinforcement Learning with Large State Spaces 
+
 - _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=sdlh4gVOj8 On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond]. {{<font color=red >}}NeurIPS{{</font>}}, 2023. 
 - _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation]. {{<font color=red >}}ICLR{{</font>}}, 2023 ({{<font color=red >}}top 25% noble{{</font>}}). \n
 -  _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora. [/home On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation]. {{<font color=red >}}AAAI{{</font>}}, 2023.
 - _Thanh Nguyen-Tang_, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh. 
     [https://openreview.net/pdf?id=sPIFuucA3F Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization]. {{<font color=red >}}ICLR{{</font>}}, 2022. 
 - _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh. [https://openreview.net/forum?id=LdEm0umNcv On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces]. {{<font color=red >}}TMLR{{</font>}}, 2022.  
+
+=== Collaborative multi-distribution learning  
+- Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=gQ4h6WvME0 Optimistic Rates for Multi-Task Representation Learning]. {{<font color=red >}}NeurIPS{{</font>}}, 2023. 
+- Anh Do, _Thanh Nguyen-Tang_, Raman Arora.  [https://openreview.net/forum?id=7f6vH3mmhr Multi-Agent Learning with Heterogeneous Linear Contextual Bandits]. Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2023. \n
+
+=== Safe Reinforcement Learning 
 - _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. 
 [https://ojs.aaai.org/index.php/AAAI/article/view/17104 Distributional Reinforcement Learning via Moment Matching]. {{<font color=red >}}AAAI{{</font>}}, 2021. 
 - _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh. 
 [http://proceedings.mlr.press/v108/nguyen20a.html Distributionally Robust Bayesian Quadrature Optimization]. {{<font color=red >}}AISTATS{{</font>}}, 2020. 
-   
+
+
 == Selected Awards   
 - Alfred Deakin Medal for Doctoral Theses (for the most outstanding theses), 2022.
      
