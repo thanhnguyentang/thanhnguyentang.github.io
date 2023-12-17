@@ -13,9 +13,7 @@ Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n
 {Postdoc at Johns Hopkins University, 
 working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]} ← {PhD at [https://a2i2.deakin.edu.au/publications/ the Applied AI Institute], Deakin University (Australia) in 2022}.
 == Research Interests   
-
-Statistical learning theory, reinforcement learning (including contextual bandits), and collaborative (multi-task) learning. 
-
+My research aims to build the theoretical foundations and algorithmic principles for efficient, safe, and large-scale learning and decision-making systems.
 
 == Selected Publications by Topics (see [publications Full Publications])
 === Offline Reinforcement Learning with Large State Spaces 
