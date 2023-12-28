@@ -25,23 +25,27 @@ working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]} ← {PhD at 
 (see [publications here] for all publications or my [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar])
 === Offline Reinforcement Learning with Large State Spaces 
 
-\[NeurIPS'23a\] [https://openreview.net/forum?id=sdlh4gVOj8 _On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond_]. _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023. \n
-\[ICLR'23\] [https://openreview.net/forum?id=WOquZTLCBO1 _VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation_]. _Thanh Nguyen-Tang_, Raman Arora.  
-/International Conference on Learning Representations/ (ICLR), 2023 ({{<font color=red >}}noble-top-25%- Spotlight{{</font>}}). \n
-3.  _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora. [/home On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation]. {{<font color=red >}}AAAI{{</font>}}, 2023. \n
-2. _Thanh Nguyen-Tang_, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh. 
-    [https://openreview.net/pdf?id=sPIFuucA3F Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization]. {{<font color=red >}}ICLR{{</font>}}, 2022. \n
-1. _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh. [https://openreview.net/forum?id=LdEm0umNcv On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces]. {{<font color=red >}}TMLR{{</font>}}, 2022.  \n
+- \[NeurIPS23a\] [https://openreview.net/forum?id=sdlh4gVOj8 _On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond_], _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023. 
+- \[ICLR23\] [https://openreview.net/forum?id=WOquZTLCBO1 _VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation_], 
+_Thanh Nguyen-Tang_, Raman Arora.  
+/International Conference on Learning Representations/ (ICLR), 2023 ({{<font color=red >}}noble-top-25%- Spotlight{{</font>}}). 
+- \[AAAI23\] [https://arxiv.org/pdf/2211.13208.pdf _On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation_], 
+ _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora.
+/AAAI Conference on Artificial Intelligence/ (AAAI), 2023. 
+- \[ICLR22\] [https://openreview.net/pdf?id=sPIFuucA3F _Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization_], _Thanh Nguyen-Tang_, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh. 
+    /International Conference on Learning Representations/ (ICLR), 2022. 
+- \[TMLR22\] [https://openreview.net/forum?id=LdEm0umNcv _On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces_], _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh.
+/Transactions on Machine Learning Research/ (TMLR), 2022.  
 
 === Robust Reinforcement Learning 
-2. _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. 
-[https://ojs.aaai.org/index.php/AAAI/article/view/17104 Distributional Reinforcement Learning via Moment Matching]. {{<font color=red >}}AAAI{{</font>}}, 2021. \n
-1. _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh. 
-[http://proceedings.mlr.press/v108/nguyen20a.html Distributionally Robust Bayesian Quadrature Optimization]. {{<font color=red >}}AISTATS{{</font>}}, 2020. 
+- \[AAAI21\] [https://ojs.aaai.org/index.php/AAAI/article/view/17104 _Distributional Reinforcement Learning via Moment Matching_], _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. 
+/AAAI Conference on Artificial Intelligence/ (AAAI), 2022.
+- \[AISTATS20\] [http://proceedings.mlr.press/v108/nguyen20a.html _Distributionally Robust Bayesian Quadrature Optimization_], _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh. 
+/International Conference on Artificial Intelligence and Statistics/ (AISTATS), 2020. 
 
 === Collaborative Multi-Agent Learning  
-2. Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=gQ4h6WvME0 Optimistic Rates for Multi-Task Representation Learning]. {{<font color=red >}}NeurIPS{{</font>}}, 2023. \n
-1. Anh Do, _Thanh Nguyen-Tang_, Raman Arora.  [https://openreview.net/forum?id=7f6vH3mmhr Multi-Agent Learning with Heterogeneous Linear Contextual Bandits]. Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2023. \n
+- \[NeurIPS23c\] [https://openreview.net/forum?id=gQ4h6WvME0 _Optimistic Rates for Multi-Task Representation Learning_], Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023.
+- \[NeurIPS23b\] [https://openreview.net/forum?id=7f6vH3mmhr _Multi-Agent Learning with Heterogeneous Linear Contextual Bandits_], Anh Do, _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023.
 
 
 == Selected Awards   
