@@ -9,16 +9,19 @@ Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n \n
 
 [https://terrytao.wordpress.com/career-advice/ Research that matters!]
 
-== About Me  
+== Background
 {{<font color=red >}} ---/*Life of $\pi$*/ {{</font>}}
 
-{Postdoc at Johns Hopkins University, 
-working with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]} ← {PhD at [https://a2i2.deakin.edu.au/publications/ the Applied AI Institute], Deakin University (Australia) in 2022}.
+- Postdoc, Johns Hopkins University, 2022-present (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora])
+- Ph.D., [https://a2i2.deakin.edu.au/publications/ The Applied AI Institute], Deakin University (Australia), 2019-2022 
+- M.Sc., Ulsan National Institute of Science and Technology (South Korea), 2016-2018 
+- B.Eng., Danang University of Science and Technology (Vietnam), 2010-2015 
+
 
 == Research Interest 
-- Reinforcement learning (including online learning, contextual bandits, games, and multi-agent learning)
+- Reinforcement learning (including online learning, contextual bandits, and multi-agent learning)
 - Statistical learning theory 
-- Machine learning for game theory and mechanism design 
+- Game theory 
 == Selected Publications by Topics
 {{<font color=red >}} ---/*Make the world an $\epsilon$-better place*/ {{</font>}}
 
@@ -52,7 +55,7 @@ _Thanh Nguyen-Tang_, Raman Arora.
 - Alfred Deakin Medal for Doctoral Theses (for the most outstanding theses), 2022.
      
 == Teaching  
-{{<font color=red >}} ---/*Knowledge lights up your life*/ {{</font>}}
+{{<font color=red >}} ---/*Knowledge is power*/ {{</font>}}
 
 - Teaching RL Theory in our JHU ML reading group, Summer/Fall 2023.  \[[rl-notes.html notes]\] 
 - Guest lecturer (in bandits\/reinforcement learning): Machine Learning (CS 475\/675) Spring 2023, JHU. \[[rl-lectures.html notes]\] 
