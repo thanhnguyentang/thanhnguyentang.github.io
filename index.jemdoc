@@ -19,11 +19,10 @@ Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n \n
 
 
 == Research Interest 
-Theory and algorithmic designs for 
-- Bandit and Reinforcement learning
-- Multi-Agent Learning 
-- Statistical Learning 
-- Data-driven Game Theory  
+Theory and algorithm designs for 
+- Bandit and reinforcement learning
+- Multi-ggent learning 
+- Data-driven game theory  
 == Selected Publications by Topics
 {{<font color=red >}} ---/*Make the world an $\epsilon$-better place*/ {{</font>}}
 
