@@ -23,6 +23,8 @@ Theory and algorithm designs for
 - Bandit and reinforcement learning
 - Multi-agent learning 
 - Data-driven game theory  
+- Statistical learning 
+
 == Selected Publications by Topics
 {{<font color=red >}} ---/*Make the world an $\epsilon$-better place*/ {{</font>}}
 
