@@ -21,7 +21,8 @@ Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n \n
 == Research Interest 
 {{<font color=red >}} ---/*"There’s nothing more practical than a good theory"*/ {{</font>}}
 
-- Data-driven decision making (bandit, online learning, learning-based game theory, reinforcement learning)
+- Online/bandit/reinforcement learning
+- Multi-agent reinforcement learning and game theory 
 - Statistical learning theory
 
 == Selected Publications by Topics
