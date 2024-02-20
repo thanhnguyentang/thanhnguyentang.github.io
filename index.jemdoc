@@ -32,7 +32,7 @@ I care about: science, teaching (education, broadly), and diversity.
 (see [publications here] for all publications or my [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar])
 === Offline Reinforcement Learning with Large State Spaces 
 
-- \[NeurIPS23a\] [https://openreview.net/forum?id=sdlh4gVOj8 _On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond_], _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023. 
+- \[NeurIPS23a\] [https://arxiv.org/abs/2401.03301 _On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond_], _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023. 
 - \[ICLR23\] [https://openreview.net/forum?id=WOquZTLCBO1 _VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation_], 
 _Thanh Nguyen-Tang_, Raman Arora.  
 /International Conference on Learning Representations/ (ICLR), 2023 ({{<font color=red >}}noble-top-25%- Spotlight{{</font>}}). 
