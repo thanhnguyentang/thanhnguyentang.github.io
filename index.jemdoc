@@ -11,8 +11,8 @@ Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n \n
 == Background
 I am currently a postdoc at Johns Hopkins University (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]). 
 Prior to that, I did my PhD in Computer Science at [https://a2i2.deakin.edu.au/publications/ The Applied AI Institute], Deakin University, Australia 
-(Alfred Deakin Medal for Doctoral Theses, my thesis: ``On Practical Reinforcement Learning: Provable Robustness, Scalability, and Statistical Efficiency'' ). 
-I did my M.Sc. in Computer Science at Ulsan National Institute of Science and Technology, South Korea (Thesis: Parametric Information Bottleneck to Optimize Stochastic Neural Networks). 
+(Alfred Deakin Medal for Doctoral Theses). 
+I did my M.Sc. in Computer Science at Ulsan National Institute of Science and Technology, South Korea. 
 In my previous life, I studied Electronic and Communication Engineering (Talented Engineering Program) at Danang University of Science and Technology, Vietnam. 
 
 
@@ -20,7 +20,7 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 I care about: science, teaching (education, broadly), and diversity. I love mathematics but would not consider myself a mathematician; I'm more as a ML scientist.  
 
 == Research Interest 
-{{<font color=red >}} ---/*"There’s nothing more practical than a good theory"*/ {{</font>}}
+
 My research interest is statistical learning and decision-making (theory). 
 I am currently working on: (offline) reinforcement learning, multitask learning, multi-agent learning. 
 
