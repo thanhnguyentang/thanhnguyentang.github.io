@@ -28,13 +28,13 @@ I am currently working on: (offline) reinforcement learning, multitask learning,
 == Selected Publications by Topics
 {{<font color=red >}} ---/*Make the world an $\epsilon$-better place*/ {{</font>}}
 
-(see [publications here] for all publications or my [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar])
+(see [other_pages/publications.html here] for all publications or my [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar])
 === Offline Reinforcement Learning with Large State Spaces 
 
 - \[NeurIPS23a\] [https://arxiv.org/abs/2401.03301 _On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond_], _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023. 
 - \[ICLR23\] [https://openreview.net/forum?id=WOquZTLCBO1 _VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation_]  
 _Thanh Nguyen-Tang_, Raman Arora.  
-/International Conference on Learning Representations/ (ICLR), 2023 ({{<font color=red >}}noble-top-25%- Spotlight{{</font>}}) \[[/erratumiclr23.html {{<font color=red >}}*ERRATUM*{{</font>}}]\]. 
+/International Conference on Learning Representations/ (ICLR), 2023 ({{<font color=red >}}noble-top-25%- Spotlight{{</font>}}) \[[/notes/erratumiclr23.html {{<font color=red >}}*ERRATUM*{{</font>}}]\]. 
 - \[AAAI23\] [https://arxiv.org/pdf/2211.13208.pdf _On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation_], 
  _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora.
 /AAAI Conference on Artificial Intelligence/ (AAAI), 2023. 
@@ -61,8 +61,8 @@ _Thanh Nguyen-Tang_, Raman Arora.
 {{<font color=red >}} ---/*Knowledge is power*/ {{</font>}}
 
 - Co-instructor (with Raman Arora), Machine Learning: Advanced Topics: Foundations of Data-Driven Sequential Decision-Making Systems (CS 779), JHU, Spring 2024. 
-- Teaching RL Theory in our JHU ML reading group, Summer/Fall 2023.  \[[rl-notes.html notes]\] 
-- Guest lecturer (in bandits\/reinforcement learning): Machine Learning (CS 475\/675) Spring 2023, JHU. \[[rl-lectures.html notes]\] 
+- Teaching RL Theory in our JHU ML reading group, Summer/Fall 2023.  \[[other_pages/rl-notes.html notes]\] 
+- Guest lecturer (in bandits\/reinforcement learning): Machine Learning (CS 475\/675) Spring 2023, JHU. \[[other_pages/rl-lectures.html notes]\] 
 - Teaching Assistant: Statistical Machine Learning, Fall 2017, UNIST; Engineering Programming I/II, Spring 2016, UNIST; Various advanced mathematics and engineering courses, 2012-2016, Vietnam.  
 
 
@@ -74,7 +74,7 @@ _Thanh Nguyen-Tang_, Raman Arora.
 - [https://scholar.google.com/citations?user=pSeyGjMAAAAJ&hl=en Austin Watkins] (PhD student at JHU, transfer learning and robustness) 
 - [https://www.linkedin.com/in/caotinh/?originalSubdomain=vn Cao Tinh] (grad student at KU Leuven, learning theory in economic settings)
 
-=== [outreach Others]
+=== [other_pages/outreach.html Others]
 
 
 
