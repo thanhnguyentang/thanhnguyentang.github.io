@@ -32,9 +32,9 @@ I am currently working on: (offline) reinforcement learning, multitask learning,
 === Offline Reinforcement Learning with Large State Spaces 
 
 - \[NeurIPS23a\] [https://arxiv.org/abs/2401.03301 _On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond_], _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023. 
-- \[ICLR23\] [https://openreview.net/forum?id=WOquZTLCBO1 _VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation_], 
+- \[ICLR23\] [https://openreview.net/forum?id=WOquZTLCBO1 _VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation_]  
 _Thanh Nguyen-Tang_, Raman Arora.  
-/International Conference on Learning Representations/ (ICLR), 2023 ({{<font color=red >}}noble-top-25%- Spotlight{{</font>}}). 
+/International Conference on Learning Representations/ (ICLR), 2023 ({{<font color=red >}}noble-top-25%- Spotlight{{</font>}}) \[[/erratumiclr23.html {{<font color=red >}}Erratum{{</font>}}]\]. 
 - \[AAAI23\] [https://arxiv.org/pdf/2211.13208.pdf _On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation_], 
  _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora.
 /AAAI Conference on Artificial Intelligence/ (AAAI), 2023. 
