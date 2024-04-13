@@ -17,12 +17,10 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 
 
 
-I care about: science, teaching (education, broadly), and diversity. I love mathematics but would not consider myself a mathematician; I'm more as a ML scientist.  
-
 == Research Interest 
 
 My [notes/research_philosophy.html research] interest is theory of learning and decision-making. 
-I am currently working on: (offline) reinforcement learning, multi-agent learning, and multi-task learning. I also have a growing interest in theory of computation.  
+I am currently working on: (offline) reinforcement learning, multi-agent learning, and transfer learning. (I also have a growing interest in theory of computation.)
 
 
 == Selected Publications by Topics
@@ -64,7 +62,7 @@ _Thanh Nguyen-Tang_, Raman Arora.
 - Guest lecturer (in bandits\/reinforcement learning): Machine Learning (CS 475\/675) Spring 2023, JHU. \[[other_pages/rl-lectures.html notes]\] 
 - Teaching Assistant: Statistical Machine Learning, Fall 2017, UNIST; Engineering Programming I/II, Spring 2016, UNIST; Various advanced mathematics and engineering courses, 2012-2016, Vietnam.  
 
-
+* I participated in (and obtained a certificate of) Justice, Equity, Diversity, and Inclusion (JEDI) Training in the Classroom in March 2024 at JHU, as an effort to improve diversity in my future classes and research group. 
 == Mentoring 
 
 - [https://scholar.google.com/citations?user=cVTpiuoAAAAJ&hl=en Ragja Palakkadavath] (PhD student at Deakin University, out-of-distribution generalization)  
