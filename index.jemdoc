@@ -19,8 +19,12 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 
 == Research Interest 
 
-My [notes/research_philosophy.html research] interest is theory of learning and decision-making. 
-I am currently working on: (offline) reinforcement learning, multi-agent learning, and transfer learning. (I also have a growing interest in theory of computation.)
+My [notes/research_philosophy.html research] interest is the theory of learning and decision-making. 
+I am currently working on: (offline) reinforcement learning, multi-agent learning, and transfer learning. Some key questions that drive me currently are: 
+- How to learn optimally and efficiently from pre-collected experiences for decision making?  
+- How to learn and act optimally and efficiently in the presence of adaptive and/or strategic agents? 
+- An optimal and efficient procedure to transfer knowledge from one domain to another? 
+- What are large language models such as transformers capable of computing, exactly? 
 
 
 == Selected Publications by Topics
