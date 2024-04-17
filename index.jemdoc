@@ -23,7 +23,7 @@ My [notes/research_philosophy.html research] interest is the theory of learning 
 I am currently working on: (offline) reinforcement learning, multi-agent learning, and transfer learning. Some key questions that drive me currently are: 
 - How to learn optimally and efficiently from pre-collected experiences for decision making?  
 - How to learn and act optimally and efficiently in the presence of adaptive and/or strategic agents? 
-- An optimal and efficient procedure to transfer knowledge from one domain to another? 
+- How to optimally and efficiently transfer knowledge from one domain to another? 
 - What are large language models such as transformers capable of computing, exactly? 
 
 
