@@ -33,7 +33,7 @@ I am currently working on: (offline) reinforcement learning, multi-agent learnin
 
 (see [other_pages/publications.html here] for all publications or my [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar])
 === Offline Reinforcement Learning with Large State Spaces 
-
+- [/ The Statistical Complexity of Offline Decision-Making].  _Thanh Nguyen-Tang_, Raman Arora. / International Conference on Machine Learning/ (ICML), 2024. 
 - [https://arxiv.org/abs/2401.03301 On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond]. _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023. 
 - [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation]. 
 _Thanh Nguyen-Tang_, Raman Arora.  

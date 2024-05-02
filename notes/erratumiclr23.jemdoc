@@ -7,5 +7,5 @@ be vacuous in the overparameterized regime. To summarize the literature status a
 bad news is that this work does give a computationally efficient algorithm for offline RL with neural
 function approximation but does not guarantee a sublinear bound in the overparameterized regime
 anymore. The good news is that we have resolved this problem (i.e., obtaining both computationally
-and efficiently efficient algorithms for offline RL with overparameterized networks) in a follow-up
+and statistically efficient algorithms for offline RL with overparameterized networks) in a follow-up
 work that we will update shortly when the preprint is available.
