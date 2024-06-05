@@ -19,8 +19,10 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 
 == Research Interest 
 
-My [notes/research_philosophy.html research] interest is the theory of learning and decision-making. 
-I am currently working on: (offline) reinforcement learning, multi-agent learning, transfer learning, and large language models (LLMs). Some key questions that drive me currently are: 
+My primary [notes/research_philosophy.html research] interests lie in the foundations of machine learning theory, 
+and its intersection with data-driven sequential decision-making, game theory, and optimization. 
+
+A representative sample of questions that drive me recently is: 
 - How to learn optimally and efficiently from pre-collected experiences for decision making?  
 - How to learn and act optimally and efficiently in the presence of adaptive and/or strategic agents? 
 - How to optimally and efficiently transfer knowledge from one domain to another? 
@@ -48,16 +50,15 @@ _Thanh Nguyen-Tang_, Raman Arora.
 - [https://openreview.net/forum?id=LdEm0umNcv On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces]. _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh.
 /Transactions on Machine Learning Research/ (TMLR), 2022.  
 
+=== Multi-Agent Learning  
+- [https://openreview.net/forum?id=gQ4h6WvME0 Optimistic Rates for Multi-Task Representation Learning]. Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023.
+- [https://openreview.net/forum?id=7f6vH3mmhr Multi-Agent Learning with Heterogeneous Linear Contextual Bandits]. Anh Do, _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023.
+
 === Robust Reinforcement Learning 
 - [https://ojs.aaai.org/index.php/AAAI/article/view/17104 Distributional Reinforcement Learning via Moment Matching]. _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. 
 /AAAI Conference on Artificial Intelligence/ (AAAI), 2021.
 - [http://proceedings.mlr.press/v108/nguyen20a.html Distributionally Robust Bayesian Quadrature Optimization]. _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh. 
 /International Conference on Artificial Intelligence and Statistics/ (AISTATS), 2020. 
-
-=== Collaborative Multi-Agent Learning  
-- [https://openreview.net/forum?id=gQ4h6WvME0 Optimistic Rates for Multi-Task Representation Learning]. Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023.
-- [https://openreview.net/forum?id=7f6vH3mmhr Multi-Agent Learning with Heterogeneous Linear Contextual Bandits]. Anh Do, _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023.
-
 
 == Selected Awards   
 - Alfred Deakin Medal for Doctoral Theses (for the most outstanding theses), 2022.
