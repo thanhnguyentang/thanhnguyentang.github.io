@@ -35,7 +35,7 @@ I am currently working on: (offline) reinforcement learning, multi-agent learnin
 
 (see my [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar])
 === Offline Reinforcement Learning with Large State Spaces 
-- [/ On The Statistical Complexity of Offline Decision-Making].  _Thanh Nguyen-Tang_, Raman Arora. / International Conference on Machine Learning/ (ICML), 2024. 
+- [/preprints/TNT-ICML24.pdf On The Statistical Complexity of Offline Decision-Making].  _Thanh Nguyen-Tang_, Raman Arora. / International Conference on Machine Learning/ (ICML), 2024. 
 - [https://arxiv.org/abs/2401.03301 On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond]. _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023. 
 - [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation]. 
 _Thanh Nguyen-Tang_, Raman Arora.  
@@ -82,7 +82,7 @@ _Thanh Nguyen-Tang_, Raman Arora.
 == All Publications 
 
 === 2024 
-18. _Thanh Nguyen-Tang_, Raman Arora. [/ On The Statistical Complexity of Offline Decision-Making]. International Conference on Machine Learning ({{<font color=red >}}ICML{{</font>}}), 2024. 
+18. _Thanh Nguyen-Tang_, Raman Arora. [/preprints/TNT-ICML24.pdf On The Statistical Complexity of Offline Decision-Making]. International Conference on Machine Learning ({{<font color=red >}}ICML{{</font>}}), 2024. 
 
 === 2023 
 17. Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Toan Tran, Jaesik Choi. [https://arxiv.org/abs/2310.13369 SigFormer: Signature Transformers for Deep Hedging]. 4th ACM International Conference on AI in Finance ({{<font color=red >}}ICAIF{{</font>}}), 2023 ({{<font color=red >}}Oral{{</font>}}). \n 
