@@ -23,11 +23,10 @@ My primary [notes/research_philosophy.html research] interests lie in the founda
 and its intersection with data-driven sequential decision-making, game theory, and optimization. 
 
 A representative sample of questions that drive me recently is: 
-- How to learn optimally and efficiently from pre-collected experiences for decision making?  
-- How to learn and act optimally and efficiently in the presence of adaptive and/or strategic agents? 
-- How to optimally and efficiently transfer knowledge from one domain to another? 
-- What are LLMs such as transformer-based ones capable of computing, exactly? 
-- How to optimally and efficiently align LLMs with human values in any given domain? 
+- What can (and cannot) be learned from pre-collected experiences?  
+- How to act optimally in the presence of adaptive and/or strategic agents? 
+- How do large language models (LLMs) generalize to downstream tasks? 
+- What are LLMs capable of computing, exactly? 
 
 == Recent News and Activities 
 - June 2024: Decided to start ``Recent News and Activities'' section ¯\\__(ツ)__/¯
