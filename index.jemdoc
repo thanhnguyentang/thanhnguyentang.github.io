@@ -4,9 +4,9 @@ Postdoctoral Research Fellow \n \n
 [https://www.cs.jhu.edu/ Department of Computer Science] \n 
 [https://engineering.jhu.edu/ Whiting School of Engineering] \n 
 [https://www.jhu.edu/ Johns Hopkins University] \n 
-Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n \n
- /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n \n 
-
+Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n 
+ /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n 
+ \[[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar]\]
 
 == Background
 I am currently a postdoc at Johns Hopkins University (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]). 
@@ -18,40 +18,22 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 
 
 == Research Interest 
-
-My primary [notes/research_philosophy.html research] interests lie in the foundations of machine learning theory, 
-and its intersection with data-driven sequential decision-making, game theory, and optimization.
-
-== Recent News and Activities 
-- June 2024: Decided to start ``Recent News and Activities'' section ¯\\__(ツ)__/¯
-
-== Selected Publications by Topics
 {{<font color=red >}} ---/*Make the world an $\epsilon$-better place*/ {{</font>}}
 
-(see my [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar])
-=== Offline Reinforcement Learning with Large State Spaces 
-- [https://openreview.net/pdf?id=dYDPcx78tm  On The Statistical Complexity of Offline Decision-Making].  _Thanh Nguyen-Tang_, Raman Arora. / International Conference on Machine Learning/ (ICML), 2024. 
-- [https://arxiv.org/abs/2401.03301 On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond]. _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023. 
-- [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation]. 
-_Thanh Nguyen-Tang_, Raman Arora.  
-/International Conference on Learning Representations/ (ICLR), 2023 ({{<font color=red >}}noble-top-25%- Spotlight{{</font>}}) \[[notes/erratumiclr23.html {{<font color=red >}}*ERRATUM*{{</font>}}]\]. 
-- [https://arxiv.org/pdf/2211.13208.pdf On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation]. 
- _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora.
-/AAAI Conference on Artificial Intelligence/ (AAAI), 2023. 
-- [https://openreview.net/pdf?id=sPIFuucA3F Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization]. _Thanh Nguyen-Tang_, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh. 
-    /International Conference on Learning Representations/ (ICLR), 2022. 
-- [https://openreview.net/forum?id=LdEm0umNcv On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces]. _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh.
-/Transactions on Machine Learning Research/ (TMLR), 2022.  
+My primary [notes/research_philosophy.html research] interests lie in the statistical and computational aspects of machine learning, 
+and its intersection with data-driven sequential decision-making, game theory, and optimization. 
 
-=== Multi-Agent Learning  
-- [https://openreview.net/forum?id=gQ4h6WvME0 Optimistic Rates for Multi-Task Representation Learning]. Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023.
-- [https://openreview.net/forum?id=7f6vH3mmhr Multi-Agent Learning with Heterogeneous Linear Contextual Bandits]. Anh Do, _Thanh Nguyen-Tang_, Raman Arora. /Advances in Neural Information Processing Systems/ (NeurIPS), 2023.
+More specifically, I am interested in: 
+offline decision-making in large state spaces 
+(e.g., \[[https://openreview.net/pdf?id=dYDPcx78tm ICML24]\] \[[https://arxiv.org/abs/2401.03301 NeurIPS23]\] \[[https://openreview.net/forum?id=WOquZTLCBO1 ICLR23]\] 
+\[[https://arxiv.org/pdf/2211.13208.pdf AAAI23]\] \[[https://openreview.net/pdf?id=sPIFuucA3F ICLR22]\] \[[https://openreview.net/forum?id=LdEm0umNcv TMLR22]\]),
+(multi-task) representation learning (e.g., \[[https://openreview.net/forum?id=gQ4h6WvME0  NeurIPS23]\]), 
+MARL (e.g., \[[https://openreview.net/forum?id=7f6vH3mmhr NeurIPS23]\]),
+distributional reinforcement learning (e.g., \[[https://ojs.aaai.org/index.php/AAAI/article/view/17104 AAAI21]\]), 
+robust sequential decision-making (e.g., \[[http://proceedings.mlr.press/v108/nguyen20a.html AISTATS20]\]).
 
-=== Robust Reinforcement Learning 
-- [https://ojs.aaai.org/index.php/AAAI/article/view/17104 Distributional Reinforcement Learning via Moment Matching]. _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. 
-/AAAI Conference on Artificial Intelligence/ (AAAI), 2021.
-- [http://proceedings.mlr.press/v108/nguyen20a.html Distributionally Robust Bayesian Quadrature Optimization]. _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh. 
-/International Conference on Artificial Intelligence and Statistics/ (AISTATS), 2020. 
+Recently, I am also interested in algorithmic constraints in learning for social impacts, such as differential privacy and adversarial robustness. 
+
 
 == Selected Awards   
 - Alfred Deakin Medal for Doctoral Theses (for the most outstanding theses), 2022.
@@ -86,8 +68,8 @@ _Thanh Nguyen-Tang_, Raman Arora.
 12.  Ragja Palakkadavath, _Thanh Nguyen-Tang_, Hung Le, Svetha Venkatesh, Sunil Gupta. [https://openreview.net/pdf?id=Yl_4LpR_3Z Domain Generalization with Interpolation Robustness]. Asian Conference on Machine Learning ({{<font color=red >}}ACML{{</font>}}), 2023. \n
 11. Thong Bach, Anh Tong, Truong Son Hy, Vu Nguyen, _Thanh Nguyen-Tang_. [https://openreview.net/forum?id=xWrtiJwJj5 Global Contrastive Learning for Long-Tailed Classification]. Transactions on Machine Learning Research ({{<font color=red >}}TMLR{{</font>}}), 2023. \n
 10. A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr. [https://openaccess.thecvf.com/content/CVPR2023/html/Nguyen_TIPI_Test_Time_Adaptation_With_Transformation_Invariance_CVPR_2023_paper.html TIPI: Test Time Adaptation with Transformation Invariance]. IEEE/CVF Conference on Computer Vision and Pattern Recognition {{<font color=red >}}(CVPR){{</font>}}, 2023.  \n
-9. _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation].
-    International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2023 ({{<font color=red >}}top 25% noble{{</font>}})
+9. _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation] 
+    International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2023 ({{<font color=red >}}top 25% noble{{</font>}}) \[[notes/erratumiclr23.html *ERRATUM*]\].
      \[[https://recorder-v3.slideslive.com/?share=80688&s=a24d555f-edda-4210-a19e-4fded4165c62 talk]\] \[[assets/viper.pdf slides]\] \[[https://github.com/thanhnguyentang/neural-offline-rl code]\].  \n
 8.  _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora. [/home On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation].
     AAAI Conference on Artificial Intelligence ({{<font color=red >}}AAAI{{</font>}}), 2023 \[[https://arxiv.org/abs/2211.13208 arXiv]\] \[[assets/aaai23-poster.pdf poster]\] \[[assets/aaai23-slides-only.pdf slides]\] \[[https://youtu.be/xUsMHodydO8 video]\].
@@ -150,7 +132,7 @@ International Conference on Artificial Intelligence and Statistics ({{<font colo
 - Virginia Tech, USA, Nov. 2021 (Host: [https://sites.google.com/site/thinhdoan210/home Thinh T. Doan]).
 
 === Professional Service  
-- Senior program committee: AAAI (2023, 2024).
+- Senior program committee: AAAI (2025, 2024, 2023).
 - Reviewer: NeurIPS (2023, 2022, 2021, 2020), ICML (2023, 2022, 2021), 
 ICLR (2024, 2023, 2022, 2021- outstanding reviewer award), 
 AAAI (2022, 2021-[https://aaai.org/Conferences/AAAI-21/wp-content/uploads/2021/05/AAAI-21-Program-Committee.pdf Top 25% PC], 2020), AISTATS (2021), L4DC (2022), EWRL (2022), NeurIPS Workshop on OfflineRL (2022, 2021), TPAMI. 
