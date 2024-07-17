@@ -20,11 +20,11 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 == Research Interest 
 {{<font color=red >}} ---/*Make the world an $\epsilon$-better place*/ {{</font>}}
 
-My primary [notes/research_philosophy.html research] interests lie in the statistical and computational aspects of machine learning, 
-and its intersection with data-driven sequential decision-making, game theory, and optimization. 
-More specifically, I am currently interested in the following problems: offline decision-making, learning in strategic environments, and learning with privacy constraints.
+My primary [notes/research_philosophy.html research] interests lie in statistical and computational complexities of machine learning, 
+especially its intersection with data-driven sequential decision-making and game theory. 
+Currently, I am interested in the following problem settings: offline decision-making, multi-agent learning, and private learing. 
 
-I have written papers about:  
+A selective set of my papers include: 
 offline decision-making in large state spaces 
 (e.g., \[[https://openreview.net/pdf?id=dYDPcx78tm ICML24]\] \[[https://arxiv.org/abs/2401.03301 NeurIPS23]\] \[[https://openreview.net/forum?id=WOquZTLCBO1 ICLR23]\] 
 \[[https://arxiv.org/pdf/2211.13208.pdf AAAI23]\] \[[https://openreview.net/pdf?id=sPIFuucA3F ICLR22]\] \[[https://openreview.net/forum?id=LdEm0umNcv TMLR22]\]),
