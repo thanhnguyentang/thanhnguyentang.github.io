@@ -24,8 +24,6 @@ My primary [notes/research_philosophy.html research] interests lie in statistica
 especially its intersection with sequential decision-making and game theory. I am currently working on core problems in 
 offline reinforcement learning, multi-agent reinforcement learning, and transfer learning. 
 
-I also enjoy writing in my new \[[https://almostcompletenotes.wordpress.com/ blog]\]. 
-
 A selective set of my papers include: 
 offline decision-making in large state spaces 
 (e.g., \[[https://openreview.net/pdf?id=dYDPcx78tm ICML24]\] \[[https://arxiv.org/abs/2401.03301 NeurIPS23]\] \[[https://openreview.net/forum?id=WOquZTLCBO1 ICLR23]\] 
@@ -34,6 +32,9 @@ offline decision-making in large state spaces
 MARL (e.g., \[[https://openreview.net/forum?id=7f6vH3mmhr NeurIPS23]\]),
 distributional reinforcement learning (e.g., \[[https://ojs.aaai.org/index.php/AAAI/article/view/17104 AAAI21]\]), 
 robust sequential decision-making (e.g., \[[http://proceedings.mlr.press/v108/nguyen20a.html AISTATS20]\]).
+
+I also enjoy writing in my new \[[https://almostcompletenotes.wordpress.com/ blog]\]. 
+
 
 
 
