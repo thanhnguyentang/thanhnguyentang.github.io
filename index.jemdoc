@@ -6,7 +6,7 @@ Postdoctoral Research Fellow \n \n
 [https://www.jhu.edu/ Johns Hopkins University] \n 
 Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n 
  /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n 
- \[[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar]\]
+ \[[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar]\] 
 
 == Background
 I am currently a postdoc at Johns Hopkins University (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]). 
@@ -23,6 +23,8 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 My primary [notes/research_philosophy.html research] interests lie in statistical and computational aspects of machine learning, 
 especially its intersection with sequential decision-making and game theory. I am currently working on core problems in 
 offline reinforcement learning, multi-agent reinforcement learning, and transfer learning. 
+
+I also write in my new \[[https://almostcompletenotes.wordpress.com/ blog]\]
 
 A selective set of my papers include: 
 offline decision-making in large state spaces 
