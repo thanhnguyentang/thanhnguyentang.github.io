@@ -21,30 +21,12 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 {{<font color=red >}} ---/*Make the world an $\epsilon$-better place*/ {{</font>}}
 
 
-An overarching goal of my research aims to make machine learning more efficient, scalable, and reliable by focusing on
-the question of designing (or at least giving bounds on) provably
-optimal and computationally efficient learning algorithms for
-practical settings typical of large-scale real-world problems. 
+An overarching goal of my research is to establish algorithmic foundations of learning for modern AI systems, using creative yet
+mathematically grounded frameworks, enabling next-generation AI with
+better scalability, explainability, and transferability. 
 
-The knowledge and techniques gained from my research program will benefit applications in 
-computer vision, natural languague processing, robotics, learning-enabled systems (e.g., bio-medical and/or health-related systems,wireless systems networks, distributed cooperative systems,...),
-and learning in economics setting (e.g., auction design and other complex market design problems).
-
-
-
-So far, I've focused on the following core learning settings emerged from
-realistic scenarios: 
-
-- Offline learning \[TMLR'22,ICLR'22-23,NeurIPS'23,ICML'24\]
-- Multi-agent learning \[NeurIPS'23, NeurIPS'24-Submission1\]
-- Trustworthy learning \[AISTATS'20,AAAI'21,NeurIPS'24-Submission2\]
-- Representation learning \[NeurIPS'23,NeurIPS'24-Submission3\] 
-
-Recently, I am also interested in the following topics:
-
-- Generative AI 
-- Transformers as function approximation
-
+Current topics of my interest include 
+machine learning theory, reinforcement learning, game theory, trustworthy AI, representation learning, generative AI, and foundation models. 
 
 
 I also enjoy writing in my new [https://almostcompletenotes.wordpress.com/ blog]. 
