@@ -6,7 +6,7 @@ Postdoctoral Research Fellow \n
 [https://www.jhu.edu/ Johns Hopkins University] \n 
 Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n 
  /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n 
- \[[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar]\] \n\n
+ \[[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar]\]  \[[https://almostcompletenotes.wordpress.com/ blog]\] \n\n
  {{<font color=red >}} *I'm on the 2024-2025 job market \[[/preprints/research_statement.pdf research statement]\].{{</font>}}
 
 == Background
@@ -22,25 +22,15 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 {{<font color=red >}} ---/*Make the world an $\epsilon$-better place*/ {{</font>}}
 
 
-An overarching goal of my research is to establish algorithmic foundations of learning for modern AI systems, using creative yet
-mathematically grounded frameworks, enabling next-generation AI with
-better scalability, explainability, and transferability. 
-My approach emphasizes understanding learning through the lens of critical resources (e.g., data and computation) and designing optimal algorithms that use these resources efficiently.
+An overarching goal of my research is to establish algorithmic foundations of learning for modern AI systems, enabling next-generation AI with
+better scalability, explainability, and transferability. My approach emphasizes understanding learning through the lens of critical resources (e.g., data and computation) and designing optimal algorithms that use these resources efficiently.
 
-Current topics of my interest include: 
-- Reinforcement learning 
-- Learning-based game theory  
-- Trustworthy AI
-- Transfer learning\/multi-task learning\/representation learning
-- Foundation models (reasoning, model complexity)
-- Generative AI 
+My research agenda for my future lab -- AFLAI (Algorithmic Foundations of Learning for AI) Lab, spans over three main thrusts: 
+- Theory of transfer learning (e.g., offline decision-making, multi-task learning, representation learning, federated learning, domain adaptation and generalization)
+- Theory of multi-agent learning (e.g., policy regret minimization, learning to exploit adaptive opponents, equilibirum computation)
+- Theory of transformers (e.g., approximation capabilities and limitations of transformers,  emerging abilities such as in-context learning and reasoning, generalization)
 
-
-
-I also enjoy writing in my new [https://almostcompletenotes.wordpress.com/ blog]. 
-
-
-
+I am also looking for students to work on these areas. 
 
 == Selected Awards   
 - Alfred Deakin Medal for Doctoral Theses (for the most outstanding theses), 2022.
