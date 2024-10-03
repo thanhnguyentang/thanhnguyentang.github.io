@@ -22,13 +22,16 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 {{<font color=red >}} ---/*Make the world an $\epsilon$-better place*/ {{</font>}}
 
 
-An overarching goal of my research is to establish algorithmic foundations of learning for modern AI systems, enabling next-generation AI with
-better scalability, explainability, and transferability. My approach emphasizes understanding learning through the lens of critical resources (e.g., data and computation) and designing optimal algorithms that use these resources efficiently.
+An overarching goal of my research is to establish {\bf A}lgorithmic {\bf F}oundations of {\bf L}earning for modern {\bf AI} systems (AFLAI Lab), with the vision of enabling next-generation AI with better \emph{scalability}, \emph{explainability}, and \emph{transferability}. My approach emphasizes understanding learning through the lens of critical resources (e.g., data, computation, communication, memory) and designing optimal algorithms that use these resources efficiently. My research agenda for AFLAI Lab spans four main thrusts:
 
-My research agenda for my future lab -- AFLAI (Algorithmic Foundations of Learning for AI) Lab, spans over three main thrusts: 
-- Theory of transfer learning (e.g., offline decision-making, multi-task learning, representation learning, federated learning, domain adaptation and generalization)
-- Theory of multi-agent learning (e.g., policy regret minimization, learning to exploit adaptive opponents, equilibirum computation)
-- Theory of transformers (e.g., approximation capabilities and limitations of transformers,  emerging abilities such as in-context learning and reasoning, generalization)
+- Transfer learning (e.g., offline decision-making, multi-task learning, representation learning, federated learning, domain adaptation, and generalization)
+
+- Multi-agent learning (e.g., policy regret minimization, learning to exploit adaptive opponents, equilibrium computation, Stackerberg games, learning-based mechanism design)
+
+- Trustworthy AI (e.g., distributional robustness, adversarial robustness, risk-sensitive/distributional reinforcement learning, differential privacy, fairness)
+
+- Theory of foundation models (e.g., approximation capabilities and limitations of transformers, emerging abilities such as in-context learning and reasoning, generalization)
+
 
 I am also currently open to mentor and supervise students to work on these areas. 
 
@@ -127,7 +130,8 @@ and offline learning for contextual bandits with deficient support]. In ArXiv 20
 * I participated in (and obtained a certificate of) Justice, Equity, Diversity, and Inclusion (JEDI) Training in the Classroom in March 2024 at JHU, as an effort to improve diversity in my future classes and research group. 
 
 == Professional Service  
-Senior Program Committee
+Area Chair/Senior Program Committee
+- International Conference on Artificial Intelligence and Statistics (AISTATS) 2025
 - AAAI Conference on Artificial Intelligence (AAAI) 2025, 2024, 2023
 
 Conference Reviewer/Program Committee
