@@ -23,19 +23,17 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 
 
 An overarching goal of my research is to establish *A*lgorithmic *F*oundations of *L*earning for modern *AI* systems (*AFLAI Lab*), 
-with the vision of enabling next-generation AI with better /scalability/, /explainability/, and /transferability/. My approach emphasizes understanding learning through the lens of critical resources (e.g., data, computation, communication, memory) and designing optimal algorithms that use these resources efficiently. My research agenda for AFLAI Lab spans four main thrusts:
+with the vision of enabling next-generation AI with better /scalability/, /explainability/, and /transferability/. My approach emphasizes understanding learning through the lens of critical resources (e.g., data, and computation) and designing optimal algorithms that use these resources efficiently. My research agenda for the AFLAI Lab spans four main thrusts:
 
-- *Transfer learning* (e.g., offline decision-making, multi-task learning, representation learning, federated learning, domain adaptation, and generalization)
-- *Multi-agent learning* (e.g., policy regret minimization, learning to exploit adaptive opponents, equilibrium computation, Stackerberg games, learning-based mechanism design)
-- *Trustworthy AI* (e.g., distributional robustness, adversarial robustness, risk-sensitive/distributional reinforcement learning, differential privacy, fairness)
-- *Theory of foundation models* (e.g., approximation capabilities and limitations of transformers, emerging abilities such as in-context learning and reasoning, generalization)
-
+- *Transfer learning* (e.g., offline learning, multi-task/representation learning, federated learning, domain adaptation)
+- *Multi-agent learning* (e.g., policy regret minimization, equilibrium computation, mechanism design for learning agents)
+- *Trustworthy AI* (e.g., distributional/adversarial robustness, distributional learning, differential privacy)
+- *Theory of foundation models* s (e.g., approximation capabilities and limitations of transformers, emerging abilities such as
+in-context learning and reasoning)
 
 I am also currently open to mentor and supervise students to work on these areas. 
 
-== Selected Awards   
-- Alfred Deakin Medal for Doctoral Theses (for the most outstanding theses), 2022.
-     
+
 
 == Publications 
 
@@ -116,7 +114,6 @@ and offline learning for contextual bandits with deficient support]. In ArXiv 20
 - [https://scholar.google.com/citations?user=yFLbTtkAAAAJ&hl=en&authuser=1 Thong Bach] (independent researcher, self-supervised learning and domain adaptation)
 - [https://scholar.google.com/citations?user=aB4jrTIAAAAJ&hl=en Anh Do] (PhD student at JHU, bandit/reinforcement learning)
 - [https://scholar.google.com/citations?user=pSeyGjMAAAAJ&hl=en Austin Watkins] (PhD student at JHU, transfer learning and robustness) 
-- [https://www.linkedin.com/in/caotinh/?originalSubdomain=vn Cao Tinh] (grad student at KU Leuven, learning theory in economic settings)
 
 == Teaching  
 
@@ -127,6 +124,9 @@ and offline learning for contextual bandits with deficient support]. In ArXiv 20
 
 * I participated in (and obtained a certificate of) Justice, Equity, Diversity, and Inclusion (JEDI) Training in the Classroom in March 2024 at JHU, as an effort to improve diversity in my future classes and research group. 
 
+== Selected Awards   
+- Alfred Deakin Medal for Doctoral Theses (for the most outstanding theses), 2022.
+     
 == Professional Service  
 Area Chair/Senior Program Committee
 - International Conference on Artificial Intelligence and Statistics (AISTATS) 2025
