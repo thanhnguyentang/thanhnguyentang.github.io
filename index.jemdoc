@@ -28,7 +28,7 @@ with the vision of enabling next-generation AI with better /scalability/, /expla
 - *Transfer learning* (e.g., offline learning, multi-task/representation learning, federated learning, domain adaptation)
 - *Multi-agent learning* (e.g., policy regret minimization, equilibrium computation, mechanism design for learning agents)
 - *Trustworthy AI* (e.g., distributional/adversarial robustness, distributional learning, differential privacy)
-- *Theory of foundation models* s (e.g., approximation capabilities and limitations of transformers, emerging abilities such as
+- *Theory of foundation models* (e.g., representation, optimization, and generalization aspects of transformers, emerging abilities such as
 in-context learning and reasoning)
 
 I am also currently open to mentor and supervise students to work on these areas. 
