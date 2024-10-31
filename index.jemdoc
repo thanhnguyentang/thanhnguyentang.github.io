@@ -38,6 +38,7 @@ I am also currently open to mentor and supervise students to work on these areas
 == Publications 
 
 === 2024 
+21. Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, Sunil Gupta. [https://openreview.net/pdf?id=3wL1tj3kqE Fair Domain Generalization with Heterogeneous Sensitive Attributes Across Domains]. WACV'25.\n 
 20. _Thanh Nguyen-Tang_, Raman Arora. [/preprints/19167_Learning_in_Markov_Games.pdf Learning in Markov Games with Adaptive Adversaries: Policy Regret, Fundamental Barriers, and Efficient Algorithms]. NeurIPS'24.  \n
 19. Austin Watkins, _Thanh Nguyen-Tang_, Enayat Ullah, Raman Arora. [/preprints/19715_Adversarially_Robust_Mul.pdf Adversarially Robust Multi-task Representation Learning]. NeurIPS'24. \n
 18. Haque Ishfaq, _Thanh Nguyen-Tang_, Songtao Feng, Raman Arora, Mengdi Wang, Ming Yin, Doina Precup. [/preprints/8601_Offline_Multitask_Represe.pdf Offline Multitask Representation Learning for Reinforcement Learning]. NeurIPS'24. \n
@@ -97,7 +98,6 @@ International Conference on Artificial Intelligence and Statistics ({{<font colo
 
 
 === Preprints 
-- Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, Sunil Gupta. [https://openreview.net/pdf?id=3wL1tj3kqE Fair Domain Generalization with Arbitrary Sensitive Attributes]. In OpenReview 2023. 
 - _Thanh Nguyen-Tang_, Ming Yin, Masatoshi Uehara, Yu-Xiang Wang, Mengdi Wang, Raman Arora. [https://openreview.net/pdf?id=WwCirclMvl Posterior Sampling via Langevin Monte Carlo for Offline Reinforcement Learning]. In OpenReview 2023.
 - Nguyen Hung-Quang, Ngoc-Hieu Nguyen, The-Anh Ta, _Thanh Nguyen-Tang_, Kok-Seng Wong, Hoang Thanh-Tung,
 and Khoa D Doan. [https://arxiv.org/pdf/2407.10825 Wicked oddities: Selectively poisoning for effective clean-label backdoor attacks]. In NeurIPS 2023
