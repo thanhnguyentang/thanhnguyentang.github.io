@@ -22,7 +22,7 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 {{<font color=red >}} ---/*Make the world an $\epsilon$-better place*/ {{</font>}}
 
 
-An overarching goal of my research is to establish *A*lgorithmic *F*oundations of *L*earning for modern *AI* systems (*AFLAI Lab*), 
+An overarching goal of my research is to establish *A*lgorithmic *F*oundations of *L*earning for modern *AI* (*AFLAI Lab*), 
 with the vision of enabling next-generation AI with better /scalability/, /explainability/, and /transferability/. My approach emphasizes understanding learning through the lens of critical resources (e.g., data, and computation) and designing optimal algorithms that use these resources efficiently. My research agenda for the AFLAI Lab spans four main thrusts:
 
 - *Transfer learning* (e.g., offline learning, multi-task/representation learning, federated learning, domain adaptation)
@@ -31,8 +31,9 @@ with the vision of enabling next-generation AI with better /scalability/, /expla
 - *Theory of foundation models* (e.g., representation, optimization, and generalization aspects of transformers, emerging abilities such as
 in-context learning and reasoning)
 
-I am also currently open to mentor and supervise students to work on these areas. 
+*Keywords*: /learning/, /representation/, /optimization/, /computation/. 
 
+I welcome and appreciate [https://forms.gle/LBPu7gNDi66VHnxV7 anonymous feedback] from anyone on anything. 
 
 
 == Publications 
