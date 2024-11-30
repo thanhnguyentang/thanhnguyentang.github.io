@@ -6,7 +6,7 @@ Postdoctoral Research Fellow \n
 [https://www.jhu.edu/ Johns Hopkins University] \n 
 Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n 
  /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n 
- \[[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar]\]  \[[https://almostcompletenotes.wordpress.com/ blog]\] \n\n
+ \[[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar]\] \[[https://github.com/thanhnguyentang Github]\]  \[[https://almostcompletenotes.wordpress.com/ blog]\] \n\n
  {{<font color=red >}} *I'm on the 2024-2025 job market \[[/preprints/research_statement.pdf research statement]\].{{</font>}}
 
 == Background
@@ -28,7 +28,7 @@ with the vision of enabling next-generation AI with better /scalability/, /expla
 - *Transfer learning* (e.g., offline learning, multi-task/representation learning, federated learning, domain adaptation)
 - *Multi-agent learning* (e.g., policy regret minimization, equilibrium computation, mechanism design for learning agents)
 - *Trustworthy AI* (e.g., distributional/adversarial robustness, distributional learning, differential privacy)
-- *Theory of foundation models* (e.g., representation, optimization, and generalization aspects of transformers, emerging abilities such as
+- *Large langugage models* (e.g., representation, optimization, and generalization aspects of transformers, emerging abilities such as
 in-context learning and reasoning)
 
 *Keywords*: /learning/, /representation/, /optimization/, /computation/. 
@@ -129,8 +129,8 @@ and offline learning for contextual bandits with deficient support]. In ArXiv 20
 - Alfred Deakin Medal for Doctoral Theses (for the most outstanding theses), 2022.
 
 == Independent Recognition 
-- I'm acknowledged in [https://www.di.ens.fr/~fbach/ltfp_book.pdf Francis Bach's book, "Learning Theory from First Principles"]
-- My AAAI'21 paper is used as an excercise in [https://mitpress.mit.edu/9780262048019/distributional-reinforcement-learning/ Bellemare, Dabney, and Rowland's book, "Distributional Reinforcement Learning"]
+- I am acknowledged in [https://www.di.ens.fr/~fbach/ltfp_book.pdf Francis Bach's book, "Learning Theory from First Principles"]
+- My AAAI'21 paper is featured as an excercise in [https://mitpress.mit.edu/9780262048019/distributional-reinforcement-learning/ Bellemare, Dabney, and Rowland's book, "Distributional Reinforcement Learning"]
      
 == Professional Service  
 Area Chair/Senior Program Committee
