@@ -38,6 +38,12 @@ in-context learning and reasoning)
 
 == Publications 
 
+=== 2025 
+23. Nguyen Hung-Quang, Ngoc-Hieu Nguyen, The-Anh Ta, _Thanh Nguyen-Tang_, Kok-Seng Wong, Hoang Thanh-Tung,
+and Khoa D Doan. [https://arxiv.org/pdf/2407.10825 Wicked oddities: Selectively poisoning for effective clean-label backdoor attacks]. ICLR'25. \n  
+22. Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Duc Nguyen, Toan Tran, David Leo Wright Hall, Cheongwoong Kang, Jaesik Choi. 
+[/ Neural ODE Transformers: Analyzing Internal Dynamics and Adaptive Fine-tuning]. ICLR'25. 
+
 === 2024 
 21. Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, Sunil Gupta. [https://openreview.net/pdf?id=3wL1tj3kqE Fair Domain Generalization with Heterogeneous Sensitive Attributes Across Domains]. WACV'25.\n 
 20. _Thanh Nguyen-Tang_, Raman Arora. [/preprints/19167_Learning_in_Markov_Games.pdf Learning in Markov Games with Adaptive Adversaries: Policy Regret, Fundamental Barriers, and Efficient Algorithms]. NeurIPS'24.  \n
@@ -100,9 +106,6 @@ International Conference on Artificial Intelligence and Statistics ({{<font colo
 
 === Preprints 
 - _Thanh Nguyen-Tang_, Ming Yin, Masatoshi Uehara, Yu-Xiang Wang, Mengdi Wang, Raman Arora. [https://openreview.net/pdf?id=WwCirclMvl Posterior Sampling via Langevin Monte Carlo for Offline Reinforcement Learning]. In OpenReview 2023.
-- Nguyen Hung-Quang, Ngoc-Hieu Nguyen, The-Anh Ta, _Thanh Nguyen-Tang_, Kok-Seng Wong, Hoang Thanh-Tung,
-and Khoa D Doan. [https://arxiv.org/pdf/2407.10825 Wicked oddities: Selectively poisoning for effective clean-label backdoor attacks]. In NeurIPS 2023
-Workshop on Backdoors in Deep Learning-The Good, the Bad, and the Ugly, 2023. \n
 - Nguyen Ngoc-Hieu, Nguyen Hung-Quang, The-Anh Ta, _Thanh Nguyen-Tang_, Khoa D Doan, Hoang Thanh-Tung. [https://arxiv.org/pdf/2306.14920 A Cosine Similarity-based Method for Out-of-Distribution Detection]. In ArXiv 2023. \n 
 - Mengyan Zhang, _Thanh Nguyen-Tang_, Fangzhao Wu, Zhenyu He, Xing Xie, Cheng Soon Ong. 
 [https://arxiv.org/pdf/2206.14648 Two-Stage Neural Contextual Bandits for Adaptive Personalised Recommendation]. In Arxiv 2022.\n
