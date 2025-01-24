@@ -39,69 +39,50 @@ in-context learning and reasoning)
 == Publications 
 
 === 2025 
-23. Nguyen Hung-Quang, Ngoc-Hieu Nguyen, The-Anh Ta, _Thanh Nguyen-Tang_, Kok-Seng Wong, Hoang Thanh-Tung,
-and Khoa D Doan. [https://arxiv.org/pdf/2407.10825 Wicked oddities: Selectively poisoning for effective clean-label backdoor attacks]. ICLR'25. \n  
-22. Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Duc Nguyen, Toan Tran, David Leo Wright Hall, Cheongwoong Kang, Jaesik Choi. 
-[/ Neural ODE Transformers: Analyzing Internal Dynamics and Adaptive Fine-tuning]. ICLR'25. 
-
+23. Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Duc Nguyen, Toan Tran, David Leo Wright Hall, Cheongwoong Kang, Jaesik Choi. 
+*Neural ODE transformers: Analyzing internal dynamics and adaptive fine-tuning*. {{<font color=red >}}ICLR{{</font>}}, 2025. \n
+22. Nguyen Hung-Quang, Ngoc-Hieu Nguyen, The-Anh Ta, _Thanh Nguyen-Tang_, Kok-Seng Wong, Hoang Thanh-Tung,
+and Khoa D Doan. *Wicked oddities: Selectively poisoning for effective clean-label backdoor attacks*. {{<font color=red >}}ICLR{{</font>}}, 2025 \[[https://arxiv.org/pdf/2407.10825 pdf]\]. \n  
+21. Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, Sunil Gupta. 
+*Fair domain generalization with heterogeneous sensitive attributes across domains*. {{<font color=red >}}WACV{{</font>}}, 2025 \[[https://openreview.net/pdf?id=3wL1tj3kqE pdf]\].\n 
 === 2024 
-21. Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, Sunil Gupta. [https://openreview.net/pdf?id=3wL1tj3kqE Fair Domain Generalization with Heterogeneous Sensitive Attributes Across Domains]. WACV'25.\n 
-20. _Thanh Nguyen-Tang_, Raman Arora. [/preprints/19167_Learning_in_Markov_Games.pdf Learning in Markov Games with Adaptive Adversaries: Policy Regret, Fundamental Barriers, and Efficient Algorithms]. NeurIPS'24.  \n
-19. Austin Watkins, _Thanh Nguyen-Tang_, Enayat Ullah, Raman Arora. [/preprints/19715_Adversarially_Robust_Mul.pdf Adversarially Robust Multi-task Representation Learning]. NeurIPS'24. \n
-18. Haque Ishfaq, _Thanh Nguyen-Tang_, Songtao Feng, Raman Arora, Mengdi Wang, Ming Yin, Doina Precup. [/preprints/8601_Offline_Multitask_Represe.pdf Offline Multitask Representation Learning for Reinforcement Learning]. NeurIPS'24. \n
-17. _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/pdf?id=dYDPcx78tm On The Statistical Complexity of Offline Decision-Making]. International Conference on Machine Learning ({{<font color=red >}}ICML{{</font>}}), 2024. 
-
+20. _Thanh Nguyen-Tang_, Raman Arora. *Learning in Markov games with adaptive adversaries: Policy regret, fundamental barriers, and efficient algorithms*. {{<font color=red >}}NeurIPS{{</font>}}, 2024 \[[https://arxiv.org/pdf/2411.00707 pdf]\]. \n
+19. Austin Watkins, _Thanh Nguyen-Tang_, Enayat Ullah, Raman Arora. *Adversarially robust multi-task representation learning*. {{<font color=red >}}NeurIPS{{</font>}}, 2024 \[[https://openreview.net/pdf?id=w2L3Ll1jbV pdf]\]. \n
+18. Haque Ishfaq, _Thanh Nguyen-Tang_, Songtao Feng, Raman Arora, Mengdi Wang, Ming Yin, Doina Precup. *Offline multitask representation learning for reinforcement learning*. {{<font color=red >}}NeurIPS{{</font>}}, 2024 \[[https://arxiv.org/pdf/2403.11574 pdf]\].\n
+17. _Thanh Nguyen-Tang_, Raman Arora. *On the statistical complexity of offline decision-making*. {{<font color=red >}}ICML{{</font>}}, 2024 \[[https://openreview.net/pdf?id=dYDPcx78tm pdf]\]. 
 === 2023 
-16. Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Toan Tran, Jaesik Choi. [https://arxiv.org/abs/2310.13369 SigFormer: Signature Transformers for Deep Hedging]. 4th ACM International Conference on AI in Finance ({{<font color=red >}}ICAIF{{</font>}}), 2023 ({{<font color=red >}}Oral{{</font>}}). \n 
-15. Anh Do, _Thanh Nguyen-Tang_, Raman Arora.  [https://openreview.net/forum?id=7f6vH3mmhr Multi-Agent Learning with Heterogeneous Linear Contextual Bandits]. Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2023. \n
-14. Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=gQ4h6WvME0 Optimistic Rates for Multi-Task Representation Learning]. Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2023. \n
-13. _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=sdlh4gVOj8 On Sample-Efficient Offline Reinforcement Learning: Data Diversity, Posterior Sampling and Beyond]. Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2023. \n
-12.  Ragja Palakkadavath, _Thanh Nguyen-Tang_, Hung Le, Svetha Venkatesh, Sunil Gupta. [https://openreview.net/pdf?id=Yl_4LpR_3Z Domain Generalization with Interpolation Robustness]. Asian Conference on Machine Learning ({{<font color=red >}}ACML{{</font>}}), 2023. \n
-11. Thong Bach, Anh Tong, Truong Son Hy, Vu Nguyen, _Thanh Nguyen-Tang_. [https://openreview.net/forum?id=xWrtiJwJj5 Global Contrastive Learning for Long-Tailed Classification]. Transactions on Machine Learning Research ({{<font color=red >}}TMLR{{</font>}}), 2023. \n
-10. A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr. [https://openaccess.thecvf.com/content/CVPR2023/html/Nguyen_TIPI_Test_Time_Adaptation_With_Transformation_Invariance_CVPR_2023_paper.html TIPI: Test Time Adaptation with Transformation Invariance]. IEEE/CVF Conference on Computer Vision and Pattern Recognition {{<font color=red >}}(CVPR){{</font>}}, 2023.  \n
-9. _Thanh Nguyen-Tang_, Raman Arora. [https://openreview.net/forum?id=WOquZTLCBO1 VIPeR: Provably Efficient Algorithm for Offline RL with Neural Function Approximation] 
-    International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2023 ({{<font color=red >}}top 25% noble{{</font>}}).
-     \[[https://recorder-v3.slideslive.com/?share=80688&s=a24d555f-edda-4210-a19e-4fded4165c62 talk]\] \[[assets/viper.pdf slides]\] \[[https://github.com/thanhnguyentang/neural-offline-rl code]\]  \[[notes/erratumiclr23.html *ERRATUM*]\] \n
-8.  _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora. [/home On Instance-Dependent Bounds for Offline Reinforcement Learning with Linear Function Approximation].
-    AAAI Conference on Artificial Intelligence ({{<font color=red >}}AAAI{{</font>}}), 2023 \[[https://arxiv.org/abs/2211.13208 arXiv]\] \[[assets/aaai23-poster.pdf poster]\] \[[assets/aaai23-slides-only.pdf slides]\] \[[https://youtu.be/xUsMHodydO8 video]\].
+16. Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Toan Tran, Jaesik Choi. *SigFormer: Signature transformers for deep hedging*. {{<font color=red >}}ICAIF{{</font>}}, 2023 ({{<font color=red >}}Oral{{</font>}})\[[https://arxiv.org/abs/2310.13369  pdf\]]. \n 
+15. Anh Do, _Thanh Nguyen-Tang_, Raman Arora. *Multi-agent learning with heterogeneous linear contextual bandits*. {{<font color=red >}}NeurIPS{{</font>}}, 2023 \[[[https://openreview.net/forum?id=7f6vH3mmhr pdf]\]. \n
+14. Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. *Optimistic rates for multi-task representation learning*. {{<font color=red >}}NeurIPS{{</font>}}, 2023 \[[https://openreview.net/forum?id=gQ4h6WvME0 pdf]\]\n
+13. _Thanh Nguyen-Tang_, Raman Arora. *On sample-efficient offline reinforcement learning: Data diversity, posterior sampling and beyond*. {{<font color=red >}}NeurIPS{{</font>}}, 2023 \[[https://openreview.net/forum?id=sdlh4gVOj8 pdf]\]. \n
+12.  Ragja Palakkadavath, _Thanh Nguyen-Tang_, Hung Le, Svetha Venkatesh, Sunil Gupta.  *Domain generalization with interpolation robustness*. {{<font color=red >}}ACML{{</font>}}, 2023 \[[https://openreview.net/pdf?id=Yl_4LpR_3Z pdf]\]. \n
+11. Thong Bach, Anh Tong, Truong Son Hy, Vu Nguyen, _Thanh Nguyen-Tang_. *Global contrastive learning for long-tailed classification*. {{<font color=red >}}TMLR{{</font>}}, 2023 \[[https://openreview.net/forum?id=xWrtiJwJj5 pdf]\]. \n
+10. A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr. *TIPI: Test time adaptation with transformation invariance*. {{<font color=red >}}CVPR{{</font>}}, 2023 \[[https://openaccess.thecvf.com/content/CVPR2023/html/Nguyen_TIPI_Test_Time_Adaptation_With_Transformation_Invariance_CVPR_2023_paper.html html]\].  \n
+9. _Thanh Nguyen-Tang_, Raman Arora. *VIPeR: Provably efficient algorithm for offline RL with neural function approximation*. {{<font color=red >}}ICLR{{</font>}}, 2023 ({{<font color=red >}}top 25% noble{{</font>}}).
+     \[[https://recorder-v3.slideslive.com/?share=80688&s=a24d555f-edda-4210-a19e-4fded4165c62 talk]\] \[[assets/viper.pdf slides]\] \[[https://github.com/thanhnguyentang/neural-offline-rl code]\]  \[[notes/erratumiclr23.html *ERRATUM*]\.] \n
+8.  _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora. *On instance-dependent bounds for offline reinforcement learning with linear function approximation*. {{<font color=red >}}AAAI{{</font>}}, 2023 \[[https://arxiv.org/abs/2211.13208 arXiv]\] \[[assets/aaai23-poster.pdf poster]\] \[[assets/aaai23-slides-only.pdf slides]\] \[[https://youtu.be/xUsMHodydO8 video]\].
 
 === 2022   
 
-7. Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi. [https://openreview.net/pdf?id=lTZBRxm2q5 Learning Fractional White Noises in Neural Stochastic Differential Equations].
-    Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2022. 
+7. Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi. *Learning fractional white noises in neural stochastic differential equations*.{{<font color=red >}}NeurIPS{{</font>}}, 2022 \[[https://openreview.net/pdf?id=lTZBRxm2q5 pdf]\] 
     \[[https://github.com/anh-tong/fractional_neural_sde code]\].  \n
-6. _Thanh Nguyen-Tang_, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh. 
-    [https://openreview.net/pdf?id=sPIFuucA3F Offline Neural Contextual Bandits:  Pessimism, Optimization and Generalization].
-    International Conference on Learning Representations ({{<font color=red >}}ICLR{{</font>}}), 2022. 
-    \[[https://arxiv.org/abs/2111.13807 arXiv]\] 
-\[[assets/poster_NeurIPSW21.pdf poster]\]  
+6. _Thanh Nguyen-Tang_, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh. *Offline neural contextual bandits:  Pessimism, optimization, and generalization*. {{<font color=red >}}ICLR{{</font>}}, 2022 \[[https://openreview.net/pdf?id=sPIFuucA3F pdf]\] \[[assets/poster_NeurIPSW21.pdf poster]\]  
 \[[assets/neuralcb_slides.pdf slides]\] 
 \[[https://github.com/thanhnguyentang/offline_neural_bandits code]\]. \n
-5. _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh. [https://openreview.net/forum?id=LdEm0umNcv On Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks in Besov Spaces]. 
-    Transactions on Machine Learning Research ({{<font color=red >}}TMLR{{</font>}}), 2022, Workshop on RL Theory, ICML, 2021. \[[https://arxiv.org/abs/2103.06671 arXiv]\] \[[https://thanhnguyentang.github.io/assets/offrelu.pdf slides]] 
+5. _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh. *On sample complexity of offline reinforcement learning with deep ReLU networks in Besov spaces*. {{<font color=red >}}TMLR{{</font>}}, 2022, Workshop on RL Theory, ICML, 2021 \[[https://arxiv.org/abs/2103.06671 arXiv]\] \[[https://thanhnguyentang.github.io/assets/offrelu.pdf slides]] 
 \[[https://www.youtube.com/watch?v=xLM5pondWY4 talk]]. \n
 === 2021
-4. _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. 
-[https://ojs.aaai.org/index.php/AAAI/article/view/17104 Distributional Reinforcement Learning via Moment Matching]. 
-AAAI Conference on Artificial Intelligence ({{<font color=red >}}AAAI{{</font>}}), 2021. 
-    \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl code]]
+4. _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. *Distributional reinforcement learning via moment matching*. {{<font color=red >}}AAAI{{</font>}}, 2021 \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl code]]
 \[[https://cutt.ly/fkkiAGm slides]] 
 \[[https://cutt.ly/4kkiJZt poster]] \[[https://youtu.be/1fMqZZjy84E talk]].  
 === 2020
-3. _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh. 
-[http://proceedings.mlr.press/v108/nguyen20a.html Distributionally Robust Bayesian Quadrature Optimization]. 
-International Conference on Artificial Intelligence and Statistics ({{<font color=red >}}AISTATS{{</font>}}), 2020. 
-    \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo code]]
+3. _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh. *Distributionally robust Bayesian quadrature optimization*. {{<font color=red >}}AISTATS{{</font>}}, 2020 \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo code]]
 \[[https://thanhnguyentang.github.io/assets/aistats20_drbqo.pdf slides]] 
 \[[https://slideslive.com/38930124/ talk]].  
 === 2019
-2. Huong Ha, Santu Rana, Sunil Gupta, _Thanh Nguyen-Tang_, Hung Tran-The, Svetha Venkatesh.
-[https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space Bayesian Optimization with Unknown Search Space].
-    Advances in Neural Information Processing Systems ({{<font color=red >}}NeurIPS{{</font>}}), 2019. 
-    \[[https://github.com/HuongHa12/BO_unknown_searchspace code]]
+2. Huong Ha, Santu Rana, Sunil Gupta, _Thanh Nguyen-Tang_, Hung Tran-The, Svetha Venkatesh. *Bayesian optimization with unknown search space*. {{<font color=red >}}NeurIPS{{</font>}}, 2019 \[[https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space pdf]\] \[[https://github.com/HuongHa12/BO_unknown_searchspace code]]
 \[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ poster]].\n
-1. _Thanh Nguyen-Tang_, Jaesik Choi. 
-[https://doi.org/10.3390/e21100976 Markov Information Bottleneck to Improve Information Flow in Stochastic Neural Networks]. {{<font color=red >}}Entropy{{</font>}}, 2019 (Special Issue on Information Bottleneck: Theory and Applications in Deep Learning).   \n
+1. _Thanh Nguyen-Tang_, Jaesik Choi. *Markov information bottleneck to improve information flow in stochastic neural networks*. {{<font color=red >}}Entropy{{</font>}}, 2019 (Special Issue on Information Bottleneck: Theory and Applications in Deep Learning) \[[https://doi.org/10.3390/e21100976 pdf]\].   \n
 
 
 === Preprints 
