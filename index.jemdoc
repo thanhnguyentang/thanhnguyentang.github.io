@@ -21,7 +21,7 @@ In my previous life, I studied Electronic and Communication Engineering (Talente
 == Research interest 
 {{<font color=red >}} ---/*Make the world an $\epsilon$-better place*/ {{</font>}}
 
-My research is on the theoretical and algorithmic foundations of *machine learning* and *data science*, with the current focus on the following topics: 
+My research is on the theoretical and algorithmic foundations of machine learning for modern data science and AI, with the current focus on the following topics: 
 - *Transfer decision-making* (e.g., offline learning, multi-task/representation learning, federated learning, domain adaptation)
 - *Multi-agent learning* (e.g., policy regret minimization, equilibrium computation, mechanism design for learning agents)
 - *Trustworthy AI* (e.g., distributional/adversarial robustness, distributional learning, differential privacy)
@@ -64,7 +64,7 @@ and Khoa D Doan. *Wicked oddities: Selectively poisoning for effective clean-lab
 
 === 2022   
 
-7. Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi. *Learning fractional white noises in neural stochastic differential equations*.{{<font color=red >}}NeurIPS{{</font>}}, 2022 \[[https://openreview.net/pdf?id=lTZBRxm2q5 pdf]\] 
+7. Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi. *Learning fractional white noises in neural stochastic differential equations*. {{<font color=red >}}NeurIPS{{</font>}}, 2022 \[[https://openreview.net/pdf?id=lTZBRxm2q5 pdf]\] 
     \[[https://github.com/anh-tong/fractional_neural_sde code]\].  \n
 6. _Thanh Nguyen-Tang_, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh. *Offline neural contextual bandits:  Pessimism, optimization, and generalization*. {{<font color=red >}}ICLR{{</font>}}, 2022 \[[https://openreview.net/pdf?id=sPIFuucA3F pdf]\] \[[assets/poster_NeurIPSW21.pdf poster]\]  
 \[[assets/neuralcb_slides.pdf slides]\] 
@@ -85,27 +85,24 @@ and Khoa D Doan. *Wicked oddities: Selectively poisoning for effective clean-lab
 1. _Thanh Nguyen-Tang_, Jaesik Choi. *Markov information bottleneck to improve information flow in stochastic neural networks*. {{<font color=red >}}Entropy{{</font>}}, 2019 (Special Issue on Information Bottleneck: Theory and Applications in Deep Learning) \[[https://doi.org/10.3390/e21100976 pdf]\].   \n
 
 
-=== Preprints 
-- _Thanh Nguyen-Tang_, Ming Yin, Masatoshi Uehara, Yu-Xiang Wang, Mengdi Wang, Raman Arora. [https://openreview.net/pdf?id=WwCirclMvl Posterior Sampling via Langevin Monte Carlo for Offline Reinforcement Learning]. In OpenReview 2023.
-- Nguyen Ngoc-Hieu, Nguyen Hung-Quang, The-Anh Ta, _Thanh Nguyen-Tang_, Khoa D Doan, Hoang Thanh-Tung. [https://arxiv.org/pdf/2306.14920 A Cosine Similarity-based Method for Out-of-Distribution Detection]. In ArXiv 2023. \n 
-- Mengyan Zhang, _Thanh Nguyen-Tang_, Fangzhao Wu, Zhenyu He, Xing Xie, Cheng Soon Ong. 
-[https://arxiv.org/pdf/2206.14648 Two-Stage Neural Contextual Bandits for Adaptive Personalised Recommendation]. In Arxiv 2022.\n
-- Hung Tran-The, _Thanh Nguyen-Tang_, Sunil Gupta, Santu Rana, and Svetha Venkatesh. [https://arxiv.org/pdf/2107.11533 Combining online learning
-and offline learning for contextual bandits with deficient support]. In ArXiv 2021.
+
 
 == Mentoring 
-
-- [https://scholar.google.com/citations?user=cVTpiuoAAAAJ&hl=en Ragja Palakkadavath] (PhD student at Deakin University, out-of-distribution generalization)  
-- [https://scholar.google.com/citations?user=yFLbTtkAAAAJ&hl=en&authuser=1 Thong Bach] (independent researcher, self-supervised learning and domain adaptation)
-- [https://scholar.google.com/citations?user=aB4jrTIAAAAJ&hl=en Anh Do] (PhD student at JHU, bandit/reinforcement learning)
-- [https://scholar.google.com/citations?user=pSeyGjMAAAAJ&hl=en Austin Watkins] (PhD student at JHU, transfer learning and robustness) 
+- [https://www.linkedin.com/in/andrew-gilbert-0466982b5/ Andrew Gilbert], sophomore in Computer Science and Applied Mathematics & Statistics at JHU (01/2025-present). _Topic_: *Reinforcement learning*  
+- [https://www.linkedin.com/in/khaileduc/ Le Duc Khai], Masters student in Biomedical Engineering at University of Toronto (12/2024-present). _Topic_: *Medical AI and multimodal LLMs*
+- [https://scholar.google.com/citations?user=pSeyGjMAAAAJ&hl=en Austin Watkins], PhD student at JHU (2022-present). _Topic_:  *Transfer learning and robustness*
+- [https://scholar.google.com/citations?user=yFLbTtkAAAAJ&hl=en&authuser=1 Thong Bach], independent researcher -> PhD student at Deakin (2022-now). _Topic_: *Self-supervised learning in LLMs*
+- [https://scholar.google.com/citations?user=aB4jrTIAAAAJ&hl=en Anh Do], PhD student at JHU (2022-2024). _Topic_: *Bandit/Reinforcement learning*
+- [https://scholar.google.com/citations?user=cVTpiuoAAAAJ&hl=en Ragja Palakkadavath], PhD student at Deakin University (2022-2024). _Topic_: *Out-of-distribution generalization*   
 
 == Teaching  
-
-- Co-instructor (with Raman Arora), Machine Learning: Advanced Topics: Foundations of Data-Driven Sequential Decision-Making Systems (CS 779), JHU, Spring 2024. 
-- Teaching RL Theory in our JHU ML reading group, Summer/Fall 2023.  \[[other_pages/rl-notes.html notes]\] 
-- Guest lecturer (in bandits\/reinforcement learning): Machine Learning (CS 475\/675) Spring 2023, JHU. \[[other_pages/rl-lectures.html notes]\] 
-- Teaching Assistant: Statistical Machine Learning, Fall 2017, UNIST; Engineering Programming I/II, Spring 2016, UNIST; Various advanced mathematics and engineering courses, 2012-2016, Vietnam.  
+- Guest lecturer, Machine Learning, JHU CS Spring 2025. 
+- Guest lecturer, Learning Theory (EN.601.474.01 : ML) – 36 students, JHU CS Fall 2024
+- Co-lecturer, Machine Learning: Advanced Topics (EN.601.779.01.SP24) – 17 graduate students, JHU CS Spring 2024
+- Guest lecturer, Machine Learning (EN.601.675.01.SP23) – 77 undergraduate students, JHU CS Spring 2023
+- Teaching Assistant, Advanced Machine Learning (CSE 54401), UNIST CSE Fall 2016
+- Teaching Assistant, Engineering Programming (ITP117), UNIST CSE Spring 2016
+- Teaching Assistant, Linear Algebra, Calculus, Digital Signal Processing, Machine Learning, ECE, DUT, 2011 - 2015
 
 * I participated in (and obtained a certificate of) Justice, Equity, Diversity, and Inclusion (JEDI) Training in the Classroom in March 2024 at JHU, as an effort to improve diversity in my future classes and research group. 
 
@@ -123,7 +120,7 @@ Area Chair/Senior Program Committee
 
 Conference Reviewer/Program Committee
 - Neural Information Processing Systems (NeurIPS) 2024, 2023, 2022, 2021, 2020
-- International Conference on Machine Learning (ICML) 2023, 2022, 2021
+- International Conference on Machine Learning (ICML) 2025, 2023, 2022, 2021
 - International Conference on Learning Representations (ICLR) 2024, 2023, 2022, 2021 (outstanding reviewer award)
 - AAAI Conference on Artificial Intelligence (AAAI) 2022, 2021 (top 25% reviewer)
 - International Conference on Artificial Intelligence and Statistics (AISTATS) 2021
