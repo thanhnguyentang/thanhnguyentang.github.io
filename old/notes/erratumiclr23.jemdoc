@@ -1,0 +1,11 @@
+We call the attention of our readers that there was a technical error in the original ICLR version of this work. In that version, we perturb the network weights in the l2 regularization with a
+Gaussian noise. This weight perturbation is problematic in the overparameterized regime. 
+Specifically, pessimism requires that the noise magnitude is large enough, but adding a large noise to
+high-dimensional weights can effectively move the weights far away from their initialization, thus, moving out of the NTK regime where our bounds build upon. To correct that mistake, in this revised version, we remove the need to perturb the weights in regularization. This fix assures that the bound
+in this revised version is now correct yet at the cost of introducing an additional factor that could
+be vacuous in the overparameterized regime. To summarize the literature status after this fix, the
+bad news is that this work does give a computationally efficient algorithm for offline RL with neural
+function approximation but does not guarantee a sublinear bound in the overparameterized regime
+anymore. The good news is that we have resolved this problem (i.e., obtaining both computationally
+and statistically efficient algorithms for offline RL with overparameterized networks) in a follow-up
+work that we will update shortly when the preprint is available.

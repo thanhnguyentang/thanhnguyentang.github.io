@@ -1,146 +1,41 @@
-# jemdoc:index.html, showsource 
-= Thanh Nguyen-Tang
-Postdoctoral Research Fellow \n 
-[https://www.cs.jhu.edu/ Department of Computer Science] \n 
-[https://engineering.jhu.edu/ Whiting School of Engineering] \n 
-[https://www.jhu.edu/ Johns Hopkins University] \n 
-Malone Hall 345, 3400 N Charles Street, Baltimore, MD 21218 \n 
- /nguyent/ at cs dot jhu dot edu \/ /thnguyentang/ at gmail dot com \n 
- \[[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar]\] \[[https://github.com/thanhnguyentang Github]\]  \[[https://almostcompletenotes.wordpress.com/ blog]\] \n\n
- {{<font color=red >}} *I'm on the 2024-2025 job market \[[/preprints/research_statement.pdf research statement]\].{{</font>}}
+# jemdoc: menu{menu}{index.html}
+= Thanh Nguyen-Tang (TNT)
 
-== Background
-I am currently a postdoc at Johns Hopkins University (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]). 
-Prior to that, I did my PhD in Computer Science at [https://a2i2.deakin.edu.au/publications/ The Applied AI Institute], Deakin University, Australia 
-(Alfred Deakin Medal for Doctoral Theses). 
-I did my M.Sc. in Computer Science at Ulsan National Institute of Science and Technology, South Korea. 
-In my previous life, I studied Electronic and Communication Engineering (Talented Engineering Program) at Danang University of Science and Technology, Vietnam. 
+~~~
+{}{img_left}{figure/tnt.jpg}{alt text}{240}{250}
+
+*Bio*. I am an incoming assistant professor in [https://ds.njit.edu/ Department of Data Science], [https://computing.njit.edu/ Ying Wu College of Computing] at New Jersey Institute of Technology (NJIT). I am currently a postdoc at Johns Hopkins University (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]). 
+Prior to that, I did my PhD in Computer Science at the Applied AI Institute, Deakin University, Australia,  
+my M.Sc. in Computer Science and Engineering at Ulsan National Institute of Science and Technology, South Korea, 
+my B.Eng. in Electronic and Communication Engineering (Talented Engineering Program) at Danang University of Science and Technology, Vietnam. 
 
 
+*Research Interest*. I am broadly interested in theoretical and algorithmic foundations of machine learning,
+with a current focus on sequential decision making (RL\/online\/bandit\/games and their interactions with language models/economics)
+and responsible AI (robustness, privacy). 
 
-== Research interest 
-{{<font color=red >}} ---/*Make the world an $\epsilon$-better place*/ {{</font>}}
-
-My research is on the theoretical and algorithmic foundations of machine learning for modern data science and AI, with the current focus on the following topics: 
-- *Transfer decision-making* (e.g., offline learning, multi-task/representation learning, federated learning, domain adaptation)
-- *Multi-agent learning* (e.g., policy regret minimization, equilibrium computation, mechanism design for learning agents)
-- *Trustworthy AI* (e.g., distributional/adversarial robustness, distributional learning, differential privacy)
-- *Large language models* (e.g., understanding inductive biases of transformers for emerging abilities such as
-in-context learning and reasoning)
-
-*Keywords*: /learning/, /representation/, /optimization/, /computation/. 
+E-mail: /thnguyentang/ \[@\] gmail \[DOT\] com
+\n
+\[[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar]\] \[[https://github.com/thanhnguyentang Github]\]
+\[[https://www.linkedin.com/in/thanhnguyentang/ Linkedin]\] 
+\[[https://x.com/thanhnguyentang X]\] 
+~~~
 
 
-*_Note_*:
-- Highly motivated and self-driven students with a strong mathematical background are welcome to contact me for research. 
-- I welcome and appreciate [https://forms.gle/LBPu7gNDi66VHnxV7 anonymous feedback] from anyone on anything. 
-
-
-== Publications 
-
-=== 2025 
-23. Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Duc Nguyen, Toan Tran, David Leo Wright Hall, Cheongwoong Kang, Jaesik Choi. 
-*Neural ODE transformers: Analyzing internal dynamics and adaptive fine-tuning*. {{<font color=red >}}ICLR{{</font>}}, 2025. \n
-22. Nguyen Hung-Quang, Ngoc-Hieu Nguyen, The-Anh Ta, _Thanh Nguyen-Tang_, Kok-Seng Wong, Hoang Thanh-Tung,
-and Khoa D Doan. *Wicked oddities: Selectively poisoning for effective clean-label backdoor attacks*. {{<font color=red >}}ICLR{{</font>}}, 2025 \[[https://arxiv.org/pdf/2407.10825 pdf]\]. \n  
-21. Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, Sunil Gupta. 
-*Fair domain generalization with heterogeneous sensitive attributes across domains*. {{<font color=red >}}WACV{{</font>}}, 2025 \[[https://openreview.net/pdf?id=3wL1tj3kqE pdf]\].\n 
-=== 2024 
-20. _Thanh Nguyen-Tang_, Raman Arora. *Learning in Markov games with adaptive adversaries: Policy regret, fundamental barriers, and efficient algorithms*. {{<font color=red >}}NeurIPS{{</font>}}, 2024 \[[https://arxiv.org/pdf/2411.00707 pdf]\]. \n
-19. Austin Watkins, _Thanh Nguyen-Tang_, Enayat Ullah, Raman Arora. *Adversarially robust multi-task representation learning*. {{<font color=red >}}NeurIPS{{</font>}}, 2024 \[[https://openreview.net/pdf?id=w2L3Ll1jbV pdf]\]. \n
-18. Haque Ishfaq, _Thanh Nguyen-Tang_, Songtao Feng, Raman Arora, Mengdi Wang, Ming Yin, Doina Precup. *Offline multitask representation learning for reinforcement learning*. {{<font color=red >}}NeurIPS{{</font>}}, 2024 \[[https://arxiv.org/pdf/2403.11574 pdf]\].\n
-17. _Thanh Nguyen-Tang_, Raman Arora. *On the statistical complexity of offline decision-making*. {{<font color=red >}}ICML{{</font>}}, 2024 \[[https://openreview.net/pdf?id=dYDPcx78tm pdf]\]. 
-=== 2023 
-16. Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Toan Tran, Jaesik Choi. *SigFormer: Signature transformers for deep hedging*. {{<font color=red >}}ICAIF{{</font>}}, 2023 ({{<font color=red >}}Oral{{</font>}})\[[https://arxiv.org/abs/2310.13369  pdf\]]. \n 
-15. Anh Do, _Thanh Nguyen-Tang_, Raman Arora. *Multi-agent learning with heterogeneous linear contextual bandits*. {{<font color=red >}}NeurIPS{{</font>}}, 2023 \[[[https://openreview.net/forum?id=7f6vH3mmhr pdf]\]. \n
-14. Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. *Optimistic rates for multi-task representation learning*. {{<font color=red >}}NeurIPS{{</font>}}, 2023 \[[https://openreview.net/forum?id=gQ4h6WvME0 pdf]\]\n
-13. _Thanh Nguyen-Tang_, Raman Arora. *On sample-efficient offline reinforcement learning: Data diversity, posterior sampling and beyond*. {{<font color=red >}}NeurIPS{{</font>}}, 2023 \[[https://openreview.net/forum?id=sdlh4gVOj8 pdf]\]. \n
-12.  Ragja Palakkadavath, _Thanh Nguyen-Tang_, Hung Le, Svetha Venkatesh, Sunil Gupta.  *Domain generalization with interpolation robustness*. {{<font color=red >}}ACML{{</font>}}, 2023 \[[https://openreview.net/pdf?id=Yl_4LpR_3Z pdf]\]. \n
-11. Thong Bach, Anh Tong, Truong Son Hy, Vu Nguyen, _Thanh Nguyen-Tang_. *Global contrastive learning for long-tailed classification*. {{<font color=red >}}TMLR{{</font>}}, 2023 \[[https://openreview.net/forum?id=xWrtiJwJj5 pdf]\]. \n
-10. A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr. *TIPI: Test time adaptation with transformation invariance*. {{<font color=red >}}CVPR{{</font>}}, 2023 \[[https://openaccess.thecvf.com/content/CVPR2023/html/Nguyen_TIPI_Test_Time_Adaptation_With_Transformation_Invariance_CVPR_2023_paper.html html]\].  \n
-9. _Thanh Nguyen-Tang_, Raman Arora. *VIPeR: Provably efficient algorithm for offline RL with neural function approximation*. {{<font color=red >}}ICLR{{</font>}}, 2023 ({{<font color=red >}}top 25% noble{{</font>}}).
-     \[[https://recorder-v3.slideslive.com/?share=80688&s=a24d555f-edda-4210-a19e-4fded4165c62 talk]\] \[[assets/viper.pdf slides]\] \[[https://github.com/thanhnguyentang/neural-offline-rl code]\]  \[[notes/erratumiclr23.html *ERRATUM*]\.] \n
-8.  _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora. *On instance-dependent bounds for offline reinforcement learning with linear function approximation*. {{<font color=red >}}AAAI{{</font>}}, 2023 \[[https://arxiv.org/abs/2211.13208 arXiv]\] \[[assets/aaai23-poster.pdf poster]\] \[[assets/aaai23-slides-only.pdf slides]\] \[[https://youtu.be/xUsMHodydO8 video]\].
-
-=== 2022   
-
-7. Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi. *Learning fractional white noises in neural stochastic differential equations*. {{<font color=red >}}NeurIPS{{</font>}}, 2022 \[[https://openreview.net/pdf?id=lTZBRxm2q5 pdf]\] 
-    \[[https://github.com/anh-tong/fractional_neural_sde code]\].  \n
-6. _Thanh Nguyen-Tang_, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh. *Offline neural contextual bandits:  Pessimism, optimization, and generalization*. {{<font color=red >}}ICLR{{</font>}}, 2022 \[[https://openreview.net/pdf?id=sPIFuucA3F pdf]\] \[[assets/poster_NeurIPSW21.pdf poster]\]  
-\[[assets/neuralcb_slides.pdf slides]\] 
-\[[https://github.com/thanhnguyentang/offline_neural_bandits code]\]. \n
-5. _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh. *On sample complexity of offline reinforcement learning with deep ReLU networks in Besov spaces*. {{<font color=red >}}TMLR{{</font>}}, 2022, Workshop on RL Theory, ICML, 2021 \[[https://arxiv.org/abs/2103.06671 arXiv]\] \[[https://thanhnguyentang.github.io/assets/offrelu.pdf slides]] 
-\[[https://www.youtube.com/watch?v=xLM5pondWY4 talk]]. \n
-=== 2021
-4. _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. *Distributional reinforcement learning via moment matching*. {{<font color=red >}}AAAI{{</font>}}, 2021 \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl code]]
-\[[https://cutt.ly/fkkiAGm slides]] 
-\[[https://cutt.ly/4kkiJZt poster]] \[[https://youtu.be/1fMqZZjy84E talk]].  
-=== 2020
-3. _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh. *Distributionally robust Bayesian quadrature optimization*. {{<font color=red >}}AISTATS{{</font>}}, 2020 \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo code]]
-\[[https://thanhnguyentang.github.io/assets/aistats20_drbqo.pdf slides]] 
-\[[https://slideslive.com/38930124/ talk]].  
-=== 2019
-2. Huong Ha, Santu Rana, Sunil Gupta, _Thanh Nguyen-Tang_, Hung Tran-The, Svetha Venkatesh. *Bayesian optimization with unknown search space*. {{<font color=red >}}NeurIPS{{</font>}}, 2019 \[[https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space pdf]\] \[[https://github.com/HuongHa12/BO_unknown_searchspace code]]
-\[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ poster]].\n
-1. _Thanh Nguyen-Tang_, Jaesik Choi. *Markov information bottleneck to improve information flow in stochastic neural networks*. {{<font color=red >}}Entropy{{</font>}}, 2019 (Special Issue on Information Bottleneck: Theory and Applications in Deep Learning) \[[https://doi.org/10.3390/e21100976 pdf]\].   \n
-
-
-
-
-== Mentoring 
-- [https://www.linkedin.com/in/andrew-gilbert-0466982b5/ Andrew Gilbert], sophomore in Computer Science and Applied Mathematics & Statistics at JHU (01/2025-present). _Topic_: *Reinforcement learning*  
-- [https://www.linkedin.com/in/khaileduc/ Le Duc Khai], Masters student in Biomedical Engineering at University of Toronto (12/2024-present). _Topic_: *Medical AI and multimodal LLMs*
-- [https://scholar.google.com/citations?user=pSeyGjMAAAAJ&hl=en Austin Watkins], PhD student at JHU (2022-present). _Topic_:  *Transfer learning and robustness*
-- [https://scholar.google.com/citations?user=yFLbTtkAAAAJ&hl=en&authuser=1 Thong Bach], independent researcher -> PhD student at Deakin (2022-now). _Topic_: *Self-supervised learning in LLMs*
-- [https://scholar.google.com/citations?user=aB4jrTIAAAAJ&hl=en Anh Do], PhD student at JHU (2022-2024). _Topic_: *Bandit/Reinforcement learning*
-- [https://scholar.google.com/citations?user=cVTpiuoAAAAJ&hl=en Ragja Palakkadavath], PhD student at Deakin University (2022-2024). _Topic_: *Out-of-distribution generalization*   
-
-== Teaching  
-- Guest lecturer, Machine Learning, JHU CS Spring 2025. 
-- Guest lecturer, Learning Theory (EN.601.474.01 : ML) – 36 students, JHU CS Fall 2024
-- Co-lecturer, Machine Learning: Advanced Topics (EN.601.779.01.SP24) – 17 graduate students, JHU CS Spring 2024
-- Guest lecturer, Machine Learning (EN.601.675.01.SP23) – 77 undergraduate students, JHU CS Spring 2023
-- Teaching Assistant, Advanced Machine Learning (CSE 54401), UNIST CSE Fall 2016
-- Teaching Assistant, Engineering Programming (ITP117), UNIST CSE Spring 2016
-- Teaching Assistant, Linear Algebra, Calculus, Digital Signal Processing, Machine Learning, ECE, DUT, 2011 - 2015
-
-* I participated in (and obtained a certificate of) Justice, Equity, Diversity, and Inclusion (JEDI) Training in the Classroom in March 2024 at JHU, as an effort to improve diversity in my future classes and research group. 
+~~~
+I am seeking highly motivated and self-driven Ph.D.\/M.S.\/undergrad students with a strong mathematical background in machine learning. 
+Students (including high school levels) are also strongly encouraged to email me if 
+interested in doing research in ML! 
+~~~
 
 == Selected award/honor   
 - Alfred Deakin Medal for Doctoral Theses (for the most outstanding theses), 2022.
 
-== Independent recognition 
-- I am acknowledged in [https://www.di.ens.fr/~fbach/ltfp_book.pdf Francis Bach's book, "Learning Theory from First Principles"]
-- My AAAI'21 paper is featured as an excercise in [https://mitpress.mit.edu/9780262048019/distributional-reinforcement-learning/ Bellemare, Dabney, and Rowland's book, "Distributional Reinforcement Learning"]
-     
-== Professional service  
-Area Chair/Senior Program Committee
-- International Conference on Artificial Intelligence and Statistics (AISTATS) 2025
-- AAAI Conference on Artificial Intelligence (AAAI) 2025, 2024, 2023
 
-Conference Reviewer/Program Committee
-- Neural Information Processing Systems (NeurIPS) 2024, 2023, 2022, 2021, 2020
-- International Conference on Machine Learning (ICML) 2025, 2023, 2022, 2021
-- International Conference on Learning Representations (ICLR) 2024, 2023, 2022, 2021 (outstanding reviewer award)
-- AAAI Conference on Artificial Intelligence (AAAI) 2022, 2021 (top 25% reviewer)
-- International Conference on Artificial Intelligence and Statistics (AISTATS) 2021
-- Annual Learning for Dynamics & Control Conference (L4DC) 2022
 
-Coordinator
-- AAAI Conference on Artificial Intelligence (AAAI) 2023 (session chair for ML theory)
-- International Conference on Machine Learning (ICML) 2022
-- International Conference on Automated Machine Learning (AutoML) 2022
 
-== Invited talks 
-- TrustML Young Scientist Seminars, RIKEN Japan, Aug. 01, 2023 \[[https://trustmlresearch.github.io/seminar-talks/index_Thanh_Nguyen.html post]\] \[[/assets/riken23.pdf slides]\] \[[https://www.youtube.com/watch?v=Z-r2XmxLAgk video]\].
-- VinAI, Vietnam, Jan. 13, 2023 \[[https://www.vinai.io/seminar-posts/provable-offline-reinforcement-learning-neural-function-approximation-randomization-and-sample-complexity/ post]\].
-- FPT AI, Vietnam, Dec. 21, 2022 \[[https://www.youtube.com/watch?v=FNj8UScJmrk record]\].
-- UC San Diego, USA, Dec. 8, 2022 (Host: [https://roseyu.com/ Prof. Rose Yu]).
-- IAA Research Summit, Johns Hopkins University, USA, Nov. 2022 \[[assets/offrl_iaa_22.pdf slides]\].
-- Ohio State University, USA, Jan. 2022 (Host: [https://sites.google.com/view/yingbinliang/home Prof. Yingbin Liang] and [http://newslab.ece.ohio-state.edu/home/ Prof. Ness Shroff]).
-- University of Arizona, USA, Dec. 2021 (Host: [https://kwangsungjun.github.io/ Prof. Kwang-Sung Jun]).
-- Virginia Tech, USA, Nov. 2021 (Host: [https://sites.google.com/site/thinhdoan210/home Prof. Thinh T. Doan]).
 
-== For students 
 
-- [https://github.com/thanhnguyentang/ML_Theory Learning materials for ML theory]
+
+
+ 
