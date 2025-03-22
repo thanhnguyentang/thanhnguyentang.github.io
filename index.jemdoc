@@ -4,11 +4,12 @@
 ~~~
 {}{img_left}{figure/tnt.jpg}{alt text}{240}{250}
 
-*Bio*. I am an incoming tenure-track assistant professor in [https://ds.njit.edu/ Department of Data Science], [https://computing.njit.edu/ Ying Wu College of Computing] at New Jersey Institute of Technology (NJIT). I am currently a postdoc at Johns Hopkins University (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]). 
+*Bio*. I am an incoming tenure-track assistant professor in the [https://ds.njit.edu/ Department of Data Science], [https://computing.njit.edu/ Ying Wu College of Computing] at New Jersey Institute of Technology (NJIT). I am currently a postdoc at Johns Hopkins University (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]). 
 Prior to that, I did my PhD in Computer Science at the Applied AI Institute, Deakin University, Australia,  
 my M.Sc. in Computer Science and Engineering at Ulsan National Institute of Science and Technology, South Korea, 
 my B.Eng. in Electronic and Communication Engineering (Talented Engineering Program) at Danang University of Science and Technology, Vietnam. 
 
+I was awarded the Alfred Deakin Medal for Doctoral Theses (for the most outstanding theses), 2022.
 
 *Research Interest*. I am interested in the foundations of machine learning and its intersection with optimization and theoretical computer science. 
 My research goal is to enrich our understanding of the underlying algorithmic principles for learning and thereby design practical machine learning systems that are more efficient, robust and socially responsible. 
@@ -23,16 +24,13 @@ E-mail: /thnguyentang/ \[@\] gmail \[DOT\] com
 
 
 ~~~
-I am seeking highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning and good programming skills (Python) to join my research group at the Ying Wu College of Computing at NJIT (tuition waiver and PhD stipend via RA/TA support), starting as early as Fall 2025. 
+I am seeking highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning and good programming skills (Python) to join my research group at the Ying Wu College of Computing at NJIT (tuition waiver and PhD stipend via RA/TA support), starting in Fall 2025 or Spring 2026. 
 Prospective PhD students are strongly encouraged to email me where you enclose your CV and transcript, and a brief paragraph describing research experience and areas of interest.
 
 
 Students at all levels (including high school) are also strongly encouraged to email me if 
 interested in doing research in ML! 
 ~~~
-
-== Selected awards/honors   
-- Alfred Deakin Medal for Doctoral Theses (for the most outstanding theses), 2022.
 
 == Current students 
 (Non-NJIT)
@@ -41,7 +39,6 @@ interested in doing research in ML!
 
 
 == For students 
-*Research Advice:*
 - [https://www.cs.virginia.edu/~robins/YouAndYourResearch.html You and Your Research], by Richard Hamming
 - [https://ias.edu/sites/default/files/library/UsefulnessHarpers.pdf The usefulness of useless knowledge], by Abraham Flexner 
 - [https://github.com/thanhnguyentang/ML_Theory References for Foundations of Machine Learning & Data Science]
