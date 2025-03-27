@@ -13,7 +13,8 @@ I was awarded the Alfred Deakin Medal for Doctoral Theses (for the most outstand
 
 *Research Interest*. I am interested in the foundations of machine learning and its intersection with optimization and theoretical computer science. 
 My research goal is to enrich our understanding of the underlying algorithmic principles for learning and thereby design practical machine learning systems that are more efficient, robust and socially responsible. 
-My current topics include reinforcement learning, responsible AI, and LLM reasoning.  I am also interested in the application of ML in high-stakes settings. 
+The current research topics include sequential decision making (RL, MARL, game theory), responsible AI (differential privacy, machine unlearning, robustness), and LLMs (reasoning, training dynamics, generalization).  
+I am also interested in the application of ML in high-stakes settings. 
 
 E-mail: /thnguyentang/ \[@\] gmail \[DOT\] com
 \n
@@ -24,7 +25,7 @@ E-mail: /thnguyentang/ \[@\] gmail \[DOT\] com
 
 
 ~~~
-I am seeking highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning and good programming skills (Python) to join my research group at the Ying Wu College of Computing at NJIT (tuition waiver and PhD stipend via RA/TA support), starting in Fall 2025 or Spring 2026. 
+I am seeking highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning and good programming skills to join my research group at the Ying Wu College of Computing at NJIT (tuition waiver and PhD stipend via RA/TA support), starting in Fall 2025 or Spring 2026. 
 Prospective PhD students are strongly encouraged to email me where you enclose your CV and transcript, and a brief paragraph describing research experience and areas of interest.
 
 
@@ -44,9 +45,6 @@ interested in doing research in ML!
 - [https://github.com/thanhnguyentang/ML_Theory References for Foundations of Machine Learning & Data Science]
 
 
-*About NJIT*. NJIT is a Carnegie R1 Doctoral University (the highest level of research activity) and one of the nation’s leading public polytechnic universities. 
-NJIT was ranked 68th in Machine Learning and Algorithms & Complexity categories by CSrankings.org, and 42th and 84th in Top Public Schools and National Universities, respectively, by U.S. News & World Reports. 
-New Jersey is the “Garden of Innovation State,” in reference to its longstanding tradition as a hub for scientific and technological innovation. Located in Newark’s University Heights, NJIT is part of a vibrant ecosystem of high technology players and is just a 30-minute train ride from New York City, also known today as "Silicon Alley." These offer NJIT students and graduates ample opportunities for internships, entrepreneurship and employment.
-
+*About NJIT*. NJIT is a Carnegie R1 Doctoral University (the highest level of research activity) and one of the nation’s leading public polytechnic universities. NJIT was ranked 56th in Machine Learning in 2024 by csrankings.org, and 42th and 84th in Top Public Schools and National Universities in 2024, respectively, by USNWR. New Jersey is referred to as the “Garden of Innovation State,” in reference to its longstanding tradition as a hub for scientific and technological innovation, and was ranked the top \#14 Best States in the US (top \#4 in Education and \#4 in Health Care) by USNWR. Located in Newark’s University Heights, NJIT is part of a vibrant ecosystem of high technology players and is just a 30-minute train ride from New York City, known today as "Silicon Alley." These offer NJIT students and graduates ample opportunities for internships, entrepreneurship and employment.
 - [https://ds.njit.edu/phd-data-science NJIT DS PhD Programs]
 - [https://catalog.njit.edu/graduate/admissions-financial-support/financial-support/ NJIT Financial Support Policy]
