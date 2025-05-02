@@ -1,9 +1,10 @@
 # jemdoc: menu{menu}{paper.html}
-= Publications
+== Publications
 
 (See [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar] for a more detailed list.)
-== 2025 
-- _Thanh Nguyen-Tang_, Raman Arora. *Policy Regret Minimization in Markov Games with Function Approximation*. {{<font color=red >}}*ICML*{{</font>}}, 2025
+
+*2025* 
+- _Thanh Nguyen-Tang_, Raman Arora. *Policy Regret Minimization in Markov Games with Function Approximation*. {{<font color=red >}}*ICML*{{</font>}}, 2025.
 - Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Duc Nguyen, Toan Tran, David Leo Wright Hall, Cheongwoong Kang, Jaesik Choi. 
 *Neural ODE transformers: Analyzing internal dynamics and adaptive fine-tuning*. {{<font color=red >}}*ICLR*{{</font>}}, 2025.
 - Nguyen Hung-Quang, Ngoc-Hieu Nguyen, The-Anh Ta, _Thanh Nguyen-Tang_, Kok-Seng Wong, Hoang Thanh-Tung,
@@ -11,13 +12,13 @@ and Khoa D Doan. *Wicked oddities: Selectively poisoning for effective clean-lab
 - Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, Sunil Gupta. 
 *Fair domain generalization with heterogeneous sensitive attributes across domains*. {{<font color=red >}}*WACV*{{</font>}}, 2025 \[[https://openreview.net/pdf?id=3wL1tj3kqE pdf]\].
 
-== 2024 
+*2024* 
 - _Thanh Nguyen-Tang_, Raman Arora. *Learning in Markov games with adaptive adversaries: Policy regret, fundamental barriers, and efficient algorithms*. {{<font color=red >}}*NeurIPS*{{</font>}}, 2024 \[[https://arxiv.org/pdf/2411.00707 pdf]\]. 
 - Austin Watkins, _Thanh Nguyen-Tang_, Enayat Ullah, Raman Arora. *Adversarially robust multi-task representation learning*. {{<font color=red >}}*NeurIPS*{{</font>}}, 2024 \[[https://openreview.net/pdf?id=w2L3Ll1jbV pdf]\]. 
 - Haque Ishfaq, _Thanh Nguyen-Tang_, Songtao Feng, Raman Arora, Mengdi Wang, Ming Yin, Doina Precup. *Offline multitask representation learning for reinforcement learning*. {{<font color=red >}}*NeurIPS*{{</font>}}, 2024 \[[https://arxiv.org/pdf/2403.11574 pdf]\].
 - _Thanh Nguyen-Tang_, Raman Arora. *On the statistical complexity of offline decision-making*. {{<font color=red >}}*ICML*{{</font>}}, 2024 \[[https://openreview.net/pdf?id=dYDPcx78tm pdf]\]. 
 
-== 2023 
+*2023* 
 - Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Toan Tran, Jaesik Choi. *SigFormer: Signature transformers for deep hedging*. {{<font color=red >}}*ICAIF*{{</font>}}, 2023 ({{<font color=red >}}Oral{{</font>}})\[[https://arxiv.org/abs/2310.13369  pdf\]]. \n 
 - Anh Do, _Thanh Nguyen-Tang_, Raman Arora. *Multi-agent learning with heterogeneous linear contextual bandits*. {{<font color=red >}}*NeurIPS*{{</font>}}, 2023 \[[[https://openreview.net/forum?id=7f6vH3mmhr pdf]\]. \n
 - Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. *Optimistic rates for multi-task representation learning*. {{<font color=red >}}*NeurIPS*{{</font>}}, 2023 \[[https://openreview.net/forum?id=gQ4h6WvME0 pdf]\]\n
@@ -29,7 +30,7 @@ and Khoa D Doan. *Wicked oddities: Selectively poisoning for effective clean-lab
      \[[https://recorder-v3.slideslive.com/?share=80688&s=a24d555f-edda-4210-a19e-4fded4165c62 talk]\] \[[assets/viper.pdf slides]\] \[[https://github.com/thanhnguyentang/neural-offline-rl code]\]  \[[notes/erratumiclr23.html *ERRATUM*]\.] \n
 - _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora. *On instance-dependent bounds for offline reinforcement learning with linear function approximation*. {{<font color=red >}}*AAAI*{{</font>}}, 2023 \[[https://arxiv.org/abs/2211.13208 arXiv]\] \[[assets/aaai23-poster.pdf poster]\] \[[assets/aaai23-slides-only.pdf slides]\] \[[https://youtu.be/xUsMHodydO8 video]\].
 
-== 2022   
+*2022*   
 - Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi. *Learning fractional white noises in neural stochastic differential equations*. {{<font color=red >}}*NeurIPS*{{</font>}}, 2022 \[[https://openreview.net/pdf?id=lTZBRxm2q5 pdf]\] 
     \[[https://github.com/anh-tong/fractional_neural_sde code]\]. 
 - _Thanh Nguyen-Tang_, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh. *Offline neural contextual bandits:  Pessimism, optimization, and generalization*. {{<font color=red >}}*ICLR*{{</font>}}, 2022 \[[https://openreview.net/pdf?id=sPIFuucA3F pdf]\] \[[assets/poster_NeurIPSW21.pdf poster]\]  
@@ -38,17 +39,17 @@ and Khoa D Doan. *Wicked oddities: Selectively poisoning for effective clean-lab
 - _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh. *On sample complexity of offline reinforcement learning with deep ReLU networks in Besov spaces*. {{<font color=red >}}*TMLR*{{</font>}}, 2022, Workshop on RL Theory, ICML, 2021 \[[https://arxiv.org/abs/2103.06671 arXiv]\] \[[https://thanhnguyentang.github.io/assets/offrelu.pdf slides]] 
 \[[https://www.youtube.com/watch?v=xLM5pondWY4 talk]].
 
-== 2021
+*2021*
 - _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. *Distributional reinforcement learning via moment matching*. {{<font color=red >}}*AAAI*{{</font>}}, 2021 \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl code]]
 \[[https://cutt.ly/fkkiAGm slides]] 
 \[[https://cutt.ly/4kkiJZt poster]] \[[https://youtu.be/1fMqZZjy84E talk]].  
 
-== 2020
+*2020*
 - _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh. *Distributionally robust Bayesian quadrature optimization*. {{<font color=red >}}*AISTATS*{{</font>}}, 2020 \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo code]]
 \[[https://thanhnguyentang.github.io/assets/aistats20_drbqo.pdf slides]] 
 \[[https://slideslive.com/38930124/ talk]].  
 
-== 2019
+*2019*
 - Huong Ha, Santu Rana, Sunil Gupta, _Thanh Nguyen-Tang_, Hung Tran-The, Svetha Venkatesh. *Bayesian optimization with unknown search space*. {{<font color=red >}}*NeurIPS*{{</font>}}, 2019 \[[https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space pdf]\] \[[https://github.com/HuongHa12/BO_unknown_searchspace code]]
 \[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ poster]].
 - _Thanh Nguyen-Tang_, Jaesik Choi. *Markov information bottleneck to improve information flow in stochastic neural networks*. {{<font color=red >}}*Entropy*{{</font>}}, 2019 (Invited, special Issue on Information Bottleneck: Theory and Applications in Deep Learning) \[[https://doi.org/10.3390/e21100976 pdf]\].   \n

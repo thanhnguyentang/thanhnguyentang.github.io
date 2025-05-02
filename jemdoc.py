@@ -1547,18 +1547,18 @@ def procfile(f):
         else:
           hb(f.outf, '<p>|</p>\n', s)
 
-  if showfooter and (showlastupdated or showsourcelink):
-    out(f.outf, f.conf['footerstart'])
-    if showlastupdated:
-      if showlastupdatedtime:
-        ts = '%Y-%m-%d %H:%M:%S %Z'
-      else:
-        ts = '%Y-%m-%d'
-      s = time.strftime(ts, time.localtime(time.time()))
-      hb(f.outf, f.conf['lastupdated'], s)
-    if showsourcelink:
-      hb(f.outf, f.conf['sourcelink'], f.inname)
-    out(f.outf, f.conf['footerend'])
+  # if showfooter and (showlastupdated or showsourcelink):
+  #   out(f.outf, f.conf['footerstart'])
+  #   if showlastupdated:
+  #     if showlastupdatedtime:
+  #       ts = '%Y-%m-%d %H:%M:%S %Z'
+  #     else:
+  #       ts = '%Y-%m-%d'
+  #     s = time.strftime(ts, time.localtime(time.time()))
+  #     hb(f.outf, f.conf['lastupdated'], s)
+  #   if showsourcelink:
+  #     hb(f.outf, f.conf['sourcelink'], f.inname)
+  #   out(f.outf, f.conf['footerend'])
 
   if menu:
     out(f.outf, f.conf['menulastbit'])

@@ -2,10 +2,10 @@
 = Thanh Nguyen-Tang (TNT)
 
 ~~~
-{}{img_left}{figure/tnt_25.png}{alt text}{180}{210}
+{}{img_left}{figure/tnt_25.png}{alt text}{180}{200}
 
-*Bio*. I am an incoming tenure-track assistant professor in the [https://ds.njit.edu/ Department of Data Science], [https://computing.njit.edu/ Ying Wu College of Computing] at New Jersey Institute of Technology (NJIT). I am currently a postdoc at Johns Hopkins University (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]). 
-Prior to that, I did my PhD in Computer Science at the Applied AI Institute, Deakin University, Australia,  
+*Bio*. I am an incoming tenure-track assistant professor in the Department of Data Science, Ying Wu College of Computing at New Jersey Institute of Technology (NJIT). I am currently a postdoc at Johns Hopkins University (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]). 
+Prior to that, I did my PhD in Computer Science at Deakin University, Australia,  
 my M.Sc. in Computer Science and Engineering at Ulsan National Institute of Science and Technology, South Korea, 
 my B.Eng. in Electronic and Communication Engineering (Talented Engineering Program) at Danang University of Science and Technology, Vietnam. 
 
@@ -16,7 +16,7 @@ I was awarded the Alfred Deakin Medal for Doctoral Theses, 2022.
 My research goal is to enrich our understanding of the underlying algorithmic principles for learning and thereby design practical machine learning systems that are more efficient, robust and socially responsible. 
 The current research topics include sequential decision making (RL, MARL, game theory), responsible AI (differential privacy, machine unlearning, robustness), and LLMs (reasoning, alignment, optimization dynamics).  
 
-*Service*. Area Chair at NeurIPS (2025), AISTATS (2025), Senior Program Committee at AAAI (2025, 2024, 2023)
+*Service*. Area Chair at NeurIPS (2025), AISTATS (2025), Senior Program Committee at AAAI (2025, 2024, 2023).
 
 
 E-mail: /thnguyentang/ \[@\] gmail \[DOT\] com
@@ -33,14 +33,8 @@ Prospective PhD students are strongly encouraged to email me where you enclose y
 
 
 Students at all levels (including high school) are also strongly encouraged to email me if 
-interested in doing research in ML! 
+interested in doing research in ML. 
 
 ~~~
 
-== Current mentees 
-- Lan Sang (Masters student in Applied Mathematics and Statistics @ JHU). 
-- [https://www.linkedin.com/in/andrew-gilbert-0466982b5/ Andrew Gilbert] (undergrad in Computer Science \& Applied Mathematics and Statistics @ JHU). 
-- [https://github.com/leduckhai Khai Le-Duc] (Master student in Biomedical Engineering @ University of Toronto). 
-- Thong Bach (PhD student at Deakin).
-
-[https://github.com/thanhnguyentang/ML_Theory Useful links]
+[https://github.com/thanhnguyentang/ML_Theory Useful links.]
