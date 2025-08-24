@@ -3,6 +3,21 @@
 
 ~~~
 {}{img_left}{figure/tnt_25.png}{alt text}{180}{200}
+
+Assistant Professor\n
+[https://ds.njit.edu/ Department of Data Science] \n 
+[https://computing.njit.edu/ Ying Wu College of Computing] \n
+New Jersey Institute of Technology\n
+
+218 Central Ave \n 
+GITC 2110 \n 
+Newark, NJ 07102 \n 
+
+/thanh.nguyen/ at njit dot edu | /thnguyentang/ at gmail dot com \n
+[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar]
+
+~~~
+
 *Bio*. I am an assistant professor in the Department of Data Science, Ying Wu College of Computing at New Jersey Institute of Technology (NJIT). 
 Prior to that, I was a postdoc at Johns Hopkins University (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]),
 did my PhD in Computer Science at Deakin University, Australia,  
@@ -13,26 +28,25 @@ my B.Eng. in Electronic and Communication Engineering (Talented Engineering Prog
 I like to seek a mathematical understanding of the underlying algorithmic principles for learning, and thereby design efficient machine learning algorithms with strong theoretical guarantees. 
 The current topics include sequential decision-making (RL, bandits, games), responsible AI and reasoning.
 
-
-
-E-mail: /thnguyentang/ \[@\] gmail \[DOT\] com. 
-~~~
-
-
 ~~~
 I am seeking highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning to join my research group at the Ying Wu College of Computing at NJIT, starting in Fall 2025 or Spring 2026. 
 Prospective PhD students are strongly encouraged to email me with your CV, transcript, and a brief paragraph describing research experience and areas of interest. You can also apply directly to the DS PhD program at NJIT and mention my name. 
 ~~~
 
 == Service 
-Area Chair at NeurIPS (2025), AISTATS (2026, 2025), AAMAS (2026); Senior Program Committee at AAAI (2026, 2025, 2024, 2023).
+Area Chair at NeurIPS (2025), AISTATS (2026, 2025), AAMAS (2026); Senior Program Committee at AAAI (2025, 2024, 2023).
 
 
 == Publications
 
-(See [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar] for a more detailed list.)
+(See [https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar] for, perhaps, a more up-to-date list.)
+
+*Preprint*:
+- Quan Nguyen, _Thanh Nguyen-Tang_. *One-Layer Transformers are Provably Optimal for In-context Reasoning and Distributional Association Learning in Next-Token Prediction Tasks*. \[[https://arxiv.org/abs/2505.15009 ArXiv]\]
 
 *2025* 
+- Khai Le-Duc, Tuyen Tran, Bach Phan Tat, Nguyen Kim Hai Bui, Quan Dang, Hung-Phong Tran, Thanh-Thuy Nguyen, Ly Nguyen, Tuan-Minh Phan, Thi Thu Phuong Tran, Chris Ngo, Nguyen X Khanh, _Thanh Nguyen-Tang_. 
+*MultiMed-ST: Large-scale Many-to-many Multilingual Medical Speech Translation*. {{<font color=red >}}*EMNLP*{{</font>}}, 2025. \[[https://arxiv.org/pdf/2504.03546 arXiv]\]
 - Khai Le-Duc, Phuc Phan, Tan-Hanh Pham, Bach Phan Tat, Minh-Huong Ngo, _Thanh Nguyen-Tang_, Truong-Son Hy. *MultiMed: Multilingual medical speech recognition via attention encoder decoder*.  {{<font color=red >}}*ACL (Industry)*{{</font>}}, 2025. \[[https://arxiv.org/pdf/2409.14074v3 pdf]\]
 - _Thanh Nguyen-Tang_, Raman Arora. *Policy regret minimization in Markov games with function approximation*. {{<font color=red >}}*ICML*{{</font>}}, 2025.
 - Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Duc Nguyen, Toan Tran, David Leo Wright Hall, Cheongwoong Kang, Jaesik Choi. 
