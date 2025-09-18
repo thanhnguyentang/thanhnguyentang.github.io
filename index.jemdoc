@@ -43,6 +43,8 @@ CS 669 (Reinforcement Learning), NJIT, Fall 2025; Machine Learning: Advanced Top
 - Quan Nguyen, _Thanh Nguyen-Tang_. /*One-Layer Transformers are Provably Optimal for In-context Reasoning and Distributional Association Learning in Next-Token Prediction Tasks*/. \[[https://arxiv.org/abs/2505.15009 ArXiv]\]
 
 *Publications*: 
+- Yassine Chemingui, Aryan Deshwal, Alan Fern, _Thanh Nguyen-Tang_, Jana Doppa. 
+/*O3SRL: Online Optimization for Offline Safe Reinforcement Learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2025.
 - Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, and Sunil Gupta. 
 /*Federated Domain Generalization with Latent Space Inversion*/. {{<font color=red >}}*ICDM*{{</font>}}, 2025.
 - Khai Le-Duc, Tuyen Tran, Bach Phan Tat, Nguyen Kim Hai Bui, Quan Dang, Hung-Phong Tran, Thanh-Thuy Nguyen, Ly Nguyen, Tuan-Minh Phan, Thi Thu Phuong Tran, Chris Ngo, Nguyen X Khanh, _Thanh Nguyen-Tang_. 
