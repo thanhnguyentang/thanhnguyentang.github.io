@@ -28,8 +28,8 @@ I like to seek a mathematical understanding of the underlying algorithmic princi
 The current topics include, but not limited to, Reinforcement Learning (e.g., Offline RL, Multi-agent, Multi-task), Understanding Inductive Bias for Reasoning in LLMs (e.g., optimization and architectural choices), and 
 responsible AI (e.g., privacy, robustness, unlearning). 
 
-*Open positions*: /I am seeking highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning to join my research group at the Ying Wu College of Computing at NJIT, starting in Fall 2025 or Spring 2026. 
-Prospective PhD students are strongly encouraged to email me with your CV, transcript, and a brief paragraph describing research experience and areas of interest. You can also apply directly to the DS PhD program at NJIT and mention my name./
+*Open positions*: I am seeking highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning to join my research group at the Ying Wu College of Computing at NJIT, starting in Spring or Fall 2026. We are working on the statistical and algorithmic theory of RL, transformers and responsible AI.
+*How to apply:* Apply directly to the DS PhD program at NJIT and mention my name. *Note:* /When applying, you are also strongly encouraged to email me with your CV, transcript, and a brief paragraph describing research experience and areas of interest. Due to a large volume of emails I receive, I may not be able to respond to every individual application email - but rest assured that I read each one of them./
 
 
 
@@ -38,9 +38,6 @@ Prospective PhD students are strongly encouraged to email me with your CV, trans
 *Teaching*:  
 CS 669 (Reinforcement Learning), NJIT, Fall 2025; Machine Learning: Advanced Topics (EN.601.779.01.SP24), JHU CS, Spring 2024.
 
-
-*Preprint*:
-- Quan Nguyen, _Thanh Nguyen-Tang_. /*One-Layer Transformers are Provably Optimal for In-context Reasoning and Distributional Association Learning in Next-Token Prediction Tasks*/. \[[https://arxiv.org/abs/2505.15009 ArXiv]\]
 
 *Publications*: 
 - Yassine Chemingui, Aryan Deshwal, Alan Fern, _Thanh Nguyen-Tang_, Jana Doppa. 
@@ -89,4 +86,5 @@ and Khoa D Doan. /*Wicked oddities: Selectively poisoning for effective clean-la
 - _Thanh Nguyen-Tang_, Jaesik Choi. /*Markov information bottleneck to improve information flow in stochastic neural networks*/. {{<font color=red >}}*Entropy*{{</font>}}, 2019 (Invited, special Issue on Information Bottleneck: Theory and Applications in Deep Learning) \[[https://doi.org/10.3390/e21100976 pdf]\].   \n
 
 
-
+*Preprint*:
+- Quan Nguyen, _Thanh Nguyen-Tang_. /*One-Layer Transformers are Provably Optimal for In-context Reasoning and Distributional Association Learning in Next-Token Prediction Tasks*/. \[[https://arxiv.org/abs/2505.15009 ArXiv]\]
