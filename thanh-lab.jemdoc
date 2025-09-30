@@ -1,0 +1,42 @@
+*The Statistical and Algorithmic ML Lab @ NJIT* (or, the Nguyen Lab @ NJIT) focus on the statistical and algorithmic aspects of learning for three core AI problems: Sequential Decision-Making, Responsible AI and Reasoning. We seek a mathematical understanding of the underlying algorithmic principles for learning with strong adaptivity to problem structures, and thereby design efficient machine learning algorithms with strong theoretical guarantees.
+
+- *Sequential Decision-Making*: Offline RL, Multi-agent RL, multi-task RL 
+- *Reasoning*: Inductive bias for reasoning in transformers, auto-regressive learning
+- *Responsible AI*: robustness, unlearning, privacy 
+
+
+
+== Sequential Decision-Making
+
+Many real-world systems—such as recommender platforms, personalized healthcare tools, and digital assistants—are inherently interactive, with data generated through temporally extended experiences rather than isolated observations. Reinforcement learning (RL) offers a foundational paradigm for optimizing decision-making in such environments. Despite decades of progress, however, RL remains insufficiently equipped to address the evolving demands of practice. Key challenges include (i) leveraging rich logged datasets to support robust and efficient decision-making, (ii) developing agents capable of acting reliably in the presence of strategic or adaptive opponents, and (iii) integrating multiple data sources and learning modalities to achieve provable performance improvements. Advancing solutions to these challenges is central to our research agenda, with the ultimate goal of building principled, reliable, and practical RL systems for high-impact applications.
+
+
+*Representative papers*: 
+- _Thanh Nguyen-Tang_, Raman Arora. /*Policy regret minimization in Markov games with function approximation*/. {{<font color=red >}}*ICML*{{</font>}}, 2025.
+- _Thanh Nguyen-Tang_, Raman Arora. /*Learning in Markov games with adaptive adversaries: Policy regret, fundamental barriers, and efficient algorithms*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2024 \[[https://arxiv.org/pdf/2411.00707 pdf]\]. 
+- Haque Ishfaq, _Thanh Nguyen-Tang_, Songtao Feng, Raman Arora, Mengdi Wang, Ming Yin, Doina Precup. /*Offline multitask representation learning for reinforcement learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2024 \[[https://arxiv.org/pdf/2403.11574 pdf]\].
+- _Thanh Nguyen-Tang_, Raman Arora. /*On the statistical complexity of offline decision-making*/. {{<font color=red >}}*ICML*{{</font>}}, 2024 \[[https://openreview.net/pdf?id=dYDPcx78tm pdf]\]. 
+- _Thanh Nguyen-Tang_, Raman Arora. /*On sample-efficient offline reinforcement learning: Data diversity, posterior sampling and beyond*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2023 \[[https://openreview.net/forum?id=sdlh4gVOj8 pdf]\]. \n
+- Anh Do, _Thanh Nguyen-Tang_, Raman Arora. /*Multi-agent learning with heterogeneous linear contextual bandits*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2023 \[[[https://openreview.net/forum?id=7f6vH3mmhr pdf]\]. \n
+- _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora. /*On instance-dependent bounds for offline reinforcement learning with linear function approximation*/. {{<font color=red >}}*AAAI*{{</font>}}, 2023 \[[https://arxiv.org/abs/2211.13208 arXiv]\] .
+- _Thanh Nguyen-Tang_, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh. /*Offline neural contextual bandits:  Pessimism, optimization, and generalization*/. {{<font color=red >}}*ICLR*{{</font>}}, 2022 \[[https://openreview.net/pdf?id=sPIFuucA3F pdf]\] \[[assets/poster_NeurIPSW21.pdf poster]\]  
+
+
+== Reasoning in transformers 
+Reasoning in ML/AI refers to a model’s capacity to perform multi-step inference, abstraction, and compositional problem-solving—going beyond pattern recognition to systematically connect information in ways that support generalization and decision-making. Why do transformers and other large language models achieve strong performance on many tasks that demand complex reasoning? What are the underlying learning mechanisms for reasoning in such situations? Do these reasoning capabilities arise from the inductive bias of training transformers with gradient descent, or from the new learning paradigm (e.g., autoregressive learning)? Answering these questions will improve our understanding of how to design reasoning-capable agents and represent a step toward developing even better or more efficient AI systems for specialized needs.
+
+*Representative papers*: 
+- Quan Nguyen, _Thanh Nguyen-Tang_. /*One-Layer Transformers are Provably Optimal for In-context Reasoning and Distributional Association Learning in Next-Token Prediction Tasks*/. \[[https://arxiv.org/abs/2505.15009 ArXiv]\]
+
+== Responsible AI 
+
+Responsible AI requires ML algorithms not only to achieve statistical and computational efficiency but also to remain aligned with societal needs. In our lab, we integrate responsible design principles directly into algorithmic constraints. This includes ensuring robustness, so that algorithms remain reliable even in adversarial or uncertain deployment environments; enabling differential privacy, to protect sensitive user information; and supporting the efficient removal of user data, allowing individuals to request the elimination of their data’s influence on model behavior.
+
+*Representative papers*: 
+- Yassine Chemingui, Aryan Deshwal, Alan Fern, _Thanh Nguyen-Tang_, Jana Doppa. 
+/*O3SRL: Online Optimization for Offline Safe Reinforcement Learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2025.
+- Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, Sunil Gupta. 
+/*Fair domain generalization with heterogeneous sensitive attributes across domains*/. {{<font color=red >}}*WACV*{{</font>}}, 2025 \[[https://openreview.net/pdf?id=3wL1tj3kqE pdf]\].
+- Austin Watkins, _Thanh Nguyen-Tang_, Enayat Ullah, Raman Arora. /*Adversarially robust multi-task representation learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2024 \[[https://openreview.net/pdf?id=w2L3Ll1jbV pdf]\]. 
+- _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. /*Distributional reinforcement learning via moment matching*/. {{<font color=red >}}*AAAI*{{</font>}}, 2021 \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl code]]
+- _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh. /*Distributionally robust Bayesian quadrature optimization*/. {{<font color=red >}}*AISTATS*{{</font>}}, 2020 \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo code]]

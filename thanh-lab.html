@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title></title>
+</head>
+<body>
+<div id="layout-content">
+<p><b>The Statistical and Algorithmic ML Lab @ NJIT</b> (or, the Nguyen Lab @ NJIT) focus on the statistical and algorithmic aspects of learning for three core AI problems: Sequential Decision-Making, Responsible AI and Reasoning. We seek a mathematical understanding of the underlying algorithmic principles for learning with strong adaptivity to problem structures, and thereby design efficient machine learning algorithms with strong theoretical guarantees.
+</p>
+<ul>
+<li><p><b>Sequential Decision-Making</b>: Offline RL, Multi-agent RL, multi-task RL 
+</p>
+</li>
+<li><p><b>Reasoning</b>: Inductive bias for reasoning in transformers, auto-regressive learning
+</p>
+</li>
+<li><p><b>Responsible AI</b>: robustness, unlearning, privacy 
+</p>
+</li>
+</ul>
+<h2>Sequential Decision-Making</h2>
+<p>Many real-world systems—such as recommender platforms, personalized healthcare tools, and digital assistants—are inherently interactive, with data generated through temporally extended experiences rather than isolated observations. Reinforcement learning (RL) offers a foundational paradigm for optimizing decision-making in such environments. Despite decades of progress, however, RL remains insufficiently equipped to address the evolving demands of practice. Key challenges include (i) leveraging rich logged datasets to support robust and efficient decision-making, (ii) developing agents capable of acting reliably in the presence of strategic or adaptive opponents, and (iii) integrating multiple data sources and learning modalities to achieve provable performance improvements. Advancing solutions to these challenges is central to our research agenda, with the ultimate goal of building principled, reliable, and practical RL systems for high-impact applications.
+</p>
+<p><b>Representative papers</b>: 
+</p>
+<ul>
+<li><p><u>Thanh Nguyen-Tang</u>, Raman Arora. <i><b>Policy regret minimization in Markov games with function approximation</b></i>. <font color=red ><b>ICML</b></font>, 2025.
+</p>
+</li>
+<li><p><u>Thanh Nguyen-Tang</u>, Raman Arora. <i><b>Learning in Markov games with adaptive adversaries: Policy regret, fundamental barriers, and efficient algorithms</b></i>. <font color=red ><b>NeurIPS</b></font>, 2024 [<a href="https://arxiv.org/pdf/2411.00707" target=&ldquo;blank&rdquo;>pdf</a>]. 
+</p>
+</li>
+<li><p>Haque Ishfaq, <u>Thanh Nguyen-Tang</u>, Songtao Feng, Raman Arora, Mengdi Wang, Ming Yin, Doina Precup. <i><b>Offline multitask representation learning for reinforcement learning</b></i>. <font color=red ><b>NeurIPS</b></font>, 2024 [<a href="https://arxiv.org/pdf/2403.11574" target=&ldquo;blank&rdquo;>pdf</a>].
+</p>
+</li>
+<li><p><u>Thanh Nguyen-Tang</u>, Raman Arora. <i><b>On the statistical complexity of offline decision-making</b></i>. <font color=red ><b>ICML</b></font>, 2024 [<a href="https://openreview.net/pdf?id=dYDPcx78tm" target=&ldquo;blank&rdquo;>pdf</a>]. 
+</p>
+</li>
+<li><p><u>Thanh Nguyen-Tang</u>, Raman Arora. <i><b>On sample-efficient offline reinforcement learning: Data diversity, posterior sampling and beyond</b></i>. <font color=red ><b>NeurIPS</b></font>, 2023 [<a href="https://openreview.net/forum?id=sdlh4gVOj8" target=&ldquo;blank&rdquo;>pdf</a>]. <br />
+</p>
+</li>
+<li><p>Anh Do, <u>Thanh Nguyen-Tang</u>, Raman Arora. <i><b>Multi-agent learning with heterogeneous linear contextual bandits</b></i>. <font color=red ><b>NeurIPS</b></font>, 2023 [<a href="[https://openreview.net/forum?id=7f6vH3mmhr" target=&ldquo;blank&rdquo;>pdf</a>]. <br />
+</p>
+</li>
+<li><p><u>Thanh Nguyen-Tang</u>, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora. <i><b>On instance-dependent bounds for offline reinforcement learning with linear function approximation</b></i>. <font color=red ><b>AAAI</b></font>, 2023 [<a href="https://arxiv.org/abs/2211.13208" target=&ldquo;blank&rdquo;>arXiv</a>] .
+</p>
+</li>
+<li><p><u>Thanh Nguyen-Tang</u>, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh. <i><b>Offline neural contextual bandits:  Pessimism, optimization, and generalization</b></i>. <font color=red ><b>ICLR</b></font>, 2022 [<a href="https://openreview.net/pdf?id=sPIFuucA3F" target=&ldquo;blank&rdquo;>pdf</a>] [<a href="assets/poster_NeurIPSW21.pdf" target=&ldquo;blank&rdquo;>poster</a>]  
+</p>
+</li>
+</ul>
+<h2>Reasoning in transformers </h2>
+<p>Reasoning in ML/AI refers to a model’s capacity to perform multi-step inference, abstraction, and compositional problem-solving—going beyond pattern recognition to systematically connect information in ways that support generalization and decision-making. Why do transformers and other large language models achieve strong performance on many tasks that demand complex reasoning? What are the underlying learning mechanisms for reasoning in such situations? Do these reasoning capabilities arise from the inductive bias of training transformers with gradient descent, or from the new learning paradigm (e.g., autoregressive learning)? Answering these questions will improve our understanding of how to design reasoning-capable agents and represent a step toward developing even better or more efficient AI systems for specialized needs.
+</p>
+<p><b>Representative papers</b>: 
+</p>
+<ul>
+<li><p>Quan Nguyen, <u>Thanh Nguyen-Tang</u>. <i><b>One-Layer Transformers are Provably Optimal for In-context Reasoning and Distributional Association Learning in Next-Token Prediction Tasks</b></i>. [<a href="https://arxiv.org/abs/2505.15009" target=&ldquo;blank&rdquo;>ArXiv</a>]
+</p>
+</li>
+</ul>
+<h2>Responsible AI </h2>
+<p>Responsible AI requires ML algorithms not only to achieve statistical and computational efficiency but also to remain aligned with societal needs. In our lab, we integrate responsible design principles directly into algorithmic constraints. This includes ensuring robustness, so that algorithms remain reliable even in adversarial or uncertain deployment environments; enabling differential privacy, to protect sensitive user information; and supporting the efficient removal of user data, allowing individuals to request the elimination of their data’s influence on model behavior.
+</p>
+<p><b>Representative papers</b>: 
+</p>
+<ul>
+<li><p>Yassine Chemingui, Aryan Deshwal, Alan Fern, <u>Thanh Nguyen-Tang</u>, Jana Doppa. 
+<i><b>O3SRL: Online Optimization for Offline Safe Reinforcement Learning</b></i>. <font color=red ><b>NeurIPS</b></font>, 2025.
+</p>
+</li>
+<li><p>Ragja Palakkadavath, Hung Le, <u>Thanh Nguyen-Tang</u>, Svetha Venkatesh, Sunil Gupta. 
+<i><b>Fair domain generalization with heterogeneous sensitive attributes across domains</b></i>. <font color=red ><b>WACV</b></font>, 2025 [<a href="https://openreview.net/pdf?id=3wL1tj3kqE" target=&ldquo;blank&rdquo;>pdf</a>].
+</p>
+</li>
+<li><p>Austin Watkins, <u>Thanh Nguyen-Tang</u>, Enayat Ullah, Raman Arora. <i><b>Adversarially robust multi-task representation learning</b></i>. <font color=red ><b>NeurIPS</b></font>, 2024 [<a href="https://openreview.net/pdf?id=w2L3Ll1jbV" target=&ldquo;blank&rdquo;>pdf</a>]. 
+</p>
+</li>
+<li><p><u>Thanh Nguyen-Tang</u>, Sunil Gupta, Svetha Venkatesh. <i><b>Distributional reinforcement learning via moment matching</b></i>. <font color=red ><b>AAAI</b></font>, 2021 [<a href="http://arxiv.org/abs/2007.12354" target=&ldquo;blank&rdquo;>arXiv</a>] [<a href="https://github.com/thanhnguyentang/mmdrl" target=&ldquo;blank&rdquo;>code</a>]
+</p>
+</li>
+<li><p><u>Thanh Nguyen-Tang</u>, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh. <i><b>Distributionally robust Bayesian quadrature optimization</b></i>. <font color=red ><b>AISTATS</b></font>, 2020 [<a href="https://arxiv.org/abs/2001.06814" target=&ldquo;blank&rdquo;>arXiv</a>] [<a href="https://github.com/thanhnguyentang/drbqo" target=&ldquo;blank&rdquo;>code</a>]
+</p>
+</li>
+</ul>
+</div>
+</body>
+</html>
