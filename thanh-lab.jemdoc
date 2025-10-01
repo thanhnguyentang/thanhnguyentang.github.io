@@ -1,12 +1,12 @@
-*The Statistical and Algorithmic ML Lab @ NJIT* (or, the Nguyen Lab @ NJIT) focus on the statistical and algorithmic aspects of learning for three core AI problems: Sequential Decision-Making, Responsible AI and Reasoning. We seek a mathematical understanding of the underlying algorithmic principles for learning with strong adaptivity to problem structures, and thereby design efficient machine learning algorithms with strong theoretical guarantees.
+*The Nguyen SAML (Statistical and Algorithmic ML) Lab @ NJIT* focus on the statistical and algorithmic aspects of learning for three core AI problems: Sequential Decision-Making, Responsible AI and Reasoning. We seek a mathematical understanding of the underlying algorithmic principles for learning with strong adaptivity to problem structures, and thereby design efficient machine learning algorithms with strong theoretical guarantees.
 
-- *Sequential Decision-Making*: Offline RL, Multi-agent RL, multi-task RL 
+- *Reinforcement Learning*: Offline RL, Multi-agent RL, multi-task RL 
 - *Reasoning*: Inductive bias for reasoning in transformers, auto-regressive learning
 - *Responsible AI*: robustness, unlearning, privacy 
 
 
 
-== Sequential Decision-Making
+== Reinforcement Learning
 
 Many real-world systems—such as recommender platforms, personalized healthcare tools, and digital assistants—are inherently interactive, with data generated through temporally extended experiences rather than isolated observations. Reinforcement learning (RL) offers a foundational paradigm for optimizing decision-making in such environments. Despite decades of progress, however, RL remains insufficiently equipped to address the evolving demands of practice. Key challenges include (i) leveraging rich logged datasets to support robust and efficient decision-making, (ii) developing agents capable of acting reliably in the presence of strategic or adaptive opponents, and (iii) integrating multiple data sources and learning modalities to achieve provable performance improvements. Advancing solutions to these challenges is central to our research agenda, with the ultimate goal of building principled, reliable, and practical RL systems for high-impact applications.
 
@@ -35,6 +35,8 @@ Responsible AI requires ML algorithms not only to achieve statistical and comput
 *Representative papers*: 
 - Yassine Chemingui, Aryan Deshwal, Alan Fern, _Thanh Nguyen-Tang_, Jana Doppa. 
 /*O3SRL: Online Optimization for Offline Safe Reinforcement Learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2025.
+- Nguyen Hung-Quang, Ngoc-Hieu Nguyen, The-Anh Ta, _Thanh Nguyen-Tang_, Kok-Seng Wong, Hoang Thanh-Tung,
+and Khoa D Doan. /*Wicked oddities: Selectively poisoning for effective clean-label backdoor attacks*/. {{<font color=red >}}*ICLR*{{</font>}}, 2025 \[[https://arxiv.org/pdf/2407.10825 pdf]\]. 
 - Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, Sunil Gupta. 
 /*Fair domain generalization with heterogeneous sensitive attributes across domains*/. {{<font color=red >}}*WACV*{{</font>}}, 2025 \[[https://openreview.net/pdf?id=3wL1tj3kqE pdf]\].
 - Austin Watkins, _Thanh Nguyen-Tang_, Enayat Ullah, Raman Arora. /*Adversarially robust multi-task representation learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2024 \[[https://openreview.net/pdf?id=w2L3Ll1jbV pdf]\]. 
