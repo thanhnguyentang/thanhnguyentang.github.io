@@ -28,21 +28,20 @@ I like to seek a mathematical understanding of the underlying algorithmic princi
 The current topics include, but not limited to, reinforcement learning (e.g., Offline RL, Multi-agent, Multi-task), theory of reasoning with transformers, and 
 responsible AI (e.g., privacy, robustness, unlearning). I direct [/thanh-lab.html the Statistical and Algorithmic ML Lab @ NJIT]. 
 
-*Open positions*: I am seeking highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning to join my research group at the Ying Wu College of Computing at NJIT, starting in Spring or Fall 2026. Topics of research: theory of reasoning with transformers. 
-*How to apply:* Apply directly to the DS PhD program at NJIT and mention my name. *Note:* /When applying, you are also strongly encouraged to email me with your CV, transcript, and a brief paragraph describing research experience and areas of interest. Due to a large volume of emails I receive, I may not be able to respond to every individual application email - but rest assured that I read each one of them./
+*Open positions*: I am seeking highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning to join my research group, starting in Spring or Fall 2026. 
+If you are interested in working with me, please email me with your CV, transcript, and a brief paragraph describing research experience and areas of interest. Note that if you are not at NJIT, you should first apply to our DS PhD program at NJIT and mention my name. 
 
-*/Undergrads\/Masters students who are interested in doing research in the theory of RL\/transformers\/responsible AI with me, can email me./
-
+I am also happy to host undergraduate/graduate visitors. For students at NJIT who are interested in working with me, the best way to start off is to enroll in my courses. 
 
 *Service*: Area Chair at NeurIPS (2025), AISTATS (2026, 2025), AAMAS (2026); Senior Program Committee at AAAI (2026, 2025, 2024, 2023).
 
 *Teaching*:  
-CS 669 (Reinforcement Learning), NJIT, Fall 2025; Machine Learning: Advanced Topics (EN.601.779.01.SP24), JHU CS, Spring 2024.
+DS 675 (Machine Learning), NJIT, Spring 2026; CS 669 (Reinforcement Learning), NJIT, Fall 2025; Machine Learning: Advanced Topics (EN.601.779.01.SP24), JHU CS, Spring 2024.
 
 
 *Publications*: 
 - Yassine Chemingui, Aryan Deshwal, Alan Fern, _Thanh Nguyen-Tang_, Jana Doppa. 
-/*O3SRL: Online Optimization for Offline Safe Reinforcement Learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2025.
+/*Online Optimization for Offline Safe Reinforcement Learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2025.
 - Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, and Sunil Gupta. 
 /*Federated Domain Generalization with Latent Space Inversion*/. {{<font color=red >}}*ICDM*{{</font>}}, 2025.
 - Khai Le-Duc, Tuyen Tran, Bach Phan Tat, Nguyen Kim Hai Bui, Quan Dang, Hung-Phong Tran, Thanh-Thuy Nguyen, Ly Nguyen, Tuan-Minh Phan, Thi Thu Phuong Tran, Chris Ngo, Nguyen X Khanh, _Thanh Nguyen-Tang_. 
