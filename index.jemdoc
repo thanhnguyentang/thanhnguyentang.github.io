@@ -7,8 +7,8 @@
 *Thanh Nguyen-Tang* (TNT) \n
 Assistant Professor\n
 [https://ds.njit.edu/ Department of Data Science] \n 
+[https://research.njit.edu/cams/ Center for Applied Mathematics and Statistics] \n
 [https://research.njit.edu/ai/ Center for AI Research] \n
-[https://computing.njit.edu/ Ying Wu College of Computing] \n
 New Jersey Institute of Technology\n
 218 Central Ave \n 
 GITC 2110 \n 
@@ -86,6 +86,3 @@ and Khoa D Doan. /*Wicked oddities: Selectively poisoning for effective clean-la
 \[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ poster]].
 - _Thanh Nguyen-Tang_, Jaesik Choi. /*Markov information bottleneck to improve information flow in stochastic neural networks*/. {{<font color=red >}}*Entropy*{{</font>}}, 2019 (Invited, special Issue on Information Bottleneck: Theory and Applications in Deep Learning) \[[https://doi.org/10.3390/e21100976 pdf]\].   \n
 
-
-*Preprint*:
-- Quan Nguyen, _Thanh Nguyen-Tang_. /*One-Layer Transformers are Provably Optimal for In-context Reasoning and Distributional Association Learning in Next-Token Prediction Tasks*/. \[[https://arxiv.org/abs/2505.15009 ArXiv]\]
