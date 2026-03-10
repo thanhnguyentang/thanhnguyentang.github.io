@@ -24,7 +24,7 @@ did my PhD in Computer Science at Deakin University, Australia,
 my M.Sc. in Computer Science and Engineering at Ulsan National Institute of Science and Technology, South Korea, 
 my B.Eng. in Electronic and Communication Engineering (Talented Engineering Program) at Danang University of Science and Technology, Vietnam. I was awarded the Alfred Deakin Medal for Doctoral Theses, 2022.
 
-*Research Interest*: My research develops statistical and algorithmic foundations of machine learning, with the aim of enabling efficient, scalable and robust methods for learning problems in intelligent and adaptive systems. I aim to advance rigorous theoretical understanding of statistical learning and sequential decision-making and translate these insights into the design of practical AI systems in application domains. 
+*Research Interest*: My research develops /statistical and algorithmic foundations/ of machine learning, with the goal of enabling /efficient, scalable and robust/ methods for learning problems in intelligent and adaptive systems. I aim to advance rigorous theoretical understanding of statistical learning and sequential decision-making and translate these insights into the design of practical AI systems in application domains. 
 My current research topics include: 
 - Offline/Transfer RL (e.g., [https://arxiv.org/pdf/2403.11574 NeurIPS'24], [https://openreview.net/pdf?id=dYDPcx78tm ICML'24], [https://openreview.net/forum?id=sdlh4gVOj8 NeurIPS'23], [https://arxiv.org/abs/2211.13208 AAAI'23], [https://openreview.net/pdf?id=sPIFuucA3F ICLR'22], [https://arxiv.org/abs/2103.06671 TMLR'22])
 - MARL (e.g., [https://proceedings.mlr.press/v267/nguyen-tang25a.html ICML'25], [https://proceedings.neurips.cc/paper_files/paper/2024/file/665654759cdf2114c0cbe2b8e501e00e-Paper-Conference.pdf NeurIPS'24])
@@ -32,7 +32,7 @@ My current research topics include:
 - Responsible AI (e.g., safety: [https://arxiv.org/pdf/2510.22027 NeurIPS'25], machine unlearning: [https://openreview.net/pdf?id=R975odFtp0 OpenReview'25], robustness: [https://openreview.net/pdf?id=w2L3Ll1jbV NeurIPS'24], [https://arxiv.org/abs/2001.06814 AISTATS'20]) 
 
 *Open positions*: I am always looking for highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning to join my research group. 
-If you are interested in working with me, please email me with your CV, transcript, publications or writeup in ML theory, and a brief paragraph describing research experience and areas of interest. If you are not at NJIT, you should first apply to our DS PhD program (Computing Track) at NJIT and mention my name. 
+If you are interested in working with me, please email me with your CV, transcript, publications or writeup in ML theory (optionally but highly recommended), and a brief paragraph describing research experience and areas of interest. If you are not at NJIT, you should first apply to our DS PhD program (Computing Track) at NJIT and mention my name. 
 
 I am also happy to host undergraduate/graduate student visitors. For students at NJIT who are planning to do ML theory research with me, the best way to start off is to enroll in my courses. 
 
@@ -43,6 +43,7 @@ DS 675 (Machine Learning), NJIT, Spring 2026; CS 669 (Reinforcement Learning), N
 
 
 *Publications*: 
+- Thong Bach, _Thanh Nguyen-Tang_, Dung Nguyen, Thao Minh Le, Truyen Tran. /*Curvature-Aware Safety Restoration In LLMs Fine-Tuning*/. {{<font color=red >}}*TMLR*{{</font>}}, 2026. \[[https://arxiv.org/abs/2511.18039 pdf]\]
 - Quan Nguyen, _Thanh Nguyen-Tang_. /*How Transformers Learn In-Context Recall Tasks? Optimality, Training Dynamics and Generalization*/. \[[https://arxiv.org/abs/2505.15009 ArXiv]\]
 - Yassine Chemingui, Aryan Deshwal, Alan Fern, _Thanh Nguyen-Tang_, Jana Doppa. 
 /*Online Optimization for Offline Safe Reinforcement Learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2025.
