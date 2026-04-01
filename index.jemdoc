@@ -18,31 +18,27 @@ Newark, NJ 07102 \n
 
 ~~~
 
-*Bio*: I am an assistant professor in the Department of Data Science, Ying Wu College of Computing at New Jersey Institute of Technology (NJIT). 
+== Bio  
+I am an assistant professor in the Department of Data Science, Ying Wu College of Computing at New Jersey Institute of Technology (NJIT). 
 Prior to that, I was a postdoc at Johns Hopkins University (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]),
 did my PhD in Computer Science at Deakin University, Australia,  
 my M.Sc. in Computer Science and Engineering at Ulsan National Institute of Science and Technology, South Korea, 
 my B.Eng. in Electronic and Communication Engineering (Talented Engineering Program) at Danang University of Science and Technology, Vietnam. I was awarded the Alfred Deakin Medal for Doctoral Theses, 2022.
 
-*Research Interest*: My research develops /statistical and algorithmic foundations/ of machine learning, with the goal of enabling /efficient, scalable and robust/ methods for learning problems in intelligent and adaptive systems. I aim to advance rigorous theoretical understanding of statistical learning and sequential decision-making and translate these insights into the design of practical AI systems in application domains. 
+== Research 
+My research develops /statistical and algorithmic foundations/ of machine learning, with the goal of enabling /efficient, scalable and robust/ methods for learning problems in intelligent and adaptive systems. I aim to advance rigorous theoretical understanding of statistical learning and sequential decision-making and translate these insights into the design of practical AI systems in application domains. 
 My current research topics include: 
 - Offline/Transfer RL (e.g., [https://arxiv.org/pdf/2403.11574 NeurIPS'24], [https://openreview.net/pdf?id=dYDPcx78tm ICML'24], [https://openreview.net/forum?id=sdlh4gVOj8 NeurIPS'23], [https://arxiv.org/abs/2211.13208 AAAI'23], [https://openreview.net/pdf?id=sPIFuucA3F ICLR'22], [https://arxiv.org/abs/2103.06671 TMLR'22])
 - MARL (e.g., [https://proceedings.mlr.press/v267/nguyen-tang25a.html ICML'25], [https://proceedings.neurips.cc/paper_files/paper/2024/file/665654759cdf2114c0cbe2b8e501e00e-Paper-Conference.pdf NeurIPS'24])
 - Learning to reason (e.g., [https://arxiv.org/abs/2505.15009 ArXiv'25])
 - Responsible AI (e.g., safety [https://arxiv.org/pdf/2510.22027 NeurIPS'25], machine unlearning [https://openreview.net/pdf?id=R975odFtp0 OpenReview'25], robustness [https://openreview.net/pdf?id=w2L3Ll1jbV NeurIPS'24], [https://arxiv.org/abs/2001.06814 AISTATS'20]) 
 
-*Open positions*: I am always looking for highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning to join my research group. 
-If you are interested in working with me, please email me with your CV, transcript, publications or writeup in ML theory (optionally but highly recommended), and a brief paragraph describing research experience and areas of interest. If you are not at NJIT, you should first apply to our DS PhD program (Computing Track) at NJIT and mention my name. 
-
-I am also happy to host undergraduate/graduate student visitors. For students at NJIT who are planning to do ML theory research with me, the best way to start off is to enroll in my courses. 
-
-*Service*: Area Chair at NeurIPS (2025), AISTATS (2026, 2025), AAMAS (2026); Senior Program Committee at AAAI (2026, 2025, 2024, 2023).
-
-*Teaching*:  
-DS 675 (Machine Learning), NJIT, Spring 2026; CS 669 (Reinforcement Learning), NJIT, Fall 2025; Machine Learning: Advanced Topics (EN.601.779.01.SP24), JHU CS, Spring 2024.
+{{<font color=red >}}Note for Prospective Students{{</font>}}: I am always looking for highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning to join my research group. 
+If you are interested in working with me, please email me with your CV, transcript, publications or writeup in ML theory (optionally but highly recommended), and a brief paragraph describing research experience and areas of interest. If you are not at NJIT, you should apply to our DS PhD program (Computing Track) at NJIT and mention my name.
 
 
-*Publications*: 
+/For undergraduate students at NJIT/: if you're interested in working with me for research experience or honors thesis, please shoot me an email to discuss it. I am also happy to host student visitors to do research with our group (possibly during summer or terms). Please read this [https://www.cs.jhu.edu/%7Ejason/advice/how-to-work-with-a-professor.html post] for useful advice. 
+== Publications 
 - Thong Bach, _Thanh Nguyen-Tang_, Dung Nguyen, Thao Minh Le, Truyen Tran. /*Curvature-Aware Safety Restoration In LLMs Fine-Tuning*/. {{<font color=red >}}*TMLR*{{</font>}}, 2026. \[[https://arxiv.org/abs/2511.18039 pdf]\]
 - Quan Nguyen, _Thanh Nguyen-Tang_. /*How Transformers Learn In-Context Recall Tasks? Optimality, Training Dynamics and Generalization*/. \[[https://arxiv.org/abs/2505.15009 ArXiv]\]
 - Yassine Chemingui, Aryan Deshwal, Alan Fern, _Thanh Nguyen-Tang_, Jana Doppa. 
@@ -89,3 +85,30 @@ and Khoa D Doan. /*Wicked oddities: Selectively poisoning for effective clean-la
 - Huong Ha, Santu Rana, Sunil Gupta, _Thanh Nguyen-Tang_, Hung Tran-The, Svetha Venkatesh. /*Bayesian optimization with unknown search space*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2019 \[[https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space pdf]\] \[[https://github.com/HuongHa12/BO_unknown_searchspace code]]
 \[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ poster]].
 - _Thanh Nguyen-Tang_, Jaesik Choi. /*Markov information bottleneck to improve information flow in stochastic neural networks*/. {{<font color=red >}}*Entropy*{{</font>}}, 2019 (Invited, special Issue on Information Bottleneck: Theory and Applications in Deep Learning) \[[https://doi.org/10.3390/e21100976 pdf]\].   \n
+== Teaching
+
+*At NJIT*: 
+- DS 675 (Machine Learning), Spring 2026
+- CS 669 (Reinforcement Learning), Fall 2025
+
+*At JHU*: 
+- Machine Learning: Advanced Topics (EN.601.779.01.SP24), Spring 2024 (co-instructor with Raman Arora)
+== Professional Service
+
+*Conference Organization*:
+- Program Co-chair, ICML Workshop on [https://decision-making-offline2online-icml2026.github.io/ "Decision-Making from Offline Datasets to Online Adaptation: Black-Box Optimization to Reinforcement Learning"], Seoul, Korea, 2026
+
+*Program Committee Member*: 
+- Area Chair: NeurIPS 2026
+- Area Chair: NeurIPS 2025
+- Area Chair: AISTATS 2026
+- Area Chair: AISTATS 2025
+- Area Chair: AAMAS 2026 
+- Senior Program Committee: AAAI 2026
+- Senior Program Committee: AAAI 2025
+- Senior Program Committee: AAAI 2024
+- Senior Program Committee: AAAI 2023
+
+*Reviewer*:
+- *Conferences*:  NeurIPS (2026, 2024, 2023, 2022, 2021, 2020), ICML (2026, 2025, 2023, 2022, 2021), ICLR (2025, 2024, 2023, 2022, 2021), AAAI (2022, 2021), AISTATS (2021), L4DC (2022)
+- *Journals*: Journal of Machine Learning Research (JMLR), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
