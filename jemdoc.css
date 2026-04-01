@@ -137,6 +137,7 @@ h1 {
 h2 {
 	padding-top: 0.07em;
 	font-size: 125%;
+	color: red
 }
 
 h2 + h3 {
