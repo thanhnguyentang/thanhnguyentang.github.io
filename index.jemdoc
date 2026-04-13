@@ -36,8 +36,20 @@ My current research topics include:
 {{<font color=red >}}Note for Prospective Students{{</font>}}: I am always looking for highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning to join my research group. 
 If you are interested in working with me, please email me with your CV, transcript, publications or writeup in ML theory (optionally but highly recommended), and a brief paragraph describing research experience and areas of interest. If you are not at NJIT, you should apply to our DS PhD program (Computing Track) at NJIT and mention my name.
 
+/For undergraduate students at NJIT/: if you're interested in working with me for research experience or honors thesis, the best mechanism is to contact me to apply for [https://research.njit.edu/uri/summer-research-programs the Undergraduate Research and Innovation (URI) Summer Fellowship]. I am also happy to host student visitors to do research with our group (possibly during summer or terms).
+Feel free to follow up if I have not replied to your emails for two weeks.  
 
-/For undergraduate students at NJIT/: if you're interested in working with me for research experience or honors thesis, please shoot me an email to discuss it. I am also happy to host student visitors to do research with our group (possibly during summer or terms). Please read this [https://www.cs.jhu.edu/%7Ejason/advice/how-to-work-with-a-professor.html post] for useful advice. 
+Please read this [https://www.cs.jhu.edu/%7Ejason/advice/how-to-work-with-a-professor.html post] for useful advice. 
+
+*Group:*
+- [https://scholar.google.com/citations?user=W24Ff_wAAAAJ&hl=en Ngoc-Minh Luu]: PhD student, DS@NJIT,  Fall 2026
+- [https://khanhtrq.github.io/ Quoc Khanh Tran]: PhD student, DS@NJIT,  Fall 2026
+- [https://www.linkedin.com/in/lan-sang-76508832a/ Lan Sang]: MS student, Department of Applied Mathematics and Statistics, Johns Hopkins University, April 2025 - Summer 2026; _First position_: PhD student at JHU
+
+
+*Alumni:*
+- [https://scholar.google.com/citations?user=yFLbTtkAAAAJ&hl=en Thong Bach]: indepenent researcher, 2023-2024; _First position_: PhD student at Deakin University
+
 == Publications 
 - Thong Bach, _Thanh Nguyen-Tang_, Dung Nguyen, Thao Minh Le, Truyen Tran. /*Curvature-Aware Safety Restoration In LLMs Fine-Tuning*/. {{<font color=red >}}*TMLR*{{</font>}}, 2026. \[[https://arxiv.org/abs/2511.18039 pdf]\]
 - Quan Nguyen, _Thanh Nguyen-Tang_. /*How Transformers Learn In-Context Recall Tasks? Optimality, Training Dynamics and Generalization*/. \[[https://arxiv.org/abs/2505.15009 ArXiv]\]
@@ -88,8 +100,9 @@ and Khoa D Doan. /*Wicked oddities: Selectively poisoning for effective clean-la
 == Teaching
 
 *At NJIT*: 
-- DS 675 (Machine Learning), Spring 2026
-- CS 669 (Reinforcement Learning), Fall 2025
+- DS 732: Theoretical Foundations of Machine Learning, Fall 2026 
+- DS 675: Machine Learning, Spring 2026
+- CS 669: Reinforcement Learning, Fall 2025
 
 *At JHU*: 
 - Machine Learning: Advanced Topics (EN.601.779.01.SP24), Spring 2024 (co-instructor with Raman Arora)
@@ -110,5 +123,5 @@ and Khoa D Doan. /*Wicked oddities: Selectively poisoning for effective clean-la
 - Senior Program Committee: AAAI 2023
 
 *Reviewer*:
-- *Conferences*:  NeurIPS (2026, 2024, 2023, 2022, 2021, 2020), ICML (2026, 2025, 2023, 2022, 2021), ICLR (2025, 2024, 2023, 2022, 2021), AAAI (2022, 2021), AISTATS (2021), L4DC (2022)
+- *Conferences*:  NeurIPS (2024, 2023, 2022, 2021, 2020), ICML (2026, 2025, 2023, 2022, 2021), ICLR (2025, 2024, 2023, 2022, 2021), AAAI (2022, 2021), AISTATS (2021), L4DC (2022)
 - *Journals*: Journal of Machine Learning Research (JMLR), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
