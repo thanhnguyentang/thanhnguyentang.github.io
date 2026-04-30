@@ -31,7 +31,7 @@ My current research topics include:
 - Offline/Transfer RL (e.g., [https://arxiv.org/pdf/2403.11574 NeurIPS'24], [https://openreview.net/pdf?id=dYDPcx78tm ICML'24], [https://openreview.net/forum?id=sdlh4gVOj8 NeurIPS'23], [https://arxiv.org/abs/2211.13208 AAAI'23], [https://openreview.net/pdf?id=sPIFuucA3F ICLR'22], [https://arxiv.org/abs/2103.06671 TMLR'22])
 - MARL (e.g., [https://proceedings.mlr.press/v267/nguyen-tang25a.html ICML'25], [https://proceedings.neurips.cc/paper_files/paper/2024/file/665654759cdf2114c0cbe2b8e501e00e-Paper-Conference.pdf NeurIPS'24])
 - Learning to reason (e.g., [https://arxiv.org/abs/2505.15009 ArXiv'25])
-- Responsible AI (e.g., safety [https://arxiv.org/pdf/2510.22027 NeurIPS'25], machine unlearning [https://openreview.net/pdf?id=R975odFtp0 OpenReview'25], robustness [https://openreview.net/pdf?id=w2L3Ll1jbV NeurIPS'24], [https://arxiv.org/abs/2001.06814 AISTATS'20]) 
+- Responsible AI (e.g., safety [https://arxiv.org/pdf/2510.22027 NeurIPS'25], machine unlearning [https://openreview.net/pdf?id=R975odFtp0 ICML'26], robustness [https://openreview.net/pdf?id=w2L3Ll1jbV NeurIPS'24], [https://arxiv.org/abs/2001.06814 AISTATS'20]) 
 
 {{<font color=red >}}Note for Prospective Students{{</font>}}: I am always looking for highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning to join my research group. 
 If you are interested in working with me, please email me with your CV, transcript, publications or writeup in ML theory (optionally but highly recommended), and a brief paragraph describing research experience and areas of interest. If you are not at NJIT, you should apply to our DS PhD program (Computing Track) at NJIT and mention my name.
@@ -50,6 +50,7 @@ Please read this [https://www.cs.jhu.edu/%7Ejason/advice/how-to-work-with-a-prof
 
 
 == Publications 
+- _Thanh Nguyen-Tang_, Raman Arora. /*Exact Unlearning in Reinforcement Learning*/. {{<font color=red >}}*ICML*{{</font>}}, 2026 ({{<font color=red >}}*Spotlight*, top 2.2%{{</font>}}).
 - Thong Bach, _Thanh Nguyen-Tang_, Dung Nguyen, Thao Minh Le, Truyen Tran. /*Curvature-Aware Safety Restoration In LLMs Fine-Tuning*/. {{<font color=red >}}*TMLR*{{</font>}}, 2026. \[[https://arxiv.org/abs/2511.18039 pdf]\]
 - Quan Nguyen, _Thanh Nguyen-Tang_. /*How Transformers Learn In-Context Recall Tasks? Optimality, Training Dynamics and Generalization*/. \[[https://arxiv.org/abs/2505.15009 ArXiv]\]
 - Yassine Chemingui, Aryan Deshwal, Alan Fern, _Thanh Nguyen-Tang_, Jana Doppa. 
