@@ -1,0 +1,130 @@
+# jemdoc: menu{menu}{index.html}
+
+
+~~~
+{}{img_left}{figure/tnt_njit_25.png}{alt text}{230}{150}
+
+*Thanh Nguyen-Tang* (TNT) \n
+Assistant Professor\n
+[https://ds.njit.edu/ Department of Data Science] \n 
+[https://research.njit.edu/cams/ Center for Applied Mathematics and Statistics] \n
+[https://research.njit.edu/ai/ Center for AI Research] \n
+New Jersey Institute of Technology\n
+218 Central Ave \n 
+GITC 2110 \n 
+Newark, NJ 07102 \n 
+/thanh.nguyen/ at njit dot edu | /thnguyentang/ at gmail dot com \n
+[https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate Google Scholar]
+
+~~~
+
+== About me 
+I am an assistant professor in the Department of Data Science, Ying Wu College of Computing at New Jersey Institute of Technology (NJIT). I am also a member of [https://research.njit.edu/cams/ the Center for Applied Mathematics and Statistics] and [https://research.njit.edu/ai/ Center for AI Research]
+Prior to that, I was a postdoc at Johns Hopkins University (with [https://www.cs.jhu.edu/~raman/Home.html Raman Arora]),
+did my PhD in Computer Science at Deakin University, Australia,  
+my M.Sc. in Computer Science and Engineering at Ulsan National Institute of Science and Technology, South Korea, 
+my B.Eng. in Electronic and Communication Engineering (Talented Engineering Program) at Danang University of Science and Technology, Vietnam. I was awarded the Alfred Deakin Medal for Doctoral Theses, 2022.
+
+== Research 
+My research develops /statistical and algorithmic foundations/ of machine learning, with the goal of enabling /efficient, scalable and robust/ methods for learning problems in intelligent and adaptive systems. I aim to advance rigorous theoretical understanding of statistical learning and sequential decision-making and translate these insights into the design of practical AI systems in application domains. 
+My current research topics include: 
+- Offline/Transfer RL (e.g., [https://arxiv.org/pdf/2403.11574 NeurIPS'24], [https://openreview.net/pdf?id=dYDPcx78tm ICML'24], [https://openreview.net/forum?id=sdlh4gVOj8 NeurIPS'23], [https://arxiv.org/abs/2211.13208 AAAI'23], [https://openreview.net/pdf?id=sPIFuucA3F ICLR'22], [https://arxiv.org/abs/2103.06671 TMLR'22])
+- MARL (e.g., [https://proceedings.mlr.press/v267/nguyen-tang25a.html ICML'25], [https://proceedings.neurips.cc/paper_files/paper/2024/file/665654759cdf2114c0cbe2b8e501e00e-Paper-Conference.pdf NeurIPS'24])
+- Learning to reason (e.g., [https://arxiv.org/abs/2505.15009 ArXiv'25])
+- Responsible AI (e.g., safety [https://arxiv.org/pdf/2510.22027 NeurIPS'25], machine unlearning [https://openreview.net/pdf?id=R975odFtp0 ICML'26], robustness [https://openreview.net/pdf?id=w2L3Ll1jbV NeurIPS'24], [https://arxiv.org/abs/2001.06814 AISTATS'20]) 
+
+{{<font color=red >}}Note for Prospective Students{{</font>}}: I am always looking for highly motivated and self-driven Ph.D. students with a strong mathematical background in machine learning to join my research group. 
+If you are interested in working with me, please email me with your CV, transcript, publications or writeup in ML theory (optionally but highly recommended), and a brief paragraph describing research experience and areas of interest. If you are not at NJIT, you should apply to our DS PhD program (Computing Track) at NJIT and mention my name.
+
+/For undergraduate students at NJIT/: if you're interested in working with me for research experience or honors thesis, the best mechanism is to contact me to apply for [https://research.njit.edu/uri/summer-research-programs the Undergraduate Research and Innovation (URI) Summer Fellowship]. I am also happy to host student visitors to do research with our group (possibly during summer or terms).
+Feel free to follow up if I have not replied to your emails for two weeks.  
+
+Please read this [https://www.cs.jhu.edu/%7Ejason/advice/how-to-work-with-a-professor.html post] for useful advice. 
+
+*Group:*
+- [https://scholar.google.com/citations?user=W24Ff_wAAAAJ&hl=en Ngoc-Minh Luu]: PhD student, DS@NJIT,  Fall 2026 
+- [https://khanhtrq.github.io/ Quoc Khanh Tran]: PhD student, DS@NJIT,  Fall 2026 
+- [https://www.linkedin.com/in/lan-sang-76508832a/ Lan (Landon) Sang]: student researcher, MS student, Applied Mathematics and Statistics, Johns Hopkins University, April 2025 (-- Summer 2026); _First position_: PhD student at JHU
+- [https://www.linkedin.com/in/thehuyphan/ Huy Phan]: summer intern (under Battelle Award), undergraduate student, Applied Mathematics and Computer Science, Denison University, Summer 2026 
+
+
+
+== Publications 
+- _Thanh Nguyen-Tang_, Raman Arora. /*Exact Unlearning in Reinforcement Learning*/. {{<font color=red >}}*ICML*{{</font>}}, 2026 ({{<font color=red >}}*Spotlight*, top 2.2%{{</font>}}).
+- Thong Bach, _Thanh Nguyen-Tang_, Dung Nguyen, Thao Minh Le, Truyen Tran. /*Curvature-Aware Safety Restoration In LLMs Fine-Tuning*/. {{<font color=red >}}*TMLR*{{</font>}}, 2026. \[[https://arxiv.org/abs/2511.18039 pdf]\]
+- Quan Nguyen, _Thanh Nguyen-Tang_. /*How Transformers Learn In-Context Recall Tasks? Optimality, Training Dynamics and Generalization*/. \[[https://arxiv.org/abs/2505.15009 ArXiv]\]
+- Yassine Chemingui, Aryan Deshwal, Alan Fern, _Thanh Nguyen-Tang_, Jana Doppa. 
+/*Online Optimization for Offline Safe Reinforcement Learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2025.
+- Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, and Sunil Gupta. 
+/*Federated Domain Generalization with Latent Space Inversion*/. {{<font color=red >}}*ICDM*{{</font>}}, 2025.
+- Khai Le-Duc, Tuyen Tran, Bach Phan Tat, Nguyen Kim Hai Bui, Quan Dang, Hung-Phong Tran, Thanh-Thuy Nguyen, Ly Nguyen, Tuan-Minh Phan, Thi Thu Phuong Tran, Chris Ngo, Nguyen X Khanh, _Thanh Nguyen-Tang_. 
+/*MultiMed-ST: Large-scale Many-to-many Multilingual Medical Speech Translation*/. {{<font color=red >}}*EMNLP*{{</font>}}, 2025. \[[https://arxiv.org/pdf/2504.03546 arXiv]\]
+- Khai Le-Duc, Phuc Phan, Tan-Hanh Pham, Bach Phan Tat, Minh-Huong Ngo, _Thanh Nguyen-Tang_, Truong-Son Hy. /*MultiMed: Multilingual medical speech recognition via attention encoder decoder*/.  {{<font color=red >}}*ACL (Industry)*{{</font>}}, 2025. \[[https://arxiv.org/pdf/2409.14074v3 pdf]\]
+- _Thanh Nguyen-Tang_, Raman Arora. /*Policy regret minimization in Markov games with function approximation*/. {{<font color=red >}}*ICML*{{</font>}}, 2025.
+- Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Duc Nguyen, Toan Tran, David Leo Wright Hall, Cheongwoong Kang, Jaesik Choi. 
+/*Neural ODE transformers: Analyzing internal dynamics and adaptive fine-tuning*/. {{<font color=red >}}*ICLR*{{</font>}}, 2025.
+- Nguyen Hung-Quang, Ngoc-Hieu Nguyen, The-Anh Ta, _Thanh Nguyen-Tang_, Kok-Seng Wong, Hoang Thanh-Tung,
+and Khoa D Doan. /*Wicked oddities: Selectively poisoning for effective clean-label backdoor attacks*/. {{<font color=red >}}*ICLR*{{</font>}}, 2025 \[[https://arxiv.org/pdf/2407.10825 pdf]\]. 
+- Ragja Palakkadavath, Hung Le, _Thanh Nguyen-Tang_, Svetha Venkatesh, Sunil Gupta. 
+/*Fair domain generalization with heterogeneous sensitive attributes across domains*/. {{<font color=red >}}*WACV*{{</font>}}, 2025 \[[https://openreview.net/pdf?id=3wL1tj3kqE pdf]\].
+- _Thanh Nguyen-Tang_, Raman Arora. /*Learning in Markov games with adaptive adversaries: Policy regret, fundamental barriers, and efficient algorithms*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2024 \[[https://arxiv.org/pdf/2411.00707 pdf]\]. 
+- Austin Watkins, _Thanh Nguyen-Tang_, Enayat Ullah, Raman Arora. /*Adversarially robust multi-task representation learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2024 \[[https://openreview.net/pdf?id=w2L3Ll1jbV pdf]\]. 
+- Haque Ishfaq, _Thanh Nguyen-Tang_, Songtao Feng, Raman Arora, Mengdi Wang, Ming Yin, Doina Precup. /*Offline multitask representation learning for reinforcement learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2024 \[[https://arxiv.org/pdf/2403.11574 pdf]\].
+- _Thanh Nguyen-Tang_, Raman Arora. /*On the statistical complexity of offline decision-making*/. {{<font color=red >}}*ICML*{{</font>}}, 2024 \[[https://openreview.net/pdf?id=dYDPcx78tm pdf]\]. 
+- Anh Tong, _Thanh Nguyen-Tang_, Dongeun Lee, Toan Tran, Jaesik Choi. /*SigFormer: Signature transformers for deep hedging*/. {{<font color=red >}}*ICAIF*{{</font>}}, 2023 ({{<font color=red >}}Oral{{</font>}})\[[https://arxiv.org/abs/2310.13369  pdf\]]. \n 
+- Anh Do, _Thanh Nguyen-Tang_, Raman Arora. /*Multi-agent learning with heterogeneous linear contextual bandits*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2023 \[[[https://openreview.net/forum?id=7f6vH3mmhr pdf]\]. \n
+- Austin Watkins, Enayat Ullah, _Thanh Nguyen-Tang_, Raman Arora. /*Optimistic rates for multi-task representation learning*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2023 \[[https://openreview.net/forum?id=gQ4h6WvME0 pdf]\]\n
+- _Thanh Nguyen-Tang_, Raman Arora. /*On sample-efficient offline reinforcement learning: Data diversity, posterior sampling and beyond*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2023 \[[https://openreview.net/forum?id=sdlh4gVOj8 pdf]\]. \n
+- Ragja Palakkadavath, _Thanh Nguyen-Tang_, Hung Le, Svetha Venkatesh, Sunil Gupta.  /*Domain generalization with interpolation robustness*/. {{<font color=red >}}*ACML*{{</font>}}, 2023 \[[https://openreview.net/pdf?id=Yl_4LpR_3Z pdf]\]. \n
+- Thong Bach, Anh Tong, Truong Son Hy, Vu Nguyen, _Thanh Nguyen-Tang_. /*Global contrastive learning for long-tailed classification*/. {{<font color=red >}}*TMLR*{{</font>}}, 2023 \[[https://openreview.net/forum?id=xWrtiJwJj5 pdf]\]. \n
+- A. Tuan Nguyen, _Thanh Nguyen-Tang_, Ser-Nam Lim, Philip Torr. /*TIPI: Test time adaptation with transformation invariance*/. {{<font color=red >}}*CVPR*{{</font>}}, 2023 \[[https://openaccess.thecvf.com/content/CVPR2023/html/Nguyen_TIPI_Test_Time_Adaptation_With_Transformation_Invariance_CVPR_2023_paper.html html]\].  \n
+- _Thanh Nguyen-Tang_, Raman Arora. /*VIPeR: Provably efficient algorithm for offline RL with neural function approximation*/. {{<font color=red >}}*ICLR*{{</font>}}, 2023 ({{<font color=red >}}top 25% noble{{</font>}}).
+     \[[https://recorder-v3.slideslive.com/?share=80688&s=a24d555f-edda-4210-a19e-4fded4165c62 talk]\] \[[assets/viper.pdf slides]\] \[[https://github.com/thanhnguyentang/neural-offline-rl code]\]  \[[notes/erratumiclr23.html *ERRATUM*]\.] \n
+- _Thanh Nguyen-Tang_, Ming Yin, Sunil Gupta, Svetha Venkatesh, Raman Arora. /*On instance-dependent bounds for offline reinforcement learning with linear function approximation*/. {{<font color=red >}}*AAAI*{{</font>}}, 2023 \[[https://arxiv.org/abs/2211.13208 arXiv]\] \[[assets/aaai23-poster.pdf poster]\] \[[assets/aaai23-slides-only.pdf slides]\] \[[https://youtu.be/xUsMHodydO8 video]\].
+- Anh Tong, _Thanh Nguyen-Tang_, Toan Tran, Jaesik Choi. /*Learning fractional white noises in neural stochastic differential equations*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2022 \[[https://openreview.net/pdf?id=lTZBRxm2q5 pdf]\] 
+    \[[https://github.com/anh-tong/fractional_neural_sde code]\]. 
+- _Thanh Nguyen-Tang_, Sunil Gupta, A.Tuan Nguyen, and Svetha Venkatesh. /*Offline neural contextual bandits:  Pessimism, optimization, and generalization*/. {{<font color=red >}}*ICLR*{{</font>}}, 2022 \[[https://openreview.net/pdf?id=sPIFuucA3F pdf]\] \[[assets/poster_NeurIPSW21.pdf poster]\]  
+\[[assets/neuralcb_slides.pdf slides]\] 
+\[[https://github.com/thanhnguyentang/offline_neural_bandits code]\].
+- _Thanh Nguyen-Tang_, Sunil Gupta, Hung Tran-The, Svetha Venkatesh. /*On sample complexity of offline reinforcement learning with deep ReLU networks in Besov spaces*/. {{<font color=red >}}*TMLR*{{</font>}}, 2022, Workshop on RL Theory, ICML, 2021 \[[https://arxiv.org/abs/2103.06671 arXiv]\] \[[https://thanhnguyentang.github.io/assets/offrelu.pdf slides]] 
+\[[https://www.youtube.com/watch?v=xLM5pondWY4 talk]].
+- _Thanh Nguyen-Tang_, Sunil Gupta, Svetha Venkatesh. /*Distributional reinforcement learning via moment matching*/. {{<font color=red >}}*AAAI*{{</font>}}, 2021 \[[http://arxiv.org/abs/2007.12354 arXiv]] \[[https://github.com/thanhnguyentang/mmdrl code]]
+\[[https://cutt.ly/fkkiAGm slides]] 
+\[[https://cutt.ly/4kkiJZt poster]] \[[https://youtu.be/1fMqZZjy84E talk]].  
+- _Thanh Nguyen-Tang_, Sunil Gupta, Huong Ha, Santu Rana, Svetha Venkatesh. /*Distributionally robust Bayesian quadrature optimization*/. {{<font color=red >}}*AISTATS*{{</font>}}, 2020 \[[https://arxiv.org/abs/2001.06814 arXiv]] \[[https://github.com/thanhnguyentang/drbqo code]]
+\[[https://thanhnguyentang.github.io/assets/aistats20_drbqo.pdf slides]] 
+\[[https://slideslive.com/38930124/ talk]].  
+- Huong Ha, Santu Rana, Sunil Gupta, _Thanh Nguyen-Tang_, Hung Tran-The, Svetha Venkatesh. /*Bayesian optimization with unknown search space*/. {{<font color=red >}}*NeurIPS*{{</font>}}, 2019 \[[https://papers.nips.cc/paper/9350-bayesian-optimization-with-unknown-search-space pdf]\] \[[https://github.com/HuongHa12/BO_unknown_searchspace code]]
+\[[https://postersession.ai/poster/bayesian-optimization-with-unknown-searc/ poster]].
+- _Thanh Nguyen-Tang_, Jaesik Choi. /*Markov information bottleneck to improve information flow in stochastic neural networks*/. {{<font color=red >}}*Entropy*{{</font>}}, 2019 (Invited, special Issue on Information Bottleneck: Theory and Applications in Deep Learning) \[[https://doi.org/10.3390/e21100976 pdf]\].   \n
+== Teaching
+
+*At NJIT*: 
+- DS 732: Theoretical Foundations of Machine Learning, Fall 2026 
+- DS 675: Machine Learning, Spring 2026
+- CS 669: Reinforcement Learning, Fall 2025
+
+*At JHU*: 
+- Machine Learning: Advanced Topics (EN.601.779.01.SP24), Spring 2024 (co-instructor with Raman Arora)
+== Professional Service
+
+* Mentoring*:
+- [https://vinif.org/sponsor-programs/tai-tro-clb-tai-nang-nghien-cuu/ Application-driven Mathematics (ADM) program], Batch 3, VinIF, 2026
+
+*Conference Organization*:
+- Program Co-chair, ICML Workshop on [https://decision-making-offline2online-icml2026.github.io/ "Decision-Making from Offline Datasets to Online Adaptation: Black-Box Optimization to Reinforcement Learning"], Seoul, Korea, 2026
+
+*Program Committee Member*: 
+- Area Chair: NeurIPS 2026
+- Area Chair: NeurIPS 2025
+- Area Chair: AISTATS 2026
+- Area Chair: AISTATS 2025
+- Area Chair: AAMAS 2026 
+- Senior Program Committee: AAAI 2026
+- Senior Program Committee: AAAI 2025
+- Senior Program Committee: AAAI 2024
+- Senior Program Committee: AAAI 2023
+
+*Reviewer*:
+- *Conferences*:  NeurIPS (2024, 2023, 2022, 2021, 2020), ICML (2026, 2025, 2023, 2022, 2021), ICLR (2025, 2024, 2023, 2022, 2021), AAAI (2022, 2021), AISTATS (2021), L4DC (2022)
+- *Journals*: Journal of Machine Learning Research (JMLR), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)

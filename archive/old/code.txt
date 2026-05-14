@@ -1,0 +1,7 @@
+jemdoc -c mysite.conf *.jemdoc 
+
+<p>22.  
+  <img alt="thinking" src="Felix_thinking.gif"
+  style="display:inline;margin: 0px 0px -5px 0px;float:center" width="70"  id="thinking">
+</p>
+
