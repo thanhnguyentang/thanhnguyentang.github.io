@@ -7,185 +7,85 @@
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  body {
-    font-family: inherit;
-    font-size: 13pt;
-    line-height: 1.5;
-    color: #000;
-    background: #fff;
-    width: 100%;
-    margin: 0 auto;
-    padding: 2.5rem 6% 4rem;
+  :root {
+    --bg: #ffffff; --text: #000000; --muted: #444;
+    --link: #0969da; --note-bg: #f6f8fa; --note-border: #d0d7de;
   }
 
-  a { color: #0969da; text-decoration: none; }
+  html { background: var(--bg); }
+
+  body.dark, html.dark {
+    --bg: #000000; --text: #ffffff; --muted: #bbb;
+    --link: #79b8ff; --note-bg: #111111; --note-border: #555;
+  }
+
+  body.dark { background: #000000 !important; color: #ffffff !important; }
+  body.dark * { color: inherit; }
+  body.dark h1, body.dark h2, body.dark p, body.dark li,
+  body.dark span, body.dark div { color: #ffffff; }
+  body.dark .affiliation, body.dark .contact,
+  body.dark .entry-sub, body.dark .muted { color: #bbb; }
+  body.dark .contact a { color: #bbb; }
+  body.dark a { color: #79b8ff; }
+  body.dark details { background: #111111; }
+  body.dark summary { color: #ffffff; }
+  body.dark .note-body { color: #ffffff; border-top-color: #555; }
+  body.dark #theme-toggle { background: #111; color: #fff; border-color: #555; }
+
+  body {
+    font-family: inherit; font-size: 13pt; line-height: 1.5;
+    color: var(--text); background: var(--bg);
+    max-width: 860px; margin: 0 auto; padding: 2.5rem 2rem 4rem;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  a { color: var(--link); text-decoration: none; }
   a:hover { text-decoration: underline; }
 
-  header {
-    margin-bottom: 2.5rem;
-    padding-bottom: 1.5rem;
+  #theme-toggle {
+    position: fixed; top: 1rem; right: 1.2rem;
+    background: var(--note-bg); color: var(--text);
+    border: 1px solid var(--note-border); border-radius: 20px;
+    padding: 0.25rem 0.85rem; font-size: 0.85rem;
+    cursor: pointer; transition: background 0.2s, color 0.2s; z-index: 100;
   }
 
-  .header-inner {
-    display: flex;
-    align-items: flex-start;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-  }
-
-  .photo-placeholder {
-    flex-shrink: 0;
-    width: 110px;
-    height: 130px;
-    background: #f0f0f0;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #aaa;
-    font-size: 0.72rem;
-    font-family: 'Source Code Pro', monospace;
-    text-align: center;
-    line-height: 1.4;
-  }
-
+  header { margin-bottom: 2.5rem; padding-bottom: 1.5rem; }
+  .header-inner { display: flex; align-items: flex-start; gap: 1.5rem; flex-wrap: wrap; }
   .header-text { flex: 1; min-width: 200px; }
-
-  h1 {
-    font-size: clamp(1.4rem, 4vw, 1.9rem);
-    font-weight: 600;
-    letter-spacing: -0.02em;
-    margin-bottom: 0.25rem;
-  }
-
-  .affiliation {
-    font-size: 1rem;
-    color: #333;
-    margin-bottom: 0.5rem;
-    line-height: 1.5;
-  }
-
-  .contact {
-    font-size: 1rem;
-    color: #333;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.3rem 1.2rem;
-  }
-
-  .contact a { color: #333; }
-  .contact a:hover { color: #0969da; }
+  h1 { font-size: 1.6rem; font-weight: bold; margin-bottom: 0.2rem; }
+  .affiliation { font-size: 1rem; color: var(--muted); margin-bottom: 0.5rem; line-height: 1.5; }
+  .contact { font-size: 1rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 0.3rem 1.2rem; }
+  .contact a { color: var(--muted); }
+  .contact a:hover { color: var(--link); }
 
   .entry { padding: 0.4rem 0; }
-  .entry:last-child { }
   .entry-header { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
   .entry-title { font-size: 1rem; }
-  .entry-date { font-size: 1rem; color: #000; white-space: nowrap; flex-shrink: 0; }
-  .entry-sub { font-size: 0.95rem; color: #444; margin-top: 0.05rem; }
+  .entry-date { font-size: 1rem; color: var(--text); white-space: nowrap; flex-shrink: 0; }
+  .entry-sub { font-size: 0.95rem; color: var(--muted); margin-top: 0.05rem; }
 
   section { margin-bottom: 1.8rem; }
-
-  h2 {
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #000;
-    margin-bottom: 0.6rem;
-    padding-bottom: 0;
-    letter-spacing: 0.05em;
-  }
-
-  h1 {
-    font-size: 1.6rem;
-    font-weight: bold;
-    letter-spacing: 0;
-    margin-bottom: 0.2rem;
-  }
+  h2 { font-size: 1rem; font-weight: bold; text-transform: uppercase; color: var(--text); margin-bottom: 0.6rem; letter-spacing: 0.05em; }
 
   .timeline { display: flex; flex-direction: column; }
-
-  .row {
-    display: grid;
-    grid-template-columns: 9.5rem 1fr auto;
-    gap: 0.2rem 1rem;
-    align-items: baseline;
-    padding: 0.25rem 0;
-    font-size: 1rem;
-  }
-
-  .year {
-    font-size: 1rem;
-    color: #000;
-    white-space: nowrap;
-  }
-
-  .place {
-    font-size: 1rem;
-    color: #000;
-    text-align: right;
-    white-space: nowrap;
-  }
+  .row { display: grid; grid-template-columns: 9.5rem 1fr auto; gap: 0.2rem 1rem; align-items: baseline; padding: 0.25rem 0; font-size: 1rem; }
+  .year { font-size: 1rem; color: var(--text); white-space: nowrap; }
+  .place { font-size: 1rem; color: var(--text); text-align: right; white-space: nowrap; }
 
   .pub-list { display: flex; flex-direction: column; }
-
-  .pub {
-    font-size: 1rem;
-    padding: 0.35rem 0;
-    line-height: 1.5;
-  }
-
+  .pub { font-size: 1rem; padding: 0.35rem 0; line-height: 1.5; }
   .pub em { font-style: italic; }
   .pub .me { text-decoration: underline; text-underline-offset: 2px; }
-
   .pub-year-group { margin-bottom: 0.5rem; }
-
   .pub-year-label { display: none; }
 
-  details {
-    margin-top: 0.8rem;
-    background: #f6f8fa;
-    border-radius: 5px;
-  }
-
-  .act-block { margin-bottom: 0.75rem; }
-  .act-label { font-size: 1rem; font-weight: bold; margin-bottom: 0.15rem; }
-  .act-items { list-style: disc; padding-left: 1.4rem; font-size: 1rem; line-height: 1.6; }
-
-  .award-list { list-style: disc; padding-left: 1.4rem; font-size: 1rem; line-height: 1.7; }
-
-  summary {
-    cursor: pointer;
-    padding: 0.5rem 0.9rem;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #111;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    user-select: none;
-  }
-
+  details { margin-top: 0.8rem; background: var(--note-bg); border-radius: 5px; }
+  summary { cursor: pointer; padding: 0.5rem 0.9rem; font-size: 1rem; font-weight: bold; color: var(--text); list-style: none; display: flex; align-items: center; gap: 0.4rem; user-select: none; }
   summary::-webkit-details-marker { display: none; }
-
-  summary::before {
-    content: '▶';
-    font-size: 0.6rem;
-    color: #888;
-    transition: transform 0.15s;
-    display: inline-block;
-  }
-
+  summary::before { content: "▶"; font-size: 0.6rem; color: var(--muted); transition: transform 0.15s; display: inline-block; }
   details[open] summary::before { transform: rotate(90deg); }
-
-  .note-body {
-    padding: 0.75rem 1rem 1rem;
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #000;
-    border-top: 1px solid #d0d7de;
-  }
-
+  .note-body { padding: 0.75rem 1rem 1rem; font-size: 1rem; line-height: 1.6; color: var(--text); border-top: 1px solid var(--note-border); }
   .note-body p { margin-bottom: 0.75rem; }
   .note-body p:last-child { margin-bottom: 0; }
 
@@ -198,15 +98,31 @@
   @media (max-width: 560px) {
     .row { grid-template-columns: 1fr; gap: 0.1rem; }
     .place { text-align: left; }
-    .photo-placeholder { width: 80px; height: 95px; font-size: 0.65rem; }
   }
 </style>
+<script>
+  function toggleTheme() {
+    const isDark = document.body.classList.toggle('dark');
+    document.documentElement.classList.toggle('dark', isDark);
+    document.getElementById('theme-toggle').textContent = isDark ? '☀ Day' : '☾ Night';
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  }
+  document.addEventListener('DOMContentLoaded', () => {
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('dark');
+      document.documentElement.classList.add('dark');
+      document.getElementById('theme-toggle').textContent = '☀ Day';
+    }
+  });
+</script>
 </head>
 <body>
 
+<button id="theme-toggle" onclick="toggleTheme()">☾ Night</button>
+
 <header>
   <div class="header-inner">
-    <img src="tnt_njit_25.png" alt="Thanh Nguyen-Tang" style="flex-shrink:0; width:110px; height:130px; object-fit:cover; border-radius:4px;" />
+    <img src="https://thanhnguyentang.github.io/figure/tnt_njit_25.png" alt="Thanh Nguyen-Tang" style="flex-shrink:0; width:110px; height:130px; object-fit:cover; border-radius:4px;" />
     <div class="header-text">
       <h1>Thanh Nguyen-Tang</h1>
       <p class="affiliation">
@@ -215,8 +131,8 @@
       </p>
       <div class="contact">
         <a href="mailto:thanh.nguyen@njit.edu">thanh.nguyen@njit.edu</a>
-        <a href="https://thanhnguyentang.github.io" target="https://thanhnguyentang.github.io">thanhnguyentang.github.io</a>
-        <a href="https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate" target="https://scholar.google.com/citations?hl=en&user=UrTlMiwAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+        <a href="https://thanhnguyentang.github.io" target="_blank">thanhnguyentang.github.io</a>
+        <a href="https://scholar.google.com" target="_blank">Google Scholar</a>
       </div>
     </div>
   </div>
@@ -350,55 +266,17 @@
 
   <div class="act-block">
     <div class="act-label">Program Committee</div>
-
-    <div class="act-sublabel">Area Chair</div>
     <ul class="act-items">
-      <li>International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS), 2026</li>
-      <li>International Conference on Artificial Intelligence and Statistics (AISTATS), 2026</li>
-      <li>Conference on Neural Information Processing Systems (NeurIPS), 2026</li>
-      <li>International Conference on Artificial Intelligence and Statistics (AISTATS), 2025</li>
-      <li>Conference on Neural Information Processing Systems (NeurIPS), 2025</li>
-    </ul>
-
-    <div class="act-sublabel">Senior Program Committee</div>
-    <ul class="act-items">
-      <li>AAAI Conference on Artificial Intelligence (AAAI), 2026</li>
-      <li>AAAI Conference on Artificial Intelligence (AAAI), 2025</li>
-      <li>AAAI Conference on Artificial Intelligence (AAAI), 2024</li>
-      <li>AAAI Conference on Artificial Intelligence (AAAI), 2023</li>
+      <li>Area Chair: AAMAS (2026), NeurIPS (2025, 2026), AISTATS (2025, 2026)</li>
+      <li>Senior Program Committee: AAAI (2023, 2024, 2025, 2026)</li>
     </ul>
   </div>
 
   <div class="act-block">
     <div class="act-label">Reviewer</div>
-
-    <div class="act-sublabel">Journal</div>
     <ul class="act-items">
-      <li>Journal of Machine Learning Research (JMLR)</li>
-      <li>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</li>
-    </ul>
-
-    <div class="act-sublabel">Conference</div>
-    <ul class="act-items">
-      <li>International Conference on Machine Learning (ICML), 2026 &mdash; <strong>Gold Reviewer Award</strong></li>
-      <li>International Conference on Learning Representations (ICLR), 2025</li>
-      <li>International Conference on Machine Learning (ICML), 2025</li>
-      <li>Conference on Neural Information Processing Systems (NeurIPS), 2024</li>
-      <li>International Conference on Learning Representations (ICLR), 2024</li>
-      <li>International Conference on Learning Representations (ICLR), 2023</li>
-      <li>International Conference on Machine Learning (ICML), 2023</li>
-      <li>Conference on Neural Information Processing Systems (NeurIPS), 2023</li>
-      <li>AAAI Conference on Artificial Intelligence (AAAI), 2022</li>
-      <li>International Conference on Learning Representations (ICLR), 2022</li>
-      <li>International Conference on Machine Learning (ICML), 2022</li>
-      <li>Learning for Dynamics and Control (L4DC), 2022</li>
-      <li>Conference on Neural Information Processing Systems (NeurIPS), 2022</li>
-      <li>AAAI Conference on Artificial Intelligence (AAAI), 2021 &mdash; <strong>Top 25% Reviewer</strong></li>
-      <li>International Conference on Artificial Intelligence and Statistics (AISTATS), 2021</li>
-      <li>International Conference on Learning Representations (ICLR), 2021 &mdash; <strong>Outstanding Reviewer</strong></li>
-      <li>International Conference on Machine Learning (ICML), 2021</li>
-      <li>Conference on Neural Information Processing Systems (NeurIPS), 2021</li>
-      <li>Conference on Neural Information Processing Systems (NeurIPS), 2020</li>
+      <li>Journals: Journal of Machine Learning Research (JMLR), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</li>
+      <li>Conferences: NeurIPS (2020, 2021, 2022, 2023, 2024), ICML (2021, 2022, 2023, 2025, 2026 &mdash; <strong>Gold Reviewer Award 2026</strong>), ICLR (2021 &mdash; <strong>Outstanding Reviewer</strong>, 2022, 2023, 2024, 2025), AAAI (2021 &mdash; <strong>Top 25% Reviewer</strong>, 2022), AISTATS (2021), L4DC (2022)</li>
     </ul>
   </div>
 </section>
